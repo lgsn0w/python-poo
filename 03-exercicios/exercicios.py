@@ -1,94 +1,123 @@
 # ─────────────────────────────────────────────
-#  EXERCÍCIOS — PROGRAMAÇÃO ORIENTADA A OBJETOS
-#  Complete cada exercício seguindo as instruções.
+#  EXERCÍCIOS — TRADUÇÃO PORTUGOL → PYTHON
+#  Traduza cada algoritmo abaixo para Python.
 #  Não apague os comentários de enunciado.
 # ─────────────────────────────────────────────
 
 
 # ═══════════════════════════════════════════
-# EXERCÍCIO 1 — Classe Carro
+# EXERCÍCIO 1 — se / senao
 # ═══════════════════════════════════════════
-# Crie uma classe chamada Carro com os atributos:
-#   - marca (str)
-#   - modelo (str)
-#   - ano (int)
-#   - velocidade (int) — começa em 0
+# Traduza o algoritmo abaixo para Python:
 #
-# Métodos:
-#   - acelerar(incremento): aumenta a velocidade
-#   - frear(decremento): diminui a velocidade (mínimo 0)
-#   - exibir_info(): mostra marca, modelo, ano e velocidade atual
+#   algoritmo "ClassificaIdade"
+#   var
+#      idade: inteiro
+#   inicio
+#      escreva("Digite sua idade: ")
+#      leia(idade)
+#      se idade < 12 entao
+#         escreval("Crianca")
+#      senao
+#         se idade < 18 entao
+#            escreval("Adolescente")
+#         senao
+#            escreval("Adulto")
+#         fimse
+#      fimse
+#   fimalgoritmo
 #
-# Depois de criar a classe, instancie 2 carros diferentes e
-# chame os métodos para demonstrar o funcionamento.
+# DICA: em Python, use elif para evitar o senao se aninhado.
 
 # SEU CÓDIGO AQUI:
 
 
 # ═══════════════════════════════════════════
-# EXERCÍCIO 2 — Classe ContaBancaria
+# EXERCÍCIO 2 — para
 # ═══════════════════════════════════════════
-# Crie uma classe chamada ContaBancaria com os atributos:
-#   - titular (str)
-#   - numero (str)
-#   - saldo (float) — começa em 0
+# Traduza o algoritmo abaixo para Python:
 #
-# Métodos:
-#   - depositar(valor): adiciona ao saldo (rejeita valores <= 0)
-#   - sacar(valor): subtrai do saldo (rejeita se saldo insuficiente)
-#   - exibir_extrato(): mostra titular, número e saldo atual
+#   algoritmo "ContadorPar"
+#   var
+#      i, n: inteiro
+#   inicio
+#      escreva("Ate qual numero? ")
+#      leia(n)
+#      para i de 1 ate n faca
+#         se (i mod 2 = 0) entao
+#            escreval(i)
+#         fimse
+#      fimpara
+#   fimalgoritmo
 #
-# Depois de criar a classe, simule uma sequência de operações:
-#   1. Crie uma conta para "Maria"
-#   2. Deposite R$ 500,00
-#   3. Saque R$ 200,00
-#   4. Tente sacar R$ 400,00 (saldo insuficiente)
-#   5. Exiba o extrato final
+# DICA: em Python, o operador "mod" (resto da divisão) é o "%".
+#       i mod 2 = 0  →  i % 2 == 0
 
 # SEU CÓDIGO AQUI:
 
 
 # ═══════════════════════════════════════════
-# EXERCÍCIO 3 — Classe Turma
+# EXERCÍCIO 3 — enquanto
 # ═══════════════════════════════════════════
-# Crie uma classe chamada Turma com os atributos:
-#   - nome (str)
-#   - alunos (list) — começa vazio
+# Traduza o algoritmo abaixo para Python:
 #
-# Métodos:
-#   - adicionar_aluno(nome, nota): adiciona um dicionário
-#     {"nome": nome, "nota": nota} à lista de alunos
-#   - calcular_media(): retorna a média das notas
-#   - listar_aprovados(): imprime os alunos com nota >= 7
-#   - exibir_relatorio(): imprime nome da turma, média e lista de aprovados
-#
-# Depois de criar a classe, crie uma turma, adicione pelo menos
-# 5 alunos e exiba o relatório completo.
-#
-# DICA: para percorrer a lista de alunos dentro de um método:
-#   for aluno in self.alunos:
-#       print(aluno["nome"], aluno["nota"])
+#   algoritmo "ContagemRegressiva"
+#   var
+#      n: inteiro
+#   inicio
+#      escreva("Digite um numero positivo: ")
+#      leia(n)
+#      enquanto (n <= 0) faca
+#         escreval("Numero invalido!")
+#         escreva("Digite novamente: ")
+#         leia(n)
+#      fimenquanto
+#      enquanto (n >= 0) faca
+#         escreval(n)
+#         n <- n - 1
+#      fimenquanto
+#      escreval("Fim!")
+#   fimalgoritmo
 
 # SEU CÓDIGO AQUI:
 
 
 # ═══════════════════════════════════════════
-# EXERCÍCIO 4 — Classe Estoque (desafio)
+# EXERCÍCIO 4 — enquanto + para + se (desafio)
 # ═══════════════════════════════════════════
-# Crie uma classe chamada Estoque com os atributos:
-#   - produtos (list) — lista de objetos Produto
+# Traduza o algoritmo abaixo para Python:
 #
-# Reutilize (ou redefina aqui) a classe Produto com:
-#   - nome, preco, quantidade
-#   - valor_total_estoque(): retorna preco * quantidade
+#   algoritmo "AlunosPorTurma"
+#   var
+#      resposta: caractere
+#      n, i, aprovados: inteiro
+#      nota, soma, media: real
+#   inicio
+#      escreva("Cadastrar turma? (S/N): ")
+#      leia(resposta)
+#      enquanto (resposta = "S") faca
+#         escreva("Quantos alunos? ")
+#         leia(n)
+#         soma <- 0
+#         aprovados <- 0
+#         para i de 1 ate n faca
+#            escreva("Nota do aluno ", i, ": ")
+#            leia(nota)
+#            soma <- soma + nota
+#            se (nota >= 7) entao
+#               aprovados <- aprovados + 1
+#            fimse
+#         fimpara
+#         media <- soma / n
+#         escreval("Media: ", media)
+#         escreval("Aprovados: ", aprovados)
+#         escreva("Cadastrar outra turma? (S/N): ")
+#         leia(resposta)
+#      fimenquanto
+#      escreval("Encerrado.")
+#   fimalgoritmo
 #
-# Métodos de Estoque:
-#   - adicionar_produto(produto): adiciona à lista
-#   - valor_total(): retorna a soma dos valores de todos os produtos
-#   - produto_mais_caro(): retorna o produto com maior preco
-#   - exibir(): imprime todos os produtos com seus valores
-#
-# Depois de criar as classes, crie um estoque com 4 produtos
-# e demonstre todos os métodos.
+# DICA: para deixar a comparação case-insensitive (aceitar "s" e "S"),
+#       use resposta.upper() == "S"
 
 # SEU CÓDIGO AQUI:
