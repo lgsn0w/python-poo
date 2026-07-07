@@ -233,7 +233,8 @@ def mostrar_status(self):
 
 | Arquivo | O que é |
 |---|---|
-| `POO_Entendendo_init.pdf` | Leitura antes da aula — `__init__` em profundidade |
-| `POO_Dia2_Exercicios.pdf` | Lista de exercícios da aula |
-| `exercicios.py` | Arquivo pra resolver os exercícios |
+| `01_entendendo_init.pdf` | Leitura antes da aula — `__init__` em profundidade |
+| `02_conceitos.py` | Exemplos comentados de classe, construtor e métodos |
+| `03_exercicios.pdf` | Lista de exercícios da aula |
+| `04_exercicios.py` | Arquivo pra resolver os exercícios |
 | `Codigos/` | Pasta pra enviar o código resolvido |
