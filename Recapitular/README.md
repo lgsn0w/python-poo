@@ -14,8 +14,8 @@ Esse material recupera os conceitos necessários para acompanhar o projeto. Ele 
 
 ### Parte 2
 
-- [recapitulacao-python-poo-parte-2.pdf](recapitulacao-python-poo-parte-2.pdf): apresentação dos alunos, com leitura de código, previsão de estado, implementação, testes, depuração e integração do RPG.
-- [notas-professor-recapitulacao-parte-2.pdf](notas-professor-recapitulacao-parte-2.pdf): guia separado para o professor, com objetivo, pergunta, resposta esperada, erro comum e tempo sugerido para cada página.
+- [recapitulacao-python-poo-parte-2.pdf](dia-02/recapitulacao-python-poo-parte-2.pdf): apresentação dos alunos, com leitura de código, previsão de estado, implementação, testes, depuração e integração do RPG.
+- [notas-professor-recapitulacao-parte-2.pdf](dia-02/notas-professor-recapitulacao-parte-2.pdf): guia separado para o professor, com objetivo, pergunta, resposta esperada, erro comum e tempo sugerido para cada página.
 
 A apresentação da Parte 2 foi preparada para uma aula guiada de 60 a 90 minutos. O conteúdo começa com uma classe pequena e avança até uma batalha por turnos com vários inimigos. Os exemplos principais seguem o mesmo tema e a mesma progressão dos Dias 3 e 4 deste repositório.
 
@@ -476,7 +476,7 @@ O objetivo não é produzir um RPG completo nesta etapa. O objetivo é recuperar
 
 ## Guia da apresentação da Parte 2
 
-Esta seção ajuda a preparar e conduzir a apresentação `recapitulacao-python-poo-parte-2.pdf`. A organização acompanha a ordem das páginas do arquivo.
+Esta seção ajuda a preparar e conduzir a apresentação `dia-02/recapitulacao-python-poo-parte-2.pdf`. A organização acompanha a ordem das páginas do arquivo.
 
 ### Página 1: abertura
 
