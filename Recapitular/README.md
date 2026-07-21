@@ -16,7 +16,7 @@ Esse material recupera os conceitos necessários para acompanhar o projeto. Ele 
 
 - [recapitulacao-python-poo-parte-2.pdf](dia-02/recapitulacao-python-poo-parte-2.pdf): apresentação dos alunos, com leitura de código, previsão de estado, implementação, testes, depuração e integração do RPG.
 
-A apresentação da Parte 2 foi preparada para uma aula guiada de 60 a 90 minutos. O conteúdo começa com uma classe pequena e avança até uma batalha por turnos com vários inimigos. Os exemplos principais seguem o mesmo tema e a mesma progressão dos Dias 3 e 4 deste repositório.
+A apresentação da Parte 2 foi preparada para uma aula guiada de 60 a 90 minutos. Ela não depende de arquivos ou exercícios anteriores. O conteúdo começa em um arquivo vazio, recupera a base de Python, cria uma classe pequena e avança até uma batalha por turnos. Os exemplos usam o tema dos Dias 3 e 4 deste repositório, mas todo o código necessário é reconstruído durante a própria retomada.
 
 ## Como escolher o material
 

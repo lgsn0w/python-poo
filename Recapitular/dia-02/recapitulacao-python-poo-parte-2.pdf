@@ -13,89 +13,257 @@ endobj
 << /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R] /Count 17 >>
 endobj
 5 0 obj
-<< /Length 1287 >>
+<< /Length 1331 >>
 stream
 0.055 0.067 0.075 rg 0 0 960 540 re f
 0.320 0.880 0.550 rg 0 532 960 8 re f
-BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
+BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (RETOMADA DO ZERO) Tj ET
 BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Recapitulação de Python e POO) Tj ET
 BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (01) Tj ET
 0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
-BT /F2 18 Tf 0.320 0.880 0.550 rg 1 0 0 1 55 398 Tm (DO CÓDIGO ISOLADO) Tj ET
-BT /F2 42 Tf 1.000 0.600 0.280 rg 1 0 0 1 55 345 Tm (ao RPG funcional) Tj ET
-BT /F1 18 Tf 0.940 0.960 0.950 rg 1 0 0 1 58 285 Tm (Thoric, Elara, Goblin e Orc voltam ao terminal.) Tj ET
-BT /F1 16 Tf 0.630 0.690 0.680 rg 1 0 0 1 58 244 Tm (Agora cada método testado vira parte de uma batalha completa.) Tj ET
-0.085 0.105 0.115 rg 625 145 280 270 re f
-0.680 0.480 0.950 RG 2 w 625 145 280 270 re S
-BT /F2 11 Tf 0.680 0.480 0.950 rg 1 0 0 1 650 375 Tm (MISSÃO DA AULA) Tj ET
-BT /F3 17 Tf 0.320 0.880 0.550 rg 1 0 0 1 650 325 Tm ($ python main.py) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 650 283 Tm ([1] prever estado) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 650 249 Tm ([2] testar métodos) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 650 215 Tm ([3] montar turnos) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 650 181 Tm ([4] vencer a batalha) Tj ET
+BT /F2 18 Tf 0.320 0.880 0.550 rg 1 0 0 1 55 396 Tm (UMA SEMANA DEPOIS) Tj ET
+BT /F2 41 Tf 0.940 0.960 0.950 rg 1 0 0 1 55 343 Tm (vamos reconstruir) Tj ET
+BT /F2 41 Tf 1.000 0.600 0.280 rg 1 0 0 1 55 295 Tm (um RPG funcional) Tj ET
+BT /F1 18 Tf 0.320 0.880 0.550 rg 1 0 0 1 58 235 Tm (Você não precisa ter nenhum código anterior.) Tj ET
+BT /F1 16 Tf 0.630 0.690 0.680 rg 1 0 0 1 58 195 Tm (Cada arquivo começa vazio e cada peça será testada antes da próxima.) Tj ET
+0.085 0.105 0.115 rg 645 145 260 270 re f
+0.680 0.480 0.950 RG 2 w 645 145 260 270 re S
+BT /F2 11 Tf 0.680 0.480 0.950 rg 1 0 0 1 670 375 Tm (ARQUIVO NOVO) Tj ET
+BT /F3 16 Tf 0.320 0.880 0.550 rg 1 0 0 1 670 330 Tm ($ touch retomada.py) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 670 283 Tm (ler) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 670 248 Tm (prever) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 670 213 Tm (digitar) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 670 178 Tm (executar) Tj ET
 endstream
 endobj
 6 0 obj
 << /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 5 0 R >>
 endobj
 7 0 obj
-<< /Length 2261 >>
+<< /Length 2044 >>
 stream
 0.055 0.067 0.075 rg 0 0 960 540 re f
 0.320 0.880 0.550 rg 0 532 960 8 re f
 BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Missão de hoje) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Contrato da retomada) Tj ET
 BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (02) Tj ET
 0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
-0.085 0.105 0.115 rg 48 282 124 92 re f
-0.320 0.880 0.550 RG 2 w 48 282 124 92 re S
-BT /F2 12 Tf 0.320 0.880 0.550 rg 1 0 0 1 61 330 Tm (01) Tj ET
-BT /F2 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 61 301 Tm (LER) Tj ET
-BT /F2 20 Tf 0.630 0.690 0.680 rg 1 0 0 1 177 321 Tm (>) Tj ET
-0.085 0.105 0.115 rg 198 282 124 92 re f
-0.680 0.480 0.950 RG 2 w 198 282 124 92 re S
-BT /F2 12 Tf 0.680 0.480 0.950 rg 1 0 0 1 211 330 Tm (02) Tj ET
-BT /F2 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 211 301 Tm (PREVER) Tj ET
-BT /F2 20 Tf 0.630 0.690 0.680 rg 1 0 0 1 327 321 Tm (>) Tj ET
-0.085 0.105 0.115 rg 348 282 124 92 re f
-1.000 0.600 0.280 RG 2 w 348 282 124 92 re S
-BT /F2 12 Tf 1.000 0.600 0.280 rg 1 0 0 1 361 330 Tm (03) Tj ET
-BT /F2 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 361 301 Tm (ESCREVER) Tj ET
-BT /F2 20 Tf 0.630 0.690 0.680 rg 1 0 0 1 477 321 Tm (>) Tj ET
-0.085 0.105 0.115 rg 498 282 124 92 re f
-0.320 0.880 0.550 RG 2 w 498 282 124 92 re S
-BT /F2 12 Tf 0.320 0.880 0.550 rg 1 0 0 1 511 330 Tm (04) Tj ET
-BT /F2 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 511 301 Tm (TESTAR) Tj ET
-BT /F2 20 Tf 0.630 0.690 0.680 rg 1 0 0 1 627 321 Tm (>) Tj ET
-0.085 0.105 0.115 rg 648 282 124 92 re f
-0.680 0.480 0.950 RG 2 w 648 282 124 92 re S
-BT /F2 12 Tf 0.680 0.480 0.950 rg 1 0 0 1 661 330 Tm (05) Tj ET
-BT /F2 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 661 301 Tm (DEPURAR) Tj ET
-BT /F2 20 Tf 0.630 0.690 0.680 rg 1 0 0 1 777 321 Tm (>) Tj ET
-0.085 0.105 0.115 rg 798 282 124 92 re f
-1.000 0.600 0.280 RG 2 w 798 282 124 92 re S
-BT /F2 12 Tf 1.000 0.600 0.280 rg 1 0 0 1 811 330 Tm (06) Tj ET
-BT /F2 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 811 301 Tm (INTEGRAR) Tj ET
-BT /F2 11 Tf 0.320 0.880 0.550 rg 1 0 0 1 80 225 Tm (REGRA DA AULA) Tj ET
-BT /F1 20 Tf 0.940 0.960 0.950 rg 1 0 0 1 80 190 Tm (Nenhum while antes dos métodos funcionarem manualmente.) Tj ET
-BT /F1 16 Tf 0.630 0.690 0.680 rg 1 0 0 1 80 142 Tm (Executar pouco código, observar o estado e explicar o resultado.) Tj ET
+0.680 0.480 0.950 rg 50 413 81.9 23 re f
+BT /F2 10 Tf 0.055 0.067 0.075 rg 1 0 0 1 59 419 Tm (HOJE VALE) Tj ET
+0.320 0.880 0.550 rg 50 382 6 6 re f
+BT /F1 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 66 378 Tm (Começar com arquivo vazio) Tj ET
+0.320 0.880 0.550 rg 50 351 6 6 re f
+BT /F1 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 66 347 Tm (Copiar somente o bloco atual) Tj ET
+0.320 0.880 0.550 rg 50 320 6 6 re f
+BT /F1 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 66 316 Tm (Prever antes de executar) Tj ET
+0.320 0.880 0.550 rg 50 289 6 6 re f
+BT /F1 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 66 285 Tm (Usar print para observar valores) Tj ET
+0.320 0.880 0.550 rg 50 258 6 6 re f
+BT /F1 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 66 254 Tm (Pedir ajuda mostrando o erro) Tj ET
+1.000 0.600 0.280 rg 505 413 110.3 23 re f
+BT /F2 10 Tf 0.055 0.067 0.075 rg 1 0 0 1 514 419 Tm (HOJE NÃO VALE) Tj ET
+1.000 0.600 0.280 rg 505 382 6 6 re f
+BT /F1 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 521 378 Tm (Depender do projeto antigo) Tj ET
+1.000 0.600 0.280 rg 505 351 6 6 re f
+BT /F1 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 521 347 Tm (Colar o jogo inteiro de uma vez) Tj ET
+1.000 0.600 0.280 rg 505 320 6 6 re f
+BT /F1 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 521 316 Tm (Apagar a mensagem de erro) Tj ET
+1.000 0.600 0.280 rg 505 289 6 6 re f
+BT /F1 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 521 285 Tm (Mudar cinco partes antes de testar) Tj ET
+1.000 0.600 0.280 rg 505 258 6 6 re f
+BT /F1 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 521 254 Tm (Responder sem acompanhar o estado) Tj ET
+0.105 0.125 0.135 rg 110 95 740 72 re f
+0.680 0.480 0.950 RG 2 w 110 95 740 72 re S
+BT /F2 17 Tf 0.940 0.960 0.950 rg 1 0 0 1 135 135 Tm (META: sair com um programa pequeno que você consegue explicar.) Tj ET
 endstream
 endobj
 8 0 obj
 << /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 7 0 R >>
 endobj
 9 0 obj
-<< /Length 2503 >>
+<< /Length 2411 >>
 stream
 0.055 0.067 0.075 rg 0 0 960 540 re f
 0.320 0.880 0.550 rg 0 532 960 8 re f
 BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Aquecimento: leia a classe) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Aquecimento 1: variáveis e saída) Tj ET
 BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (03) Tj ET
 0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
 0.035 0.045 0.050 rg 42 92 535 365 re f
 0.200 0.250 0.250 RG 1 w 42 92 535 365 re S
 0.105 0.125 0.135 rg 42 430 535 27 re f
+BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (PYTHON) Tj ET
+BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (nome = "Thoric") Tj ET
+BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 388.9 Tm (vida = 100) Tj ET
+BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 368.8 Tm (ataque = 15) Tj ET
+BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 348.7 Tm () Tj ET
+BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 328.6 Tm (print\("Personagem:", nome\)) Tj ET
+BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 308.5 Tm (print\("Vida:", vida\)) Tj ET
+BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 288.4 Tm (print\("Ataque:", ataque\)) Tj ET
+BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 268.29999999999995 Tm () Tj ET
+BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 248.2 Tm (vida = vida - 20) Tj ET
+BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 228.1 Tm (print\("Vida depois do dano:", vida\)) Tj ET
+0.680 0.480 0.950 rg 615 420 117.39999999999999 23 re f
+BT /F2 10 Tf 0.055 0.067 0.075 rg 1 0 0 1 624 426 Tm (ANTES DE RODAR) Tj ET
+0.680 0.480 0.950 rg 615 389 6 6 re f
+BT /F1 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 631 385 Tm (Qual valor muda?) Tj ET
+0.680 0.480 0.950 rg 615 359 6 6 re f
+BT /F1 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 631 355 Tm (Qual valor continua igual?) Tj ET
+0.680 0.480 0.950 rg 615 329 6 6 re f
+BT /F1 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 631 325 Tm (O que aparece na última linha?) Tj ET
+0.025 0.032 0.035 rg 615 155 295 125 re f
+0.320 0.880 0.550 RG 1 w 615 155 295 125 re S
+BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 627 260 Tm (SAÍDA) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 629 237 Tm (> Personagem: Thoric) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 629 221 Tm (> Vida: 100) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 629 205 Tm (> Ataque: 15) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 629 189 Tm (> Vida depois do dano: 80) Tj ET
+BT /F1 13 Tf 0.630 0.690 0.680 rg 1 0 0 1 615 112 Tm (Primeiro rastreie valores simples.) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 2132 >>
+stream
+0.055 0.067 0.075 rg 0 0 960 540 re f
+0.320 0.880 0.550 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Aquecimento 2: input e tipos) Tj ET
+BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (04) Tj ET
+0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
+0.035 0.045 0.050 rg 42 92 535 365 re f
+0.200 0.250 0.250 RG 1 w 42 92 535 365 re S
+0.105 0.125 0.135 rg 42 430 535 27 re f
+BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (PYTHON) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (nome = input\("Nome do herói: "\)) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 390.24 Tm (vida = int\(input\("Vida inicial: "\)\)) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 371.48 Tm () Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 352.72 Tm (print\(nome, "começa com", vida, "de vida"\)) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 333.96 Tm () Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 315.2 Tm (dano = int\(input\("Dano recebido: "\)\)) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 296.44 Tm (vida = vida - dano) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 277.67999999999995 Tm () Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 258.91999999999996 Tm (if vida < 0:) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 240.16 Tm (    vida = 0) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 221.39999999999998 Tm () Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 202.64 Tm (print\("Vida atual:", vida\)) Tj ET
+0.085 0.105 0.115 rg 615 330 295 100 re f
+0.320 0.880 0.550 RG 2 w 615 330 295 100 re S
+BT /F3 17 Tf 0.320 0.880 0.550 rg 1 0 0 1 635 392 Tm (input\(\) > texto) Tj ET
+BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 635 358 Tm (int\(input\(\)\) > inteiro) Tj ET
+0.105 0.125 0.135 rg 615 175 295 115 re f
+1.000 0.600 0.280 RG 2 w 615 175 295 115 re S
+BT /F2 10 Tf 1.000 0.600 0.280 rg 1 0 0 1 635 251 Tm (TESTE) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 635 219 Tm (vida 50, dano 20 > 30) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 635 193 Tm (vida 50, dano 80 > 0) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 2361 >>
+stream
+0.055 0.067 0.075 rg 0 0 960 540 re f
+0.320 0.880 0.550 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Aquecimento 3: escolher uma ação) Tj ET
+BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (05) Tj ET
+0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
+0.035 0.045 0.050 rg 42 92 535 365 re f
+0.200 0.250 0.250 RG 1 w 42 92 535 365 re S
+0.105 0.125 0.135 rg 42 430 535 27 re f
+BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (PYTHON) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (print\("1 - Atacar"\)) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 391.58 Tm (print\("2 - Defender"\)) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 374.15999999999997 Tm (print\("3 - Usar poção"\)) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 356.74 Tm () Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 339.32 Tm (escolha = input\("Escolha: "\)) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 321.9 Tm () Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 304.48 Tm (if escolha == "1":) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 287.06 Tm (    print\("Você atacou"\)) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 269.64 Tm (elif escolha == "2":) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 252.21999999999997 Tm (    print\("Você se defendeu"\)) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 234.79999999999998 Tm (elif escolha == "3":) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 217.38 Tm (    print\("Você usou uma poção"\)) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 199.95999999999998 Tm (else:) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 182.53999999999996 Tm (    print\("Opção inválida"\)) Tj ET
+0.085 0.105 0.115 rg 615 322 295 108 re f
+0.680 0.480 0.950 RG 2 w 615 322 295 108 re S
+BT /F2 10 Tf 0.680 0.480 0.950 rg 1 0 0 1 635 388 Tm (COMPARE TIPOS IGUAIS) Tj ET
+BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 635 351 Tm ("1" == "1"  True) Tj ET
+BT /F3 15 Tf 1.000 0.390 0.390 rg 1 0 0 1 635 327 Tm ("1" == 1    False) Tj ET
+BT /F2 15 Tf 0.320 0.880 0.550 rg 1 0 0 1 615 250 Tm (Experimente 1, 2, 3 e 9.) Tj ET
+BT /F1 14 Tf 0.630 0.690 0.680 rg 1 0 0 1 615 205 Tm (O else impede que uma escolha) Tj ET
+BT /F1 14 Tf 0.630 0.690 0.680 rg 1 0 0 1 615 185 Tm (inesperada quebre o fluxo.) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 2868 >>
+stream
+0.055 0.067 0.075 rg 0 0 960 540 re f
+0.320 0.880 0.550 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Aquecimento 4: repetir até sair) Tj ET
+BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (06) Tj ET
+0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
+0.035 0.045 0.050 rg 42 92 550 365 re f
+0.200 0.250 0.250 RG 1 w 42 92 550 365 re S
+0.105 0.125 0.135 rg 42 430 550 27 re f
+BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (PYTHON) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (escolha = "") Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 392.92 Tm () Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 376.84 Tm (while escolha != "3":) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 360.76 Tm (    print\("1 - Jogar"\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 344.68 Tm (    print\("2 - Ver regras"\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 328.6 Tm (    print\("3 - Sair"\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 312.52 Tm (    escolha = input\("Escolha: "\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 296.44 Tm () Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 280.36 Tm (    if escolha == "1":) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 264.28 Tm (        print\("Jogo iniciado"\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 248.2 Tm (    elif escolha == "2":) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 232.11999999999998 Tm (        print\("Reduza a vida do adversário"\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 216.03999999999996 Tm (    elif escolha != "3":) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 199.95999999999998 Tm (        print\("Opção inválida"\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 183.87999999999997 Tm () Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 167.79999999999998 Tm (print\("Programa encerrado"\)) Tj ET
+BT /F2 11 Tf 1.000 0.600 0.280 rg 1 0 0 1 625 420 Tm (SIGA O FLUXO) Tj ET
+1.000 0.600 0.280 rg 625 387 6 6 re f
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 383 Tm (testa a condição) Tj ET
+1.000 0.600 0.280 rg 625 358 6 6 re f
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 354 Tm (mostra o menu) Tj ET
+1.000 0.600 0.280 rg 625 329 6 6 re f
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 325 Tm (lê a escolha) Tj ET
+1.000 0.600 0.280 rg 625 300 6 6 re f
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 296 Tm (executa um caminho) Tj ET
+1.000 0.600 0.280 rg 625 271 6 6 re f
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 267 Tm (volta à condição) Tj ET
+0.105 0.125 0.135 rg 625 126 286 72 re f
+0.320 0.880 0.550 RG 2 w 625 126 286 72 re S
+BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 643 166 Tm (O laço termina porque) Tj ET
+BT /F2 13 Tf 0.320 0.880 0.550 rg 1 0 0 1 643 140 Tm (escolha muda para "3".) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 2551 >>
+stream
+0.055 0.067 0.075 rg 0 0 960 540 re f
+0.320 0.880 0.550 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Arquivo novo: primeira classe) Tj ET
+BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (07) Tj ET
+0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
+0.035 0.045 0.050 rg 42 92 555 365 re f
+0.200 0.250 0.250 RG 1 w 42 92 555 365 re S
+0.105 0.125 0.135 rg 42 430 555 27 re f
 BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (PYTHON) Tj ET
 BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (class Personagem:) Tj ET
 BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 390.24 Tm (    def __init__\(self, nome, vida, ataque\):) Tj ET
@@ -103,299 +271,210 @@ BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 371.48 Tm (        self.nome = nome
 BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 352.72 Tm (        self.vida = vida) Tj ET
 BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 333.96 Tm (        self.ataque = ataque) Tj ET
 BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 315.2 Tm () Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 296.44 Tm (    def mostrar_status\(self\):) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 277.67999999999995 Tm (        print\(self.nome, "-", self.vida, "de vida"\)) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 258.91999999999996 Tm () Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 240.16 Tm (thoric = Personagem\("Thoric", 100, 15\)) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 221.39999999999998 Tm (thoric.mostrar_status\(\)) Tj ET
-0.680 0.480 0.950 rg 610 421 96.1 23 re f
-BT /F2 10 Tf 0.055 0.067 0.075 rg 1 0 0 1 619 427 Tm (IDENTIFIQUE) Tj ET
-0.680 0.480 0.950 rg 610 394 6 6 re f
-BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 626 390 Tm (3 parâmetros de entrada) Tj ET
-0.680 0.480 0.950 rg 610 366 6 6 re f
-BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 626 362 Tm (3 atributos de instância) Tj ET
-0.680 0.480 0.950 rg 610 338 6 6 re f
-BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 626 334 Tm (1 método de leitura) Tj ET
-0.680 0.480 0.950 rg 610 310 6 6 re f
-BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 626 306 Tm (1 objeto criado) Tj ET
-0.680 0.480 0.950 rg 610 282 6 6 re f
-BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 626 278 Tm (a saída do terminal) Tj ET
-0.025 0.032 0.035 rg 610 108 300 90 re f
-0.320 0.880 0.550 RG 1 w 610 108 300 90 re S
-BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 622 178 Tm (SAÍDA) Tj ET
-BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 624 155 Tm (> Thoric - 100 de vida) Tj ET
-endstream
-endobj
-10 0 obj
-<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 9 0 R >>
-endobj
-11 0 obj
-<< /Length 2218 >>
-stream
-0.055 0.067 0.075 rg 0 0 960 540 re f
-0.320 0.880 0.550 rg 0 532 960 8 re f
-BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Preveja o estado após cada linha) Tj ET
-BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (04) Tj ET
-0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
-0.035 0.045 0.050 rg 42 190 530 267 re f
-0.200 0.250 0.250 RG 1 w 42 190 530 267 re S
-0.105 0.125 0.135 rg 42 430 530 27 re f
-BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (SEM EXECUTAR AINDA) Tj ET
-BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (thoric = Personagem\("Thoric", 100, 15\)) Tj ET
-BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 388.9 Tm (goblin = Personagem\("Goblin", 45, 8\)) Tj ET
-BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 368.8 Tm () Tj ET
-BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 348.7 Tm (thoric.receber_dano\(20\)) Tj ET
-BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 328.6 Tm (goblin.receber_dano\(12\)) Tj ET
-BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 308.5 Tm (thoric.receber_dano\(200\)) Tj ET
-BT /F2 11 Tf 1.000 0.600 0.280 rg 1 0 0 1 610 423 Tm (RASTREAMENTO) Tj ET
-0.085 0.105 0.115 rg 610 350 300 47 re f
-BT /F1 12 Tf 0.630 0.690 0.680 rg 1 0 0 1 624 367 Tm (início) Tj ET
-BT /F3 14 Tf 0.320 0.880 0.550 rg 1 0 0 1 786 367 Tm (100) Tj ET
-BT /F3 14 Tf 0.680 0.480 0.950 rg 1 0 0 1 850 367 Tm (45) Tj ET
-0.105 0.125 0.135 rg 610 288 300 47 re f
-BT /F1 12 Tf 0.630 0.690 0.680 rg 1 0 0 1 624 305 Tm (Thoric -20) Tj ET
-BT /F3 14 Tf 0.320 0.880 0.550 rg 1 0 0 1 786 305 Tm (80) Tj ET
-BT /F3 14 Tf 0.680 0.480 0.950 rg 1 0 0 1 850 305 Tm (45) Tj ET
-0.085 0.105 0.115 rg 610 226 300 47 re f
-BT /F1 12 Tf 0.630 0.690 0.680 rg 1 0 0 1 624 243 Tm (Goblin -12) Tj ET
-BT /F3 14 Tf 0.320 0.880 0.550 rg 1 0 0 1 786 243 Tm (80) Tj ET
-BT /F3 14 Tf 0.680 0.480 0.950 rg 1 0 0 1 850 243 Tm (33) Tj ET
-0.105 0.125 0.135 rg 610 164 300 47 re f
-BT /F1 12 Tf 0.630 0.690 0.680 rg 1 0 0 1 624 181 Tm (Thoric -200) Tj ET
-BT /F3 14 Tf 0.320 0.880 0.550 rg 1 0 0 1 786 181 Tm (0) Tj ET
-BT /F3 14 Tf 0.680 0.480 0.950 rg 1 0 0 1 850 181 Tm (33) Tj ET
-BT /F2 16 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 130 Tm (Resposta: a vida nunca fica abaixo de zero.) Tj ET
-endstream
-endobj
-12 0 obj
-<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 11 0 R >>
-endobj
-13 0 obj
-<< /Length 2913 >>
-stream
-0.055 0.067 0.075 rg 0 0 960 540 re f
-0.320 0.880 0.550 rg 0 532 960 8 re f
-BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Complete o construtor do RPG) Tj ET
-BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (05) Tj ET
-0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
-0.680 0.480 0.950 rg 42 425 74.8 23 re f
-BT /F2 10 Tf 0.055 0.067 0.075 rg 1 0 0 1 51 431 Tm (COMPLETE) Tj ET
-0.035 0.045 0.050 rg 42 90 475 320 re f
-0.200 0.250 0.250 RG 1 w 42 90 475 320 re S
-0.105 0.125 0.135 rg 42 383 475 27 re f
-BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 392 Tm (PYTHON) Tj ET
-BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 362.0 Tm (class Personagem:) Tj ET
-BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 344.58 Tm (    def __init__\(self, nome, vida, ataque,) Tj ET
-BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 327.15999999999997 Tm (                 defesa, pocoes\):) Tj ET
-BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 309.74 Tm (        __________ = nome) Tj ET
-BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 292.32 Tm (        __________ = vida) Tj ET
-BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 274.9 Tm (        __________ = vida) Tj ET
-BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 257.48 Tm (        __________ = ataque) Tj ET
-BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 240.06 Tm (        __________ = defesa) Tj ET
-BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 222.64 Tm (        __________ = pocoes) Tj ET
-BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 205.21999999999997 Tm (        __________ = False) Tj ET
-0.680 0.480 0.950 rg 550 425 67.69999999999999 23 re f
-BT /F2 10 Tf 0.055 0.067 0.075 rg 1 0 0 1 559 431 Tm (SOLUÇÃO) Tj ET
-0.035 0.045 0.050 rg 550 150 360 260 re f
-0.200 0.250 0.250 RG 1 w 550 150 360 260 re S
-0.105 0.125 0.135 rg 550 383 360 27 re f
-BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 562 392 Tm (PYTHON) Tj ET
-0.160 0.120 0.200 rg 557 358.0 346 20.76 re f
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 564 362.0 Tm (self.nome = nome) Tj ET
-0.160 0.120 0.200 rg 557 339.24 346 20.76 re f
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 564 343.24 Tm (self.vida = vida) Tj ET
-0.160 0.120 0.200 rg 557 320.48 346 20.76 re f
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 564 324.48 Tm (self.vida_maxima = vida) Tj ET
-0.160 0.120 0.200 rg 557 301.72 346 20.76 re f
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 564 305.72 Tm (self.ataque = ataque) Tj ET
-0.160 0.120 0.200 rg 557 282.96 346 20.76 re f
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 564 286.96 Tm (self.defesa = defesa) Tj ET
-0.160 0.120 0.200 rg 557 264.2 346 20.76 re f
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 564 268.2 Tm (self.pocoes = pocoes) Tj ET
-0.160 0.120 0.200 rg 557 245.44 346 20.76 re f
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 564 249.44 Tm (self.defendendo = False) Tj ET
-BT /F1 13 Tf 0.630 0.690 0.680 rg 1 0 0 1 550 110 Tm (vida_maxima guarda o limite da cura.) Tj ET
-endstream
-endobj
-14 0 obj
-<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 13 0 R >>
-endobj
-15 0 obj
-<< /Length 2474 >>
-stream
-0.055 0.067 0.075 rg 0 0 960 540 re f
-0.320 0.880 0.550 rg 0 532 960 8 re f
-BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Construa e teste receber_dano\(\)) Tj ET
-BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (06) Tj ET
-0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
-0.035 0.045 0.050 rg 42 164 520 293 re f
-0.200 0.250 0.250 RG 1 w 42 164 520 293 re S
-0.105 0.125 0.135 rg 42 430 520 27 re f
-BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (PYTHON) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (def receber_dano\(self, quantidade\):) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 390.24 Tm (    dano_real = quantidade - self.defesa) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 371.48 Tm () Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 352.72 Tm (    if dano_real < 0:) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 333.96 Tm (        dano_real = 0) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 315.2 Tm () Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 296.44 Tm (    self.vida -= dano_real) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 277.67999999999995 Tm () Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 258.91999999999996 Tm (    if self.vida < 0:) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 240.16 Tm (        self.vida = 0) Tj ET
-0.035 0.045 0.050 rg 600 246 312 166 re f
-0.200 0.250 0.250 RG 1 w 600 246 312 166 re S
-0.105 0.125 0.135 rg 600 385 312 27 re f
-BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 612 394 Tm (3 TESTES MANUAIS) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 614 364.0 Tm (thoric = Personagem\() Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 614 347.92 Tm (    "Thoric", 100, 15, 5, 2\)) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 614 331.84 Tm () Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 614 315.76 Tm (thoric.receber_dano\(20\)  # vida 85) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 614 299.68 Tm (thoric.receber_dano\(3\)   # vida 85) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 614 283.6 Tm (thoric.receber_dano\(200\) # vida 0) Tj ET
-0.105 0.125 0.135 rg 600 115 312 96 re f
-0.320 0.880 0.550 RG 2 w 600 115 312 96 re S
-BT /F2 13 Tf 0.320 0.880 0.550 rg 1 0 0 1 620 174 Tm (A regra pertence à classe:) Tj ET
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 620 144 Tm (todo personagem protege) Tj ET
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 620 122 Tm (o próprio estado.) Tj ET
-endstream
-endobj
-16 0 obj
-<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 15 0 R >>
-endobj
-17 0 obj
-<< /Length 1861 >>
-stream
-0.055 0.067 0.075 rg 0 0 960 540 re f
-0.320 0.880 0.550 rg 0 532 960 8 re f
-BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Interação: atacar\(alvo\)) Tj ET
-BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (07) Tj ET
-0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
-0.035 0.045 0.050 rg 42 240 510 217 re f
-0.200 0.250 0.250 RG 1 w 42 240 510 217 re S
-0.105 0.125 0.135 rg 42 430 510 27 re f
-BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (PYTHON) Tj ET
-BT /F3 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (def atacar\(self, alvo\):) Tj ET
-BT /F3 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 387.56 Tm (    print\(self.nome, "ataca", alvo.nome\)) Tj ET
-BT /F3 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 366.12 Tm (    alvo.receber_dano\(self.ataque\)) Tj ET
-BT /F3 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 344.68 Tm () Tj ET
-0.160 0.120 0.200 rg 49 319.24 496 23.44 re f
-BT /F3 16 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 323.24 Tm (thoric.atacar\(goblin\)) Tj ET
-0.085 0.105 0.115 rg 600 345 310 82 re f
-0.320 0.880 0.550 RG 2 w 600 345 310 82 re S
-BT /F3 18 Tf 0.320 0.880 0.550 rg 1 0 0 1 620 391 Tm (self = thoric) Tj ET
-BT /F1 12 Tf 0.630 0.690 0.680 rg 1 0 0 1 620 361 Tm (fonte de self.ataque) Tj ET
-0.085 0.105 0.115 rg 600 237 310 82 re f
-0.680 0.480 0.950 RG 2 w 600 237 310 82 re S
-BT /F3 18 Tf 0.680 0.480 0.950 rg 1 0 0 1 620 283 Tm (alvo = goblin) Tj ET
-BT /F1 12 Tf 0.630 0.690 0.680 rg 1 0 0 1 620 253 Tm (executa receber_dano\(\)) Tj ET
-BT /F3 16 Tf 0.320 0.880 0.550 rg 1 0 0 1 100 164 Tm (Thoric.ataque) Tj ET
-BT /F2 22 Tf 0.630 0.690 0.680 rg 1 0 0 1 265 164 Tm (>) Tj ET
-BT /F3 16 Tf 0.680 0.480 0.950 rg 1 0 0 1 318 164 Tm (Goblin.receber_dano\(\)) Tj ET
-BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 107 Tm (Leia da esquerda para a direita: quem age, qual método, quem recebe.) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 296.44 Tm () Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 277.67999999999995 Tm (thoric = Personagem\("Thoric", 100, 15\)) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 258.91999999999996 Tm (goblin = Personagem\("Goblin", 45, 8\)) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 240.16 Tm () Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 221.39999999999998 Tm (print\(thoric.nome, thoric.vida\)) Tj ET
+BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 202.64 Tm (print\(goblin.nome, goblin.vida\)) Tj ET
+0.680 0.480 0.950 rg 630 420 117.39999999999999 23 re f
+BT /F2 10 Tf 0.055 0.067 0.075 rg 1 0 0 1 639 426 Tm (DIGITE DO ZERO) Tj ET
+0.320 0.880 0.550 rg 630 389 6 6 re f
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 646 385 Tm (A classe é o único molde) Tj ET
+0.320 0.880 0.550 rg 630 360 6 6 re f
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 646 356 Tm (Cada chamada cria um objeto) Tj ET
+0.320 0.880 0.550 rg 630 331 6 6 re f
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 646 327 Tm (Cada objeto guarda seus valores) Tj ET
+0.320 0.880 0.550 rg 630 302 6 6 re f
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 646 298 Tm (self muda a cada criação) Tj ET
+0.025 0.032 0.035 rg 630 125 280 90 re f
+0.320 0.880 0.550 RG 1 w 630 125 280 90 re S
+BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 642 195 Tm (SAÍDA) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 644 172 Tm (> Thoric 100) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 644 154 Tm (> Goblin 45) Tj ET
 endstream
 endobj
 18 0 obj
 << /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 17 0 R >>
 endobj
 19 0 obj
-<< /Length 2689 >>
+<< /Length 2480 >>
 stream
 0.055 0.067 0.075 rg 0 0 960 540 re f
 0.320 0.880 0.550 rg 0 532 960 8 re f
 BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Defender vale para o próximo ataque) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Primeiro método: mostrar_status\(\)) Tj ET
 BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (08) Tj ET
 0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
-0.035 0.045 0.050 rg 42 92 555 365 re f
-0.200 0.250 0.250 RG 1 w 42 92 555 365 re S
-0.105 0.125 0.135 rg 42 430 555 27 re f
+0.035 0.045 0.050 rg 42 92 565 365 re f
+0.200 0.250 0.250 RG 1 w 42 92 565 365 re S
+0.105 0.125 0.135 rg 42 430 565 27 re f
 BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (PYTHON) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (def defender\(self\):) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 392.92 Tm (    self.defendendo = True) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 376.84 Tm (    print\(self.nome, "preparou a defesa"\)) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 360.76 Tm () Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 344.68 Tm (def receber_dano\(self, quantidade\):) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 328.6 Tm (    dano_real = quantidade - self.defesa) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 312.52 Tm () Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 296.44 Tm (    if self.defendendo:) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 280.36 Tm (        dano_real = dano_real // 2) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 264.28 Tm (        self.defendendo = False) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 248.2 Tm () Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 232.11999999999998 Tm (    if dano_real < 0:) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 216.03999999999996 Tm (        dano_real = 0) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 199.95999999999998 Tm () Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 183.87999999999997 Tm (    self.vida = max\(0, self.vida - dano_real\)) Tj ET
-BT /F2 11 Tf 1.000 0.600 0.280 rg 1 0 0 1 630 420 Tm (MUDANÇA DE ESTADO) Tj ET
-0.105 0.125 0.135 rg 630 353 280 47 re f
-BT /F1 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 646 370 Tm (início) Tj ET
-BT /F3 13 Tf 0.630 0.690 0.680 rg 1 0 0 1 820 370 Tm (False) Tj ET
-0.105 0.125 0.135 rg 630 291 280 47 re f
-BT /F1 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 646 308 Tm (defender\(\)) Tj ET
-BT /F3 13 Tf 0.680 0.480 0.950 rg 1 0 0 1 820 308 Tm (True) Tj ET
-0.105 0.125 0.135 rg 630 229 280 47 re f
-BT /F1 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 646 246 Tm (receber dano) Tj ET
-BT /F3 13 Tf 0.320 0.880 0.550 rg 1 0 0 1 820 246 Tm (False) Tj ET
-0.105 0.125 0.135 rg 630 167 280 47 re f
-BT /F1 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 646 184 Tm (ataque seguinte) Tj ET
-BT /F3 13 Tf 1.000 0.600 0.280 rg 1 0 0 1 820 184 Tm (normal) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (class Personagem:) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 392.92 Tm (    def __init__\(self, nome, vida, ataque\):) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 376.84 Tm (        self.nome = nome) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 360.76 Tm (        self.vida = vida) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 344.68 Tm (        self.ataque = ataque) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 328.6 Tm () Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 312.52 Tm (    def mostrar_status\(self\):) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 296.44 Tm (        print\(self.nome, "-", self.vida, "de vida"\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 280.36 Tm () Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 264.28 Tm () Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 248.2 Tm (thoric = Personagem\("Thoric", 100, 15\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 232.11999999999998 Tm (goblin = Personagem\("Goblin", 45, 8\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 216.03999999999996 Tm () Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 199.95999999999998 Tm (thoric.mostrar_status\(\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 183.87999999999997 Tm (goblin.mostrar_status\(\)) Tj ET
+0.085 0.105 0.115 rg 638 324 272 106 re f
+0.680 0.480 0.950 RG 2 w 638 324 272 106 re S
+BT /F2 10 Tf 0.680 0.480 0.950 rg 1 0 0 1 657 391 Tm (NA DEFINIÇÃO) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 657 356 Tm (def mostrar_status\(self\)) Tj ET
+0.105 0.125 0.135 rg 638 179 272 106 re f
+0.320 0.880 0.550 RG 2 w 638 179 272 106 re S
+BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 657 246 Tm (NA CHAMADA) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 657 211 Tm (thoric.mostrar_status\(\)) Tj ET
+BT /F1 13 Tf 0.630 0.690 0.680 rg 1 0 0 1 638 125 Tm (Python envia Thoric para self.) Tj ET
 endstream
 endobj
 20 0 obj
 << /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 19 0 R >>
 endobj
 21 0 obj
-<< /Length 2435 >>
+<< /Length 2648 >>
 stream
 0.055 0.067 0.075 rg 0 0 960 540 re f
 0.320 0.880 0.550 rg 0 532 960 8 re f
 BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Poção: recurso limitado e vida máxima) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Método que muda estado: receber_dano\(\)) Tj ET
 BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (09) Tj ET
 0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
-0.035 0.045 0.050 rg 42 92 550 365 re f
-0.200 0.250 0.250 RG 1 w 42 92 550 365 re S
-0.105 0.125 0.135 rg 42 430 550 27 re f
+0.035 0.045 0.050 rg 42 92 565 365 re f
+0.200 0.250 0.250 RG 1 w 42 92 565 365 re S
+0.105 0.125 0.135 rg 42 430 565 27 re f
 BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (PYTHON) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (def usar_pocao\(self\):) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 392.92 Tm (    if self.pocoes == 0:) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 376.84 Tm (        print\("Nenhuma poção restante"\)) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 360.76 Tm (    elif self.vida == self.vida_maxima:) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 344.68 Tm (        print\("A vida já está cheia"\)) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 328.6 Tm (    else:) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 312.52 Tm (        cura = 25) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 296.44 Tm (        self.vida += cura) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (class Personagem:) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 392.92 Tm (    def __init__\(self, nome, vida, ataque\):) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 376.84 Tm (        self.nome = nome) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 360.76 Tm (        self.vida = vida) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 344.68 Tm (        self.ataque = ataque) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 328.6 Tm () Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 312.52 Tm (    def receber_dano\(self, quantidade\):) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 296.44 Tm (        self.vida = self.vida - quantidade) Tj ET
 BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 280.36 Tm () Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 264.28 Tm (        if self.vida > self.vida_maxima:) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 248.2 Tm (            self.vida = self.vida_maxima) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 264.28 Tm (        if self.vida < 0:) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 248.2 Tm (            self.vida = 0) Tj ET
 BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 232.11999999999998 Tm () Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 216.03999999999996 Tm (        self.pocoes -= 1) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 199.95999999999998 Tm (        print\(self.nome, "usou uma poção"\)) Tj ET
-BT /F2 11 Tf 0.320 0.880 0.550 rg 1 0 0 1 625 420 Tm (TESTE OS LIMITES) Tj ET
-0.320 0.880 0.550 rg 625 388 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 384 Tm (vida 60, poções 2 > vida 85, poções 1) Tj ET
-0.320 0.880 0.550 rg 625 360 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 356 Tm (vida 90 > vida 100, nunca 115) Tj ET
-0.320 0.880 0.550 rg 625 332 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 328 Tm (vida cheia > não gasta poção) Tj ET
-0.320 0.880 0.550 rg 625 304 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 300 Tm (zero poções > não altera a vida) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 216.03999999999996 Tm () Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 199.95999999999998 Tm (goblin = Personagem\("Goblin", 45, 8\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 183.87999999999997 Tm (goblin.receber_dano\(20\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 167.79999999999998 Tm (print\(goblin.vida\)) Tj ET
+BT /F2 11 Tf 0.320 0.880 0.550 rg 1 0 0 1 640 420 Tm (TESTE 3 CASOS) Tj ET
+0.320 0.880 0.550 rg 640 384 6 6 re f
+BT /F1 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 656 380 Tm (dano 20 > vida 25) Tj ET
+0.320 0.880 0.550 rg 640 354 6 6 re f
+BT /F1 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 656 350 Tm (dano 0 > vida não muda) Tj ET
+0.320 0.880 0.550 rg 640 324 6 6 re f
+BT /F1 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 656 320 Tm (dano 100 > vida 0) Tj ET
+0.105 0.125 0.135 rg 640 155 270 72 re f
+1.000 0.600 0.280 RG 2 w 640 155 270 72 re S
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 658 195 Tm (O objeto protege) Tj ET
+BT /F2 14 Tf 1.000 0.600 0.280 rg 1 0 0 1 658 169 Tm (a própria vida.) Tj ET
 endstream
 endobj
 22 0 obj
 << /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 21 0 R >>
 endobj
 23 0 obj
-<< /Length 2415 >>
+<< /Length 2309 >>
 stream
 0.055 0.067 0.075 rg 0 0 960 540 re f
 0.320 0.880 0.550 rg 0 532 960 8 re f
 BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Dano variável e chance de acerto) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Dois objetos: atacar\(alvo\)) Tj ET
 BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (10) Tj ET
+0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
+0.035 0.045 0.050 rg 42 92 550 365 re f
+0.200 0.250 0.250 RG 1 w 42 92 550 365 re S
+0.105 0.125 0.135 rg 42 430 550 27 re f
+BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (ADICIONE À CLASSE ATUAL) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (class Personagem:) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 391.58 Tm (    # mantenha __init__ e receber_dano) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 374.15999999999997 Tm () Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 356.74 Tm (    def atacar\(self, alvo\):) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 339.32 Tm (        print\(self.nome, "ataca", alvo.nome\)) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 321.9 Tm (        alvo.receber_dano\(self.ataque\)) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 304.48 Tm () Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 287.06 Tm () Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 269.64 Tm (thoric = Personagem\("Thoric", 100, 15\)) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 252.21999999999997 Tm (goblin = Personagem\("Goblin", 45, 8\)) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 234.79999999999998 Tm () Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 217.38 Tm (thoric.atacar\(goblin\)) Tj ET
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 199.95999999999998 Tm (print\("Vida do Goblin:", goblin.vida\)) Tj ET
+0.085 0.105 0.115 rg 625 328 286 102 re f
+0.320 0.880 0.550 RG 2 w 625 328 286 102 re S
+BT /F3 17 Tf 0.320 0.880 0.550 rg 1 0 0 1 644 390 Tm (self = thoric) Tj ET
+BT /F1 13 Tf 0.630 0.690 0.680 rg 1 0 0 1 644 353 Tm (origem do ataque) Tj ET
+0.085 0.105 0.115 rg 625 187 286 102 re f
+0.680 0.480 0.950 RG 2 w 625 187 286 102 re S
+BT /F3 17 Tf 0.680 0.480 0.950 rg 1 0 0 1 644 249 Tm (alvo = goblin) Tj ET
+BT /F1 13 Tf 0.630 0.690 0.680 rg 1 0 0 1 644 212 Tm (recebe o dano) Tj ET
+BT /F2 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 625 127 Tm (Saída esperada: Vida do Goblin: 30) Tj ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 2614 >>
+stream
+0.055 0.067 0.075 rg 0 0 960 540 re f
+0.320 0.880 0.550 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Evolução opcional: defesa e poção) Tj ET
+BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (11) Tj ET
+0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
+0.035 0.045 0.050 rg 42 242 420 215 re f
+0.200 0.250 0.250 RG 1 w 42 242 420 215 re S
+0.105 0.125 0.135 rg 42 430 420 27 re f
+BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (DEFESA) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (def defender\(self\):) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 392.92 Tm (    self.defendendo = True) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 376.84 Tm () Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 360.76 Tm (def receber_dano\(self, quantidade\):) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 344.68 Tm (    if self.defendendo:) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 328.6 Tm (        quantidade = quantidade // 2) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 312.52 Tm (        self.defendendo = False) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 296.44 Tm () Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 280.36 Tm (    self.vida = max\(0, self.vida - quantidade\)) Tj ET
+0.035 0.045 0.050 rg 500 242 412 215 re f
+0.200 0.250 0.250 RG 1 w 500 242 412 215 re S
+0.105 0.125 0.135 rg 500 430 412 27 re f
+BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 512 439 Tm (POÇÃO) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 514 409.0 Tm (def usar_pocao\(self\):) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 514 392.92 Tm (    if self.pocoes > 0 and self.vida < self.vida_maxima:) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 514 376.84 Tm (        self.vida = self.vida + 25) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 514 360.76 Tm () Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 514 344.68 Tm (        if self.vida > self.vida_maxima:) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 514 328.6 Tm (            self.vida = self.vida_maxima) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 514 312.52 Tm () Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 514 296.44 Tm (        self.pocoes = self.pocoes - 1) Tj ET
+BT /F2 13 Tf 1.000 0.600 0.280 rg 1 0 0 1 42 188 Tm (Antes de usar, acrescente pocoes ao construtor e crie:) Tj ET
+0.105 0.125 0.135 rg 42 93 870 72 re f
+1.000 0.600 0.280 RG 2 w 42 93 870 72 re S
+BT /F3 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 64 132 Tm (vida_maxima = vida     |     pocoes = valor recebido     |     defendendo = False) Tj ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 25 0 R >>
+endobj
+27 0 obj
+<< /Length 2542 >>
+stream
+0.055 0.067 0.075 rg 0 0 960 540 re f
+0.320 0.880 0.550 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Aleatoriedade sem esconder a regra) Tj ET
+BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (12) Tj ET
 0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
 0.035 0.045 0.050 rg 42 92 540 365 re f
 0.200 0.250 0.250 RG 1 w 42 92 540 365 re S
@@ -405,39 +484,41 @@ BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (import random) Tj ET
 BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 392.92 Tm () Tj ET
 BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 376.84 Tm (def atacar\(self, alvo\):) Tj ET
 BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 360.76 Tm (    rolagem = random.randint\(1, 20\)) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 344.68 Tm () Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 328.6 Tm (    if rolagem < 5:) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 312.52 Tm (        print\(self.nome, "errou o ataque"\)) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 296.44 Tm (    else:) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 280.36 Tm (        dano = random.randint\() Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 264.28 Tm (            self.ataque - 3,) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 248.2 Tm (            self.ataque + 3) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 232.11999999999998 Tm (        \)) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 216.03999999999996 Tm (        alvo.receber_dano\(dano\)) Tj ET
-0.085 0.105 0.115 rg 615 330 297 102 re f
-1.000 0.600 0.280 RG 2 w 615 330 297 102 re S
-BT /F3 17 Tf 1.000 0.600 0.280 rg 1 0 0 1 635 394 Tm (d20: 1 até 20) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 635 360 Tm (1, 2, 3, 4 = erro) Tj ET
-BT /F3 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 635 337 Tm (5 até 20 = acerto) Tj ET
-0.105 0.125 0.135 rg 615 181 297 112 re f
-0.320 0.880 0.550 RG 2 w 615 181 297 112 re S
-BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 635 254 Tm (ORDEM IMPORTANTE) Tj ET
-BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 635 222 Tm (1. rolar acerto) Tj ET
-BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 635 198 Tm (2. calcular dano se acertar) Tj ET
-BT /F2 13 Tf 1.000 0.390 0.390 rg 1 0 0 1 615 120 Tm (No erro, receber_dano\(\) não executa.) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 344.68 Tm (    print\("d20:", rolagem\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 328.6 Tm () Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 312.52 Tm (    if rolagem < 5:) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 296.44 Tm (        print\(self.nome, "errou"\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 280.36 Tm (    else:) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 264.28 Tm (        dano = random.randint\() Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 248.2 Tm (            self.ataque - 3,) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 232.11999999999998 Tm (            self.ataque + 3) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 216.03999999999996 Tm (        \)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 199.95999999999998 Tm (        alvo.receber_dano\(dano\)) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 183.87999999999997 Tm (        print\("Dano:", dano\)) Tj ET
+0.085 0.105 0.115 rg 615 325 295 105 re f
+1.000 0.600 0.280 RG 2 w 615 325 295 105 re S
+BT /F3 18 Tf 1.000 0.390 0.390 rg 1 0 0 1 635 391 Tm (1 a 4) Tj ET
+BT /F2 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 730 391 Tm (erro) Tj ET
+BT /F3 18 Tf 0.320 0.880 0.550 rg 1 0 0 1 635 350 Tm (5 a 20) Tj ET
+BT /F2 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 730 350 Tm (acerto) Tj ET
+0.105 0.125 0.135 rg 615 180 295 105 re f
+0.320 0.880 0.550 RG 2 w 615 180 295 105 re S
+BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 635 247 Tm (SE ERROU) Tj ET
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 635 213 Tm (não calcule dano) Tj ET
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 635 190 Tm (não chame receber_dano) Tj ET
 endstream
 endobj
-24 0 obj
-<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 23 0 R >>
+28 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 27 0 R >>
 endobj
-25 0 obj
-<< /Length 2561 >>
+29 0 obj
+<< /Length 2674 >>
 stream
 0.055 0.067 0.075 rg 0 0 960 540 re f
 0.320 0.880 0.550 rg 0 532 960 8 re f
 BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (O menu chama métodos já testados) Tj ET
-BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (11) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Função de turno: conectar escolhas) Tj ET
+BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (13) Tj ET
 0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
 0.035 0.045 0.050 rg 42 92 550 365 re f
 0.200 0.250 0.250 RG 1 w 42 92 550 365 re S
@@ -458,76 +539,122 @@ BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 232.11999999999998 Tm (    elif esc
 BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 216.03999999999996 Tm (        jogador.usar_pocao\(\)) Tj ET
 BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 199.95999999999998 Tm (    else:) Tj ET
 BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 183.87999999999997 Tm (        print\("Opção inválida"\)) Tj ET
-0.085 0.105 0.115 rg 620 330 292 102 re f
-0.320 0.880 0.550 RG 2 w 620 330 292 102 re S
-BT /F2 15 Tf 0.320 0.880 0.550 rg 1 0 0 1 640 394 Tm (input\(\) retorna string) Tj ET
-BT /F3 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 640 356 Tm ("1" == "1"  True) Tj ET
-BT /F3 15 Tf 1.000 0.390 0.390 rg 1 0 0 1 640 333 Tm ("1" == 1    False) Tj ET
-0.105 0.125 0.135 rg 620 175 292 115 re f
-0.680 0.480 0.950 RG 2 w 620 175 292 115 re S
-BT /F2 10 Tf 0.680 0.480 0.950 rg 1 0 0 1 640 250 Tm (SEM DUPLICAR REGRAS) Tj ET
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 640 218 Tm (menu escolhe a ação) Tj ET
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 640 191 Tm (método executa a ação) Tj ET
+BT /F2 11 Tf 0.680 0.480 0.950 rg 1 0 0 1 625 420 Tm (A FUNÇÃO) Tj ET
+0.680 0.480 0.950 rg 625 386 6 6 re f
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 382 Tm (mostra opções) Tj ET
+0.680 0.480 0.950 rg 625 356 6 6 re f
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 352 Tm (lê texto) Tj ET
+0.680 0.480 0.950 rg 625 326 6 6 re f
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 322 Tm (escolhe um caminho) Tj ET
+0.680 0.480 0.950 rg 625 296 6 6 re f
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 292 Tm (chama métodos existentes) Tj ET
+0.105 0.125 0.135 rg 625 146 286 88 re f
+0.320 0.880 0.550 RG 2 w 625 146 286 88 re S
+BT /F2 14 Tf 0.320 0.880 0.550 rg 1 0 0 1 643 198 Tm (Não refaça o dano) Tj ET
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 643 170 Tm (dentro do menu.) Tj ET
 endstream
 endobj
-26 0 obj
-<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 25 0 R >>
+30 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 29 0 R >>
 endobj
-27 0 obj
-<< /Length 2373 >>
+31 0 obj
+<< /Length 2687 >>
 stream
 0.055 0.067 0.075 rg 0 0 960 540 re f
 0.320 0.880 0.550 rg 0 532 960 8 re f
 BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Monte o laço da batalha na ordem certa) Tj ET
-BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (12) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Batalha mínima: monte o while) Tj ET
+BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (14) Tj ET
 0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
-0.035 0.045 0.050 rg 42 92 550 365 re f
-0.200 0.250 0.250 RG 1 w 42 92 550 365 re S
-0.105 0.125 0.135 rg 42 430 550 27 re f
+0.035 0.045 0.050 rg 42 92 560 365 re f
+0.200 0.250 0.250 RG 1 w 42 92 560 365 re S
+0.105 0.125 0.135 rg 42 430 560 27 re f
 BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (PYTHON) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (while jogador.vida > 0 and inimigo.vida > 0:) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 392.92 Tm (    jogador.mostrar_status\(\)) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 376.84 Tm (    inimigo.mostrar_status\(\)) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 360.76 Tm () Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 344.68 Tm (    turno_do_jogador\(jogador, inimigo\)) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 328.6 Tm () Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 312.52 Tm (    if inimigo.vida > 0:) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 296.44 Tm (        inimigo.atacar\(jogador\)) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 280.36 Tm () Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 264.28 Tm (if jogador.vida > 0:) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 248.2 Tm (    print\("Você venceu!"\)) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 232.11999999999998 Tm (else:) Tj ET
-BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 216.03999999999996 Tm (    print\("Você foi derrotado."\)) Tj ET
-BT /F2 11 Tf 1.000 0.600 0.280 rg 1 0 0 1 625 421 Tm (FLUXO DE UM TURNO) Tj ET
-0.085 0.105 0.115 rg 625 372 286 40 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 386 Tm (1. conferir duas vidas) Tj ET
-0.105 0.125 0.135 rg 625 317 286 40 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 331 Tm (2. mostrar status) Tj ET
-0.085 0.105 0.115 rg 625 262 286 40 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 276 Tm (3. jogador escolhe) Tj ET
-0.105 0.125 0.135 rg 625 207 286 40 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 221 Tm (4. conferir inimigo) Tj ET
-0.085 0.105 0.115 rg 625 152 286 40 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 166 Tm (5. contra-atacar se vivo) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (jogador = Personagem\("Thoric", 100, 15, 2\)) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 394.26 Tm (inimigo = Personagem\("Goblin", 45, 8, 0\)) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 379.52 Tm () Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 364.78 Tm (while jogador.vida > 0 and inimigo.vida > 0:) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 350.04 Tm (    jogador.mostrar_status\(\)) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 335.3 Tm (    inimigo.mostrar_status\(\)) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 320.56 Tm () Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 305.82 Tm (    turno_do_jogador\(jogador, inimigo\)) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 291.08 Tm () Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 276.34000000000003 Tm (    if inimigo.vida > 0:) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 261.6 Tm (        inimigo.atacar\(jogador\)) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 246.85999999999999 Tm () Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 232.12 Tm (if jogador.vida > 0:) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 217.38 Tm (    print\("Você venceu!"\)) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 202.64 Tm (else:) Tj ET
+BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 187.9 Tm (    print\("Você foi derrotado."\)) Tj ET
+BT /F2 11 Tf 1.000 0.600 0.280 rg 1 0 0 1 635 420 Tm (ORDEM) Tj ET
+1.000 0.600 0.280 rg 635 386 6 6 re f
+BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 651 382 Tm (conferir duas vidas) Tj ET
+1.000 0.600 0.280 rg 635 358 6 6 re f
+BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 651 354 Tm (mostrar estado) Tj ET
+1.000 0.600 0.280 rg 635 330 6 6 re f
+BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 651 326 Tm (jogador age) Tj ET
+1.000 0.600 0.280 rg 635 302 6 6 re f
+BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 651 298 Tm (conferir inimigo) Tj ET
+1.000 0.600 0.280 rg 635 274 6 6 re f
+BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 651 270 Tm (inimigo age se vivo) Tj ET
+BT /F2 13 Tf 0.320 0.880 0.550 rg 1 0 0 1 635 138 Tm (and: ambos precisam estar vivos.) Tj ET
 endstream
 endobj
-28 0 obj
-<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 27 0 R >>
+32 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 31 0 R >>
 endobj
-29 0 obj
-<< /Length 2614 >>
+33 0 obj
+<< /Length 1912 >>
 stream
 0.055 0.067 0.075 rg 0 0 960 540 re f
 0.320 0.880 0.550 rg 0 532 960 8 re f
 BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Depuração: cinco erros do nosso RPG) Tj ET
-BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (13) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Teste guiado antes de adicionar mais) Tj ET
+BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (15) Tj ET
+0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
+0.085 0.105 0.115 rg 42 286 270 140 re f
+0.320 0.880 0.550 RG 2 w 42 286 270 140 re S
+BT /F2 11 Tf 0.320 0.880 0.550 rg 1 0 0 1 58 390 Tm (CRIAÇÃO) Tj ET
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 58 356 Tm (os dois status aparecem?) Tj ET
+0.085 0.105 0.115 rg 342 286 270 140 re f
+0.680 0.480 0.950 RG 2 w 342 286 270 140 re S
+BT /F2 11 Tf 0.680 0.480 0.950 rg 1 0 0 1 358 390 Tm (DANO) Tj ET
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 358 356 Tm (a vida nunca fica negativa?) Tj ET
+0.085 0.105 0.115 rg 642 286 270 140 re f
+1.000 0.600 0.280 RG 2 w 642 286 270 140 re S
+BT /F2 11 Tf 1.000 0.600 0.280 rg 1 0 0 1 658 390 Tm (ALVO) Tj ET
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 658 356 Tm (o objeto certo perde vida?) Tj ET
+0.085 0.105 0.115 rg 42 108 270 140 re f
+0.320 0.880 0.550 RG 2 w 42 108 270 140 re S
+BT /F2 11 Tf 0.320 0.880 0.550 rg 1 0 0 1 58 212 Tm (DEFESA) Tj ET
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 58 178 Tm (vale por um ataque?) Tj ET
+0.085 0.105 0.115 rg 342 108 270 140 re f
+0.680 0.480 0.950 RG 2 w 342 108 270 140 re S
+BT /F2 11 Tf 0.680 0.480 0.950 rg 1 0 0 1 358 212 Tm (POÇÃO) Tj ET
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 358 178 Tm (respeita limite e quantidade?) Tj ET
+0.085 0.105 0.115 rg 642 108 270 140 re f
+1.000 0.600 0.280 RG 2 w 642 108 270 140 re S
+BT /F2 11 Tf 1.000 0.600 0.280 rg 1 0 0 1 658 212 Tm (LAÇO) Tj ET
+BT /F1 14 Tf 0.940 0.960 0.950 rg 1 0 0 1 658 178 Tm (termina e mostra resultado?) Tj ET
+BT /F2 15 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 67 Tm (Se um teste falhar, pare ali. O próximo bloco depende dele.) Tj ET
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 33 0 R >>
+endobj
+35 0 obj
+<< /Length 2606 >>
+stream
+0.055 0.067 0.075 rg 0 0 960 540 re f
+0.320 0.880 0.550 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Depuração: cinco erros para corrigir) Tj ET
+BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (16) Tj ET
 0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
 0.035 0.045 0.050 rg 42 92 550 365 re f
 0.200 0.250 0.250 RG 1 w 42 92 550 365 re S
 0.105 0.125 0.135 rg 42 430 550 27 re f
-BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (ENCONTRE ANTES DE REVELAR) Tj ET
+BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (NÃO EXECUTE AINDA) Tj ET
 BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (class Personagem:) Tj ET
 BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 392.92 Tm (    def __init__\(nome, vida\):          # 1) Tj ET
 BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 376.84 Tm (        nome = nome                    # 2) Tj ET
@@ -540,196 +667,61 @@ BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 280.36 Tm () Tj ET
 BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 264.28 Tm (while jogador.vida > 0 or inimigo.vida > 0: # 4) Tj ET
 BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 248.2 Tm (    turno_do_jogador\(jogador, inimigo\)) Tj ET
 BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 232.11999999999998 Tm (    inimigo.atacar\(jogador\)            # 5) Tj ET
-BT /F2 11 Tf 0.320 0.880 0.550 rg 1 0 0 1 625 420 Tm (CORREÇÕES) Tj ET
-0.320 0.880 0.550 rg 625 388 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 384 Tm (Adicionar self no método) Tj ET
-0.320 0.880 0.550 rg 625 360 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 356 Tm (Usar self.nome) Tj ET
-0.320 0.880 0.550 rg 625 332 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 328 Tm (Comparar com "1") Tj ET
-0.320 0.880 0.550 rg 625 304 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 300 Tm (Trocar or por and) Tj ET
-0.320 0.880 0.550 rg 625 276 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 272 Tm (Conferir vida do inimigo) Tj ET
-0.105 0.125 0.135 rg 625 110 286 70 re f
-0.680 0.480 0.950 RG 2 w 625 110 286 70 re S
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 643 150 Tm (Erro mostra o sintoma.) Tj ET
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 643 125 Tm (Estado mostra a causa.) Tj ET
-endstream
-endobj
-30 0 obj
-<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 29 0 R >>
-endobj
-31 0 obj
-<< /Length 2659 >>
-stream
-0.055 0.067 0.075 rg 0 0 960 540 re f
-0.320 0.880 0.550 rg 0 532 960 8 re f
-BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Vários inimigos, o mesmo jogador) Tj ET
-BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (14) Tj ET
-0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
-0.035 0.045 0.050 rg 42 92 575 365 re f
-0.200 0.250 0.250 RG 1 w 42 92 575 365 re S
-0.105 0.125 0.135 rg 42 430 575 27 re f
-BT /F2 9 Tf 0.320 0.880 0.550 rg 1 0 0 1 54 439 Tm (PYTHON) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 409.0 Tm (inimigos = [) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 394.26 Tm (    Personagem\("Goblin", 40, 8, 2, 0\),) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 379.52 Tm (    Personagem\("Orc", 70, 12, 4, 0\)) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 364.78 Tm (]) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 350.04 Tm () Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 335.3 Tm (for inimigo in inimigos:) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 320.56 Tm (    print\("Novo inimigo:", inimigo.nome\)) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 305.82 Tm () Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 291.08 Tm (    while jogador.vida > 0 and inimigo.vida > 0:) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 276.34000000000003 Tm (        turno_do_jogador\(jogador, inimigo\)) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 261.6 Tm () Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 246.85999999999999 Tm (        if inimigo.vida > 0:) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 232.12 Tm (            inimigo.atacar\(jogador\)) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 217.38 Tm () Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 202.64 Tm (    if jogador.vida == 0:) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 56 187.9 Tm (        break) Tj ET
-0.085 0.105 0.115 rg 650 332 262 100 re f
-0.320 0.880 0.550 RG 2 w 650 332 262 100 re S
-BT /F2 16 Tf 0.320 0.880 0.550 rg 1 0 0 1 669 394 Tm (for externo) Tj ET
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 669 362 Tm (troca o inimigo) Tj ET
-0.085 0.105 0.115 rg 650 207 262 100 re f
-0.680 0.480 0.950 RG 2 w 650 207 262 100 re S
-BT /F2 16 Tf 0.680 0.480 0.950 rg 1 0 0 1 669 269 Tm (while interno) Tj ET
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 669 237 Tm (resolve uma batalha) Tj ET
-0.105 0.125 0.135 rg 650 105 262 72 re f
-1.000 0.600 0.280 RG 2 w 650 105 262 72 re S
-BT /F2 13 Tf 1.000 0.600 0.280 rg 1 0 0 1 669 145 Tm (vida e poções continuam) Tj ET
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 669 120 Tm (no mesmo jogador) Tj ET
-endstream
-endobj
-32 0 obj
-<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 31 0 R >>
-endobj
-33 0 obj
-<< /Length 1902 >>
-stream
-0.055 0.067 0.075 rg 0 0 960 540 re f
-0.320 0.880 0.550 rg 0 532 960 8 re f
-BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Mapa do RPG completo) Tj ET
-BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (15) Tj ET
-0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
-0.085 0.105 0.115 rg 45 330 210 100 re f
-0.320 0.880 0.550 RG 2 w 45 330 210 100 re S
-BT /F2 14 Tf 0.320 0.880 0.550 rg 1 0 0 1 62 390 Tm (PERSONAGEM) Tj ET
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 62 359 Tm (estado + métodos) Tj ET
-0.085 0.105 0.115 rg 370 330 210 100 re f
-0.680 0.480 0.950 RG 2 w 370 330 210 100 re S
-BT /F2 14 Tf 0.680 0.480 0.950 rg 1 0 0 1 387 390 Tm (THORIC / ELARA) Tj ET
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 387 359 Tm (objeto jogador) Tj ET
-0.085 0.105 0.115 rg 695 330 220 100 re f
-1.000 0.600 0.280 RG 2 w 695 330 220 100 re S
-BT /F2 14 Tf 1.000 0.600 0.280 rg 1 0 0 1 712 390 Tm (GOBLIN / ORC) Tj ET
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 712 359 Tm (objetos inimigos) Tj ET
-0.085 0.105 0.115 rg 205 145 230 100 re f
-1.000 0.600 0.280 RG 2 w 205 145 230 100 re S
-BT /F2 14 Tf 1.000 0.600 0.280 rg 1 0 0 1 222 205 Tm (TURNO DO JOGADOR) Tj ET
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 222 174 Tm (input chama métodos) Tj ET
-0.085 0.105 0.115 rg 535 145 230 100 re f
-0.320 0.880 0.550 RG 2 w 535 145 230 100 re S
-BT /F2 14 Tf 0.320 0.880 0.550 rg 1 0 0 1 552 205 Tm (COMBATE) Tj ET
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 552 174 Tm (while organiza turnos) Tj ET
-0.630 0.690 0.680 RG 2 w 255 380 m 370 380 l S
-0.630 0.690 0.680 RG 2 w 580 380 m 695 380 l S
-0.630 0.690 0.680 RG 2 w 805 330 m 650 245 l S
-0.630 0.690 0.680 RG 2 w 535 195 m 435 195 l S
-0.630 0.690 0.680 RG 2 w 320 245 m 150 330 l S
-BT /F2 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 45 88 Tm (main cria objetos > combate repete > turno escolhe > métodos alteram estado) Tj ET
-endstream
-endobj
-34 0 obj
-<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 33 0 R >>
-endobj
-35 0 obj
-<< /Length 2276 >>
-stream
-0.055 0.067 0.075 rg 0 0 960 540 re f
-0.320 0.880 0.550 rg 0 532 960 8 re f
-BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (PARTE 2) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Desafios finais: duas evoluções do mesmo RPG) Tj ET
-BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (16) Tj ET
-0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
-0.680 0.480 0.950 rg 42 425 53.5 23 re f
-BT /F2 10 Tf 0.055 0.067 0.075 rg 1 0 0 1 51 431 Tm (MÉDIO) Tj ET
-BT /F2 20 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 393 Tm (Ataque crítico com d20) Tj ET
-0.320 0.880 0.550 rg 42 358 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 58 354 Tm (1 a 4: erra) Tj ET
-0.320 0.880 0.550 rg 42 332 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 58 328 Tm (5 a 18: dano normal) Tj ET
-0.320 0.880 0.550 rg 42 306 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 58 302 Tm (19 ou 20: dano dobrado) Tj ET
-0.320 0.880 0.550 rg 42 280 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 58 276 Tm (mostrar rolagem e dano no terminal) Tj ET
-0.320 0.880 0.550 rg 42 254 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 58 250 Tm (testar sem duplicar receber_dano\(\)) Tj ET
-0.680 0.480 0.950 rg 500 425 67.69999999999999 23 re f
-BT /F2 10 Tf 0.055 0.067 0.075 rg 1 0 0 1 509 431 Tm (MÉDIO +) Tj ET
-BT /F2 20 Tf 0.680 0.480 0.950 rg 1 0 0 1 500 393 Tm (Inimigo curandeiro) Tj ET
-0.680 0.480 0.950 rg 500 358 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 516 354 Tm (Orc Xamã começa com 1 poção) Tj ET
-0.680 0.480 0.950 rg 500 332 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 516 328 Tm (sorteia atacar ou usar poção) Tj ET
-0.680 0.480 0.950 rg 500 306 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 516 302 Tm (não cura com vida máxima) Tj ET
-0.680 0.480 0.950 rg 500 280 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 516 276 Tm (não age depois de derrotado) Tj ET
-0.680 0.480 0.950 rg 500 254 6 6 re f
-BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 516 250 Tm (estado continua entre os turnos) Tj ET
-0.105 0.125 0.135 rg 42 92 870 88 re f
-1.000 0.600 0.280 RG 2 w 42 92 870 88 re S
-BT /F2 10 Tf 1.000 0.600 0.280 rg 1 0 0 1 62 146 Tm (ENTREGA) Tj ET
-BT /F1 15 Tf 0.940 0.960 0.950 rg 1 0 0 1 62 116 Tm (3 testes normais + 2 casos de borda + explicação do fluxo escolhido) Tj ET
+BT /F2 11 Tf 0.320 0.880 0.550 rg 1 0 0 1 625 420 Tm (PROCURE) Tj ET
+0.320 0.880 0.550 rg 625 386 6 6 re f
+BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 382 Tm (self ausente) Tj ET
+0.320 0.880 0.550 rg 625 358 6 6 re f
+BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 354 Tm (atributo não salvo) Tj ET
+0.320 0.880 0.550 rg 625 330 6 6 re f
+BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 326 Tm (texto contra inteiro) Tj ET
+0.320 0.880 0.550 rg 625 302 6 6 re f
+BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 298 Tm (or no lugar de and) Tj ET
+0.320 0.880 0.550 rg 625 274 6 6 re f
+BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 641 270 Tm (ataque depois da derrota) Tj ET
+0.105 0.125 0.135 rg 625 108 286 72 re f
+0.680 0.480 0.950 RG 2 w 625 108 286 72 re S
+BT /F1 13 Tf 0.940 0.960 0.950 rg 1 0 0 1 643 148 Tm (Explique o efeito do erro,) Tj ET
+BT /F2 13 Tf 0.680 0.480 0.950 rg 1 0 0 1 643 123 Tm (não apenas a correção.) Tj ET
 endstream
 endobj
 36 0 obj
 << /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 35 0 R >>
 endobj
 37 0 obj
-<< /Length 2435 >>
+<< /Length 1977 >>
 stream
 0.055 0.067 0.075 rg 0 0 960 540 re f
 0.320 0.880 0.550 rg 0 532 960 8 re f
 BT /F2 10 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 508 Tm (CHEAT SHEET) Tj ET
-BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Folha de consulta rápida) Tj ET
+BT /F2 25 Tf 0.940 0.960 0.950 rg 1 0 0 1 42 478 Tm (Saída da retomada) Tj ET
 BT /F2 10 Tf 0.630 0.690 0.680 rg 1 0 0 1 898 24 Tm (17) Tj ET
 0.170 0.200 0.200 RG 1 w 42 47 m 918 47 l S
 0.085 0.105 0.115 rg 42 280 270 145 re f
 0.320 0.880 0.550 RG 2 w 42 280 270 145 re S
-BT /F2 11 Tf 0.320 0.880 0.550 rg 1 0 0 1 58 392 Tm (__INIT__) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 58 356 Tm (def __init__\(self, vida\):) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 58 331 Tm (    self.vida = vida) Tj ET
+BT /F2 11 Tf 0.320 0.880 0.550 rg 1 0 0 1 58 390 Tm (CRIAR) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 58 350 Tm (obj = Personagem\(...\)) Tj ET
 0.085 0.105 0.115 rg 342 280 270 145 re f
 0.680 0.480 0.950 RG 2 w 342 280 270 145 re S
-BT /F2 11 Tf 0.680 0.480 0.950 rg 1 0 0 1 358 392 Tm (SELF + ALVO) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 358 356 Tm (jogador.atacar\(inimigo\)) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 358 331 Tm (self=jogador | alvo=inimigo) Tj ET
+BT /F2 11 Tf 0.680 0.480 0.950 rg 1 0 0 1 358 390 Tm (LER) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 358 350 Tm (obj.mostrar_status\(\)) Tj ET
 0.085 0.105 0.115 rg 642 280 270 145 re f
 1.000 0.600 0.280 RG 2 w 642 280 270 145 re S
-BT /F2 11 Tf 1.000 0.600 0.280 rg 1 0 0 1 658 392 Tm (INPUT) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 658 356 Tm (escolha = input\(...\)) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 658 331 Tm (if escolha == "1":) Tj ET
+BT /F2 11 Tf 1.000 0.600 0.280 rg 1 0 0 1 658 390 Tm (MUDAR) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 658 350 Tm (obj.receber_dano\(10\)) Tj ET
 0.085 0.105 0.115 rg 42 100 270 145 re f
 0.320 0.880 0.550 RG 2 w 42 100 270 145 re S
-BT /F2 11 Tf 0.320 0.880 0.550 rg 1 0 0 1 58 212 Tm (RANDOM) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 58 176 Tm (random.randint\(1, 20\)) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 58 151 Tm (limites incluídos) Tj ET
+BT /F2 11 Tf 0.320 0.880 0.550 rg 1 0 0 1 58 210 Tm (INTERAGIR) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 58 170 Tm (jogador.atacar\(inimigo\)) Tj ET
 0.085 0.105 0.115 rg 342 100 270 145 re f
 0.680 0.480 0.950 RG 2 w 342 100 270 145 re S
-BT /F2 11 Tf 0.680 0.480 0.950 rg 1 0 0 1 358 212 Tm (WHILE) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 358 176 Tm (while jogador.vida > 0 and) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 358 151 Tm (      inimigo.vida > 0:) Tj ET
+BT /F2 11 Tf 0.680 0.480 0.950 rg 1 0 0 1 358 210 Tm (ESCOLHER) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 358 170 Tm (input\(\) retorna texto) Tj ET
 0.085 0.105 0.115 rg 642 100 270 145 re f
 1.000 0.600 0.280 RG 2 w 642 100 270 145 re S
-BT /F2 11 Tf 1.000 0.600 0.280 rg 1 0 0 1 658 212 Tm (DEPURAR) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 658 176 Tm (ler erro > conferir tipo >) Tj ET
-BT /F3 11 Tf 0.940 0.960 0.950 rg 1 0 0 1 658 151 Tm (conferir objeto > conferir estado) Tj ET
-BT /F2 15 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 69 Tm (Teste seguro: criar > chamar > mostrar estado > provocar um caso de erro.) Tj ET
+BT /F2 11 Tf 1.000 0.600 0.280 rg 1 0 0 1 658 210 Tm (REPETIR) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 658 170 Tm (while vida1 > 0 and) Tj ET
+BT /F3 12 Tf 0.940 0.960 0.950 rg 1 0 0 1 658 146 Tm (      vida2 > 0:) Tj ET
+BT /F2 15 Tf 0.320 0.880 0.550 rg 1 0 0 1 42 69 Tm (Você começou sem arquivo anterior e terminou com uma batalha explicável.) Tj ET
 endstream
 endobj
 38 0 obj
@@ -746,42 +738,42 @@ xref
 0000000214 00000 n 
 0000000309 00000 n 
 0000000478 00000 n 
-0000001817 00000 n 
-0000001963 00000 n 
-0000004276 00000 n 
-0000004422 00000 n 
-0000006977 00000 n 
-0000007124 00000 n 
-0000009395 00000 n 
-0000009543 00000 n 
-0000012509 00000 n 
-0000012657 00000 n 
-0000015184 00000 n 
-0000015332 00000 n 
-0000017246 00000 n 
-0000017394 00000 n 
-0000020136 00000 n 
-0000020284 00000 n 
-0000022772 00000 n 
-0000022920 00000 n 
-0000025388 00000 n 
-0000025536 00000 n 
-0000028150 00000 n 
-0000028298 00000 n 
-0000030724 00000 n 
-0000030872 00000 n 
-0000033539 00000 n 
-0000033687 00000 n 
-0000036399 00000 n 
-0000036547 00000 n 
-0000038502 00000 n 
-0000038650 00000 n 
-0000040979 00000 n 
-0000041127 00000 n 
-0000043615 00000 n 
-0000043763 00000 n 
+0000001861 00000 n 
+0000002007 00000 n 
+0000004103 00000 n 
+0000004249 00000 n 
+0000006712 00000 n 
+0000006859 00000 n 
+0000009044 00000 n 
+0000009192 00000 n 
+0000011606 00000 n 
+0000011754 00000 n 
+0000014675 00000 n 
+0000014823 00000 n 
+0000017427 00000 n 
+0000017575 00000 n 
+0000020108 00000 n 
+0000020256 00000 n 
+0000022957 00000 n 
+0000023105 00000 n 
+0000025467 00000 n 
+0000025615 00000 n 
+0000028282 00000 n 
+0000028430 00000 n 
+0000031025 00000 n 
+0000031173 00000 n 
+0000033900 00000 n 
+0000034048 00000 n 
+0000036788 00000 n 
+0000036936 00000 n 
+0000038901 00000 n 
+0000039049 00000 n 
+0000041708 00000 n 
+0000041856 00000 n 
+0000043886 00000 n 
+0000044034 00000 n 
 trailer
 << /Size 40 /Root 39 0 R >>
 startxref
-43856
+44127
 %%EOF

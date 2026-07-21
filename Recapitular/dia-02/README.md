@@ -8,10 +8,40 @@ Esta pasta contém o material dos alunos para a segunda parte da recapitulação
 
 A proposta é retomar a escrita de código com exercícios práticos. O exemplo principal acompanha a construção de um RPG de terminal com personagens, ataques, defesa, poções, escolhas e batalhas.
 
+O material não depende de códigos feitos antes da pausa. A apresentação parte de um arquivo vazio e fornece tudo o que será usado na aula. Os exercícios começam com variáveis, `print()`, `input()`, conversão, condições e `while`. A classe `Personagem` é criada somente depois desse aquecimento.
+
+O tema do RPG mantém uma ligação com o restante do curso, mas nenhum arquivo dos Dias 1, 2, 3 ou 4 precisa estar pronto. Se o estudante não abriu o repositório durante a semana, ainda conseguirá acompanhar toda a retomada.
+
+## Ponto de partida
+
+Para acompanhar a apresentação, crie apenas um arquivo novo:
+
+```bash
+touch retomada.py
+```
+
+Também é possível criar o arquivo pelo editor e salvá-lo como `retomada.py`.
+
+Não copie classes ou soluções anteriores. Cada bloco necessário aparece no PDF e será construído durante a aula.
+
+O processo recomendado é:
+
+1. Começar com o arquivo vazio.
+2. Digitar somente o exemplo atual.
+3. Prever a saída.
+4. Executar.
+5. Conferir os valores.
+6. Corrigir antes de continuar.
+7. Guardar somente as partes que serão usadas na etapa seguinte.
+
 ## Objetivo
 
 Ao final da retomada, você deverá conseguir:
 
+- Reconstruir a base de Python sem consultar um projeto anterior
+- Usar variáveis, `print()`, `input()` e conversão de tipos
+- Escrever decisões com `if`, `elif` e `else`
+- Criar um `while` cuja condição consegue terminar
 - Ler uma classe e encontrar seus atributos e métodos
 - Criar objetos com estados diferentes
 - Explicar o que `self` representa em uma chamada
