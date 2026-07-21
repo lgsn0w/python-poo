@@ -15,11 +15,8 @@ Esse material recupera os conceitos necessários para acompanhar o projeto. Ele 
 ### Parte 2
 
 - [recapitulacao-python-poo-parte-2.pdf](dia-02/recapitulacao-python-poo-parte-2.pdf): apresentação dos alunos, com leitura de código, previsão de estado, implementação, testes, depuração e integração do RPG.
-- [notas-professor-recapitulacao-parte-2.pdf](notas-professor-recapitulacao-parte-2.pdf): guia separado para o professor, com objetivo, pergunta, resposta esperada, erro comum e tempo sugerido para cada página.
 
 A apresentação da Parte 2 foi preparada para uma aula guiada de 60 a 90 minutos. O conteúdo começa com uma classe pequena e avança até uma batalha por turnos com vários inimigos. Os exemplos principais seguem o mesmo tema e a mesma progressão dos Dias 3 e 4 deste repositório.
-
-O PDF dos alunos não contém as notas do professor. Os dois arquivos são independentes e podem ser abertos, compartilhados ou projetados separadamente.
 
 ## Como escolher o material
 
@@ -34,8 +31,7 @@ Uma sequência possível é:
 3. Pedir previsões antes de executar os exemplos.
 4. Escrever cada método com a turma.
 5. Testar o método antes de montar o laço completo.
-6. Usar o PDF de notas para conduzir perguntas e correções.
-7. Encerrar com um dos desafios propostos.
+6. Encerrar com um dos desafios propostos.
 
 ## Objetivos da retomada
 
@@ -805,7 +801,6 @@ Teste defesa e poção. Somente depois desses testes, crie `turno_do_jogador()` 
 Antes da aula:
 
 - [ ] Abrir o PDF dos alunos.
-- [ ] Abrir o PDF separado de notas.
 - [ ] Confirmar que Python está disponível nos computadores.
 - [ ] Preparar um arquivo vazio para a codificação ao vivo.
 - [ ] Confirmar que o módulo `random` funciona.
