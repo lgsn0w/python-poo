@@ -1,0 +1,1628 @@
+%PDF-1.7
+%âãÏÓ
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R 48 0 R 50 0 R 52 0 R 54 0 R 56 0 R 58 0 R 60 0 R 62 0 R 64 0 R 66 0 R 68 0 R 70 0 R 72 0 R 74 0 R 76 0 R] /Count 36 >>
+endobj
+5 0 obj
+<< /Length 1548 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (NOVA ETAPA) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (RPG Python: lembrar, explicar e avançar) Tj ET
+BT /F1 19 Tf 0.200 0.255 0.333 rg 1 0 0 1 55 385 Tm (Uma retomada curta do que vocês já construíram —) Tj ET
+BT /F1 19 Tf 0.200 0.255 0.333 rg 1 0 0 1 55 358 Tm (seguida de uma nova etapa de Programação Orientada a) Tj ET
+BT /F1 19 Tf 0.200 0.255 0.333 rg 1 0 0 1 55 331 Tm (Objetos.) Tj ET
+1.000 1.000 1.000 rg 640 150 265 260 re f
+0.796 0.835 0.882 RG 1 w 640 150 265 260 re S
+0.145 0.388 0.922 rg 640 405 265 5 re f
+BT /F2 11 Tf 0.118 0.251 0.686 rg 1 0 0 1 665 374 Tm (ROTA DE HOJE) Tj ET
+BT /F3 13 Tf 0.067 0.094 0.153 rg 1 0 0 1 665 330 Tm (1. lembrar a base) Tj ET
+BT /F3 13 Tf 0.067 0.094 0.153 rg 1 0 0 1 665 291 Tm (2. seguir o estado) Tj ET
+BT /F3 13 Tf 0.067 0.094 0.153 rg 1 0 0 1 665 252 Tm (3. explicar decisões) Tj ET
+BT /F3 13 Tf 0.067 0.094 0.153 rg 1 0 0 1 665 213 Tm (4. compor objetos) Tj ET
+BT /F3 13 Tf 0.067 0.094 0.153 rg 1 0 0 1 665 174 Tm (5. avançar para polimorfismo) Tj ET
+BT /F2 18 Tf 0.118 0.251 0.686 rg 1 0 0 1 55 188 Tm (Vocês não estão começando do zero.) Tj ET
+BT /F1 14 Tf 0.392 0.455 0.545 rg 1 0 0 1 55 156 Tm (Hoje nós organizamos o que já existe e damos o próximo passo.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (01) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3332 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (REENCONTRO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (A trajetória até aqui) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (A pausa não apagou o aprendizado. Ela apenas tornou necessário reativar as conexões.) Tj ET
+1.000 1.000 1.000 rg 42 150 192 245 re f
+0.796 0.835 0.882 RG 1 w 42 150 192 245 re S
+0.145 0.388 0.922 rg 42 390 192 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 364 Tm (ANTES DA PAUSA) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 336 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 336 Tm (classes e objetos) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 311 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 311 Tm (__init__ e self) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 286 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 286 Tm (métodos e atributos) Tj ET
+1.000 1.000 1.000 rg 270 150 192 245 re f
+0.796 0.835 0.882 RG 1 w 270 150 192 245 re S
+0.392 0.455 0.545 rg 270 390 192 5 re f
+BT /F2 12 Tf 0.392 0.455 0.545 rg 1 0 0 1 288 364 Tm (DURANTE A PAUSA) Tj ET
+BT /F2 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 288 336 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 310 336 Tm (menos contato com o) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 310 318 Tm (código) Tj ET
+BT /F2 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 288 293 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 310 293 Tm (detalhes ficaram) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 310 275 Tm (distantes) Tj ET
+BT /F2 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 288 250 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 310 250 Tm (isso é esperado) Tj ET
+1.000 1.000 1.000 rg 498 150 192 245 re f
+0.796 0.835 0.882 RG 1 w 498 150 192 245 re S
+0.082 0.502 0.239 rg 498 390 192 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 364 Tm (DIA 1 — VOLTA) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 336 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 336 Tm (revisão teórica) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 311 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 311 Tm (leitura de exemplos) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 286 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 286 Tm (vocabulário de POO) Tj ET
+1.000 1.000 1.000 rg 726 150 192 245 re f
+0.796 0.835 0.882 RG 1 w 726 150 192 245 re S
+0.145 0.388 0.922 rg 726 390 192 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 744 364 Tm (DIA 2 — PRÁTICA) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 744 336 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 766 336 Tm (escrita de código) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 744 311 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 766 311 Tm (testes manuais) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 744 286 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 766 286 Tm (RPG funcionando) Tj ET
+BT /F2 15 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 92 Tm (HOJE: transformar lembrança em compreensão que vocês conseguem explicar.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (02) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 2270 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (RECAPITULAÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Vocês já construíram estas peças) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Primeiro reconhecemos o terreno. Depois escolhemos o próximo desafio.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (BASE DO RPG) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (Classe Personagem) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (objetos jogador e inimigos) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (ataque, defesa e poção) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (turnos e combate) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.082 0.502 0.239 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 381 Tm (POO JÁ PRESENTE) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (estado dentro dos objetos) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (métodos protegendo regras) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (herança em Inimigo, Guerreiro e Mago) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (composição com Item) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Meta da retomada: apontar para o código e explicar por que cada peça existe.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (03) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 2238 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (RECAPITULAÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (O mapa do projeto) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Arquivos diferentes podem ter responsabilidades diferentes.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (PERSONAGEM.PY) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (define o estado de Personagem) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (guarda regras de dano e cura) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (não controla o menu) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (não contém o laço principal) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.082 0.502 0.239 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 381 Tm (MAIN.PY) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (cria os objetos) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (recebe escolhas) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (organiza os turnos) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (decide quando o jogo termina) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Regra rápida: a classe conhece suas regras; o programa principal organiza o fluxo.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (04) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 2317 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (RECAPITULAÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Classe é o molde; objeto é um estado real) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (A classe descreve possibilidades. Cada objeto guarda seus próprios valores.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (personagem.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (class Personagem:) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (    def __init__\(self, nome, vida\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm (        self.nome = nome) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm (        self.vida = vida) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 264.5 Tm (jogador = Personagem\("Thoric", 100\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 245 Tm (goblin = Personagem\("Goblin", 40\)) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (LEIA ASSIM) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (Personagem é a classe) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (jogador e goblin são objetos) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (cada objeto tem nome e vida próprios) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (alterar goblin não altera jogador) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Dois objetos da mesma classe podem estar em estados diferentes.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (05) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 2507 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (RECAPITULAÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (__init__ prepara o estado inicial) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (O construtor recebe os dados necessários e deixa o objeto pronto para participar do jogo.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (personagem.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (def __init__\(self, nome, vida, ataque, defesa\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (    self.nome = nome) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm (    self.vida = vida) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm (    self.vida_maxima = vida) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (    self.ataque = ataque) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 264.5 Tm (    self.defesa = defesa) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 245 Tm (    self.defendendo = False) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (O QUE NASCE AQUI) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (identidade: nome) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (estado mutável: vida) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (limite: vida_maxima) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (capacidade: ataque e defesa) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 253 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 253 Tm (condição temporária: defendendo) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Se um atributo é necessário desde o nascimento do objeto, o construtor é o primeiro lugar para procurar.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (06) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 2114 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (RECAPITULAÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (self é o objeto que recebeu a chamada) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Não traduza self como uma palavra solta. Descubra qual objeto aparece antes do ponto.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (main.py) Tj ET
+0.118 0.251 0.686 rg 50 357 514 23.0 re f
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (jogador.atacar\(inimigo\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm (# dentro de atacar\(self, alvo\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm (# self = jogador) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (# alvo = inimigo) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (PERGUNTAS) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (quem executa o método?) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (quem é self?) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (quem chegou como alvo?) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (qual objeto poderá mudar?) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Leia como frase: jogador executa atacar usando inimigo como alvo.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (07) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 2289 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (RECAPITULAÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Métodos alteram estado com regras) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (A mudança importante não é apenas uma conta: é a transição do objeto entre dois estados.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (personagem.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (def receber_dano\(self, quantidade\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (    dano_real = quantidade - self.defesa) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm (    if dano_real < 0:) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm (        dano_real = 0) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (    self.vida = max\(0, self.vida - dano_real\)) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (ANTES E DEPOIS) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (antes: vida = 40) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (entrada: quantidade = 15) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (defesa: 2) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (dano real: 13) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 253 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 253 Tm (depois: vida = 27) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Compreender POO exige acompanhar o estado, não apenas ler a linha atual.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (08) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Length 2265 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (RECAPITULAÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Objetos podem colaborar) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Um objeto executa uma ação e envia uma mensagem para outro objeto.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (personagem.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (def atacar\(self, alvo\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (    dano = self.ataque) Tj ET
+0.118 0.251 0.686 rg 50 318.0 514 23.0 re f
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm (    alvo.receber_dano\(dano\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (jogador.atacar\(goblin\)) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (COLABORAÇÃO) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (jogador inicia a ação) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (goblin recebe a mensagem) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (goblin protege sua própria regra de) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 285 Tm (dano) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 260 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 260 Tm (o atacante não altera vida) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 242 Tm (diretamente) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Boa divisão: atacar escolhe o dano; receber_dano protege a vida.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (09) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 2248 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (RECAPITULAÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Onde cada responsabilidade deve ficar?) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Separar responsabilidades evita uma classe que tenta controlar o jogo inteiro.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (DENTRO DO OBJETO) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (como recebe dano) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (como cura) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (como defende) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (quais limites deve respeitar) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.082 0.502 0.239 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 381 Tm (FORA DO OBJETO) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (qual menu mostrar) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (qual inimigo vem depois) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (quando repetir o turno) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (quando encerrar a partida) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Pergunta-guia: esta regra pertence ao personagem ou ao fluxo do jogo?) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (10) Tj ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 2492 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (CAMINHO DO CÓDIGO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Acompanhe um ataque completo) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Siga a chamada até encontrar a linha que realmente altera o estado.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (fluxo) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (jogador.atacar\(goblin\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (        |) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm (        v) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm (dano = jogador.ataque) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (        |) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 264.5 Tm (        v) Tj ET
+0.118 0.251 0.686 rg 50 240.0 514 23.0 re f
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 245 Tm (goblin.receber_dano\(dano\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 225.5 Tm (        |) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 206 Tm (        v) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 186.5 Tm (goblin.vida = goblin.vida - dano_real) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (RASTRO) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (a chamada começa no jogador) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (o alvo é o goblin) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (receber_dano calcula a redução) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (somente o goblin perde vida) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Não adivinhe: siga os objetos e escreva o estado antes e depois.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (11) Tj ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 25 0 R >>
+endobj
+27 0 obj
+<< /Length 2297 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (CAMINHO DO CÓDIGO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Defesa é um estado temporário) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (defender\(\) prepara o objeto. receber_dano\(\) consome esse estado no próximo ataque.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (personagem.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (def defender\(self\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (    self.defendendo = True) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm (def receber_dano\(self, quantidade\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (    if self.defendendo:) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 264.5 Tm (        quantidade = quantidade // 2) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 245 Tm (        self.defendendo = False) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (CICLO) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (False: estado normal) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (defender\(\): muda para True) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (próximo dano é reduzido) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (receber_dano\(\): volta para False) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (A defesa vale uma vez porque o próprio método faz o reset.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (12) Tj ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 27 0 R >>
+endobj
+29 0 obj
+<< /Length 2286 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (CAMINHO DO CÓDIGO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (A poção precisa respeitar limites) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (O método protege três regras antes de alterar vida e quantidade de poções.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (personagem.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (def usar_pocao\(self\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (    if self.pocoes == 0:) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm (        return) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm (    if self.vida == self.vida_maxima:) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (        return) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 264.5 Tm (    self.vida = min\(self.vida + 25, self.vida_maxima\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 245 Tm (    self.pocoes -= 1) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (REGRAS) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (não usar sem poções) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (não usar com vida cheia) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (não ultrapassar vida máxima) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (diminuir somente após uso válido) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (O método mantém o objeto em um estado válido.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (13) Tj ET
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 29 0 R >>
+endobj
+31 0 obj
+<< /Length 2453 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (CAMINHO DO CÓDIGO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (O turno traduz uma escolha em ação) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (O menu não calcula dano. Ele escolhe qual comportamento do objeto será chamado.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (main.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (def turno_do_jogador\(jogador, inimigo\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (    escolha = input\("Escolha: "\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm (    if escolha == "1":) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (        jogador.atacar\(inimigo\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 264.5 Tm (    elif escolha == "2":) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 245 Tm (        jogador.defender\(\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 225.5 Tm (    elif escolha == "3":) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 206 Tm (        jogador.usar_pocao\(\)) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (RESPONSABILIDADE) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (input retorna texto) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (o if interpreta a escolha) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (o objeto executa a regra) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (o turno coordena, mas não calcula) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Menu escolhe; método executa.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (14) Tj ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 31 0 R >>
+endobj
+33 0 obj
+<< /Length 2401 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (CAMINHO DO CÓDIGO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (combate\(\) controla repetição e encerramento) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (O laço continua apenas enquanto os dois participantes estão vivos.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (main.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (def combate\(jogador, inimigo\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (    while jogador.vida > 0 and inimigo.vida > 0:) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm (        turno_do_jogador\(jogador, inimigo\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (        if inimigo.vida > 0:) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 264.5 Tm (            inimigo.atacar\(jogador\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 245 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 225.5 Tm (    return jogador.vida > 0) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (POR QUE FUNCIONA) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (while expressa a condição) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (o inimigo morto não age) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (return informa vitória ou derrota) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (main decide se continua) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (A condição protege o fluxo; os métodos protegem o estado.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (15) Tj ET
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 33 0 R >>
+endobj
+35 0 obj
+<< /Length 2316 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (CAMINHO DO CÓDIGO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Um jogador enfrenta vários objetos) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (A lista muda de inimigo, mas preserva o mesmo jogador e seu estado.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (main.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (inimigos = [goblin, orc, troll]) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm (for inimigo in inimigos:) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm (    venceu = combate\(jogador, inimigo\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (    if not venceu:) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 264.5 Tm (        break) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (ESTADO PERSISTENTE) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (jogador não é recriado) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (vida continua entre batalhas) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (poções continuam) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (cada inimigo tem estado próprio) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 253 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 253 Tm (break encerra após derrota) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (O mesmo objeto jogador atravessa toda a sequência.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (16) Tj ET
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 35 0 R >>
+endobj
+37 0 obj
+<< /Length 2301 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (RECAPITULAÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (A herança que vocês já experimentaram) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Herança reaproveita uma base quando um novo tipo acrescenta comportamento real.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (REAPROVEITA) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (atributos de Personagem) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (atacar e receber_dano) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (defender e usar_pocao) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (regras compartilhadas) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.082 0.502 0.239 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 381 Tm (ACRESCENTA) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (Inimigo escolhe ação sozinho) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (Guerreiro tem golpe_forte) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (Mago possui mana) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (super\(\) prepara a parte herdada) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Não avançaremos criando subclasses sem necessidade. Primeiro identificaremos responsabilidades.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (17) Tj ET
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 37 0 R >>
+endobj
+39 0 obj
+<< /Length 2251 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (RECAPITULAÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (A composição que vocês já tocaram) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Composição aparece quando um objeto possui ou utiliza outros objetos.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (É UM) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (Guerreiro é um Personagem) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (Mago é um Personagem) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (Inimigo é um Personagem) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (relação típica de herança) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.082 0.502 0.239 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 381 Tm (TEM UM) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (Personagem tem inventário) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (inventário contém itens) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (item pode aplicar um efeito) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (relação típica de composição) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (A nova etapa aprofundará o 'tem um' antes de voltar ao 'é um'.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (18) Tj ET
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 39 0 R >>
+endobj
+41 0 obj
+<< /Length 2482 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (CHECAGEM RÁPIDA) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Antes de avançar, consigam explicar) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Sem programar ainda: conversem em dupla e apontem a resposta no código.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (OBJETOS E ESTADO) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (quem é self em jogador.atacar\(goblin\)?) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (qual objeto perde vida?) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (onde a defesa volta para False?) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (por que a vida não fica negativa?) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.082 0.502 0.239 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 381 Tm (FLUXO E RESPONSABILIDADE) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (por que input fica em main.py?) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (por que o inimigo morto não ataca?) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (por que o jogador não é recriado?) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (quando usar composição?) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Se a resposta ainda estiver confusa, voltamos ao rastro — não pulamos direto para mais código.) Tj ET
+0.118 0.251 0.686 rg 788 493 130 28 re f
+BT /F2 11 Tf 1.000 1.000 1.000 rg 1 0 0 1 812 502 Tm (EXERCÍCIO) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (19) Tj ET
+endstream
+endobj
+42 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 41 0 R >>
+endobj
+43 0 obj
+<< /Length 2289 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (ESTRATÉGIA) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Um ciclo para resolver cada desafio) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Use esta sequência para entender o problema antes de alterar o programa.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (ANTES DO CÓDIGO) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (1.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (1. identifique a responsabilidade) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (2.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (2. leia um exemplo concreto) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (3.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (3. anote o estado inicial) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (4.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (4. preveja o resultado) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.082 0.502 0.239 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 381 Tm (COM O CÓDIGO) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 353 Tm (1.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (1. execute e observe) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 328 Tm (2.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (2. compare com a previsão) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 303 Tm (3.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (3. altere uma pequena regra) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 278 Tm (4.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (4. explique o novo resultado) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Explicar > prever > executar > modificar > explicar novamente.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (20) Tj ET
+endstream
+endobj
+44 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 43 0 R >>
+endobj
+45 0 obj
+<< /Length 2501 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (LEITURA GUIADA) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Como receber_dano\(\) organiza as regras) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Leia primeiro sem digitar. O objetivo é enxergar a sequência completa antes de executar.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (personagem.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (def receber_dano\(self, quantidade\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (    dano_real = quantidade - self.defesa) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm (    if self.defendendo:) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm (        dano_real = dano_real // 2) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (        self.defendendo = False) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 264.5 Tm (    dano_real = max\(0, dano_real\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 245 Tm (    self.vida = max\(0, self.vida - dano_real\)) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (NARRAÇÃO) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (recebe o ataque bruto) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (aplica a defesa fixa) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (aplica defesa temporária) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (impede dano negativo) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 253 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 253 Tm (impede vida negativa) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Cada linha responde a uma regra do domínio do jogo.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (21) Tj ET
+endstream
+endobj
+46 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 45 0 R >>
+endobj
+47 0 obj
+<< /Length 2562 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (PREVISÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Agora prevejam sem executar) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Escrevam vida final, dano real e valor de defendendo para cada caso.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (CASO A) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (vida = 40) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (defesa = 5) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (defendendo = False) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (receber_dano\(17\)) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 253 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 253 Tm (qual é o estado final?) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.082 0.502 0.239 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 381 Tm (CASO B) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (vida = 10) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (defesa = 4) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (defendendo = True) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (receber_dano\(30\)) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 253 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 253 Tm (qual é o estado final?) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Não vale responder apenas o número: mostrem a ordem das operações.) Tj ET
+0.118 0.251 0.686 rg 788 493 130 28 re f
+BT /F2 11 Tf 1.000 1.000 1.000 rg 1 0 0 1 812 502 Tm (EXERCÍCIO) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (22) Tj ET
+endstream
+endobj
+48 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 47 0 R >>
+endobj
+49 0 obj
+<< /Length 2585 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (EXECUÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Executem e comparem com a previsão) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (O teste serve para confrontar o modelo mental com o comportamento real.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (teste_manual.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (heroi = Personagem\("Heroi", 40, 10, 5, 1\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (print\(heroi.vida, heroi.defendendo\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm (heroi.receber_dano\(17\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (print\(heroi.vida, heroi.defendendo\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 264.5 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 245 Tm (heroi.defender\(\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 225.5 Tm (heroi.receber_dano\(30\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 206 Tm (print\(heroi.vida, heroi.defendendo\)) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (OBSERVEM) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (a previsão acertou?) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (qual linha explica a diferença?) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (o estado temporário foi limpo?) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (o objeto continuou válido?) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Erro de previsão é informação: descubram qual regra não entrou no raciocínio.) Tj ET
+0.118 0.251 0.686 rg 788 493 130 28 re f
+BT /F2 11 Tf 1.000 1.000 1.000 rg 1 0 0 1 812 502 Tm (EXERCÍCIO) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (23) Tj ET
+endstream
+endobj
+50 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 49 0 R >>
+endobj
+51 0 obj
+<< /Length 2372 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (MODIFICAÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Mudem uma regra pequena) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Somente depois de compreender e testar a versão atual, alteramos o comportamento.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (MUDANÇA) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (defesa reduz 60% do dano) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (o valor mínimo continua zero) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (defendendo continua valendo uma vez) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (não altere atacar\(\)) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.082 0.502 0.239 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 381 Tm (CRITÉRIOS) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (caso normal ainda funciona) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (defesa é consumida) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (vida nunca fica negativa) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (vocês explicam a linha modificada) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Mudança pequena, teste específico, explicação clara.) Tj ET
+0.118 0.251 0.686 rg 788 493 130 28 re f
+BT /F2 11 Tf 1.000 1.000 1.000 rg 1 0 0 1 812 502 Tm (EXERCÍCIO) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (24) Tj ET
+endstream
+endobj
+52 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 51 0 R >>
+endobj
+53 0 obj
+<< /Length 2358 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (VERIFICAÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Explique o caminho do estado) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Use o código e os valores do teste para reconstruir o que aconteceu.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (MOSTRE NO CÓDIGO) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (o estado inicial) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (quem é self) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (cada mudança de valor) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (a linha da nova regra) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.082 0.502 0.239 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 381 Tm (CONFIRA) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (onde o estado muda) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (um possível caso limite) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (se outra regra continuou funcionando) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (o resultado com suas palavras) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Se vocês conseguem ensinar a mudança, ela deixou de ser apenas uma cópia.) Tj ET
+0.118 0.251 0.686 rg 788 493 130 28 re f
+BT /F2 11 Tf 1.000 1.000 1.000 rg 1 0 0 1 812 502 Tm (EXERCÍCIO) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (25) Tj ET
+endstream
+endobj
+54 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 53 0 R >>
+endobj
+55 0 obj
+<< /Length 2378 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (DEPURAÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Quando falhar, sigam o estado) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Debug não começa alterando linhas aleatórias. Começa reduzindo a dúvida.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.745 0.129 0.263 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.745 0.129 0.263 rg 1 0 0 1 60 381 Tm (SINTOMA) Tj ET
+BT /F2 13 Tf 0.745 0.129 0.263 rg 1 0 0 1 60 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (vida não muda) Tj ET
+BT /F2 13 Tf 0.745 0.129 0.263 rg 1 0 0 1 60 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (defesa vale para sempre) Tj ET
+BT /F2 13 Tf 0.745 0.129 0.263 rg 1 0 0 1 60 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (inimigo morto ataca) Tj ET
+BT /F2 13 Tf 0.745 0.129 0.263 rg 1 0 0 1 60 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (poção volta entre batalhas) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.145 0.388 0.922 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 516 381 Tm (PRIMEIRO TESTE) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (mostre valores antes e depois) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (confira o reset para False) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (verifique a condição antes da ação) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (procure onde o objeto é recriado) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Leia o erro. Confira o objeto. Mostre o estado. Altere uma linha.) Tj ET
+0.118 0.251 0.686 rg 788 493 130 28 re f
+BT /F2 11 Tf 1.000 1.000 1.000 rg 1 0 0 1 812 502 Tm (EXERCÍCIO) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (26) Tj ET
+endstream
+endobj
+56 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 55 0 R >>
+endobj
+57 0 obj
+<< /Length 2385 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (NOVA ETAPA) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (O RPG está crescendo) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Mais funcionalidades dentro de Personagem fariam a classe conhecer detalhes demais.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (PEDIDOS NOVOS) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (itens de cura) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (armas com bônus) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (efeitos temporários) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (inventário limitado) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 253 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 253 Tm (itens consumíveis) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.745 0.129 0.263 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.745 0.129 0.263 rg 1 0 0 1 516 381 Tm (PROBLEMA DE DESIGN) Tj ET
+BT /F2 13 Tf 0.745 0.129 0.263 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (Personagem ficará enorme) Tj ET
+BT /F2 13 Tf 0.745 0.129 0.263 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (muitos ifs dentro da classe) Tj ET
+BT /F2 13 Tf 0.745 0.129 0.263 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (cada mudança afetará tudo) Tj ET
+BT /F2 13 Tf 0.745 0.129 0.263 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (testes ficarão difíceis) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Nosso próximo front: distribuir responsabilidades usando composição.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (27) Tj ET
+endstream
+endobj
+58 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 57 0 R >>
+endobj
+59 0 obj
+<< /Length 2360 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (RESPONSABILIDADE) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Antes de criar uma classe, faça três perguntas) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Uma classe nova precisa representar uma responsabilidade compreensível.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (PERGUNTE) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (1.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (qual informação ela guarda?) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (2.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (qual comportamento ela protege?) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (3.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (com quais objetos ela colabora?) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (4.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (por que isso não pertence à classe atual?) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.082 0.502 0.239 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 381 Tm (DECISÃO) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (Personagem mantém vida e combate) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (Item descreve algo utilizável) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (Inventario organiza itens) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (cada efeito sabe como ser aplicado) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (A arquitetura nasce de uma necessidade do programa, não de vontade de criar mais arquivos.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (28) Tj ET
+endstream
+endobj
+60 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 59 0 R >>
+endobj
+61 0 obj
+<< /Length 2397 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (COMPOSIÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Personagem tem um inventário) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (O personagem não é um inventário. Ele possui e usa um objeto responsável por armazenar itens.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (personagem.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (class Personagem:) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (    def __init__\(self, nome, vida\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm (        self.nome = nome) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm (        self.vida = vida) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (        self.inventario = Inventario\(\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 264.5 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 245 Tm (    def pegar\(self, item\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 225.5 Tm (        self.inventario.adicionar\(item\)) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (RELAÇÃO) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (Personagem tem Inventario) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (Inventario guarda Item) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (cada objeto mantém sua regra) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (as classes colaboram por métodos) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Composição conecta objetos sem transformar um no outro.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (29) Tj ET
+endstream
+endobj
+62 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 61 0 R >>
+endobj
+63 0 obj
+<< /Length 2399 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (NOVO OBJETO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Item guarda dados e oferece um comportamento) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Começamos com uma versão pequena. Novas regras serão adicionadas somente quando aparecerem.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (item.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (class Item:) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (    def __init__\(self, nome, valor\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm (        self.nome = nome) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm (        self.valor = valor) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 264.5 Tm (    def usar\(self, usuario, alvo\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 245 Tm (        print\(self.nome, "ainda não possui efeito"\)) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (ENTENDA) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (nome identifica o item) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (valor representa sua intensidade) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (usar recebe os participantes) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (a versão base ainda não decide o) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 260 Tm (efeito) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Primeiro definimos a mensagem comum: usar\(usuario, alvo\).) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (30) Tj ET
+endstream
+endobj
+64 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 63 0 R >>
+endobj
+65 0 obj
+<< /Length 2617 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (NOVO OBJETO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Inventario protege a coleção) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Em vez de espalhar operações de lista, damos um nome e uma responsabilidade ao conjunto.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (inventario.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (class Inventario:) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (    def __init__\(self\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm (        self.itens = []) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (    def adicionar\(self, item\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 264.5 Tm (        self.itens.append\(item\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 245 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 225.5 Tm (    def listar\(self\):) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 206 Tm (        for item in self.itens:) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 186.5 Tm (            print\(item.nome\)) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (POR QUE CLASSE?) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (a coleção ganha um nome) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (limites podem ser adicionados) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (remoção fica centralizada) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 278 Tm (Personagem não cuida da lista) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 260 Tm (diretamente) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Hoje é uma lista protegida; amanhã pode ter capacidade, busca e remoção.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (31) Tj ET
+endstream
+endobj
+66 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 65 0 R >>
+endobj
+67 0 obj
+<< /Length 2665 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (CONSTRUÇÃO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Conecte os objetos primeiro) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Implemente uma parte por vez e execute um teste pequeno depois de cada conexão.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (PASSOS) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (1.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (criar item.py) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (2.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (criar inventario.py) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (3.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (instanciar Inventario em Personagem) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (4.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (adicionar pegar\(item\)) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 253 Tm (5.) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 253 Tm (listar itens no main.py) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.082 0.502 0.239 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 381 Tm (TESTE MÍNIMO) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (crie uma espada) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (jogador pega a espada) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (liste o inventário) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (confirme o nome exibido) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 253 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 253 Tm (explique qual objeto guarda a lista) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Critério de pronto: o item aparece e a dupla explica o caminho do objeto.) Tj ET
+0.118 0.251 0.686 rg 788 493 130 28 re f
+BT /F2 11 Tf 1.000 1.000 1.000 rg 1 0 0 1 812 502 Tm (EXERCÍCIO) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (32) Tj ET
+endstream
+endobj
+68 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 67 0 R >>
+endobj
+69 0 obj
+<< /Length 2670 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (DESAFIO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Agora crie dois comportamentos) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (A estrutura já está conectada. Complete dois efeitos diferentes e compare como cada objeto reage.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.082 0.502 0.239 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 60 381 Tm (ITEM DE CURA) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 60 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (possui nome e valor) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 60 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (aumenta vida do usuário) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 60 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (respeita vida_maxima) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 60 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (é removido após uso) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 60 253 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 253 Tm (mostra o estado final) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.145 0.388 0.922 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 516 381 Tm (ITEM DE ATAQUE) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (possui nome e valor) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (causa dano no alvo) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (usa receber_dano\(\)) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (não altera vida diretamente) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 516 253 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 253 Tm (mostra o estado final) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Antes de executar: prevejam qual objeto muda e qual método protege a regra.) Tj ET
+0.118 0.251 0.686 rg 788 493 130 28 re f
+BT /F2 11 Tf 1.000 1.000 1.000 rg 1 0 0 1 812 502 Tm (EXERCÍCIO) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (33) Tj ET
+endstream
+endobj
+70 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 69 0 R >>
+endobj
+71 0 obj
+<< /Length 2361 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (POLIMORFISMO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (A mesma mensagem, comportamentos diferentes) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (O jogo chama usar\(\) sem precisar conhecer cada detalhe interno.) Tj ET
+0.059 0.090 0.165 rg 42 112 530 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 530 300 re S
+0.118 0.251 0.686 rg 42 383 530 29 re f
+BT /F2 10 Tf 1.000 1.000 1.000 rg 1 0 0 1 55 392 Tm (main.py) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 362 Tm (item = jogador.inventario.itens[escolha]) Tj ET
+0.118 0.251 0.686 rg 50 337.5 514 23.0 re f
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 342.5 Tm (item.usar\(jogador, inimigo\)) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 323 Tm () Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 303.5 Tm (# PocaoDeCura.usar\(\) cura o usuário) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 284 Tm (# Bomba.usar\(\) causa dano no alvo) Tj ET
+BT /F3 15 Tf 0.976 0.980 0.984 rg 1 0 0 1 56 264.5 Tm (# ambos respondem à mensagem usar\(\)) Tj ET
+1.000 1.000 1.000 rg 602 112 316 300 re f
+0.796 0.835 0.882 RG 1 w 602 112 316 300 re S
+0.082 0.502 0.239 rg 602 407 316 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 381 Tm (IDEIA CENTRAL) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 353 Tm (a chamada é a mesma) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 328 Tm (o objeto escolhido decide a versão) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 303 Tm (main não precisa de um if para cada) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 285 Tm (item) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 620 260 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 642 260 Tm (novo item pode entrar depois) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Primeiro percebam o padrão. Depois damos a ele o nome: polimorfismo.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (34) Tj ET
+endstream
+endobj
+72 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 71 0 R >>
+endobj
+73 0 obj
+<< /Length 2520 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (PROGRESSÃO DE POO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (O caminho das próximas aulas) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (Cada etapa nasce de uma limitação sentida no próprio RPG.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (AGORA) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (responsabilidade) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (composição) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (inventário e itens) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (colaboração entre objetos) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 253 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 253 Tm (testes de estado) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.082 0.502 0.239 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 381 Tm (DEPOIS) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (encapsulamento mais forte) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (polimorfismo em ações) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (herança quando houver base real) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (refatoração do combate) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 253 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 253 Tm (testes automatizados) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Não colecionaremos conceitos. Usaremos cada conceito para resolver um problema visível.) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (35) Tj ET
+endstream
+endobj
+74 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 73 0 R >>
+endobj
+75 0 obj
+<< /Length 2683 >>
+stream
+0.976 0.980 0.984 rg 0 0 960 540 re f
+0.145 0.388 0.922 rg 0 532 960 8 re f
+BT /F2 10 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 508 Tm (FECHAMENTO) Tj ET
+BT /F2 25 Tf 0.067 0.094 0.153 rg 1 0 0 1 42 476 Tm (Mostrem, expliquem e escolham o próximo passo) Tj ET
+BT /F1 13 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 444 Tm (A entrega vale pelo funcionamento e pela compreensão demonstrada.) Tj ET
+1.000 1.000 1.000 rg 42 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 42 112 420 300 re S
+0.145 0.388 0.922 rg 42 407 420 5 re f
+BT /F2 12 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 381 Tm (DEMONSTRAÇÃO) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 353 Tm (mostrar um personagem) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 328 Tm (adicionar dois itens) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 303 Tm (usar cada item) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 278 Tm (mostrar mudança de estado) Tj ET
+BT /F2 13 Tf 0.145 0.388 0.922 rg 1 0 0 1 60 253 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 82 253 Tm (mostrar um caso limite) Tj ET
+1.000 1.000 1.000 rg 498 112 420 300 re f
+0.796 0.835 0.882 RG 1 w 498 112 420 300 re S
+0.082 0.502 0.239 rg 498 407 420 5 re f
+BT /F2 12 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 381 Tm (SAÍDA) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 353 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 353 Tm (onde composição apareceu?) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 328 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 328 Tm (quem guarda a lista?) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 303 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 303 Tm (quem aplica o efeito?) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 278 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 278 Tm (por que usar\(\) prepara polimorfismo?) Tj ET
+BT /F2 13 Tf 0.082 0.502 0.239 rg 1 0 0 1 516 253 Tm (-) Tj ET
+BT /F1 13 Tf 0.200 0.255 0.333 rg 1 0 0 1 538 253 Tm (o que ainda está confuso?) Tj ET
+BT /F2 13 Tf 0.118 0.251 0.686 rg 1 0 0 1 42 78 Tm (Próxima aula: transformar os dois itens em uma família de comportamentos reutilizáveis.) Tj ET
+0.118 0.251 0.686 rg 788 493 130 28 re f
+BT /F2 11 Tf 1.000 1.000 1.000 rg 1 0 0 1 812 502 Tm (EXERCÍCIO) Tj ET
+0.796 0.835 0.882 RG 1 w 42 47 m 918 47 l S
+BT /F2 9 Tf 0.392 0.455 0.545 rg 1 0 0 1 42 23 Tm (RPG PYTHON · POO) Tj ET
+BT /F2 10 Tf 0.392 0.455 0.545 rg 1 0 0 1 898 23 Tm (36) Tj ET
+endstream
+endobj
+76 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 75 0 R >>
+endobj
+77 0 obj
+<< /Type /Catalog /Pages 4 0 R >>
+endobj
+xref
+0 78
+0000000000 65535 f 
+0000000015 00000 n 
+0000000112 00000 n 
+0000000214 00000 n 
+0000000309 00000 n 
+0000000611 00000 n 
+0000002211 00000 n 
+0000002357 00000 n 
+0000005741 00000 n 
+0000005887 00000 n 
+0000008209 00000 n 
+0000008356 00000 n 
+0000010647 00000 n 
+0000010795 00000 n 
+0000013165 00000 n 
+0000013313 00000 n 
+0000015873 00000 n 
+0000016021 00000 n 
+0000018188 00000 n 
+0000018336 00000 n 
+0000020678 00000 n 
+0000020826 00000 n 
+0000023144 00000 n 
+0000023292 00000 n 
+0000025593 00000 n 
+0000025741 00000 n 
+0000028286 00000 n 
+0000028434 00000 n 
+0000030784 00000 n 
+0000030932 00000 n 
+0000033271 00000 n 
+0000033419 00000 n 
+0000035925 00000 n 
+0000036073 00000 n 
+0000038527 00000 n 
+0000038675 00000 n 
+0000041044 00000 n 
+0000041192 00000 n 
+0000043546 00000 n 
+0000043694 00000 n 
+0000045998 00000 n 
+0000046146 00000 n 
+0000048681 00000 n 
+0000048829 00000 n 
+0000051171 00000 n 
+0000051319 00000 n 
+0000053873 00000 n 
+0000054021 00000 n 
+0000056636 00000 n 
+0000056784 00000 n 
+0000059422 00000 n 
+0000059570 00000 n 
+0000061995 00000 n 
+0000062143 00000 n 
+0000064554 00000 n 
+0000064702 00000 n 
+0000067133 00000 n 
+0000067281 00000 n 
+0000069719 00000 n 
+0000069867 00000 n 
+0000072280 00000 n 
+0000072428 00000 n 
+0000074878 00000 n 
+0000075026 00000 n 
+0000077478 00000 n 
+0000077626 00000 n 
+0000080296 00000 n 
+0000080444 00000 n 
+0000083162 00000 n 
+0000083310 00000 n 
+0000086033 00000 n 
+0000086181 00000 n 
+0000088595 00000 n 
+0000088743 00000 n 
+0000091316 00000 n 
+0000091464 00000 n 
+0000094200 00000 n 
+0000094348 00000 n 
+trailer
+<< /Size 78 /Root 77 0 R >>
+startxref
+94398
+%%EOF
