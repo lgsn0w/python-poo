@@ -4,6 +4,23 @@ Material de apoio para a transição do Portugol para o Python, com foco em **Pr
 
 ---
 
+## Estrutura do repositório
+
+```
+dia-01-fundamentos-python/   Portugol -> Python: entrada, condições, laços, funções
+dia-02-classes-e-objetos/    classes, __init__, atributos, métodos
+dia-03-rpg-fase-1/           projeto RPG, fase 1
+dia-04-rpg-fase-2/           projeto RPG, fase 2 (input, random, laço)
+dia-05-rpg-completo/         RPG completo (personagem.py + main.py)
+recapitulacao/               retomada após a pausa (parte 1 e parte 2)
+teoria-poo/                  teoria de POO (Parte A e Parte B)
+```
+
+Cada pasta de dia tem um `README.md` próprio. As respostas do aluno ficam em
+`respostas/` dentro de cada dia.
+
+---
+
 ## Índice
 
 1. [Portugol → Python: Guia de Tradução](#portugol--python-guia-de-tradução)
