@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>POO parte 1: herança e polimorfismo</title>
+<style>
+:root{
+  --papel:#ffffff; --creme:#faf8f4;
+  --tinta:#1c1b19; --tinta-media:#4a4741; --tinta-fraca:#6f6a61;
+  --linha:#e2ddd3; --linha-forte:#c9c2b4;
+  --destaque:#2f5d62; --destaque-claro:#eaf1f1;
+  --ruim:#a24858; --ruim-claro:#faeced;
+  --bom:#3f6f4a; --bom-claro:#ecf3ed;
+  --extra:#7a5a2e; --extra-claro:#f7f0e4;
+  --e1:4px; --e2:8px; --e3:16px; --e4:24px; --e5:40px; --e6:64px;
+}
+
+@page{
+  size:A4; margin:20mm 18mm 18mm 18mm;
+  @top-left{
+    content:string(capitulo);
+    font-family:"DejaVu Sans",sans-serif; font-size:7.5pt;
+    letter-spacing:.10em; text-transform:uppercase; color:#9b968c;
+    padding-bottom:4mm;
+  }
+  @bottom-right{
+    content:counter(page);
+    font-family:"DejaVu Sans",sans-serif; font-size:8.5pt;
+    color:#9b968c; padding-top:5mm;
+  }
+}
+@page capa{ margin:0; @top-left{content:none} @bottom-right{content:none} }
+
+html{ font-size:10.5pt; }
+body{
+  margin:0; font-family:"DejaVu Sans",sans-serif; color:var(--tinta);
+  line-height:1.62; background:var(--papel); hyphens:auto;
+}
+
+h1,h2,h3,h4{ font-family:"DejaVu Serif",serif; font-weight:normal; line-height:1.2; }
+
+.cap{
+  break-before:page; break-after:avoid;
+  margin:0 0 var(--e5) 0; padding-bottom:var(--e3);
+  border-bottom:1px solid var(--linha);
+}
+.cap .num{
+  font-family:"DejaVu Sans",sans-serif; font-size:8pt;
+  letter-spacing:.18em; text-transform:uppercase; color:var(--destaque);
+  margin:0 0 var(--e2) 0; max-width:none;
+}
+.cap h2{ string-set:capitulo content(); font-size:24pt; margin:0; }
+
+h3{ font-size:14pt; margin:var(--e5) 0 var(--e3) 0; break-after:avoid; }
+h4{
+  font-family:"DejaVu Sans",sans-serif; font-size:9.5pt; font-weight:bold;
+  letter-spacing:.06em; text-transform:uppercase; color:var(--tinta-media);
+  margin:var(--e4) 0 var(--e2) 0; break-after:avoid;
+}
+p{ margin:0 0 var(--e3) 0; max-width:72ch; }
+ul,ol{ margin:0 0 var(--e3) 0; padding-left:var(--e4); max-width:70ch; }
+li{ margin-bottom:var(--e1); }
+li::marker{ color:var(--tinta-fraca); }
+a{ color:var(--destaque); text-decoration:none; }
+
+code, pre, .rot, th, .cp-num, .teste-rot, .docs-rot, h4{ hyphens:none; }
+
+code, pre{
+  font-variant-ligatures:none;   /* codigo precisa mostrar <= e == separados */
+}
+
+code{
+  font-family:"JetBrainsMono NFM","DejaVu Sans Mono",monospace;
+  font-size:.86em; background:var(--creme); border:1px solid var(--linha);
+  border-radius:3px; padding:1px 4px; color:var(--tinta-media);
+}
+
+pre{
+  font-family:"JetBrainsMono NFM","DejaVu Sans Mono",monospace;
+  font-size:7.8pt; line-height:1.55;
+  background:#f7f5f1; border:1px solid var(--linha);
+  border-left:3px solid var(--linha-forte); border-radius:0 4px 4px 0;
+  padding:var(--e3) var(--e4); margin:0 0 var(--e3) 0;
+  white-space:pre-wrap; overflow-wrap:break-word;
+  color:#3a3831; break-inside:avoid;
+}
+pre code{ background:none; border:none; padding:0; font-size:1em; color:inherit; }
+pre.ruim{ border-left-color:var(--ruim); background:#fbf6f6; }
+pre.bom{ border-left-color:var(--bom); background:#f5f8f5; }
+pre.saida{ border-left-color:var(--destaque); background:#f4f8f8; }
+pre .c{ color:#9b968c; }
+
+.rot-bloco{
+  font-family:"DejaVu Sans",sans-serif; font-size:7pt; font-weight:bold;
+  letter-spacing:.12em; text-transform:uppercase;
+  margin:0 0 var(--e1) 0; max-width:none;
+}
+.rot-bloco.r{ color:var(--ruim); }
+.rot-bloco.b{ color:var(--bom); }
+.rot-bloco.s{ color:var(--destaque); }
+
+/* ---- checkpoint ---- */
+.cp{
+  break-inside:avoid; margin:var(--e5) 0 var(--e4) 0;
+  border:2px solid var(--destaque); border-radius:5px;
+  background:var(--destaque-claro);
+}
+.cp-num{
+  background:var(--destaque); color:#fff; margin:0;
+  font-family:"DejaVu Sans",sans-serif; font-size:8pt; font-weight:bold;
+  letter-spacing:.16em; text-transform:uppercase;
+  padding:5px var(--e4); max-width:none;
+}
+.cp-corpo{ padding:var(--e3) var(--e4); }
+.cp-corpo p{ margin-bottom:var(--e2); max-width:none; }
+.cp-corpo p:last-child{ margin-bottom:0; }
+
+/* ---- teste ---- */
+.teste{
+  break-inside:avoid; margin:var(--e4) 0;
+  border:1px solid var(--bom); border-left:3px solid var(--bom);
+  border-radius:0 4px 4px 0; background:var(--bom-claro);
+  padding:var(--e3) var(--e4);
+}
+.teste-rot{
+  font-family:"DejaVu Sans",sans-serif; font-size:7.5pt; font-weight:bold;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--bom);
+  margin:0 0 var(--e2) 0; max-width:none;
+}
+.teste p{ max-width:none; margin-bottom:var(--e2); }
+.teste p:last-child{ margin-bottom:0; }
+.teste pre{ margin-bottom:var(--e2); background:#fff; }
+
+/* ---- documentacao ---- */
+.docs{
+  break-inside:avoid; margin:var(--e4) 0;
+  border:1px dashed var(--linha-forte); border-radius:4px;
+  padding:var(--e3) var(--e4); background:var(--creme);
+}
+.docs-rot{
+  font-family:"DejaVu Sans",sans-serif; font-size:7.5pt; font-weight:bold;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--tinta-media);
+  margin:0 0 var(--e2) 0; max-width:none;
+}
+.docs p{ max-width:none; margin-bottom:var(--e2); font-size:9.5pt; }
+.docs p:last-child{ margin-bottom:0; }
+.docs .url{
+  font-family:"JetBrainsMono NFM",monospace; font-size:8pt;
+  color:var(--destaque); word-break:break-all;
+}
+.linha-resp{
+  display:inline-block; border-bottom:1px solid var(--linha-forte);
+  min-width:150px;
+}
+
+/* ---- ponteiro de extra ---- */
+.extra-ptr{
+  break-inside:avoid; margin:var(--e3) 0 var(--e5) 0; max-width:none;
+  border-left:3px solid var(--extra); background:var(--extra-claro);
+  padding:var(--e2) var(--e3); font-size:9pt; color:#5f4620;
+}
+.extra-ptr b{ color:var(--extra); }
+
+/* ---- regra / nota ---- */
+.regra{
+  break-inside:avoid; background:var(--destaque-claro);
+  border-left:3px solid var(--destaque);
+  padding:var(--e3) var(--e4); margin:var(--e4) 0;
+}
+.regra p{ margin:0; max-width:none; }
+.regra .rot{
+  display:block; font-size:7.5pt; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--destaque); margin-bottom:var(--e1); font-weight:bold;
+}
+.nota{
+  break-inside:avoid; border:1px solid var(--linha); border-radius:4px;
+  padding:var(--e3) var(--e4); margin:var(--e4) 0;
+  background:var(--creme); font-size:9.5pt;
+}
+.nota p{ max-width:none; }
+.nota p:last-child{ margin-bottom:0; }
+
+/* ---- tabelas ---- */
+table{
+  width:100%; border-collapse:collapse; font-size:9pt;
+  margin:var(--e3) 0 var(--e4) 0; break-inside:avoid;
+}
+th{
+  text-align:left; font-size:7.5pt; letter-spacing:.10em;
+  text-transform:uppercase; color:var(--tinta-fraca);
+  border-bottom:1px solid var(--linha-forte);
+  padding:0 var(--e3) var(--e2) 0; font-weight:bold;
+}
+td{
+  border-bottom:1px solid var(--linha);
+  padding:var(--e2) var(--e3) var(--e2) 0; vertical-align:top;
+}
+td:first-child{ white-space:nowrap; }
+
+/* ---- capa ---- */
+.capa{
+  page:capa; height:297mm; padding:38mm 24mm 24mm 24mm;
+  background:var(--creme); border-top:10mm solid var(--destaque);
+  box-sizing:border-box;
+}
+.capa .selo{
+  font-size:8pt; letter-spacing:.24em; text-transform:uppercase;
+  color:var(--destaque); margin-bottom:var(--e6);
+}
+.capa h1{ font-size:38pt; line-height:1.08; margin:0 0 var(--e4) 0; max-width:16ch; }
+.capa .sub{
+  font-size:13pt; color:var(--tinta-media); max-width:44ch;
+  line-height:1.5; margin:0 0 var(--e6) 0; font-family:"DejaVu Serif",serif;
+}
+.capa .risco{ width:60mm; height:2px; background:var(--linha-forte); margin-bottom:var(--e5); }
+.capa .rodape{ font-size:9pt; color:var(--tinta-fraca); line-height:1.9; }
+.capa .rodape b{ color:var(--tinta-media); }
+
+/* ---- sumario ---- */
+.sumario ol{ list-style:none; padding:0; max-width:none; counter-reset:s; }
+.sumario li{ margin:0; border-bottom:1px dotted var(--linha); }
+.sumario a{ display:block; padding:7px 0; color:var(--tinta); font-size:10pt; }
+.sumario a::before{
+  counter-increment:s; content:counter(s,decimal-leading-zero);
+  color:var(--destaque); font-size:8pt; font-weight:bold; margin-right:var(--e3);
+}
+.sumario a::after{
+  content:target-counter(attr(href),page);
+  float:right; color:var(--tinta-fraca); font-size:9pt;
+}
+.sumario .anx a::before{ content:"AN"; letter-spacing:.05em; }
+
+/* ---- mapa ---- */
+.mapa{ margin:var(--e4) 0; break-inside:avoid; }
+.mapa-item{
+  display:flex; gap:var(--e3); padding:var(--e2) 0;
+  border-bottom:1px solid var(--linha); align-items:baseline;
+}
+.mapa-n{
+  font-family:"JetBrainsMono NFM",monospace; font-size:8pt;
+  color:var(--destaque); font-weight:bold; flex:none; width:34px;
+}
+.mapa-t{ flex:1; font-size:9.5pt; }
+.mapa-t b{ display:block; }
+.mapa-t span{ color:var(--tinta-fraca); font-size:8.5pt; }
+.mapa-item.dois{ opacity:.55; }
+
+/* ---- extras (anexo B) ---- */
+.extra-item{ break-inside:avoid; margin-bottom:var(--e5); }
+.extra-item h4{ margin-top:0; color:var(--extra); }
+.extra-item h4 .n{
+  display:inline-block; background:var(--extra-claro); color:var(--extra);
+  border-radius:3px; padding:1px 6px; margin-right:8px;
+  font-family:"JetBrainsMono NFM",monospace; font-size:8pt;
+}
+.dep{
+  font-size:8.5pt; color:var(--tinta-fraca); font-style:italic;
+  margin:calc(var(--e2)*-1) 0 var(--e2) 0; max-width:none;
+}
+
+/* ---- erros (anexo A) ---- */
+.erro-item{ break-inside:avoid; margin-bottom:var(--e5); }
+.erro-item h4{ margin-top:0; }
+.erro-item pre.tb{
+  border-left-color:var(--ruim); background:#fbf6f6; font-size:7.4pt;
+}
+</style>
+</head>
+<body>
+
+<!-- ══════════════ CAPA ══════════════ -->
+<section class="capa">
+  <div class="selo">POO em Python &middot; Parte 1 de 2 &middot; 2026</div>
+  <h1>Herança e polimorfismo</h1>
+  <p class="sub">Você já sabe criar classes e objetos. Agora vamos fazer uma classe aproveitar outra, e o seu RPG virar um jogo com personagens diferentes de verdade.</p>
+  <div class="risco"></div>
+  <div class="rodape">
+    <b>Você trabalha no seu próprio ritmo.</b><br>
+    Cada capítulo termina em um checkpoint com um teste.<br>
+    Passou no teste, siga em frente.
+  </div>
+</section>
+
+<!-- ══════════════ PAGINA 0 ══════════════ -->
+<div class="cap" id="c0"><p class="num">Antes de começar</p><h2>Como usar este material</h2></div>
+
+<p>Este documento é para você seguir sozinho. Leia, escreva o código, rode, confira o resultado com o que está na página. Quando travar, chame o professor.</p>
+
+<h3>De onde você parte</h3>
+
+<p>Você vai usar os dois arquivos que a turma já escreveu no Dia 5:</p>
+
+<table>
+  <tr><th style="width:32%">Arquivo</th><th>O que tem dentro</th></tr>
+  <tr><td><code>personagem.py</code></td><td>A classe <code>Personagem</code>, com <code>atacar</code>, <code>defender</code>, <code>receber_dano</code> e <code>usar_pocao</code>.</td></tr>
+  <tr><td><code>main.py</code></td><td>O laço de combate e a lista de inimigos.</td></tr>
+</table>
+
+<p>Não apague nada. Durante quase todo este documento, o <code>personagem.py</code> fica <strong>exatamente como está</strong>. Isso não é preguiça: faz parte da lição. Uma classe bem escrita consegue ser aproveitada por outras sem precisar mudar.</p>
+
+<h3>O caminho completo</h3>
+
+<div class="mapa">
+  <div class="mapa-item">
+    <div class="mapa-n">1</div>
+    <div class="mapa-t"><b>O problema</b><span>Você tenta criar dois personagens novos só com o que já sabe. Vai dar trabalho, e é de propósito.</span></div>
+  </div>
+  <div class="mapa-item">
+    <div class="mapa-n">2</div>
+    <div class="mapa-t"><b>Herança</b><span>Uma classe aproveita outra. Aparece o <code>super()</code>.</span></div>
+  </div>
+  <div class="mapa-item">
+    <div class="mapa-n">3</div>
+    <div class="mapa-t"><b>Sobrescrever métodos</b><span>Trocar o comportamento da classe-mãe, ou acrescentar a ele.</span></div>
+  </div>
+  <div class="mapa-item">
+    <div class="mapa-n">4</div>
+    <div class="mapa-t"><b>Polimorfismo</b><span>O laço de combate funciona com qualquer personagem, sem saber qual é.</span></div>
+  </div>
+  <div class="mapa-item">
+    <div class="mapa-n">5</div>
+    <div class="mapa-t"><b>Fechamento</b><span>O que você construiu e o que falta.</span></div>
+  </div>
+  <div class="mapa-item dois">
+    <div class="mapa-n">&rarr;</div>
+    <div class="mapa-t"><b>Parte 2 (outro PDF)</b><span>Encapsulamento, seleção de personagem, chefe final e o jogo fechado.</span></div>
+  </div>
+</div>
+
+<h3>Os quatro tipos de caixa</h3>
+
+<table>
+  <tr><th style="width:26%">Caixa</th><th>O que fazer</th></tr>
+  <tr><td><b>Checkpoint</b></td><td>Marca o fim de uma etapa. Diz o que o seu código precisa fazer nesse ponto.</td></tr>
+  <tr><td><b>Teste</b></td><td>Um código curto para você rodar. Se o resultado bater, você entendeu. Se não bater, a caixa diz o que provavelmente aconteceu.</td></tr>
+  <tr><td><b>Leia a fonte</b></td><td>Uma pergunta cuja resposta está na documentação oficial do Python. Procure e responda.</td></tr>
+  <tr><td><b>Extra</b></td><td>Está no anexo B. É opcional.</td></tr>
+</table>
+
+<div class="regra">
+  <span class="rot">Sobre os extras</span>
+  <p>Pular <strong>todos</strong> os extras não te deixa para trás em nada. Eles não são cobrados e nenhum capítulo depende deles. São para quem terminou antes e quer ir mais fundo. Um extra pode depender de outro extra, mas o conteúdo principal nunca depende de nenhum.</p>
+</div>
+
+<!-- ══════════════ SUMARIO ══════════════ -->
+<div class="cap"><h2>Sumário</h2></div>
+<section class="sumario">
+  <ol>
+    <li><a href="#c1">O problema</a></li>
+    <li><a href="#c2">Herança</a></li>
+    <li><a href="#c3">Sobrescrever métodos</a></li>
+    <li><a href="#c4">Polimorfismo</a></li>
+    <li><a href="#c5">Fechamento</a></li>
+    <li class="anx"><a href="#ax">Anexo A: erros que você vai ver</a></li>
+    <li class="anx"><a href="#bx">Anexo B: extras</a></li>
+    <li class="anx"><a href="#cx">Anexo C: glossário</a></li>
+  </ol>
+</section>
+
+<!-- ══════════════ CAP 1 ══════════════ -->
+<div class="cap" id="c1"><p class="num">Capítulo 1</p><h2>O problema</h2></div>
+
+<p>Antes de aprender coisa nova, você vai sentir falta dela. Este capítulo é um desafio sem ajuda. Faça primeiro, leia o capítulo 2 depois.</p>
+
+<h3>O desafio</h3>
+
+<p>O seu jogo tem uma classe <code>Personagem</code> só. Todo mundo é igual, muda só os números.</p>
+
+<p>Acrescente dois personagens novos ao jogo:</p>
+
+<ul>
+  <li>Um <strong>Guerreiro</strong>: mais vida e mais ataque que o normal, e o ataque dele nunca erra.</li>
+  <li>Um <strong>Mago</strong>: pouca vida e pouca defesa, mas quando ele defende, também recupera 10 de vida.</li>
+</ul>
+
+<p>Regra do desafio: use <strong>só o que você já sabe</strong>. Não pesquise, não pule para o capítulo 2.</p>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 1</p>
+  <div class="cp-corpo">
+    <p>O Guerreiro e o Mago funcionam no jogo. O ataque do Guerreiro nunca erra. A defesa do Mago cura 10 de vida.</p>
+    <p>Não importa se o código ficou feio. Ficar feio é o resultado esperado.</p>
+  </div>
+</div>
+
+<h3>Só continue depois de tentar</h3>
+
+<p>Existem dois caminhos para resolver isso com o que você já sabe, e os dois têm o mesmo defeito. Provavelmente você usou um deles.</p>
+
+<p class="rot-bloco r">Caminho 1: copiar a classe inteira</p>
+<pre class="ruim"><code>class Guerreiro:
+    def __init__(self, nome, vida, ataque, defesa, pocoes):
+        self.nome = nome
+        self.vida = vida
+        self.vida_maxima = vida
+        self.ataque = ataque
+        self.defesa = defesa
+        self.pocoes = pocoes
+        self.defendendo = False
+
+    def mostrar_status(self):        <span class="c"># igual ao Personagem</span>
+        ...
+    def esta_vivo(self):             <span class="c"># igual ao Personagem</span>
+        ...
+    def receber_dano(self, quantidade):  <span class="c"># igual ao Personagem</span>
+        ...
+    def usar_pocao(self):            <span class="c"># igual ao Personagem</span>
+        ...
+    def atacar(self, alvo):          <span class="c"># SO ESTE muda</span>
+        ...</code></pre>
+
+<p class="rot-bloco r">Caminho 2: encher a classe de <code>if</code></p>
+<pre class="ruim"><code>class Personagem:
+    def __init__(self, nome, vida, ataque, defesa, pocoes, tipo):
+        ...
+        self.tipo = tipo
+
+    def atacar(self, alvo):
+        if self.tipo == "guerreiro":
+            <span class="c"># nunca erra</span>
+            ...
+        else:
+            rolagem = random.randint(1, 20)
+            ...
+
+    def defender(self):
+        if self.tipo == "mago":
+            self.vida = self.vida + 10
+        self.defendendo = True</code></pre>
+
+<h3>Por que os dois são ruins</h3>
+
+<p>Responda para você mesmo, olhando o seu código:</p>
+
+<ol>
+  <li>Se você mudar a fórmula do dano, quantos lugares precisa editar no caminho 1?</li>
+  <li>Quantos <code>if</code> o método <code>atacar</code> vai ter quando o jogo tiver seis tipos de personagem?</li>
+  <li>No caminho 2, o Mago recebeu um atributo <code>tipo</code>. O Goblin também. O Goblin precisa dele?</li>
+</ol>
+
+<p>O caminho 1 duplica código. O caminho 2 junta comportamentos diferentes dentro do mesmo método, e ele cresce sem parar.</p>
+
+<p>Python tem uma ferramenta para exatamente este problema. É o próximo capítulo.</p>
+
+<p class="extra-ptr"><b>Terminou?</b> Este capítulo não tem extras. Os extras começam no checkpoint 2, quando você já tiver herança na mão.</p>
+
+<!-- ══════════════ CAP 2 ══════════════ -->
+<div class="cap" id="c2"><p class="num">Capítulo 2</p><h2>Herança</h2></div>
+
+<p>Herança é dizer que uma classe <strong>é um tipo de</strong> outra. O Guerreiro é um Personagem. Ele ganha tudo que o Personagem tem, de graça, e só escreve o que for diferente.</p>
+
+<p>A sintaxe é o nome da classe-mãe entre parênteses:</p>
+
+<pre class="bom"><code>class Guerreiro(Personagem):
+    ...</code></pre>
+
+<p>Lê-se: "Guerreiro é um Personagem".</p>
+
+<h3>Passo 1: o arquivo</h3>
+
+<p>Crie um arquivo novo chamado <code>classes.py</code>, na mesma pasta do <code>personagem.py</code>. Comece importando a classe-mãe:</p>
+
+<pre class="bom"><code>from personagem import Personagem
+
+
+class Guerreiro(Personagem):
+    pass</code></pre>
+
+<p>O <code>pass</code> quer dizer "por enquanto, nada aqui dentro". Mesmo vazia, essa classe já funciona:</p>
+
+<pre class="bom"><code>g = Guerreiro("Thoric", 120, 18, 8, 2)
+g.mostrar_status()</code></pre>
+
+<p class="rot-bloco s">Saída</p>
+<pre class="saida"><code>
+ Thoric
+Vida: 120 / 120
+Poções: 2</code></pre>
+
+<p>Você não escreveu <code>mostrar_status</code> no Guerreiro. Ele veio do Personagem. Isso é herança.</p>
+
+<h3>Passo 2: o construtor próprio</h3>
+
+<p>Do jeito acima, quem cria um Guerreiro ainda precisa digitar os cinco números. Mas todo Guerreiro tem os mesmos números. Quem deveria saber disso é a classe, não quem usa.</p>
+
+<pre class="bom"><code>class Guerreiro(Personagem):
+    def __init__(self, nome):
+        super().__init__(nome, 120, 18, 8, 2)</code></pre>
+
+<p>Agora criar um Guerreiro é só:</p>
+
+<pre class="bom"><code>g = Guerreiro("Thoric")</code></pre>
+
+<h3>O que <code>super()</code> faz</h3>
+
+<p><code>super()</code> é uma forma de chamar a classe-mãe de dentro da filha.</p>
+
+<p>Quando você escreve <code>super().__init__(nome, 120, 18, 8, 2)</code>, você está dizendo: <em>"Personagem, monte o objeto do jeito que você já sabe, com estes valores"</em>. O <code>__init__</code> do Personagem roda e cria <code>self.nome</code>, <code>self.vida</code>, <code>self.vida_maxima</code>, <code>self.defendendo</code> e todo o resto.</p>
+
+<p>Sem essa linha, nada disso é criado. O objeto nasce vazio.</p>
+
+<div class="regra">
+  <span class="rot">Ordem importa</span>
+  <p>Chame <code>super().__init__(...)</code> na <strong>primeira</strong> linha do seu <code>__init__</code>. Só depois acrescente atributos novos. Se você inverter, o atributo novo pode ser apagado quando a classe-mãe montar o objeto.</p>
+</div>
+
+<h3>Passo 3: o Mago</h3>
+
+<p>Faça o mesmo com o Mago. Ele é frágil: pouca vida, pouco ataque, pouca defesa, mas começa com mais poções.</p>
+
+<pre class="bom"><code>class Mago(Personagem):
+    def __init__(self, nome):
+        super().__init__(nome, 70, 10, 3, 4)</code></pre>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 2</p>
+  <div class="cp-corpo">
+    <p>No arquivo <code>classes.py</code> existem as classes <code>Guerreiro</code> e <code>Mago</code>. As duas herdam de <code>Personagem</code>. As duas chamam <code>super().__init__(...)</code>.</p>
+    <p>Criar um deles precisa de <strong>um</strong> argumento só: o nome.</p>
+    <p>O <code>personagem.py</code> não foi alterado.</p>
+  </div>
+</div>
+
+<div class="teste">
+  <p class="teste-rot">Teste do checkpoint 2</p>
+  <p>Abra o <code>personagem.py</code> e acrescente esta linha no fim do <code>__init__</code> da classe <code>Personagem</code>:</p>
+  <pre><code>        self.nivel = 1</code></pre>
+  <p>Salve. Agora rode:</p>
+  <pre><code>g = Guerreiro("Thoric")
+print(g.nivel)</code></pre>
+  <p><b>Resultado esperado:</b> aparece <code>1</code> na tela.</p>
+  <p><b>Se der <code>AttributeError</code>:</b> o seu Guerreiro não está chamando <code>super().__init__(...)</code>. Provavelmente você copiou as linhas do <code>__init__</code> do Personagem para dentro do Guerreiro, em vez de chamar a classe-mãe. Isso funciona por acaso, mas não é herança: o Guerreiro não recebe nada que você acrescentar no Personagem depois.</p>
+  <p>Depois do teste, pode apagar a linha <code>self.nivel = 1</code>.</p>
+</div>
+
+<div class="docs">
+  <p class="docs-rot">Leia a fonte</p>
+  <p>Documentação oficial do Python, em português. Seção <b>9.5 Herança</b>:</p>
+  <p class="url">docs.python.org/pt-br/3/tutorial/classes.html</p>
+  <p>A documentação mostra <strong>outra</strong> forma de chamar um método da classe-mãe, que não usa <code>super()</code>. Ache essa forma e escreva ela aqui:</p>
+  <p><span class="linha-resp">&nbsp;</span></p>
+  <p>Agora responda: se você renomear a classe <code>Personagem</code> para <code>Criatura</code>, qual das duas formas para de funcionar?</p>
+  <p><span class="linha-resp">&nbsp;</span></p>
+</div>
+
+<p class="extra-ptr"><b>Terminou o checkpoint 2?</b> Extras: anexo B, itens <b>E2.1</b> e <b>E2.2</b>.</p>
+
+<!-- ══════════════ CAP 3 ══════════════ -->
+<div class="cap" id="c3"><p class="num">Capítulo 3</p><h2>Sobrescrever métodos</h2></div>
+
+<p>Até agora as suas classes só mudam os números. O Guerreiro e o Mago lutam igual ao Personagem comum. Neste capítulo eles ganham comportamento próprio.</p>
+
+<p>Sobrescrever é escrever, na classe filha, um método com o <strong>mesmo nome</strong> de um método da classe-mãe. Quando você chamar esse método no objeto da filha, a versão dela é que roda.</p>
+
+<p>Existem duas situações, e elas se resolvem de formas diferentes.</p>
+
+<table>
+  <tr><th style="width:26%">Situação</th><th style="width:24%">O que fazer</th><th>Regra</th></tr>
+  <tr><td><b>Substituir</b></td><td>Não chama <code>super()</code></td><td>O comportamento é <em>outro</em>. Você joga fora o da mãe.</td></tr>
+  <tr><td><b>Estender</b></td><td>Chama <code>super()</code></td><td>O comportamento é <em>o mesmo, mais um pouco</em>.</td></tr>
+</table>
+
+<h3>Substituir: o ataque do Guerreiro</h3>
+
+<p>O ataque do Personagem erra quando a rolagem é menor que 5. O Guerreiro nunca erra. Isso é um comportamento diferente, não um acréscimo. Então você escreve o método inteiro e <strong>não</strong> chama <code>super()</code>.</p>
+
+<p>Este é o método original, no <code>personagem.py</code>:</p>
+
+<pre><code>    def atacar(self, alvo):
+        rolagem = random.randint(1, 20)
+
+        if rolagem &lt; 5:
+            print(self.nome, "errou o ataque")
+            return
+
+        dano = random.randint(self.ataque - 3, self.ataque + 3)
+        alvo.receber_dano(dano)
+        print(self.nome, "causou", dano, "de dano")</code></pre>
+
+<p>No <code>classes.py</code>, dentro da classe <code>Guerreiro</code>:</p>
+
+<pre class="bom"><code>    def atacar(self, alvo):
+        dano = random.randint(self.ataque - 3, self.ataque + 3)
+        alvo.receber_dano(dano)
+        print(self.nome, "atacou sem falhar e causou", dano, "de dano")</code></pre>
+
+<p>Não tem a rolagem e não tem o <code>return</code>. O Guerreiro sempre acerta.</p>
+
+<div class="nota">
+  <p>O <code>classes.py</code> agora usa <code>random</code>. Acrescente <code>import random</code> na primeira linha do arquivo, senão você vai ver <code>NameError: name 'random' is not defined</code>.</p>
+</div>
+
+<h3>Estender: a defesa do Mago</h3>
+
+<p>O Mago defende igual a todo mundo, <strong>e mais</strong> recupera 10 de vida. A parte "igual a todo mundo" já existe. Seria desperdício reescrever.</p>
+
+<p>Dentro da classe <code>Mago</code>:</p>
+
+<pre class="bom"><code>    def defender(self):
+        super().defender()
+        self.vida = min(self.vida + 10, self.vida_maxima)
+        print(self.nome, "recuperou 10 de vida")</code></pre>
+
+<p>A primeira linha manda o Personagem fazer a parte dele, que é ligar o <code>self.defendendo</code>. Depois o Mago acrescenta a cura.</p>
+
+<p>O <code>min(...)</code> impede a vida de passar do máximo.</p>
+
+<div class="regra">
+  <span class="rot">Como decidir</span>
+  <p>Pergunte: "o que a classe-mãe faz ainda precisa acontecer?" Se sim, chame <code>super()</code>. Se não, não chame.</p>
+</div>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 3</p>
+  <div class="cp-corpo">
+    <p>O <code>Guerreiro</code> sobrescreve <code>atacar</code> e nunca erra.</p>
+    <p>O <code>Mago</code> sobrescreve <code>defender</code>, chama <code>super().defender()</code> e recupera 10 de vida.</p>
+    <p>O <code>personagem.py</code> continua sem alteração.</p>
+  </div>
+</div>
+
+<div class="teste">
+  <p class="teste-rot">Teste do checkpoint 3</p>
+  <p>Rode isto:</p>
+  <pre><code>m = Mago("Elric")
+m.vida = 50
+m.defender()
+print("defendendo =", m.defendendo)</code></pre>
+  <p><b>Resultado esperado:</b></p>
+  <pre><code>Elric preparou a defesa
+Elric recuperou 10 de vida
+defendendo = True</code></pre>
+  <p><b>Se aparecer <code>defendendo = False</code></b> e faltar a linha "Elric preparou a defesa": você esqueceu o <code>super().defender()</code>. O Mago está curando, mas não está defendendo de verdade. No jogo ele vai tomar dano cheio achando que se protegeu.</p>
+</div>
+
+<div class="docs">
+  <p class="docs-rot">Leia a fonte</p>
+  <p>Mesma página, seção <b>9.5 Herança</b>:</p>
+  <p class="url">docs.python.org/pt-br/3/tutorial/classes.html</p>
+  <p>A documentação diz que um método da classe filha que sobrescreve outro pode querer <em>estender</em> em vez de <em>substituir</em>. Copie a frase em que ela explica isso:</p>
+  <p><span class="linha-resp">&nbsp;</span></p>
+  <p><span class="linha-resp">&nbsp;</span></p>
+</div>
+
+<p class="extra-ptr"><b>Terminou o checkpoint 3?</b> Extras: anexo B, itens <b>E3.1</b>, <b>E3.2</b> e <b>E3.3</b>.</p>
+
+<!-- ══════════════ CAP 4 ══════════════ -->
+<div class="cap" id="c4"><p class="num">Capítulo 4</p><h2>Polimorfismo</h2></div>
+
+<p>Este capítulo tem pouco código novo. O que muda é o que você vai entender sobre o código que já existe.</p>
+
+<h3>Passo 1: os inimigos também viram classes</h3>
+
+<p>No <code>main.py</code>, os inimigos hoje são três Personagens com números diferentes:</p>
+
+<pre><code>    inimigos = [
+        Personagem("Goblin", 40, 8, 2, 0),
+        Personagem("Orc", 70, 12, 4, 0),
+        Personagem("Troll", 100, 16, 6, 0),
+    ]</code></pre>
+
+<p>Transforme cada um em uma classe, no <code>classes.py</code>:</p>
+
+<pre class="bom"><code>class Goblin(Personagem):
+    def __init__(self):
+        super().__init__("Goblin", 40, 8, 2, 0)
+
+
+class Orc(Personagem):
+    def __init__(self):
+        super().__init__("Orc", 70, 12, 4, 0)
+
+
+class Troll(Personagem):
+    def __init__(self):
+        super().__init__("Troll", 100, 16, 6, 0)
+
+    def atacar(self, alvo):          <span class="c"># o Troll bate com tudo, mas erra muito</span>
+        rolagem = random.randint(1, 20)
+        if rolagem &lt; 9:
+            print("O Troll errou feio")
+            return
+        dano = random.randint(self.ataque, self.ataque + 10)
+        alvo.receber_dano(dano)
+        print("O Troll acertou um golpe de", dano)</code></pre>
+
+<p>E no <code>main.py</code>:</p>
+
+<pre class="bom"><code>    inimigos = [Goblin(), Orc(), Troll()]</code></pre>
+
+<h3>Passo 2: olhe o laço de combate</h3>
+
+<p>Agora vem a parte importante. Abra o <code>main.py</code> e olhe o laço:</p>
+
+<pre><code>    for inimigo in inimigos:
+        venceu = combate(jogador, inimigo)
+        if not venceu:
+            break</code></pre>
+
+<p>E dentro do <code>combate</code>:</p>
+
+<pre><code>        if inimigo.esta_vivo():
+            inimigo.atacar(jogador)</code></pre>
+
+<p>Você acabou de dar comportamentos diferentes para três classes diferentes. <strong>Quantas linhas desse laço você precisou mudar?</strong></p>
+
+<p>Nenhuma.</p>
+
+<p>O laço escreve <code>inimigo.atacar(jogador)</code> e não sabe se o inimigo é Goblin, Orc ou Troll. Cada objeto sabe atacar do seu próprio jeito. Quem chama não precisa perguntar o tipo, não precisa de <code>if</code>, não precisa saber que o Troll existe.</p>
+
+<p><strong>Isso é polimorfismo.</strong> A mesma chamada, <code>inimigo.atacar(...)</code>, produz comportamentos diferentes dependendo do objeto que está ali.</p>
+
+<p>Compare com o caminho 2 do capítulo 1, aquele cheio de <code>if self.tipo ==</code>. Lá, cada tipo novo obrigava a mexer no método. Aqui, cada tipo novo é uma classe nova e o resto do programa não fica sabendo.</p>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 4</p>
+  <div class="cp-corpo">
+    <p>Goblin, Orc e Troll são classes que herdam de <code>Personagem</code>.</p>
+    <p>O <code>main.py</code> cria a lista com <code>[Goblin(), Orc(), Troll()]</code>.</p>
+    <p>O jogo roda do começo ao fim e o Troll ataca diferente dos outros.</p>
+    <p>Você não escreveu nenhum <code>if</code> novo dentro de <code>combate</code>.</p>
+  </div>
+</div>
+
+<div class="teste">
+  <p class="teste-rot">Teste do checkpoint 4</p>
+  <p>Este é o teste de verdade do polimorfismo. Crie mais um inimigo, no <code>classes.py</code>:</p>
+  <pre><code>class Esqueleto(Personagem):
+    def __init__(self):
+        super().__init__("Esqueleto", 55, 11, 3, 0)
+
+    def receber_dano(self, quantidade):
+        print("Os ossos rangem")
+        super().receber_dano(quantidade)</code></pre>
+  <p>Agora acrescente <code>Esqueleto()</code> na lista de inimigos do <code>main.py</code> e jogue.</p>
+  <p><b>Resultado esperado:</b> o Esqueleto entra na fila de inimigos, imprime "Os ossos rangem" toda vez que apanha, e o jogo funciona normalmente.</p>
+  <p><b>A pergunta do teste:</b> fora a linha da lista, quantos arquivos e quantas funções você precisou modificar para o Esqueleto existir?</p>
+  <p>A resposta certa é <b>nenhuma</b>. Se você precisou mexer no <code>combate</code> ou no <code>turno_do_jogador</code>, alguma coisa não está herdando direito.</p>
+</div>
+
+<p class="extra-ptr"><b>Terminou o checkpoint 4?</b> Extras: anexo B, itens <b>E4.1</b>, <b>E4.2</b> e <b>E4.3</b>. O E4.3 é de leitura, não de código.</p>
+
+<!-- ══════════════ CAP 5 ══════════════ -->
+<div class="cap" id="c5"><p class="num">Capítulo 5</p><h2>Fechamento</h2></div>
+
+<h3>O que você construiu</h3>
+
+<p>Você começou com uma classe e um jogo em que todo mundo lutava igual. Agora tem uma família de classes:</p>
+
+<pre><code>Personagem
+├── Guerreiro   (ataca sem errar)
+├── Mago        (defende e cura)
+├── Goblin
+├── Orc
+└── Troll       (ataca forte e erra muito)</code></pre>
+
+<p>E o mais importante: o <code>personagem.py</code> está do jeito que estava no Dia 5. Você não precisou reescrever nada para estender tudo.</p>
+
+<h3>As três ideias, em uma frase cada</h3>
+
+<table>
+  <tr><th style="width:26%">Ideia</th><th>Em uma frase</th></tr>
+  <tr><td><b>Herança</b></td><td>Uma classe <em>é um tipo de</em> outra e ganha tudo que ela tem.</td></tr>
+  <tr><td><b><code>super()</code></b></td><td>Chama a versão da classe-mãe, de dentro da filha.</td></tr>
+  <tr><td><b>Polimorfismo</b></td><td>A mesma chamada faz coisas diferentes conforme o objeto, e quem chama não precisa saber qual é.</td></tr>
+</table>
+
+<h3>Um cuidado antes da parte 2</h3>
+
+<div class="regra">
+  <span class="rot">Herança é "é um"</span>
+  <p>Só use herança quando a frase "X <strong>é um</strong> Y" fizer sentido. Guerreiro é um Personagem: pode. Poção não é um Personagem, mesmo que poção também tenha nome. Se a frase soar estranha, você quer um atributo, não uma classe filha.</p>
+</div>
+
+<p>E não empilhe. <code>Personagem</code> &rarr; <code>Guerreiro</code> é o bastante. Se você criar <code>Personagem</code> &rarr; <code>Humano</code> &rarr; <code>Guerreiro</code> &rarr; <code>GuerreiroDeElite</code>, daqui a duas semanas ninguém acha mais onde um método foi definido.</p>
+
+<h3>O que vem na parte 2</h3>
+
+<ul>
+  <li><strong>Encapsulamento:</strong> por que <code>inimigo.vida = -999</code> devia ser proibido, e como o objeto se protege.</li>
+  <li><strong>Seleção de personagem:</strong> o jogador escolhe entre Guerreiro e Mago no início. Isso é polimorfismo virando tela de menu.</li>
+  <li><strong>Chefe final</strong> com mecânica própria.</li>
+  <li>O jogo fechado, do início ao fim.</li>
+</ul>
+
+<!-- ══════════════ ANEXO A ══════════════ -->
+<div class="cap" id="ax"><p class="num">Anexo A</p><h2>Erros que você vai ver</h2></div>
+
+<p>Estes cinco erros aparecem para quase todo mundo. Ver o erro não quer dizer que você errou feio: quer dizer que chegou na parte difícil. Ache a mensagem aqui e siga a instrução.</p>
+
+<div class="erro-item">
+  <h4>1. object has no attribute</h4>
+  <pre class="tb"><code>AttributeError: 'Guerreiro' object has no attribute 'nome'</code></pre>
+  <p>O objeto foi criado sem passar pelo <code>__init__</code> do Personagem. Quase sempre é um <code>__init__</code> na filha que não chama <code>super().__init__(...)</code>.</p>
+  <p class="rot-bloco r">Errado</p>
+  <pre class="ruim"><code>class Guerreiro(Personagem):
+    def __init__(self, nome):
+        pass                <span class="c"># nao monta nada</span></code></pre>
+  <p class="rot-bloco b">Certo</p>
+  <pre class="bom"><code>class Guerreiro(Personagem):
+    def __init__(self, nome):
+        super().__init__(nome, 120, 18, 8, 2)</code></pre>
+</div>
+
+<div class="erro-item">
+  <h4>2. takes 2 positional arguments but 6 were given</h4>
+  <pre class="tb"><code>TypeError: Guerreiro.__init__() takes 2 positional arguments but 6 were given</code></pre>
+  <p>O seu <code>Guerreiro.__init__</code> pede só o nome, mas você criou o objeto passando cinco valores, como fazia antes.</p>
+  <pre class="ruim"><code>g = Guerreiro("Thoric", 120, 18, 8, 2)</code></pre>
+  <pre class="bom"><code>g = Guerreiro("Thoric")</code></pre>
+  <p>Os números agora ficam dentro da classe. É esse o ganho.</p>
+</div>
+
+<div class="erro-item">
+  <h4>3. missing required positional arguments</h4>
+  <pre class="tb"><code>TypeError: Personagem.__init__() missing 4 required positional arguments:
+'vida', 'ataque', 'defesa', and 'pocoes'</code></pre>
+  <p>O contrário do anterior. A sua classe filha ainda não tem <code>__init__</code> próprio, então ela usa o do Personagem, que exige os cinco valores.</p>
+  <p>Ou você escreve o <code>__init__</code> da filha, ou passa os cinco na hora de criar.</p>
+</div>
+
+<div class="erro-item">
+  <h4>4. name 'Personagem' is not defined</h4>
+  <pre class="tb"><code>NameError: name 'Personagem' is not defined</code></pre>
+  <p>Faltou o import no topo do <code>classes.py</code>:</p>
+  <pre class="bom"><code>from personagem import Personagem</code></pre>
+  <p>Se a mensagem falar de <code>random</code>, falta <code>import random</code> no mesmo lugar.</p>
+</div>
+
+<div class="erro-item">
+  <h4>5. O método existe mas não roda</h4>
+  <p>Sem erro nenhum, e mesmo assim o Guerreiro continua errando o ataque. Duas causas:</p>
+  <ul>
+    <li><b>Indentação.</b> O <code>def atacar</code> ficou fora da classe. Ele precisa estar recuado quatro espaços, alinhado com o <code>def __init__</code>.</li>
+    <li><b>Nome diferente.</b> <code>Atacar</code> ou <code>atacaR</code> não sobrescrevem <code>atacar</code>. Python diferencia maiúscula de minúscula, então você criou um método novo em vez de substituir o antigo.</li>
+  </ul>
+</div>
+
+<!-- ══════════════ ANEXO B ══════════════ -->
+<div class="cap" id="bx"><p class="num">Anexo B</p><h2>Extras</h2></div>
+
+<p>Tudo aqui é opcional. Nenhum capítulo depende destes itens, e pular todos não te atrapalha em nada na parte 2.</p>
+
+<p>Um extra pode depender de outro extra. Quando depender, está escrito embaixo do título.</p>
+
+<div class="extra-item">
+  <h4><span class="n">E2.1</span>O Arqueiro</h4>
+  <p class="dep">Depende de: checkpoint 2.</p>
+  <p>Crie a classe <code>Arqueiro</code>, herdando de <code>Personagem</code>. Vida média, ataque médio, defesa baixa, e comece com 3 poções. Sem sobrescrever método nenhum, só o <code>__init__</code>.</p>
+  <p>Teste criando um e chamando <code>mostrar_status()</code>.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E2.2</span>Um inimigo seu</h4>
+  <p class="dep">Depende de: checkpoint 2.</p>
+  <p>Invente um inimigo com nome e números escolhidos por você. Coloque ele na lista do <code>main.py</code> e jogue até derrotá-lo.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E3.1</span>O Assassino e o acerto crítico</h4>
+  <p class="dep">Depende de: checkpoint 3.</p>
+  <p>Crie a classe <code>Assassino</code>. Ele sobrescreve <code>atacar</code>: rola um número de 1 a 20 e, se tirar 18 ou mais, o dano é <strong>dobrado</strong> e ele imprime "ACERTO CRÍTICO".</p>
+  <p>Pense antes de escrever: isso é substituir ou estender? Você precisa do <code>super()</code> aqui?</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E3.2</span>O Paladino</h4>
+  <p class="dep">Depende de: checkpoint 3.</p>
+  <p>Crie a classe <code>Paladino</code>. Ele estende <code>usar_pocao</code>: usa a poção normalmente <em>e</em> ainda recupera 5 de vida a mais.</p>
+  <p>Cuidado: o <code>usar_pocao</code> do Personagem às vezes desiste no meio, com <code>return</code>, quando não há poções ou a vida está cheia. Rode e veja o que acontece com o seu bônus nesses casos. Isso é um bom problema para pensar.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E3.3</span>O menu que não desperdiça o turno</h4>
+  <p class="dep">Depende de: checkpoint 3.</p>
+  <p>No <code>main.py</code>, digite uma opção inválida durante o combate. Repare que você perde o turno e o inimigo ataca mesmo assim.</p>
+  <p>Conserte: o <code>turno_do_jogador</code> deve continuar perguntando até receber 1, 2 ou 3.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E4.1</span>O chefe que fica furioso</h4>
+  <p class="dep">Depende de: checkpoint 4 e do extra E2.2.</p>
+  <p>Crie um chefe que sobrescreve <code>receber_dano</code>. Quando a vida dele cair abaixo da metade, ele imprime "O chefe entrou em fúria" e o ataque dele aumenta em 5, uma vez só.</p>
+  <p>Coloque ele no fim da lista de inimigos, como último desafio.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E4.2</span>A arena</h4>
+  <p class="dep">Depende de: checkpoint 4 e dos extras E2.1, E3.1 e E3.2.</p>
+  <p>Escreva um arquivo <code>arena.py</code> que coloca todas as suas classes numa lista e faz cada uma lutar contra as outras, sem ninguém digitar nada. O computador escolhe as ações sozinho.</p>
+  <p>No fim, imprima quem sobreviveu a mais lutas.</p>
+  <p>Se você fez tudo certo até aqui, a arena não precisa de um único <code>if</code> perguntando o tipo do personagem.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E4.3</span>Leitura difícil</h4>
+  <p class="dep">Depende de: checkpoint 4.</p>
+  <p>Este extra é de leitura, não de código. Abra a referência da biblioteca padrão, na entrada da função <code>super</code>:</p>
+  <p class="url">docs.python.org/pt-br/3/library/functions.html#super</p>
+  <p>É um texto denso, escrito para quem já programa. Fala em objeto proxy, MRO e herança múltipla cooperativa. Você não precisa entender tudo.</p>
+  <p>Responda duas coisas:</p>
+  <ol>
+    <li>O que <code>super()</code> devolve? Não é a classe-mãe. É o quê?</li>
+    <li>A página mostra <code>super()</code> sem argumentos e <code>super(C, self)</code>. Segundo o texto, quando as duas formas são equivalentes?</li>
+  </ol>
+</div>
+
+<!-- ══════════════ ANEXO C ══════════════ -->
+<div class="cap" id="cx"><p class="num">Anexo C</p><h2>Glossário</h2></div>
+
+<p>Os termos que apareceram na teoria, com o código deste material do lado.</p>
+
+<table>
+  <tr><th style="width:24%">Termo</th><th>O que é</th></tr>
+  <tr><td><b>Classe</b></td><td>O molde. <code>Personagem</code> é uma classe.</td></tr>
+  <tr><td><b>Objeto</b></td><td>Uma coisa feita a partir do molde. <code>Guerreiro("Thoric")</code> produz um objeto.</td></tr>
+  <tr><td><b>Instância</b></td><td>Outro nome para objeto. "Thoric é uma instância de Guerreiro."</td></tr>
+  <tr><td><b>Instanciar</b></td><td>Criar o objeto a partir da classe. É o que acontece quando você escreve <code>Guerreiro("Thoric")</code>.</td></tr>
+  <tr><td><b>Atributo</b></td><td>Um dado guardado no objeto. <code>self.vida</code>, <code>self.nome</code>.</td></tr>
+  <tr><td><b>Método</b></td><td>Uma função que pertence a uma classe. <code>atacar</code>, <code>defender</code>.</td></tr>
+  <tr><td><b>Função</b></td><td>Um bloco de código com nome, que não pertence a nenhuma classe. <code>combate(...)</code> no <code>main.py</code>.</td></tr>
+  <tr><td><b>Construtor</b></td><td>O <code>__init__</code>. Roda sozinho quando o objeto é criado.</td></tr>
+  <tr><td><b><code>self</code></b></td><td>Dentro de um método, é o próprio objeto em que o método foi chamado.</td></tr>
+  <tr><td><b>Classe-mãe</b></td><td>A classe de quem se herda. Também chamada de superclasse ou classe base. <code>Personagem</code>.</td></tr>
+  <tr><td><b>Classe filha</b></td><td>A que herda. Também chamada de subclasse ou classe derivada. <code>Guerreiro</code>.</td></tr>
+  <tr><td><b>Herança</b></td><td>Uma classe ganhar os atributos e métodos de outra.</td></tr>
+  <tr><td><b>Sobrescrever</b></td><td>A filha escrever um método com o mesmo nome de um da mãe, para mudar o comportamento.</td></tr>
+  <tr><td><b><code>super()</code></b></td><td>Chamar a versão da classe-mãe de dentro da filha.</td></tr>
+  <tr><td><b>Polimorfismo</b></td><td>A mesma chamada de método produzir comportamentos diferentes conforme o objeto.</td></tr>
+  <tr><td><b>Encapsulamento</b></td><td>O objeto proteger o próprio estado, deixando que mudanças passem só pelos métodos dele. É o tema da parte 2.</td></tr>
+</table>
+
+</body>
+</html>

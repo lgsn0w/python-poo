@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>POO parte 2: encapsulamento e o jogo</title>
+<style>
+:root{
+  --papel:#ffffff; --creme:#faf8f4;
+  --tinta:#1c1b19; --tinta-media:#4a4741; --tinta-fraca:#6f6a61;
+  --linha:#e2ddd3; --linha-forte:#c9c2b4;
+  --destaque:#2f5d62; --destaque-claro:#eaf1f1;
+  --ruim:#a24858; --ruim-claro:#faeced;
+  --bom:#3f6f4a; --bom-claro:#ecf3ed;
+  --extra:#7a5a2e; --extra-claro:#f7f0e4;
+  --e1:4px; --e2:8px; --e3:16px; --e4:24px; --e5:40px; --e6:64px;
+}
+
+@page{
+  size:A4; margin:20mm 18mm 18mm 18mm;
+  @top-left{
+    content:string(capitulo);
+    font-family:"DejaVu Sans",sans-serif; font-size:7.5pt;
+    letter-spacing:.10em; text-transform:uppercase; color:#9b968c;
+    padding-bottom:4mm;
+  }
+  @bottom-right{
+    content:counter(page);
+    font-family:"DejaVu Sans",sans-serif; font-size:8.5pt;
+    color:#9b968c; padding-top:5mm;
+  }
+}
+@page capa{ margin:0; @top-left{content:none} @bottom-right{content:none} }
+
+html{ font-size:10.5pt; }
+body{
+  margin:0; font-family:"DejaVu Sans",sans-serif; color:var(--tinta);
+  line-height:1.62; background:var(--papel); hyphens:auto;
+}
+
+h1,h2,h3,h4{ font-family:"DejaVu Serif",serif; font-weight:normal; line-height:1.2; }
+
+.cap{
+  break-before:page; break-after:avoid;
+  margin:0 0 var(--e5) 0; padding-bottom:var(--e3);
+  border-bottom:1px solid var(--linha);
+}
+.cap .num{
+  font-family:"DejaVu Sans",sans-serif; font-size:8pt;
+  letter-spacing:.18em; text-transform:uppercase; color:var(--destaque);
+  margin:0 0 var(--e2) 0; max-width:none;
+}
+.cap h2{ string-set:capitulo content(); font-size:24pt; margin:0; }
+
+h3{ font-size:14pt; margin:var(--e5) 0 var(--e3) 0; break-after:avoid; }
+h4{
+  font-family:"DejaVu Sans",sans-serif; font-size:9.5pt; font-weight:bold;
+  letter-spacing:.06em; text-transform:uppercase; color:var(--tinta-media);
+  margin:var(--e4) 0 var(--e2) 0; break-after:avoid;
+}
+p{ margin:0 0 var(--e3) 0; max-width:72ch; }
+ul,ol{ margin:0 0 var(--e3) 0; padding-left:var(--e4); max-width:70ch; }
+li{ margin-bottom:var(--e1); }
+li::marker{ color:var(--tinta-fraca); }
+a{ color:var(--destaque); text-decoration:none; }
+
+code, pre, .rot, th, .cp-num, .teste-rot, .docs-rot, h4{ hyphens:none; }
+
+code, pre{
+  font-variant-ligatures:none;   /* codigo precisa mostrar <= e == separados */
+}
+
+code{
+  font-family:"JetBrainsMono NFM","DejaVu Sans Mono",monospace;
+  font-size:.86em; background:var(--creme); border:1px solid var(--linha);
+  border-radius:3px; padding:1px 4px; color:var(--tinta-media);
+}
+
+pre{
+  font-family:"JetBrainsMono NFM","DejaVu Sans Mono",monospace;
+  font-size:7.8pt; line-height:1.55;
+  background:#f7f5f1; border:1px solid var(--linha);
+  border-left:3px solid var(--linha-forte); border-radius:0 4px 4px 0;
+  padding:var(--e3) var(--e4); margin:0 0 var(--e3) 0;
+  white-space:pre-wrap; overflow-wrap:break-word;
+  color:#3a3831; break-inside:avoid;
+}
+pre code{ background:none; border:none; padding:0; font-size:1em; color:inherit; }
+pre.ruim{ border-left-color:var(--ruim); background:#fbf6f6; }
+pre.bom{ border-left-color:var(--bom); background:#f5f8f5; }
+pre.saida{ border-left-color:var(--destaque); background:#f4f8f8; }
+pre .c{ color:#9b968c; }
+
+.rot-bloco{
+  font-family:"DejaVu Sans",sans-serif; font-size:7pt; font-weight:bold;
+  letter-spacing:.12em; text-transform:uppercase;
+  margin:0 0 var(--e1) 0; max-width:none;
+}
+.rot-bloco.r{ color:var(--ruim); }
+.rot-bloco.b{ color:var(--bom); }
+.rot-bloco.s{ color:var(--destaque); }
+
+/* ---- checkpoint ---- */
+.cp{
+  break-inside:avoid; margin:var(--e5) 0 var(--e4) 0;
+  border:2px solid var(--destaque); border-radius:5px;
+  background:var(--destaque-claro);
+}
+.cp-num{
+  background:var(--destaque); color:#fff; margin:0;
+  font-family:"DejaVu Sans",sans-serif; font-size:8pt; font-weight:bold;
+  letter-spacing:.16em; text-transform:uppercase;
+  padding:5px var(--e4); max-width:none;
+}
+.cp-corpo{ padding:var(--e3) var(--e4); }
+.cp-corpo p{ margin-bottom:var(--e2); max-width:none; }
+.cp-corpo p:last-child{ margin-bottom:0; }
+
+/* ---- teste ---- */
+.teste{
+  break-inside:avoid; margin:var(--e4) 0;
+  border:1px solid var(--bom); border-left:3px solid var(--bom);
+  border-radius:0 4px 4px 0; background:var(--bom-claro);
+  padding:var(--e3) var(--e4);
+}
+.teste-rot{
+  font-family:"DejaVu Sans",sans-serif; font-size:7.5pt; font-weight:bold;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--bom);
+  margin:0 0 var(--e2) 0; max-width:none;
+}
+.teste p{ max-width:none; margin-bottom:var(--e2); }
+.teste p:last-child{ margin-bottom:0; }
+.teste pre{ margin-bottom:var(--e2); background:#fff; }
+
+/* ---- documentacao ---- */
+.docs{
+  break-inside:avoid; margin:var(--e4) 0;
+  border:1px dashed var(--linha-forte); border-radius:4px;
+  padding:var(--e3) var(--e4); background:var(--creme);
+}
+.docs-rot{
+  font-family:"DejaVu Sans",sans-serif; font-size:7.5pt; font-weight:bold;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--tinta-media);
+  margin:0 0 var(--e2) 0; max-width:none;
+}
+.docs p{ max-width:none; margin-bottom:var(--e2); font-size:9.5pt; }
+.docs p:last-child{ margin-bottom:0; }
+.docs .url{
+  font-family:"JetBrainsMono NFM",monospace; font-size:8pt;
+  color:var(--destaque); word-break:break-all;
+}
+.linha-resp{
+  display:inline-block; border-bottom:1px solid var(--linha-forte);
+  min-width:150px;
+}
+
+/* ---- ponteiro de extra ---- */
+.extra-ptr{
+  break-inside:avoid; margin:var(--e3) 0 var(--e5) 0; max-width:none;
+  border-left:3px solid var(--extra); background:var(--extra-claro);
+  padding:var(--e2) var(--e3); font-size:9pt; color:#5f4620;
+}
+.extra-ptr b{ color:var(--extra); }
+
+/* ---- regra / nota ---- */
+.regra{
+  break-inside:avoid; background:var(--destaque-claro);
+  border-left:3px solid var(--destaque);
+  padding:var(--e3) var(--e4); margin:var(--e4) 0;
+}
+.regra p{ margin:0; max-width:none; }
+.regra .rot{
+  display:block; font-size:7.5pt; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--destaque); margin-bottom:var(--e1); font-weight:bold;
+}
+.nota{
+  break-inside:avoid; border:1px solid var(--linha); border-radius:4px;
+  padding:var(--e3) var(--e4); margin:var(--e4) 0;
+  background:var(--creme); font-size:9.5pt;
+}
+.nota p{ max-width:none; }
+.nota p:last-child{ margin-bottom:0; }
+
+/* ---- tabelas ---- */
+table{
+  width:100%; border-collapse:collapse; font-size:9pt;
+  margin:var(--e3) 0 var(--e4) 0; break-inside:avoid;
+}
+th{
+  text-align:left; font-size:7.5pt; letter-spacing:.10em;
+  text-transform:uppercase; color:var(--tinta-fraca);
+  border-bottom:1px solid var(--linha-forte);
+  padding:0 var(--e3) var(--e2) 0; font-weight:bold;
+}
+td{
+  border-bottom:1px solid var(--linha);
+  padding:var(--e2) var(--e3) var(--e2) 0; vertical-align:top;
+}
+td:first-child{ white-space:nowrap; }
+
+/* ---- capa ---- */
+.capa{
+  page:capa; height:297mm; padding:38mm 24mm 24mm 24mm;
+  background:var(--creme); border-top:10mm solid var(--destaque);
+  box-sizing:border-box;
+}
+.capa .selo{
+  font-size:8pt; letter-spacing:.24em; text-transform:uppercase;
+  color:var(--destaque); margin-bottom:var(--e6);
+}
+.capa h1{ font-size:38pt; line-height:1.08; margin:0 0 var(--e4) 0; max-width:16ch; }
+.capa .sub{
+  font-size:13pt; color:var(--tinta-media); max-width:44ch;
+  line-height:1.5; margin:0 0 var(--e6) 0; font-family:"DejaVu Serif",serif;
+}
+.capa .risco{ width:60mm; height:2px; background:var(--linha-forte); margin-bottom:var(--e5); }
+.capa .rodape{ font-size:9pt; color:var(--tinta-fraca); line-height:1.9; }
+.capa .rodape b{ color:var(--tinta-media); }
+
+/* ---- sumario ---- */
+.sumario ol{ list-style:none; padding:0; max-width:none; counter-reset:s; }
+.sumario li{ margin:0; border-bottom:1px dotted var(--linha); }
+.sumario a{ display:block; padding:7px 0; color:var(--tinta); font-size:10pt; }
+.sumario a::before{
+  counter-increment:s; content:counter(s,decimal-leading-zero);
+  color:var(--destaque); font-size:8pt; font-weight:bold; margin-right:var(--e3);
+}
+.sumario a::after{
+  content:target-counter(attr(href),page);
+  float:right; color:var(--tinta-fraca); font-size:9pt;
+}
+.sumario .anx a::before{ content:"AN"; letter-spacing:.05em; }
+
+/* ---- mapa ---- */
+.mapa{ margin:var(--e4) 0; break-inside:avoid; }
+.mapa-item{
+  display:flex; gap:var(--e3); padding:var(--e2) 0;
+  border-bottom:1px solid var(--linha); align-items:baseline;
+}
+.mapa-n{
+  font-family:"JetBrainsMono NFM",monospace; font-size:8pt;
+  color:var(--destaque); font-weight:bold; flex:none; width:34px;
+}
+.mapa-t{ flex:1; font-size:9.5pt; }
+.mapa-t b{ display:block; }
+.mapa-t span{ color:var(--tinta-fraca); font-size:8.5pt; }
+.mapa-item.dois{ opacity:.55; }
+
+/* ---- extras (anexo B) ---- */
+.extra-item{ break-inside:avoid; margin-bottom:var(--e5); }
+.extra-item h4{ margin-top:0; color:var(--extra); }
+.extra-item h4 .n{
+  display:inline-block; background:var(--extra-claro); color:var(--extra);
+  border-radius:3px; padding:1px 6px; margin-right:8px;
+  font-family:"JetBrainsMono NFM",monospace; font-size:8pt;
+}
+.dep{
+  font-size:8.5pt; color:var(--tinta-fraca); font-style:italic;
+  margin:calc(var(--e2)*-1) 0 var(--e2) 0; max-width:none;
+}
+
+/* ---- checklist ---- */
+.check{ list-style:none; padding:0; max-width:none; }
+.check li{
+  padding:6px 0 6px 24px; border-bottom:1px solid var(--linha);
+  position:relative; font-size:9.5pt; margin:0;
+}
+.check li::before{
+  content:"\2610"; position:absolute; left:0; top:5px;
+  color:var(--linha-forte); font-size:12pt;
+}
+
+/* ---- erros (anexo A) ---- */
+.erro-item{ break-inside:avoid; margin-bottom:var(--e5); }
+.erro-item h4{ margin-top:0; }
+.erro-item pre.tb{
+  border-left-color:var(--ruim); background:#fbf6f6; font-size:7.4pt;
+}
+</style>
+</head>
+<body>
+<!-- ══════════════ CAPA ══════════════ -->
+<section class="capa">
+  <div class="selo">POO em Python &middot; Parte 2 de 2 &middot; 2026</div>
+  <h1>Encapsulamento e o jogo</h1>
+  <p class="sub">O objeto passa a proteger o próprio estado, o jogador escolhe o personagem, o chefe final aparece, e o RPG vira um jogo do começo ao fim.</p>
+  <div class="risco"></div>
+  <div class="rodape">
+    <b>Continuação direta da parte 1.</b><br>
+    Você precisa das classes Guerreiro, Mago, Goblin, Orc e Troll<br>
+    funcionando antes de começar.
+  </div>
+</section>
+
+<!-- ══════════════ PAGINA 0 ══════════════ -->
+<div class="cap" id="c0"><p class="num">Antes de começar</p><h2>Onde você está</h2></div>
+
+<p>Na parte 1 você aprendeu herança e polimorfismo. Saiu de uma classe só para uma família de classes, e o laço de combate passou a funcionar com qualquer uma delas sem saber qual é.</p>
+
+<p>Confira que você tem isto antes de seguir:</p>
+
+<table>
+  <tr><th style="width:30%">Arquivo</th><th>O que precisa ter</th></tr>
+  <tr><td><code>personagem.py</code></td><td>A classe <code>Personagem</code>, ainda sem alterações.</td></tr>
+  <tr><td><code>classes.py</code></td><td><code>Guerreiro</code>, <code>Mago</code>, <code>Goblin</code>, <code>Orc</code> e <code>Troll</code>.</td></tr>
+  <tr><td><code>main.py</code></td><td>O combate rodando com <code>[Goblin(), Orc(), Troll()]</code>.</td></tr>
+</table>
+
+<div class="regra">
+  <span class="rot">Atenção, agora é diferente</span>
+  <p>Na parte 1 o <code>personagem.py</code> ficava intocado. <strong>A partir daqui você vai editá-lo.</strong> Antes de começar, faça uma cópia de segurança do arquivo, com o nome <code>personagem_backup.py</code>. Se algo der muito errado, você volta.</p>
+</div>
+
+<h3>O caminho</h3>
+
+<div class="mapa">
+  <div class="mapa-item">
+    <div class="mapa-n">1</div>
+    <div class="mapa-t"><b>Encapsulamento</b><span>Por que <code>inimigo.vida = -999</code> não deveria funcionar, e como fechar essa porta.</span></div>
+  </div>
+  <div class="mapa-item">
+    <div class="mapa-n">2</div>
+    <div class="mapa-t"><b>O estado que não expira</b><span>Um bug de verdade no seu jogo, achado com o que você aprendeu agora.</span></div>
+  </div>
+  <div class="mapa-item">
+    <div class="mapa-n">3</div>
+    <div class="mapa-t"><b>Seleção de personagem</b><span>O jogador escolhe entre Guerreiro e Mago. Polimorfismo virando menu.</span></div>
+  </div>
+  <div class="mapa-item">
+    <div class="mapa-n">4</div>
+    <div class="mapa-t"><b>O chefe final</b><span>Um Dragão com um golpe especial a cada três turnos.</span></div>
+  </div>
+  <div class="mapa-item">
+    <div class="mapa-n">5</div>
+    <div class="mapa-t"><b>Fechar o jogo</b><span>Descanso entre lutas, tela final, e a entrega.</span></div>
+  </div>
+</div>
+
+<p class="extra-ptr"><b>Lembrete:</b> os extras do anexo B continuam opcionais. Nenhum capítulo depende deles.</p>
+
+<!-- ══════════════ SUMARIO ══════════════ -->
+<div class="cap"><h2>Sumário</h2></div>
+<section class="sumario">
+  <ol>
+    <li><a href="#c1">Encapsulamento</a></li>
+    <li><a href="#c2">O estado que não expira</a></li>
+    <li><a href="#c3">Seleção de personagem</a></li>
+    <li><a href="#c4">O chefe final</a></li>
+    <li><a href="#c5">Fechar o jogo</a></li>
+    <li class="anx"><a href="#ax">Anexo A: erros que você vai ver</a></li>
+    <li class="anx"><a href="#bx">Anexo B: extras</a></li>
+    <li class="anx"><a href="#cx">Anexo C: checklist de entrega</a></li>
+  </ol>
+</section>
+
+<!-- ══════════════ CAP 1 ══════════════ -->
+<div class="cap" id="c1"><p class="num">Capítulo 1</p><h2>Encapsulamento</h2></div>
+
+<p>Encapsulamento tem uma regra só: <strong>cada objeto cuida do próprio estado</strong>. Quem está de fora não altera os atributos direto. Pede a mudança por um método.</p>
+
+<p>Você já faz isso sem saber o nome. Olhe o <code>receber_dano</code>:</p>
+
+<pre><code>    def receber_dano(self, quantidade):
+        dano_real = quantidade - self.defesa
+
+        if self.defendendo:
+            dano_real = dano_real // 2
+
+        dano_real = max(0, dano_real)
+        self.vida = max(0, self.vida - dano_real)</code></pre>
+
+<p>Esse método garante quatro regras: desconta a defesa, corta o dano pela metade se estiver defendendo, nunca deixa o dano ficar negativo, e nunca deixa a vida ficar abaixo de zero.</p>
+
+<p>Quem chama <code>inimigo.receber_dano(30)</code> não precisa saber de nada disso. O objeto aplica as regras sozinho.</p>
+
+<h3>O atalho que estraga tudo</h3>
+
+<p>O problema é que Python deixa fazer isto:</p>
+
+<pre class="ruim"><code>inimigo.vida = inimigo.vida - 30   <span class="c"># pula todas as regras acima</span>
+inimigo.vida = -999                <span class="c"># estado impossivel</span></code></pre>
+
+<p>Teste no seu jogo. Crie um Goblin e escreva <code>goblin.vida = -999</code>, depois <code>goblin.mostrar_status()</code>:</p>
+
+<p class="rot-bloco s">Saída</p>
+<pre class="saida"><code>
+ Goblin
+Vida: -999 / 40
+Poções: 0</code></pre>
+
+<p>Um objeto com vida negativa. A defesa foi ignorada, o <code>max(0, ...)</code> foi ignorado. O método existe para ninguém, porque tem uma porta aberta do lado.</p>
+
+<h3>Fechando a porta</h3>
+
+<p>Python não tem atributo privado de verdade. O que existe é uma <strong>convenção</strong>: um atributo que começa com underscore, como <code>_vida</code>, significa "isto é assunto interno da classe, não mexa de fora".</p>
+
+<p>Ninguém é impedido pela linguagem. Mas quem escreve <code>inimigo._vida = -999</code> está fazendo isso de propósito, e sabe que está.</p>
+
+<h4>Passo 1: renomear no <code>personagem.py</code></h4>
+
+<p>Troque <code>self.vida</code> por <code>self._vida</code> e <code>self.vida_maxima</code> por <code>self._vida_maxima</code>, <strong>em todo o arquivo</strong>. No VS Code, selecione o texto e use Ctrl+H para substituir.</p>
+
+<p>Os lugares afetados são o <code>__init__</code>, o <code>mostrar_status</code>, o <code>esta_vivo</code>, o <code>receber_dano</code> e o <code>usar_pocao</code>.</p>
+
+<h4>Passo 2: criar a porta oficial</h4>
+
+<p>Se ninguém pode mexer na vida de fora, precisa existir um método para curar. Acrescente na classe <code>Personagem</code>:</p>
+
+<pre class="bom"><code>    def curar(self, quantidade):
+        if quantidade &lt;= 0:
+            return
+        self._vida = min(self._vida + quantidade, self._vida_maxima)</code></pre>
+
+<p>Ele protege duas regras: não aceita cura negativa (que seria dano disfarçado) e não passa da vida máxima.</p>
+
+<h4>Passo 3: usar a porta no próprio Personagem</h4>
+
+<p>Dentro do <code>usar_pocao</code>, troque a linha que mexia na vida direto:</p>
+
+<pre class="ruim"><code>        self._vida = min(self._vida + 25, self._vida_maxima)</code></pre>
+
+<pre class="bom"><code>        self.curar(25)</code></pre>
+
+<h4>Passo 4: consertar o Mago</h4>
+
+<p>Agora o seu <code>classes.py</code> está quebrado, e é por um bom motivo. O Mago mexia na vida direto:</p>
+
+<pre class="ruim"><code>    def defender(self):
+        super().defender()
+        self.vida = min(self.vida + 10, self.vida_maxima)
+        print(self.nome, "recuperou 10 de vida")</code></pre>
+
+<pre class="bom"><code>    def defender(self):
+        super().defender()
+        self.curar(10)
+        print(self.nome, "recuperou 10 de vida")</code></pre>
+
+<p>Repare no que aconteceu: o Mago <strong>diminuiu</strong>. Ele não precisa mais saber que existe vida máxima, nem lembrar de usar <code>min</code>. Essa regra é assunto do Personagem. O Mago só diz quanto quer curar.</p>
+
+<div class="regra">
+  <span class="rot">O sinal de que deu certo</span>
+  <p>Encapsulamento bem feito faz as outras classes ficarem <em>menores</em>, não maiores. Se depois de encapsular o seu código cresceu em todo lugar, provavelmente você fechou a porta sem construir a porta nova.</p>
+</div>
+
+<h3>O <code>main.py</code> não precisou de nada</h3>
+
+<p>Abra o <code>main.py</code> e procure por <code>.vida</code>. Não tem.</p>
+
+<p>Ele só usa <code>esta_vivo()</code>, <code>mostrar_status()</code>, <code>atacar()</code>, <code>defender()</code> e <code>usar_pocao()</code>. Ele já pedia tudo por método. Por isso a mudança de hoje não quebrou nada ali.</p>
+
+<p>Isso não foi sorte. É o que acontece quando o código de fora respeita o objeto: você pode mudar o interior da classe inteira sem quebrar quem usa.</p>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 1</p>
+  <div class="cp-corpo">
+    <p>No <code>personagem.py</code> não existe mais nenhum <code>self.vida</code>, só <code>self._vida</code>.</p>
+    <p>Existe o método <code>curar</code>, e o <code>usar_pocao</code> usa ele.</p>
+    <p>O Mago usa <code>self.curar(10)</code>.</p>
+    <p>O jogo roda normalmente.</p>
+  </div>
+</div>
+
+<div class="teste">
+  <p class="teste-rot">Teste do checkpoint 1</p>
+  <pre><code>g = Goblin()
+print(g.vida)</code></pre>
+  <p><b>Resultado esperado:</b></p>
+  <pre><code>AttributeError: 'Goblin' object has no attribute 'vida'</code></pre>
+  <p>O erro é o sucesso. A porta velha não existe mais.</p>
+  <p>Agora teste a porta nova:</p>
+  <pre><code>m = Mago("Elric")
+m.curar(-500)
+m.mostrar_status()</code></pre>
+  <p><b>Resultado esperado:</b> a vida continua 70. O método recusou a cura negativa.</p>
+  <p><b>Se a vida diminuiu:</b> falta o <code>if quantidade &lt;= 0: return</code> no seu <code>curar</code>.</p>
+</div>
+
+<div class="docs">
+  <p class="docs-rot">Leia a fonte</p>
+  <p>Documentação oficial em português, seção <b>9.6 Variáveis privadas</b>:</p>
+  <p class="url">docs.python.org/pt-br/3/tutorial/classes.html</p>
+  <p>A documentação é bem direta sobre o que o underscore realmente faz. Segundo ela, existe atributo verdadeiramente privado em Python? Responda com as palavras dela:</p>
+  <p><span class="linha-resp">&nbsp;</span></p>
+  <p>A seção também cita um segundo uso do underscore, com dois underscores no início. Como se chama o que o Python faz nesse caso?</p>
+  <p><span class="linha-resp">&nbsp;</span></p>
+</div>
+
+<p class="extra-ptr"><b>Terminou o checkpoint 1?</b> Extras: anexo B, itens <b>E1.1</b> e <b>E1.2</b>.</p>
+
+<!-- ══════════════ CAP 2 ══════════════ -->
+<div class="cap" id="c2"><p class="num">Capítulo 2</p><h2>O estado que não expira</h2></div>
+
+<p>Agora que você sabe olhar para estado de objeto, dá para achar um bug que está no seu jogo desde o Dia 5.</p>
+
+<h3>Ache o bug</h3>
+
+<p>Olhe o <code>receber_dano</code>. O <code>self.defendendo</code> volta para <code>False</code> ali dentro. E o <code>atacar</code>:</p>
+
+<pre><code>    def atacar(self, alvo):
+        rolagem = random.randint(1, 20)
+
+        if rolagem &lt; 5:
+            print(self.nome, "errou o ataque")
+            return                      <span class="c"># sai sem chamar receber_dano</span></code></pre>
+
+<p>Pergunta: se o inimigo <strong>erra</strong> o ataque, quem desliga o <code>defendendo</code> do jogador?</p>
+
+<p>Ninguém. O <code>receber_dano</code> não foi chamado.</p>
+
+<p>Confira você mesmo:</p>
+
+<pre><code>h = Guerreiro("Thoric")
+h.defender()
+print("defendendo:", h.defendendo)
+
+<span class="c"># o inimigo erra o ataque, entao receber_dano nunca roda</span>
+print("depois do inimigo errar:", h.defendendo)</code></pre>
+
+<p class="rot-bloco s">Saída</p>
+<pre class="saida"><code>Thoric preparou a defesa
+defendendo: True
+depois do inimigo errar: True</code></pre>
+
+<p>Na prática, "defender" no seu jogo não quer dizer "me protejo neste turno". Quer dizer "fico protegido até alguém me acertar", o que pode durar cinco turnos. É um estado inválido que sobrevive.</p>
+
+<h3>Por que a correção não é onde você imagina</h3>
+
+<p>A tentação é consertar no <code>main.py</code>:</p>
+
+<pre class="ruim"><code>        jogador.defendendo = False       <span class="c"># de fora, mexendo no atributo</span>
+        turno_do_jogador(jogador, inimigo)</code></pre>
+
+<p>Isso funciona e está errado. É exatamente o atalho do capítulo 1: código de fora mexendo no estado interno do objeto. Se amanhã defender passar a gastar energia, o <code>main.py</code> vai ter que saber disso também.</p>
+
+<p>Quem tem que zerar o estado do personagem é o personagem. Acrescente na classe <code>Personagem</code>:</p>
+
+<pre class="bom"><code>    def iniciar_turno(self):
+        self.defendendo = False</code></pre>
+
+<p>E tire a linha do <code>receber_dano</code>, que agora não é mais responsabilidade dele:</p>
+
+<pre class="ruim"><code>        if self.defendendo:
+            dano_real = dano_real // 2
+            self.defendendo = False      <span class="c"># APAGUE esta linha</span></code></pre>
+
+<p>No <code>main.py</code>, dentro do <code>combate</code>, cada um avisa o próprio começo de turno:</p>
+
+<pre class="bom"><code>        jogador.iniciar_turno()
+        turno_do_jogador(jogador, inimigo)
+
+        if inimigo.esta_vivo():
+            inimigo.iniciar_turno()
+            inimigo.atacar(jogador)</code></pre>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 2</p>
+  <div class="cp-corpo">
+    <p>Existe o método <code>iniciar_turno</code> no <code>Personagem</code>.</p>
+    <p>O <code>receber_dano</code> não mexe mais no <code>defendendo</code>.</p>
+    <p>O <code>combate</code> chama <code>iniciar_turno()</code> nos dois lados.</p>
+  </div>
+</div>
+
+<div class="teste">
+  <p class="teste-rot">Teste do checkpoint 2</p>
+  <pre><code>h = Guerreiro("Thoric")
+h.defender()
+print("depois de defender:", h.defendendo)
+h.iniciar_turno()
+print("depois de iniciar_turno:", h.defendendo)</code></pre>
+  <p><b>Resultado esperado:</b></p>
+  <pre><code>Thoric preparou a defesa
+depois de defender: True
+depois de iniciar_turno: False</code></pre>
+  <p><b>Se o segundo continuar <code>True</code>:</b> o <code>iniciar_turno</code> não está sendo chamado, ou ficou escrito fora da classe. Confira a indentação.</p>
+</div>
+
+<p class="extra-ptr"><b>Terminou o checkpoint 2?</b> Extras: anexo B, item <b>E2.1</b>.</p>
+
+<!-- ══════════════ CAP 3 ══════════════ -->
+<div class="cap" id="c3"><p class="num">Capítulo 3</p><h2>Seleção de personagem</h2></div>
+
+<p>Até agora o jogador sempre foi um Guerreiro fixo no código. Vamos deixar ele escolher.</p>
+
+<p>Este capítulo é a recompensa da parte 1: escolher um personagem <strong>é</strong> instanciar uma subclasse diferente.</p>
+
+<h3>A ideia nova: guardar a classe</h3>
+
+<p>Você já guardou números, textos e objetos em variáveis. Uma classe também pode ser guardada:</p>
+
+<pre class="bom"><code>escolhida = Guerreiro        <span class="c"># sem parenteses: a CLASSE, nao um objeto</span>
+jogador = escolhida("Thoric")   <span class="c"># agora sim, cria o objeto</span></code></pre>
+
+<p>Repare na diferença. <code>Guerreiro</code> é o molde. <code>Guerreiro("Thoric")</code> é uma pessoa feita com o molde.</p>
+
+<p>Com isso dá para montar um dicionário de opções, no topo do <code>main.py</code>:</p>
+
+<pre class="bom"><code>CLASSES = {
+    "1": Guerreiro,
+    "2": Mago,
+}</code></pre>
+
+<h3>O menu</h3>
+
+<pre class="bom"><code>def escolher_personagem():
+    print("Escolha o seu personagem:")
+    for tecla, classe in CLASSES.items():
+        print(tecla, "-", classe.__name__)
+
+    escolha = input("Opção: ")
+    while escolha not in CLASSES:
+        print("Opção inválida")
+        escolha = input("Opção: ")
+
+    nome = input("Nome: ")
+    return CLASSES[escolha](nome)</code></pre>
+
+<p>Duas coisas para reparar:</p>
+
+<p><code>classe.__name__</code> devolve o nome da classe como texto, então o menu se escreve sozinho. Você não digita "Guerreiro" em lugar nenhum.</p>
+
+<p>E o <code>while escolha not in CLASSES</code> repete até a opção existir. O jogo não começa com escolha inválida.</p>
+
+<p>No <code>main</code>, troque a linha que criava o jogador:</p>
+
+<pre class="ruim"><code>    jogador = Personagem("Thoric", 100, 15, 5, 2)</code></pre>
+
+<pre class="bom"><code>    jogador = escolher_personagem()</code></pre>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 3</p>
+  <div class="cp-corpo">
+    <p>O jogo começa perguntando qual personagem e qual nome.</p>
+    <p>O menu é montado a partir do dicionário <code>CLASSES</code>, não digitado à mão.</p>
+    <p>Opção inválida faz perguntar de novo, sem começar o jogo.</p>
+  </div>
+</div>
+
+<div class="teste">
+  <p class="teste-rot">Teste do checkpoint 3</p>
+  <p>Acrescente <strong>uma linha só</strong> no dicionário:</p>
+  <pre><code>CLASSES = {
+    "1": Guerreiro,
+    "2": Mago,
+    "3": Troll,      <span class="c"># so para testar</span>
+}</code></pre>
+  <p><b>Resultado esperado:</b> o menu passa a mostrar três opções, e escolher a 3 deixa você jogar como Troll.</p>
+  <p><b>A pergunta do teste:</b> quantas linhas <em>fora do dicionário</em> você precisou mudar?</p>
+  <p>A resposta certa é <b>nenhuma</b>. Se você precisou escrever um <code>print</code> novo ou um <code>if</code>, o seu menu não está sendo gerado pelo dicionário.</p>
+  <p>Depois do teste, tire o Troll da lista.</p>
+</div>
+
+<p class="extra-ptr"><b>Terminou o checkpoint 3?</b> Extras: anexo B, itens <b>E3.1</b> e <b>E3.2</b>.</p>
+
+<!-- ══════════════ CAP 4 ══════════════ -->
+<div class="cap" id="c4"><p class="num">Capítulo 4</p><h2>O chefe final</h2></div>
+
+<p>Um chefe precisa de alguma coisa que os outros inimigos não têm. O Dragão tem um golpe que sai a cada três ataques dele, e esse golpe ignora a defesa.</p>
+
+<p>Para contar os turnos, ele precisa guardar um número entre um ataque e outro. Esse número é assunto interno dele: começa com underscore.</p>
+
+<pre class="bom"><code>class Dragao(Personagem):
+    def __init__(self):
+        super().__init__("Dragão Ancião", 110, 14, 4, 0)
+        self._turnos = 0
+
+    def atacar(self, alvo):
+        self._turnos += 1
+
+        if self._turnos % 3 == 0:
+            dano = self.ataque + 8
+            print("O Dragão solta um sopro de fogo!")
+            alvo.receber_dano(dano + alvo.defesa)
+            print("O sopro causou", dano, "de dano e ignorou a defesa")
+            return
+
+        super().atacar(alvo)</code></pre>
+
+<p>Três coisas acontecem aqui, e todas são da parte 1 ou do capítulo 1 deste PDF:</p>
+
+<ul>
+  <li>O <code>self._turnos = 0</code> vem <strong>depois</strong> do <code>super().__init__(...)</code>. Atributo novo entra depois que a classe-mãe montou o objeto.</li>
+  <li>Nos turnos normais, ele chama <code>super().atacar(alvo)</code>. Não reescreve o ataque comum.</li>
+  <li>O truque de ignorar a defesa é somar a defesa do alvo antes de mandar. O <code>receber_dano</code> vai descontar, e sobra o valor cheio. As regras do alvo continuam valendo: o objeto não foi violado.</li>
+</ul>
+
+<p>Coloque ele no fim da fila, no <code>main.py</code>:</p>
+
+<pre class="bom"><code>    inimigos = [Goblin(), Orc(), Troll(), Dragao()]</code></pre>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 4</p>
+  <div class="cp-corpo">
+    <p>O Dragão é o último inimigo da lista.</p>
+    <p>A cada três ataques dele sai o sopro de fogo.</p>
+    <p>Nos outros turnos ele ataca chamando <code>super().atacar(alvo)</code>.</p>
+  </div>
+</div>
+
+<div class="teste">
+  <p class="teste-rot">Teste do checkpoint 4</p>
+  <pre><code>d = Dragao()
+alvo = Guerreiro("Thoric")
+for i in range(1, 7):
+    print("-- ataque", i)
+    d.atacar(alvo)</code></pre>
+  <p><b>Resultado esperado:</b> o sopro de fogo aparece no ataque 3 e no ataque 6, e não nos outros.</p>
+  <p><b>Se o sopro sair toda vez:</b> confira o <code>% 3 == 0</code>.</p>
+  <p><b>Se der <code>AttributeError: '_turnos'</code>:</b> você criou o <code>self._turnos</code> antes do <code>super().__init__(...)</code>, ou esqueceu dele.</p>
+</div>
+
+<p class="extra-ptr"><b>Terminou o checkpoint 4?</b> Extras: anexo B, item <b>E4.1</b>.</p>
+
+<!-- ══════════════ CAP 5 ══════════════ -->
+<div class="cap" id="c5"><p class="num">Capítulo 5</p><h2>Fechar o jogo</h2></div>
+
+<p>Falta pouco. O jogo já tem escolha de personagem, quatro inimigos e um chefe. Falta o jogador sobreviver até lá e o jogo terminar direito.</p>
+
+<h3>Descanso entre as lutas</h3>
+
+<p>Sem nenhuma recuperação, ninguém chega ao Dragão. Depois de cada vitória, no <code>main</code>:</p>
+
+<pre class="bom"><code>    for inimigo in inimigos:
+        venceu = combate(jogador, inimigo)
+        if not venceu:
+            print("Fim de jogo.")
+            return
+        jogador.curar(50)
+        print(jogador.nome, "descansa e recupera 50 de vida")
+
+    print("\nVocê derrotou todos os inimigos. Fim.")</code></pre>
+
+<p>Repare que a cura passa pelo método <code>curar</code>, criado no capítulo 1. Em nenhum momento o <code>main.py</code> toca em <code>_vida</code>.</p>
+
+<h3>Está balanceado?</h3>
+
+<p>Com estes números, um Guerreiro que ataca, defende quando está abaixo de 40% e toma poção abaixo de 30% vence o jogo em pouco mais da metade das partidas. É difícil e é possível.</p>
+
+<p>Se ficar fácil ou impossível demais para o seu gosto, mexa nos números. Balancear jogo é tentativa e erro, e agora todos os números estão em um lugar só: o <code>__init__</code> de cada classe.</p>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 5, o último</p>
+  <div class="cp-corpo">
+    <p>O jogo roda do início ao fim: escolhe personagem, enfrenta quatro inimigos em ordem, e termina com mensagem de vitória ou derrota.</p>
+    <p>Perder no meio encerra o jogo, sem travar e sem erro.</p>
+    <p>Nenhum arquivo acessa <code>_vida</code> de fora da classe <code>Personagem</code>.</p>
+  </div>
+</div>
+
+<div class="teste">
+  <p class="teste-rot">Teste final</p>
+  <p>Abra o <code>main.py</code> e o <code>classes.py</code> e procure por <code>_vida</code> nos dois, com Ctrl+F.</p>
+  <p><b>Resultado esperado:</b> nenhuma ocorrência nos dois arquivos.</p>
+  <p>Se aparecer alguma, tem código de fora mexendo no estado interno do personagem. Troque por uma chamada de método: <code>curar()</code> ou <code>receber_dano()</code>.</p>
+</div>
+
+<h3>O que você construiu</h3>
+
+<table>
+  <tr><th style="width:32%">Conceito</th><th>Onde está no seu jogo</th></tr>
+  <tr><td><b>Classe e objeto</b></td><td><code>Personagem</code> e cada inimigo criado a partir dela.</td></tr>
+  <tr><td><b>Herança</b></td><td><code>Guerreiro</code>, <code>Mago</code>, <code>Goblin</code>, <code>Orc</code>, <code>Troll</code> e <code>Dragao</code>.</td></tr>
+  <tr><td><b><code>super()</code></b></td><td>Todos os <code>__init__</code> das filhas, o <code>defender</code> do Mago e o <code>atacar</code> do Dragão.</td></tr>
+  <tr><td><b>Polimorfismo</b></td><td>O <code>combate</code> chama <code>inimigo.atacar()</code> sem saber quem é.</td></tr>
+  <tr><td><b>Encapsulamento</b></td><td><code>_vida</code>, e as portas <code>curar</code> e <code>receber_dano</code>.</td></tr>
+</table>
+
+<p>São os quatro conceitos da matéria, todos rodando ao mesmo tempo, num programa que você joga.</p>
+
+<p class="extra-ptr"><b>Com o jogo fechado</b>, os extras <b>E4.2</b> (inventário) e <b>E4.3</b> (salvar o jogo) ficam liberados. São os dois maiores do material.</p>
+
+<!-- ══════════════ ANEXO A ══════════════ -->
+<div class="cap" id="ax"><p class="num">Anexo A</p><h2>Erros que você vai ver</h2></div>
+
+<div class="erro-item">
+  <h4>1. object has no attribute 'vida'</h4>
+  <pre class="tb"><code>AttributeError: 'Goblin' object has no attribute 'vida'</code></pre>
+  <p>Depois do capítulo 1, isso pode ser <em>certo</em> ou <em>errado</em>.</p>
+  <p><b>É certo</b> se você escreveu esse código de propósito para testar. A porta velha fechou.</p>
+  <p><b>É erro</b> se aconteceu enquanto jogava. Nesse caso sobrou um <code>self.vida</code> em algum lugar que você não renomeou. Procure por <code>.vida</code> em todos os arquivos e veja qual ficou sem underscore.</p>
+</div>
+
+<div class="erro-item">
+  <h4>2. Renomeou demais</h4>
+  <pre class="tb"><code>AttributeError: 'Guerreiro' object has no attribute '_vida_maxima_maxima'</code></pre>
+  <p>O Ctrl+H trocou <code>vida</code> dentro de <code>vida_maxima</code> também, gerando nomes duplicados. Desfaça com Ctrl+Z e substitua com mais cuidado: primeiro <code>self.vida_maxima</code> por <code>self._vida_maxima</code>, e só depois <code>self.vida</code> por <code>self._vida</code>.</p>
+</div>
+
+<div class="erro-item">
+  <h4>3. O sopro do Dragão sai toda vez</h4>
+  <p>Sem erro na tela, mas o chefe usa o especial em todos os turnos. Duas causas comuns:</p>
+  <ul>
+    <li>O <code>self._turnos += 1</code> ficou dentro do <code>if</code>, em vez de antes dele.</li>
+    <li>Você escreveu <code>if self._turnos % 3</code> sem o <code>== 0</code>. Assim o teste dá verdadeiro sempre que o resto <em>não</em> for zero, que é o contrário do que você quer.</li>
+  </ul>
+</div>
+
+<div class="erro-item">
+  <h4>4. O jogo trava depois da vitória</h4>
+  <p>Se o jogo continua pedindo ação depois que o inimigo morreu, confira o <code>while</code> do <code>combate</code>. Ele precisa checar os dois lados:</p>
+  <pre class="bom"><code>    while jogador.esta_vivo() and inimigo.esta_vivo():</code></pre>
+</div>
+
+<!-- ══════════════ ANEXO B ══════════════ -->
+<div class="cap" id="bx"><p class="num">Anexo B</p><h2>Extras</h2></div>
+
+<p>Opcionais, como sempre. Os últimos três mexem em partes que o conteúdo principal já terminou de usar, então agora eles podem ser mais invasivos.</p>
+
+<div class="extra-item">
+  <h4><span class="n">E1.1</span>As poções também são estado</h4>
+  <p class="dep">Depende de: checkpoint 1.</p>
+  <p>O atributo <code>pocoes</code> tem uma regra: nunca pode ficar negativo. Mas está aberto para qualquer um mexer.</p>
+  <p>Renomeie para <code>_pocoes</code> e crie um método <code>ganhar_pocao(self, quantidade)</code>. Ajuste o <code>usar_pocao</code> e o <code>mostrar_status</code>.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E1.2</span>O Mago é imortal</h4>
+  <p class="dep">Depende de: checkpoint 1.</p>
+  <p>Descubra o exploit sozinho: pegue um Mago e mande ele defender repetidamente contra o Goblin, sem nunca atacar. Veja o que acontece com a vida dele.</p>
+  <p>Depois responda, com contas:</p>
+  <ol>
+    <li>Quanto dano o Mago leva por turno defendendo contra um inimigo de ataque <code>A</code>? Escreva a fórmula usando o <code>receber_dano</code>.</li>
+    <li>Quanto ele cura por turno?</li>
+    <li>A partir de qual valor de ataque o inimigo consegue vencer essa disputa?</li>
+    <li>Algum inimigo do jogo chega nesse valor?</li>
+  </ol>
+  <p>Agora proponha uma correção. Existem várias, e nenhuma é obviamente a certa: curar menos, curar só uma vez por luta, gastar poção para curar, ou dar mais ataque aos inimigos. Escolha uma, implemente e explique por que escolheu essa.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E2.1</span>Defesa que dura dois turnos</h4>
+  <p class="dep">Depende de: checkpoint 2.</p>
+  <p>Crie uma subclasse cuja defesa dura dois turnos em vez de um. Dica: ela vai precisar de um contador próprio e vai sobrescrever <code>iniciar_turno</code>.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E3.1</span>Mais uma classe jogável</h4>
+  <p class="dep">Depende de: checkpoint 3.</p>
+  <p>Crie uma classe jogável nova, com um comportamento próprio, e coloque no dicionário <code>CLASSES</code>. Confirme que só o dicionário precisou mudar.</p>
+  <p>Se você fez o extra E2.1 <b>do PDF da parte 1</b>, o seu Arqueiro já serve. Cuidado para não confundir com o E2.1 deste anexo.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E3.2</span>Dificuldade</h4>
+  <p class="dep">Depende de: checkpoint 3.</p>
+  <p>Faça um segundo menu, no início, perguntando a dificuldade. No fácil, o jogador recupera 70 entre lutas. No difícil, 20.</p>
+  <p>Cuidado: a dificuldade não pode virar um <code>if</code> dentro do combate. Ela deve ser decidida uma vez e guardada.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E4.1</span>Veneno</h4>
+  <p class="dep">Depende de: checkpoint 4 e do extra E2.1.</p>
+  <p>Crie um inimigo que envenena. Quem está envenenado perde 5 de vida no começo de cada turno, por três turnos.</p>
+  <p>Pense onde isso mora: o veneno é estado de quem foi envenenado, e o <code>iniciar_turno</code> já existe para acontecer no começo do turno.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E4.2</span>Inventário</h4>
+  <p class="dep">Depende de: checkpoint 5, jogo fechado.</p>
+  <p>Crie uma classe <code>Item</code> com nome e efeito, e dê ao Personagem uma lista de itens.</p>
+  <p>Antes de escrever, responda: <code>Item</code> deve herdar de <code>Personagem</code>? Use a regra do "é um".</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E4.3</span>Salvar o jogo</h4>
+  <p class="dep">Depende de: checkpoint 5, jogo fechado.</p>
+  <p>Ao fim de cada luta, grave o nome, a classe e a vida do jogador em um arquivo de texto. Ao abrir o jogo, ofereça continuar de onde parou.</p>
+  <p>Você vai precisar reconstruir o objeto a partir do texto. O dicionário <code>CLASSES</code> vai ajudar: ele já traduz um texto em uma classe.</p>
+</div>
+
+<!-- ══════════════ ANEXO C ══════════════ -->
+<div class="cap" id="cx"><p class="num">Anexo C</p><h2>Checklist de entrega</h2></div>
+
+<p>Confira antes de entregar o projeto.</p>
+
+<h4>Funciona</h4>
+<ul class="check">
+  <li>O jogo roda do início ao fim sem erro na tela.</li>
+  <li>Dá para escolher o personagem e digitar o nome.</li>
+  <li>Opção inválida no menu não quebra nem começa o jogo.</li>
+  <li>Perder no meio encerra com mensagem, sem travar.</li>
+  <li>Ganhar do último inimigo mostra a mensagem final.</li>
+</ul>
+
+<h4>Orientação a objetos</h4>
+<ul class="check">
+  <li>Existem pelo menos quatro classes que herdam de <code>Personagem</code>.</li>
+  <li>Todas chamam <code>super().__init__(...)</code> na primeira linha do <code>__init__</code>.</li>
+  <li>Pelo menos uma classe substitui um método, sem <code>super()</code>.</li>
+  <li>Pelo menos uma classe estende um método, chamando <code>super()</code>.</li>
+  <li>O <code>combate</code> não tem nenhum <code>if</code> perguntando o tipo do personagem.</li>
+  <li>Nenhuma hierarquia tem mais de um nível.</li>
+</ul>
+
+<h4>Encapsulamento</h4>
+<ul class="check">
+  <li>A vida é <code>_vida</code> dentro do <code>Personagem</code>.</li>
+  <li><code>main.py</code> e <code>classes.py</code> não têm nenhum <code>_vida</code>.</li>
+  <li>Toda cura passa pelo método <code>curar</code>.</li>
+  <li>O <code>curar</code> recusa valor negativo e não passa da vida máxima.</li>
+</ul>
+
+<h4>Organização</h4>
+<ul class="check">
+  <li>Os três arquivos separados: <code>personagem.py</code>, <code>classes.py</code>, <code>main.py</code>.</li>
+  <li>Nenhum arquivo com nome contendo espaço ou acento.</li>
+  <li>O código roda com <code>python3 main.py</code>, sem precisar editar nada antes.</li>
+</ul>
+
+<div class="regra">
+  <span class="rot">O último teste</span>
+  <p>Peça para alguém que não programa jogar o seu jogo, sem você explicar nada. Se a pessoa souber o que fazer só lendo a tela, a interface está boa. Se ela travar, o problema não é o código, são as mensagens.</p>
+</div>
+
+</body>
+</html>
