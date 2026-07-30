@@ -29,6 +29,8 @@ def gw(ch, size, style):
         f = 0.56
     else:
         f = 0.52
+    if style == "bold":
+        f *= 1.12          # Helvetica-Bold e mais larga que a Helvetica
     return f * size
 
 
@@ -210,6 +212,8 @@ class PDF:
         lead = {1: 22, 2: 18, 3: 15}.get(level, 15)
         before = {1: 12, 2: 15, 3: 11}.get(level, 10)
         hmap = {"normal": "F2", "bold": "F2", "code": "F3", "obl": "F2"}
+        # o titulo inteiro sai em F2, entao a largura tem que ser a da bold
+        runs = [(t, "bold" if s == "normal" else s) for t, s in runs]
         if self.y - (lead + before) < BOTTOM:
             self.newpage()
         self.flow(runs, size, lead, hmap, space_before=before)

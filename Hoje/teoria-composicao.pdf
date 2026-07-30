@@ -1,0 +1,2994 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R] /Count 10 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 17311 >>
+stream
+BT /F2 17.00 Tf 56.00 756.89 Td (Teoria) Tj ET
+BT /F2 17.00 Tf 119.74 756.89 Td (de) Tj ET
+BT /F2 17.00 Tf 144.64 756.89 Td (POO:) Tj ET
+BT /F2 17.00 Tf 195.44 756.89 Td (composição) Tj ET
+0.55 0.55 0.55 RG 1.2 w 56.00 753.89 m 539.28 753.89 l S 0 0 0 RG
+BT /F1 10.50 Tf 56.00 733.39 Td (Na) Tj ET
+BT /F1 10.50 Tf 71.96 733.39 Td (Parte) Tj ET
+BT /F1 10.50 Tf 101.99 733.39 Td (B) Tj ET
+BT /F1 10.50 Tf 112.49 733.39 Td (você) Tj ET
+BT /F1 10.50 Tf 137.48 733.39 Td (aprendeu) Tj ET
+BT /F1 10.50 Tf 184.31 733.39 Td (herança:) Tj ET
+BT /F1 10.50 Tf 228.83 733.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 252.35 733.39 Td (classe) Tj ET
+BT /F2 10.50 Tf 285.95 733.39 Td (é) Tj ET
+BT /F2 10.50 Tf 295.22 733.39 Td (um) Tj ET
+BT /F1 10.50 Tf 315.06 733.39 Td (tipo) Tj ET
+BT /F1 10.50 Tf 335.43 733.39 Td (de) Tj ET
+BT /F1 10.50 Tf 349.50 733.39 Td (outra.) Tj ET
+BT /F1 10.50 Tf 380.79 733.39 Td (Com) Tj ET
+BT /F1 10.50 Tf 406.20 733.39 Td (ela) Tj ET
+BT /F1 10.50 Tf 423.42 733.39 Td (o) Tj ET
+BT /F1 10.50 Tf 432.03 733.39 Td (seu) Tj ET
+BT /F1 10.50 Tf 451.56 733.39 Td (RPG) Tj ET
+BT /F1 10.50 Tf 476.76 733.39 Td (saiu) Tj ET
+BT /F1 10.50 Tf 499.44 733.39 Td (de) Tj ET
+BT /F1 10.50 Tf 513.51 733.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 56.00 718.89 Td (classe) Tj ET
+BT /F1 10.50 Tf 89.60 718.89 Td (só) Tj ET
+BT /F1 10.50 Tf 103.67 718.89 Td (para) Tj ET
+BT /F1 10.50 Tf 128.66 718.89 Td (uma) Tj ET
+BT /F1 10.50 Tf 152.18 718.89 Td (família) Tj ET
+BT /F1 10.50 Tf 190.61 718.89 Td (de) Tj ET
+BT /F1 10.50 Tf 204.68 718.89 Td (classes.) Tj ET
+BT /F1 10.50 Tf 56.00 700.39 Td (Agora) Tj ET
+BT /F1 10.50 Tf 88.34 700.39 Td (vem) Tj ET
+BT /F1 10.50 Tf 111.86 700.39 Td (o) Tj ET
+BT /F1 10.50 Tf 120.47 700.39 Td (outro) Tj ET
+BT /F1 10.50 Tf 148.61 700.39 Td (lado.) Tj ET
+BT /F1 10.50 Tf 174.44 700.39 Td (Nem) Tj ET
+BT /F1 10.50 Tf 199.85 700.39 Td (toda) Tj ET
+BT /F1 10.50 Tf 222.53 700.39 Td (relação) Tj ET
+BT /F1 10.50 Tf 261.59 700.39 Td (entre) Tj ET
+BT /F1 10.50 Tf 289.73 700.39 Td (dois) Tj ET
+BT /F1 10.50 Tf 312.41 700.39 Td (objetos) Tj ET
+BT /F1 10.50 Tf 349.16 700.39 Td (é) Tj ET
+BT /F1 10.50 Tf 357.77 700.39 Td ("é) Tj ET
+BT /F1 10.50 Tf 371.84 700.39 Td (um".) Tj ET
+BT /F1 10.50 Tf 398.51 700.39 Td (A) Tj ET
+BT /F1 10.50 Tf 409.01 700.39 Td (maioria,) Tj ET
+BT /F1 10.50 Tf 452.90 700.39 Td (na) Tj ET
+BT /F1 10.50 Tf 466.97 700.39 Td (verdade,) Tj ET
+BT /F1 10.50 Tf 511.49 700.39 Td (é) Tj ET
+BT /F2 10.50 Tf 56.00 685.89 Td ("tem) Tj ET
+BT /F2 10.50 Tf 85.49 685.89 Td (um") Tj ET
+BT /F1 10.50 Tf 111.46 685.89 Td (.) Tj ET
+BT /F1 10.50 Tf 117.76 685.89 Td (E) Tj ET
+BT /F1 10.50 Tf 128.26 685.89 Td (usar) Tj ET
+BT /F1 10.50 Tf 153.25 685.89 Td (herança) Tj ET
+BT /F1 10.50 Tf 194.62 685.89 Td (onde) Tj ET
+BT /F1 10.50 Tf 219.61 685.89 Td (cabia) Tj ET
+BT /F1 10.50 Tf 247.75 685.89 Td ("tem) Tj ET
+BT /F1 10.50 Tf 274.42 685.89 Td (um") Tj ET
+BT /F1 10.50 Tf 297.94 685.89 Td (é) Tj ET
+BT /F1 10.50 Tf 306.55 685.89 Td (o) Tj ET
+BT /F1 10.50 Tf 315.16 685.89 Td (erro) Tj ET
+BT /F1 10.50 Tf 340.15 685.89 Td (mais) Tj ET
+BT /F1 10.50 Tf 366.82 685.89 Td (comum) Tj ET
+BT /F1 10.50 Tf 405.25 685.89 Td (de) Tj ET
+BT /F1 10.50 Tf 419.32 685.89 Td (quem) Tj ET
+BT /F1 10.50 Tf 448.30 685.89 Td (acabou) Tj ET
+BT /F1 10.50 Tf 484.21 685.89 Td (de) Tj ET
+BT /F1 10.50 Tf 56.00 671.39 Td (aprender) Tj ET
+BT /F1 10.50 Tf 102.83 671.39 Td (herança.) Tj ET
+BT /F1 10.50 Tf 56.00 652.89 Td (Esta) Tj ET
+BT /F1 10.50 Tf 80.57 652.89 Td (parte) Tj ET
+BT /F1 10.50 Tf 108.71 652.89 Td (tem) Tj ET
+BT /F1 10.50 Tf 129.92 652.89 Td (uma) Tj ET
+BT /F1 10.50 Tf 153.44 652.89 Td (ideia) Tj ET
+BT /F1 10.50 Tf 179.27 652.89 Td (central) Tj ET
+BT /F1 10.50 Tf 216.02 652.89 Td (só:) Tj ET
+BT /F2 10.50 Tf 233.24 652.89 Td (composição) Tj ET
+BT /F1 10.50 Tf 299.42 652.89 Td (.) Tj ET
+BT /F1 10.50 Tf 305.72 652.89 Td (Um) Tj ET
+BT /F1 10.50 Tf 325.67 652.89 Td (objeto) Tj ET
+BT /F1 10.50 Tf 356.96 652.89 Td (guarda) Tj ET
+BT /F1 10.50 Tf 392.87 652.89 Td (outro) Tj ET
+BT /F1 10.50 Tf 421.01 652.89 Td (objeto) Tj ET
+BT /F1 10.50 Tf 452.30 652.89 Td (dentro) Tj ET
+BT /F1 10.50 Tf 485.90 652.89 Td (de) Tj ET
+BT /F1 10.50 Tf 499.97 652.89 Td (si.) Tj ET
+0.70 0.70 0.70 RG 0.6 w 56.00 639.89 m 539.28 639.89 l S 0 0 0 RG
+BT /F2 13.50 Tf 56.00 602.39 Td (1.) Tj ET
+BT /F2 13.50 Tf 73.05 602.39 Td (O) Tj ET
+BT /F2 13.50 Tf 87.69 602.39 Td (problema:) Tj ET
+BT /F2 13.50 Tf 161.59 602.39 Td (a) Tj ET
+BT /F2 13.50 Tf 173.50 602.39 Td (poção) Tj ET
+BT /F2 13.50 Tf 216.87 602.39 Td (que) Tj ET
+BT /F2 13.50 Tf 244.50 602.39 Td (virou) Tj ET
+BT /F2 13.50 Tf 284.54 602.39 Td (personagem) Tj ET
+BT /F1 10.50 Tf 56.00 583.39 Td (O) Tj ET
+BT /F1 10.50 Tf 66.50 583.39 Td (seu) Tj ET
+BT /F1 10.50 Tf 86.03 583.39 Td (RPG) Tj ET
+BT /F1 10.50 Tf 111.23 583.39 Td (vai) Tj ET
+BT /F1 10.50 Tf 128.45 583.39 Td (ganhar) Tj ET
+BT /F1 10.50 Tf 164.36 583.39 Td (itens.) Tj ET
+BT /F1 10.50 Tf 193.34 583.39 Td (Poção,) Tj ET
+BT /F1 10.50 Tf 228.83 583.39 Td (bomba,) Tj ET
+BT /F1 10.50 Tf 266.42 583.39 Td (espada.) Tj ET
+BT /F1 10.50 Tf 305.48 583.39 Td (Você) Tj ET
+BT /F1 10.50 Tf 332.36 583.39 Td (acabou) Tj ET
+BT /F1 10.50 Tf 368.27 583.39 Td (de) Tj ET
+BT /F1 10.50 Tf 382.34 583.39 Td (aprender) Tj ET
+BT /F1 10.50 Tf 429.17 583.39 Td (herança,) Tj ET
+BT /F1 10.50 Tf 473.69 583.39 Td (então) Tj ET
+BT /F1 10.50 Tf 501.83 583.39 Td (a) Tj ET
+BT /F1 10.50 Tf 56.00 568.89 Td (primeira) Tj ET
+BT /F1 10.50 Tf 102.20 568.89 Td (ideia) Tj ET
+BT /F1 10.50 Tf 128.03 568.89 Td (é) Tj ET
+BT /F1 10.50 Tf 136.64 568.89 Td (natural:) Tj ET
+0.95 0.95 0.95 rg 56.00 511.89 483.28 48.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 545.39 Td (class Pocao\(Personagem\):) Tj ET
+BT /F3 8.50 Tf 62.00 533.39 Td (    def __init__\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 521.39 Td (        super\(\).__init__\("Poção de vida", 1, 0, 0, 0\)) Tj ET
+BT /F1 10.50 Tf 56.00 494.39 Td (Isso) Tj ET
+BT /F2 10.50 Tf 78.68 494.39 Td (funciona) Tj ET
+BT /F1 10.50 Tf 125.58 494.39 Td (.) Tj ET
+BT /F1 10.50 Tf 131.88 494.39 Td (O) Tj ET
+BT /F1 10.50 Tf 142.38 494.39 Td (Python) Tj ET
+BT /F1 10.50 Tf 177.87 494.39 Td (não) Tj ET
+BT /F1 10.50 Tf 197.40 494.39 Td (reclama.) Tj ET
+BT /F1 10.50 Tf 243.60 494.39 Td (E) Tj ET
+BT /F1 10.50 Tf 254.10 494.39 Td (é) Tj ET
+BT /F1 10.50 Tf 262.71 494.39 Td (aí) Tj ET
+BT /F1 10.50 Tf 276.78 494.39 Td (que) Tj ET
+BT /F1 10.50 Tf 296.31 494.39 Td (mora) Tj ET
+BT /F1 10.50 Tf 325.29 494.39 Td (o) Tj ET
+BT /F1 10.50 Tf 333.90 494.39 Td (problema.) Tj ET
+BT /F1 10.50 Tf 56.00 475.89 Td (Repare) Tj ET
+BT /F1 10.50 Tf 93.80 475.89 Td (no) Tj ET
+BT /F1 10.50 Tf 107.87 475.89 Td (que) Tj ET
+BT /F1 10.50 Tf 127.40 475.89 Td (essa) Tj ET
+BT /F1 10.50 Tf 152.39 475.89 Td (poção) Tj ET
+BT /F1 10.50 Tf 182.84 475.89 Td (ganhou) Tj ET
+BT /F1 10.50 Tf 218.75 475.89 Td (de) Tj ET
+BT /F1 10.50 Tf 232.82 475.89 Td (graça:) Tj ET
+0.95 0.95 0.95 rg 56.00 394.89 483.28 72.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 452.39 Td (pocao = Pocao\(\)) Tj ET
+BT /F3 8.50 Tf 62.00 440.39 Td (pocao.atacar\(goblin\)      # uma pocao atacando) Tj ET
+BT /F3 8.50 Tf 62.00 428.39 Td (pocao.defender\(\)          # uma pocao se defendendo) Tj ET
+BT /F3 8.50 Tf 62.00 416.39 Td (pocao.esta_vivo\(\)         # uma pocao viva) Tj ET
+BT /F3 8.50 Tf 62.00 404.39 Td (pocao.receber_dano\(10\)    # uma pocao levando dano) Tj ET
+BT /F1 10.50 Tf 56.00 377.39 Td (Uma) Tj ET
+BT /F1 10.50 Tf 81.41 377.39 Td (poção) Tj ET
+BT /F1 10.50 Tf 111.86 377.39 Td (que) Tj ET
+BT /F1 10.50 Tf 131.39 377.39 Td (ataca.) Tj ET
+BT /F1 10.50 Tf 162.68 377.39 Td (Uma) Tj ET
+BT /F1 10.50 Tf 188.09 377.39 Td (poção) Tj ET
+BT /F1 10.50 Tf 218.54 377.39 Td (que) Tj ET
+BT /F1 10.50 Tf 238.07 377.39 Td (está) Tj ET
+BT /F1 10.50 Tf 260.75 377.39 Td (viva.) Tj ET
+BT /F1 10.50 Tf 286.58 377.39 Td (Uma) Tj ET
+BT /F1 10.50 Tf 311.99 377.39 Td (poção) Tj ET
+BT /F1 10.50 Tf 342.44 377.39 Td (com) Tj ET
+BT /F1 10.50 Tf 365.96 377.39 Td (defesa) Tj ET
+BT /F1 10.50 Tf 399.56 377.39 Td (e) Tj ET
+BT /F1 10.50 Tf 408.17 377.39 Td (com) Tj ET
+BT /F1 10.50 Tf 431.69 377.39 Td (mochila.) Tj ET
+BT /F1 10.50 Tf 56.00 358.89 Td (Nada) Tj ET
+BT /F1 10.50 Tf 82.88 358.89 Td (disso) Tj ET
+BT /F1 10.50 Tf 111.02 358.89 Td (faz) Tj ET
+BT /F1 10.50 Tf 128.24 358.89 Td (sentido,) Tj ET
+BT /F1 10.50 Tf 168.14 358.89 Td (e) Tj ET
+BT /F1 10.50 Tf 176.75 358.89 Td (nada) Tj ET
+BT /F1 10.50 Tf 201.74 358.89 Td (disso) Tj ET
+BT /F1 10.50 Tf 229.88 358.89 Td (vai) Tj ET
+BT /F1 10.50 Tf 247.10 358.89 Td (dar) Tj ET
+BT /F1 10.50 Tf 266.63 358.89 Td (erro) Tj ET
+BT /F1 10.50 Tf 291.62 358.89 Td (na) Tj ET
+BT /F1 10.50 Tf 305.69 358.89 Td (tela.) Tj ET
+BT /F1 10.50 Tf 329.21 358.89 Td (O) Tj ET
+BT /F1 10.50 Tf 339.71 358.89 Td (programa) Tj ET
+BT /F1 10.50 Tf 390.53 358.89 Td (roda.) Tj ET
+BT /F1 10.50 Tf 418.67 358.89 Td (Ele) Tj ET
+BT /F1 10.50 Tf 437.78 358.89 Td (só) Tj ET
+BT /F1 10.50 Tf 451.85 358.89 Td (está) Tj ET
+BT /F1 10.50 Tf 474.53 358.89 Td (errado) Tj ET
+BT /F1 10.50 Tf 510.44 358.89 Td (por) Tj ET
+BT /F1 10.50 Tf 56.00 344.39 Td (dentro,) Tj ET
+BT /F1 10.50 Tf 92.75 344.39 Td (e) Tj ET
+BT /F1 10.50 Tf 101.36 344.39 Td (você) Tj ET
+BT /F1 10.50 Tf 126.35 344.39 Td (vai) Tj ET
+BT /F1 10.50 Tf 143.57 344.39 Td (descobrir) Tj ET
+BT /F1 10.50 Tf 193.55 344.39 Td (daqui) Tj ET
+BT /F1 10.50 Tf 221.69 344.39 Td (a) Tj ET
+BT /F1 10.50 Tf 230.30 344.39 Td (duas) Tj ET
+BT /F1 10.50 Tf 255.29 344.39 Td (semanas,) Tj ET
+BT /F1 10.50 Tf 303.80 344.39 Td (quando) Tj ET
+BT /F1 10.50 Tf 339.71 344.39 Td (alguém) Tj ET
+BT /F1 10.50 Tf 377.30 344.39 Td (chamar) Tj ET
+BT /F3 10.50 Tf 417.20 344.39 Td (pocao.atacar\(\)) Tj ET
+BT /F1 10.50 Tf 508.55 344.39 Td (por) Tj ET
+BT /F1 10.50 Tf 56.00 329.89 Td (engano) Tj ET
+BT /F1 10.50 Tf 91.91 329.89 Td (e) Tj ET
+BT /F1 10.50 Tf 100.52 329.89 Td (o) Tj ET
+BT /F1 10.50 Tf 109.13 329.89 Td (jogo) Tj ET
+BT /F1 10.50 Tf 131.81 329.89 Td (fizer) Tj ET
+BT /F1 10.50 Tf 157.64 329.89 Td (uma) Tj ET
+BT /F1 10.50 Tf 181.16 329.89 Td (coisa) Tj ET
+BT /F1 10.50 Tf 209.30 329.89 Td (absurda) Tj ET
+BT /F1 10.50 Tf 250.67 329.89 Td (em) Tj ET
+BT /F1 10.50 Tf 268.73 329.89 Td (silêncio.) Tj ET
+0.35 0.35 0.35 rg BT /F2 10.00 Tf 72.00 310.89 Td (A) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F2 10.00 Tf 82.84 310.89 Td (pergunta) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F2 10.00 Tf 129.97 310.89 Td (que) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F2 10.00 Tf 150.44 310.89 Td (resolve:) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 195.10 310.89 Td ("Poção) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F2 10.00 Tf 231.10 310.89 Td (é) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F2 10.00 Tf 239.93 310.89 Td (um) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 258.83 310.89 Td (Personagem?") Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 329.83 310.89 Td (Diga) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 353.23 310.89 Td (a) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 361.43 310.89 Td (frase) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 388.23 310.89 Td (em) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 405.43 310.89 Td (voz) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 424.03 310.89 Td (alta.) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 446.43 310.89 Td (Se) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 461.63 310.89 Td (ela) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 478.03 310.89 Td (soar) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 72.00 296.89 Td (estranha,) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 117.40 296.89 Td (herança) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 156.80 296.89 Td (está) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 178.40 296.89 Td (errada.) Tj ET 0 0 0 rg
+0.60 0.60 0.60 rg 58.00 296.89 2.20 24.00 re f 0 0 0 rg
+BT /F2 10.50 Tf 56.00 275.39 Td (Perguntas) Tj ET
+BT /F1 10.50 Tf 56.00 257.89 Td (1.) Tj ET
+BT /F1 10.50 Tf 76.00 257.89 Td (Depois) Tj ET
+BT /F1 10.50 Tf 111.49 257.89 Td (de) Tj ET
+BT /F3 10.50 Tf 125.56 257.89 Td (class) Tj ET
+BT /F3 10.50 Tf 160.21 257.89 Td (Pocao\(Personagem\)) Tj ET
+BT /F1 10.50 Tf 270.46 257.89 Td (,) Tj ET
+BT /F1 10.50 Tf 276.76 257.89 Td (liste) Tj ET
+BT /F1 10.50 Tf 300.28 257.89 Td (três) Tj ET
+BT /F1 10.50 Tf 322.96 257.89 Td (métodos) Tj ET
+BT /F1 10.50 Tf 366.01 257.89 Td (que) Tj ET
+BT /F1 10.50 Tf 385.54 257.89 Td (a) Tj ET
+BT /F1 10.50 Tf 394.15 257.89 Td (poção) Tj ET
+BT /F1 10.50 Tf 424.60 257.89 Td (passou) Tj ET
+BT /F1 10.50 Tf 460.51 257.89 Td (a) Tj ET
+BT /F1 10.50 Tf 469.12 257.89 Td (ter) Tj ET
+BT /F1 10.50 Tf 486.34 257.89 Td (e) Tj ET
+BT /F1 10.50 Tf 494.95 257.89 Td (que) Tj ET
+BT /F1 10.50 Tf 514.48 257.89 Td (não) Tj ET
+BT /F1 10.50 Tf 76.00 243.39 Td (fazem) Tj ET
+BT /F1 10.50 Tf 108.13 243.39 Td (sentido) Tj ET
+BT /F1 10.50 Tf 144.88 243.39 Td (nenhum) Tj ET
+BT /F1 10.50 Tf 184.78 243.39 Td (para) Tj ET
+BT /F1 10.50 Tf 209.77 243.39 Td (ela.) Tj ET
+BT /F1 10.50 Tf 56.00 225.89 Td (2.) Tj ET
+BT /F1 10.50 Tf 76.00 225.89 Td (O) Tj ET
+BT /F1 10.50 Tf 86.50 225.89 Td (código) Tj ET
+BT /F1 10.50 Tf 120.10 225.89 Td (desta) Tj ET
+BT /F1 10.50 Tf 148.24 225.89 Td (seção) Tj ET
+BT /F1 10.50 Tf 178.69 225.89 Td (roda) Tj ET
+BT /F1 10.50 Tf 203.68 225.89 Td (sem) Tj ET
+BT /F1 10.50 Tf 227.20 225.89 Td (erro) Tj ET
+BT /F1 10.50 Tf 252.19 225.89 Td (nenhum.) Tj ET
+BT /F1 10.50 Tf 295.24 225.89 Td (Explique) Tj ET
+BT /F1 10.50 Tf 339.34 225.89 Td (por) Tj ET
+BT /F1 10.50 Tf 358.87 225.89 Td (que) Tj ET
+BT /F1 10.50 Tf 378.40 225.89 Td (isso) Tj ET
+BT /F1 10.50 Tf 401.08 225.89 Td (é) Tj ET
+BT /F1 10.50 Tf 409.69 225.89 Td (pior) Tj ET
+BT /F1 10.50 Tf 432.37 225.89 Td (do) Tj ET
+BT /F1 10.50 Tf 446.44 225.89 Td (que) Tj ET
+BT /F1 10.50 Tf 465.97 225.89 Td (ter) Tj ET
+BT /F1 10.50 Tf 483.19 225.89 Td (dado) Tj ET
+BT /F1 10.50 Tf 508.18 225.89 Td (erro.) Tj ET
+BT /F1 10.50 Tf 56.00 208.39 Td (3.) Tj ET
+BT /F1 10.50 Tf 76.00 208.39 Td (Diga) Tj ET
+BT /F1 10.50 Tf 100.57 208.39 Td (a) Tj ET
+BT /F1 10.50 Tf 109.18 208.39 Td (frase) Tj ET
+BT /F1 10.50 Tf 137.32 208.39 Td ("é) Tj ET
+BT /F1 10.50 Tf 151.39 208.39 Td (um") Tj ET
+BT /F1 10.50 Tf 174.91 208.39 Td (para) Tj ET
+BT /F1 10.50 Tf 199.90 208.39 Td (cada) Tj ET
+BT /F1 10.50 Tf 224.89 208.39 Td (par) Tj ET
+BT /F1 10.50 Tf 244.42 208.39 Td (e) Tj ET
+BT /F1 10.50 Tf 253.03 208.39 Td (responda) Tj ET
+BT /F1 10.50 Tf 299.86 208.39 Td (se) Tj ET
+BT /F1 10.50 Tf 313.93 208.39 Td (ela) Tj ET
+BT /F1 10.50 Tf 331.15 208.39 Td (é) Tj ET
+BT /F1 10.50 Tf 339.76 208.39 Td (verdadeira:) Tj ET
+BT /F1 10.50 Tf 398.35 208.39 Td (Poção) Tj ET
+BT /F1 10.50 Tf 430.69 208.39 Td (e) Tj ET
+BT /F1 10.50 Tf 439.30 208.39 Td (Personagem;) Tj ET
+BT /F1 10.50 Tf 506.08 208.39 Td (Mago) Tj ET
+BT /F1 10.50 Tf 76.00 193.89 Td (e) Tj ET
+BT /F1 10.50 Tf 84.61 193.89 Td (Personagem;) Tj ET
+BT /F1 10.50 Tf 151.39 193.89 Td (Bomba) Tj ET
+BT /F1 10.50 Tf 187.72 193.89 Td (e) Tj ET
+BT /F1 10.50 Tf 196.33 193.89 Td (Item.) Tj ET
+BT /F1 10.50 Tf 56.00 176.39 Td (4.) Tj ET
+BT /F1 10.50 Tf 76.00 176.39 Td (Um) Tj ET
+BT /F1 10.50 Tf 95.95 176.39 Td (colega) Tj ET
+BT /F1 10.50 Tf 129.55 176.39 Td (diz) Tj ET
+BT /F1 10.50 Tf 146.77 176.39 Td (que) Tj ET
+BT /F1 10.50 Tf 166.30 176.39 Td (herdar) Tj ET
+BT /F1 10.50 Tf 202.21 176.39 Td (de) Tj ET
+BT /F3 10.50 Tf 216.28 176.39 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 282.43 176.39 Td (foi) Tj ET
+BT /F1 10.50 Tf 297.34 176.39 Td (bom) Tj ET
+BT /F1 10.50 Tf 320.86 176.39 Td (porque) Tj ET
+BT /F1 10.50 Tf 356.77 176.39 Td ("assim) Tj ET
+BT /F1 10.50 Tf 394.36 176.39 Td (a) Tj ET
+BT /F1 10.50 Tf 402.97 176.39 Td (poção) Tj ET
+BT /F1 10.50 Tf 433.42 176.39 Td (já) Tj ET
+BT /F1 10.50 Tf 445.18 176.39 Td (vem) Tj ET
+BT /F1 10.50 Tf 468.70 176.39 Td (com) Tj ET
+BT /F1 10.50 Tf 492.22 176.39 Td (o) Tj ET
+BT /F1 10.50 Tf 500.83 176.39 Td (nome) Tj ET
+BT /F1 10.50 Tf 76.00 161.89 Td (pronto".) Tj ET
+BT /F1 10.50 Tf 118.21 161.89 Td (Responda) Tj ET
+BT /F1 10.50 Tf 166.93 161.89 Td (a) Tj ET
+BT /F1 10.50 Tf 175.54 161.89 Td (ele.) Tj ET
+0.70 0.70 0.70 RG 0.6 w 56.00 148.89 m 539.28 148.89 l S 0 0 0 RG
+BT /F2 13.50 Tf 56.00 111.39 Td (2.) Tj ET
+BT /F2 13.50 Tf 73.05 111.39 Td ("É) Tj ET
+BT /F2 13.50 Tf 95.55 111.39 Td (um") Tj ET
+BT /F2 13.50 Tf 128.93 111.39 Td (e) Tj ET
+BT /F2 13.50 Tf 140.84 111.39 Td ("tem) Tj ET
+BT /F2 13.50 Tf 178.76 111.39 Td (um") Tj ET
+BT /F1 10.50 Tf 56.00 92.39 Td (Existem) Tj ET
+BT /F1 10.50 Tf 98.63 92.39 Td (duas) Tj ET
+BT /F1 10.50 Tf 123.62 92.39 Td (relações) Tj ET
+BT /F1 10.50 Tf 168.14 92.39 Td (diferentes) Tj ET
+BT /F1 10.50 Tf 218.96 92.39 Td (entre) Tj ET
+BT /F1 10.50 Tf 247.10 92.39 Td (classes,) Tj ET
+BT /F1 10.50 Tf 289.31 92.39 Td (e) Tj ET
+BT /F1 10.50 Tf 297.92 92.39 Td (elas) Tj ET
+BT /F1 10.50 Tf 320.60 92.39 Td (se) Tj ET
+BT /F1 10.50 Tf 334.67 92.39 Td (dizem) Tj ET
+BT /F1 10.50 Tf 366.80 92.39 Td (com) Tj ET
+BT /F1 10.50 Tf 390.32 92.39 Td (duas) Tj ET
+BT /F1 10.50 Tf 415.31 92.39 Td (frases) Tj ET
+BT /F1 10.50 Tf 448.91 92.39 Td (diferentes.) Tj ET
+BT /F2 10.50 Tf 56.00 73.89 Td ("É) Tj ET
+BT /F2 10.50 Tf 73.50 73.89 Td (um") Tj ET
+BT /F1 10.50 Tf 99.46 73.89 Td (é) Tj ET
+BT /F1 10.50 Tf 108.07 73.89 Td (herança.) Tj ET
+BT /F1 10.50 Tf 152.59 73.89 Td (A) Tj ET
+BT /F1 10.50 Tf 163.09 73.89 Td (filha) Tj ET
+BT /F1 10.50 Tf 186.61 73.89 Td (é) Tj ET
+BT /F1 10.50 Tf 195.22 73.89 Td (um) Tj ET
+BT /F1 10.50 Tf 213.28 73.89 Td (tipo) Tj ET
+BT /F1 10.50 Tf 233.65 73.89 Td (da) Tj ET
+BT /F1 10.50 Tf 247.72 73.89 Td (mãe.) Tj ET
+
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 15055 >>
+stream
+BT /F1 10.50 Tf 56.00 775.39 Td (•) Tj ET
+BT /F1 10.50 Tf 76.00 775.39 Td (Guerreiro) Tj ET
+BT /F2 10.50 Tf 127.87 775.39 Td (é) Tj ET
+BT /F2 10.50 Tf 137.14 775.39 Td (um) Tj ET
+BT /F1 10.50 Tf 156.98 775.39 Td (Personagem.) Tj ET
+BT /F1 10.50 Tf 223.76 775.39 Td (Verdade.) Tj ET
+BT /F1 10.50 Tf 56.00 757.89 Td (•) Tj ET
+BT /F1 10.50 Tf 76.00 757.89 Td (Mago) Tj ET
+BT /F2 10.50 Tf 104.98 757.89 Td (é) Tj ET
+BT /F2 10.50 Tf 114.25 757.89 Td (um) Tj ET
+BT /F1 10.50 Tf 134.09 757.89 Td (Personagem.) Tj ET
+BT /F1 10.50 Tf 200.87 757.89 Td (Verdade.) Tj ET
+BT /F1 10.50 Tf 56.00 740.39 Td (•) Tj ET
+BT /F1 10.50 Tf 76.00 740.39 Td (Dragão) Tj ET
+BT /F2 10.50 Tf 113.80 740.39 Td (é) Tj ET
+BT /F2 10.50 Tf 123.07 740.39 Td (um) Tj ET
+BT /F1 10.50 Tf 142.91 740.39 Td (Personagem.) Tj ET
+BT /F1 10.50 Tf 209.69 740.39 Td (Verdade.) Tj ET
+BT /F2 10.50 Tf 56.00 721.89 Td ("Tem) Tj ET
+BT /F2 10.50 Tf 90.20 721.89 Td (um") Tj ET
+BT /F1 10.50 Tf 116.16 721.89 Td (é) Tj ET
+BT /F1 10.50 Tf 124.77 721.89 Td (composição.) Tj ET
+BT /F1 10.50 Tf 187.35 721.89 Td (Um) Tj ET
+BT /F1 10.50 Tf 207.30 721.89 Td (objeto) Tj ET
+BT /F1 10.50 Tf 238.59 721.89 Td (guarda) Tj ET
+BT /F1 10.50 Tf 274.50 721.89 Td (outro.) Tj ET
+BT /F1 10.50 Tf 56.00 704.39 Td (•) Tj ET
+BT /F1 10.50 Tf 76.00 704.39 Td (Personagem) Tj ET
+BT /F2 10.50 Tf 139.63 704.39 Td (tem) Tj ET
+BT /F2 10.50 Tf 163.01 704.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 188.97 704.39 Td (mochila.) Tj ET
+BT /F1 10.50 Tf 232.86 704.39 Td (Verdade.) Tj ET
+BT /F1 10.50 Tf 56.00 686.89 Td (•) Tj ET
+BT /F1 10.50 Tf 76.00 686.89 Td (Mochila) Tj ET
+BT /F2 10.50 Tf 116.74 686.89 Td (tem) Tj ET
+BT /F1 10.50 Tf 140.12 686.89 Td (itens.) Tj ET
+BT /F1 10.50 Tf 169.10 686.89 Td (Verdade.) Tj ET
+BT /F1 10.50 Tf 56.00 669.39 Td (•) Tj ET
+BT /F1 10.50 Tf 76.00 669.39 Td (Poção) Tj ET
+BT /F2 10.50 Tf 108.34 669.39 Td (é) Tj ET
+BT /F2 10.50 Tf 117.61 669.39 Td (um) Tj ET
+BT /F1 10.50 Tf 137.45 669.39 Td (Personagem?) Tj ET
+BT /F1 10.50 Tf 206.54 669.39 Td (Falso.) Tj ET
+BT /F1 10.50 Tf 239.72 669.39 Td (Personagem) Tj ET
+BT /F2 10.50 Tf 303.35 669.39 Td (tem) Tj ET
+BT /F1 10.50 Tf 326.73 669.39 Td (poções?) Tj ET
+BT /F1 10.50 Tf 368.10 669.39 Td (Verdade.) Tj ET
+BT /F1 10.50 Tf 56.00 650.89 Td (A) Tj ET
+BT /F1 10.50 Tf 66.50 650.89 Td (poção) Tj ET
+BT /F1 10.50 Tf 96.95 650.89 Td (não) Tj ET
+BT /F1 10.50 Tf 116.48 650.89 Td (é) Tj ET
+BT /F1 10.50 Tf 125.09 650.89 Td (um) Tj ET
+BT /F1 10.50 Tf 143.15 650.89 Td (tipo) Tj ET
+BT /F1 10.50 Tf 163.52 650.89 Td (de) Tj ET
+BT /F1 10.50 Tf 177.59 650.89 Td (personagem.) Tj ET
+BT /F1 10.50 Tf 242.48 650.89 Td (Ela) Tj ET
+BT /F1 10.50 Tf 261.59 650.89 Td (é) Tj ET
+BT /F1 10.50 Tf 270.20 650.89 Td (uma) Tj ET
+BT /F1 10.50 Tf 293.72 650.89 Td (coisa) Tj ET
+BT /F1 10.50 Tf 321.86 650.89 Td (que) Tj ET
+BT /F1 10.50 Tf 341.39 650.89 Td (o) Tj ET
+BT /F1 10.50 Tf 350.00 650.89 Td (personagem) Tj ET
+BT /F2 10.50 Tf 411.74 650.89 Td (carrega) Tj ET
+BT /F1 10.50 Tf 457.70 650.89 Td (.) Tj ET
+BT /F1 10.50 Tf 464.00 650.89 Td (A) Tj ET
+BT /F1 10.50 Tf 474.50 650.89 Td (relação) Tj ET
+BT /F1 10.50 Tf 513.56 650.89 Td (é) Tj ET
+BT /F1 10.50 Tf 522.17 650.89 Td (de) Tj ET
+BT /F1 10.50 Tf 56.00 636.39 Td (posse,) Tj ET
+BT /F1 10.50 Tf 89.60 636.39 Td (não) Tj ET
+BT /F1 10.50 Tf 109.13 636.39 Td (de) Tj ET
+BT /F1 10.50 Tf 123.20 636.39 Td (tipo.) Tj ET
+BT /F1 10.50 Tf 56.00 617.89 Td (Guarde) Tj ET
+BT /F1 10.50 Tf 93.80 617.89 Td (esta) Tj ET
+BT /F1 10.50 Tf 116.48 617.89 Td (tabela) Tj ET
+BT /F1 10.50 Tf 147.77 617.89 Td (mental:) Tj ET
+BT /F1 10.50 Tf 56.00 600.39 Td (•) Tj ET
+BT /F1 10.50 Tf 76.00 600.39 Td (Se) Tj ET
+BT /F1 10.50 Tf 91.96 600.39 Td (você) Tj ET
+BT /F1 10.50 Tf 116.95 600.39 Td (quer) Tj ET
+BT /F2 10.50 Tf 141.94 600.39 Td (outros) Tj ET
+BT /F2 10.50 Tf 179.19 600.39 Td (comportamentos) Tj ET
+BT /F2 10.50 Tf 271.72 600.39 Td (para) Tj ET
+BT /F2 10.50 Tf 299.33 600.39 Td (a) Tj ET
+BT /F2 10.50 Tf 308.60 600.39 Td (mesma) Tj ET
+BT /F2 10.50 Tf 351.26 600.39 Td (coisa) Tj ET
+BT /F1 10.50 Tf 382.40 600.39 Td (,) Tj ET
+BT /F1 10.50 Tf 388.70 600.39 Td (use) Tj ET
+BT /F1 10.50 Tf 408.23 600.39 Td (herança.) Tj ET
+BT /F1 10.50 Tf 56.00 582.89 Td (•) Tj ET
+BT /F1 10.50 Tf 76.00 582.89 Td (Se) Tj ET
+BT /F1 10.50 Tf 91.96 582.89 Td (você) Tj ET
+BT /F1 10.50 Tf 116.95 582.89 Td (quer) Tj ET
+BT /F2 10.50 Tf 141.94 582.89 Td (juntar) Tj ET
+BT /F2 10.50 Tf 176.61 582.89 Td (coisas) Tj ET
+BT /F2 10.50 Tf 213.86 582.89 Td (diferentes) Tj ET
+BT /F1 10.50 Tf 270.40 582.89 Td (,) Tj ET
+BT /F1 10.50 Tf 276.70 582.89 Td (use) Tj ET
+BT /F1 10.50 Tf 296.23 582.89 Td (composição.) Tj ET
+BT /F1 10.50 Tf 56.00 564.39 Td (O) Tj ET
+BT /F1 10.50 Tf 66.50 564.39 Td (Guerreiro) Tj ET
+BT /F1 10.50 Tf 118.37 564.39 Td (e) Tj ET
+BT /F1 10.50 Tf 126.98 564.39 Td (o) Tj ET
+BT /F1 10.50 Tf 135.59 564.39 Td (Mago) Tj ET
+BT /F1 10.50 Tf 164.57 564.39 Td (são) Tj ET
+BT /F1 10.50 Tf 184.10 564.39 Td (a) Tj ET
+BT /F1 10.50 Tf 192.71 564.39 Td (mesma) Tj ET
+BT /F1 10.50 Tf 231.14 564.39 Td (coisa) Tj ET
+BT /F1 10.50 Tf 259.28 564.39 Td (\(personagens\)) Tj ET
+BT /F1 10.50 Tf 328.79 564.39 Td (agindo) Tj ET
+BT /F1 10.50 Tf 362.39 564.39 Td (diferente:) Tj ET
+BT /F1 10.50 Tf 410.90 564.39 Td (herança.) Tj ET
+BT /F1 10.50 Tf 455.42 564.39 Td (O) Tj ET
+BT /F1 10.50 Tf 465.92 564.39 Td (personagem) Tj ET
+BT /F1 10.50 Tf 527.66 564.39 Td (e) Tj ET
+BT /F1 10.50 Tf 56.00 549.89 Td (a) Tj ET
+BT /F1 10.50 Tf 64.61 549.89 Td (mochila) Tj ET
+BT /F1 10.50 Tf 105.35 549.89 Td (são) Tj ET
+BT /F1 10.50 Tf 124.88 549.89 Td (coisas) Tj ET
+BT /F1 10.50 Tf 158.48 549.89 Td (diferentes) Tj ET
+BT /F1 10.50 Tf 209.30 549.89 Td (que) Tj ET
+BT /F1 10.50 Tf 228.83 549.89 Td (andam) Tj ET
+BT /F1 10.50 Tf 263.27 549.89 Td (juntas:) Tj ET
+BT /F1 10.50 Tf 297.71 549.89 Td (composição.) Tj ET
+BT /F2 10.50 Tf 56.00 531.39 Td (Perguntas) Tj ET
+BT /F1 10.50 Tf 56.00 513.89 Td (1.) Tj ET
+BT /F1 10.50 Tf 76.00 513.89 Td (Escreva) Tj ET
+BT /F1 10.50 Tf 119.26 513.89 Td (a) Tj ET
+BT /F1 10.50 Tf 127.87 513.89 Td (frase) Tj ET
+BT /F1 10.50 Tf 156.01 513.89 Td (certa,) Tj ET
+BT /F1 10.50 Tf 187.30 513.89 Td ("é) Tj ET
+BT /F1 10.50 Tf 201.37 513.89 Td (um") Tj ET
+BT /F1 10.50 Tf 224.89 513.89 Td (ou) Tj ET
+BT /F1 10.50 Tf 238.96 513.89 Td ("tem) Tj ET
+BT /F1 10.50 Tf 265.63 513.89 Td (um",) Tj ET
+BT /F1 10.50 Tf 292.30 513.89 Td (para) Tj ET
+BT /F1 10.50 Tf 317.29 513.89 Td (cada) Tj ET
+BT /F1 10.50 Tf 342.28 513.89 Td (par:) Tj ET
+BT /F1 10.50 Tf 364.96 513.89 Td (Dragão) Tj ET
+BT /F1 10.50 Tf 402.76 513.89 Td (e) Tj ET
+BT /F1 10.50 Tf 411.37 513.89 Td (Personagem;) Tj ET
+BT /F1 10.50 Tf 76.00 499.39 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 139.63 499.39 Td (e) Tj ET
+BT /F1 10.50 Tf 148.24 499.39 Td (mochila;) Tj ET
+BT /F1 10.50 Tf 192.13 499.39 Td (Bomba) Tj ET
+BT /F1 10.50 Tf 228.46 499.39 Td (e) Tj ET
+BT /F1 10.50 Tf 237.07 499.39 Td (Item;) Tj ET
+BT /F1 10.50 Tf 264.58 499.39 Td (mochila) Tj ET
+BT /F1 10.50 Tf 305.32 499.39 Td (e) Tj ET
+BT /F1 10.50 Tf 313.93 499.39 Td (itens.) Tj ET
+BT /F1 10.50 Tf 56.00 481.89 Td (2.) Tj ET
+BT /F1 10.50 Tf 76.00 481.89 Td (Um) Tj ET
+BT /F1 10.50 Tf 95.95 481.89 Td (Escudo) Tj ET
+BT /F1 10.50 Tf 133.75 481.89 Td (tem) Tj ET
+BT /F1 10.50 Tf 154.96 481.89 Td (nome,) Tj ET
+BT /F1 10.50 Tf 187.09 481.89 Td (tem) Tj ET
+BT /F1 10.50 Tf 208.30 481.89 Td (defesa) Tj ET
+BT /F1 10.50 Tf 241.90 481.89 Td (e) Tj ET
+BT /F1 10.50 Tf 250.51 481.89 Td (pode) Tj ET
+BT /F1 10.50 Tf 275.50 481.89 Td (quebrar.) Tj ET
+BT /F1 10.50 Tf 320.02 481.89 Td (Ele) Tj ET
+BT /F1 10.50 Tf 339.13 481.89 Td (é) Tj ET
+BT /F1 10.50 Tf 347.74 481.89 Td (um) Tj ET
+BT /F1 10.50 Tf 365.80 481.89 Td (Personagem?) Tj ET
+BT /F1 10.50 Tf 434.89 481.89 Td (Ele) Tj ET
+BT /F1 10.50 Tf 454.00 481.89 Td (é) Tj ET
+BT /F1 10.50 Tf 462.61 481.89 Td (um) Tj ET
+BT /F1 10.50 Tf 480.67 481.89 Td (Item?) Tj ET
+BT /F1 10.50 Tf 76.00 467.39 Td (Justifique) Tj ET
+BT /F1 10.50 Tf 126.40 467.39 Td (as) Tj ET
+BT /F1 10.50 Tf 140.47 467.39 Td (duas) Tj ET
+BT /F1 10.50 Tf 165.46 467.39 Td (respostas.) Tj ET
+BT /F1 10.50 Tf 56.00 449.89 Td (3.) Tj ET
+BT /F1 10.50 Tf 76.00 449.89 Td (Herança) Tj ET
+BT /F1 10.50 Tf 119.26 449.89 Td (ou) Tj ET
+BT /F1 10.50 Tf 133.33 449.89 Td (composição.) Tj ET
+BT /F1 10.50 Tf 195.91 449.89 Td (Diga) Tj ET
+BT /F1 10.50 Tf 220.48 449.89 Td (qual) Tj ET
+BT /F1 10.50 Tf 243.16 449.89 Td (é) Tj ET
+BT /F1 10.50 Tf 251.77 449.89 Td (o) Tj ET
+BT /F1 10.50 Tf 260.38 449.89 Td (caso) Tj ET
+BT /F1 10.50 Tf 285.37 449.89 Td (de) Tj ET
+BT /F1 10.50 Tf 299.44 449.89 Td (cada) Tj ET
+BT /F1 10.50 Tf 324.43 449.89 Td (par:) Tj ET
+BT /F1 10.50 Tf 347.11 449.89 Td (um) Tj ET
+BT /F1 10.50 Tf 365.17 449.89 Td (Carro) Tj ET
+BT /F1 10.50 Tf 397.51 449.89 Td (e) Tj ET
+BT /F1 10.50 Tf 406.12 449.89 Td (um) Tj ET
+BT /F1 10.50 Tf 424.18 449.89 Td (Motor;) Tj ET
+BT /F1 10.50 Tf 459.46 449.89 Td (um) Tj ET
+BT /F1 10.50 Tf 477.52 449.89 Td (Carro) Tj ET
+BT /F1 10.50 Tf 509.86 449.89 Td (e) Tj ET
+BT /F1 10.50 Tf 518.47 449.89 Td (um) Tj ET
+BT /F1 10.50 Tf 76.00 435.39 Td (Veículo;) Tj ET
+BT /F1 10.50 Tf 120.10 435.39 Td (um) Tj ET
+BT /F1 10.50 Tf 138.16 435.39 Td (Aluno) Tj ET
+BT /F1 10.50 Tf 168.19 435.39 Td (e) Tj ET
+BT /F1 10.50 Tf 176.80 435.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 200.32 435.39 Td (Turma;) Tj ET
+BT /F1 10.50 Tf 239.80 435.39 Td (um) Tj ET
+BT /F1 10.50 Tf 257.86 435.39 Td (Aluno) Tj ET
+BT /F1 10.50 Tf 287.89 435.39 Td (e) Tj ET
+BT /F1 10.50 Tf 296.50 435.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 320.02 435.39 Td (Pessoa.) Tj ET
+BT /F1 10.50 Tf 56.00 417.89 Td (4.) Tj ET
+BT /F1 10.50 Tf 76.00 417.89 Td (Explique,) Tj ET
+BT /F1 10.50 Tf 123.25 417.89 Td (com) Tj ET
+BT /F1 10.50 Tf 146.77 417.89 Td (suas) Tj ET
+BT /F1 10.50 Tf 171.76 417.89 Td (palavras,) Tj ET
+BT /F1 10.50 Tf 219.43 417.89 Td (por) Tj ET
+BT /F1 10.50 Tf 238.96 417.89 Td (que) Tj ET
+BT /F1 10.50 Tf 258.49 417.89 Td ("aproveitar) Tj ET
+BT /F1 10.50 Tf 317.08 417.89 Td (código) Tj ET
+BT /F1 10.50 Tf 350.68 417.89 Td (pronto") Tj ET
+BT /F1 10.50 Tf 389.74 417.89 Td (não) Tj ET
+BT /F1 10.50 Tf 409.27 417.89 Td (é) Tj ET
+BT /F1 10.50 Tf 417.88 417.89 Td (motivo) Tj ET
+BT /F1 10.50 Tf 453.16 417.89 Td (suficiente) Tj ET
+BT /F1 10.50 Tf 501.67 417.89 Td (para) Tj ET
+BT /F1 10.50 Tf 76.00 403.39 Td (herdar.) Tj ET
+0.70 0.70 0.70 RG 0.6 w 56.00 390.39 m 539.28 390.39 l S 0 0 0 RG
+BT /F2 13.50 Tf 56.00 352.89 Td (3.) Tj ET
+BT /F2 13.50 Tf 73.05 352.89 Td (Composição) Tj ET
+BT /F2 13.50 Tf 160.87 352.89 Td (é) Tj ET
+BT /F2 13.50 Tf 172.78 352.89 Td (só) Tj ET
+BT /F2 13.50 Tf 192.56 352.89 Td (um) Tj ET
+BT /F2 13.50 Tf 218.08 352.89 Td (atributo) Tj ET
+BT /F1 10.50 Tf 56.00 333.89 Td (A) Tj ET
+BT /F1 10.50 Tf 66.50 333.89 Td (parte) Tj ET
+BT /F1 10.50 Tf 94.64 333.89 Td (técnica) Tj ET
+BT /F1 10.50 Tf 131.39 333.89 Td (é) Tj ET
+BT /F1 10.50 Tf 140.00 333.89 Td (decepcionante) Tj ET
+BT /F1 10.50 Tf 209.51 333.89 Td (de) Tj ET
+BT /F1 10.50 Tf 223.58 333.89 Td (tão) Tj ET
+BT /F1 10.50 Tf 240.80 333.89 Td (simples.) Tj ET
+BT /F1 10.50 Tf 284.69 333.89 Td (Composição) Tj ET
+BT /F1 10.50 Tf 346.01 333.89 Td (não) Tj ET
+BT /F1 10.50 Tf 365.54 333.89 Td (tem) Tj ET
+BT /F1 10.50 Tf 386.75 333.89 Td (sintaxe) Tj ET
+BT /F1 10.50 Tf 423.50 333.89 Td (nova.) Tj ET
+BT /F1 10.50 Tf 451.64 333.89 Td (É) Tj ET
+BT /F1 10.50 Tf 462.14 333.89 Td (um) Tj ET
+BT /F1 10.50 Tf 480.20 333.89 Td (atributo) Tj ET
+BT /F1 10.50 Tf 56.00 319.39 Td (que) Tj ET
+BT /F1 10.50 Tf 75.53 319.39 Td (guarda) Tj ET
+BT /F1 10.50 Tf 111.44 319.39 Td (um) Tj ET
+BT /F1 10.50 Tf 129.50 319.39 Td (objeto.) Tj ET
+BT /F1 10.50 Tf 56.00 300.89 Td (Você) Tj ET
+BT /F1 10.50 Tf 82.88 300.89 Td (já) Tj ET
+BT /F1 10.50 Tf 94.64 300.89 Td (fez) Tj ET
+BT /F1 10.50 Tf 111.86 300.89 Td (isso) Tj ET
+BT /F1 10.50 Tf 134.54 300.89 Td (sem) Tj ET
+BT /F1 10.50 Tf 158.06 300.89 Td (saber) Tj ET
+BT /F1 10.50 Tf 188.51 300.89 Td (o) Tj ET
+BT /F1 10.50 Tf 197.12 300.89 Td (nome:) Tj ET
+0.95 0.95 0.95 rg 56.00 255.89 483.28 36.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 277.39 Td (self.nome = nome        # o atributo guarda um texto) Tj ET
+BT /F3 8.50 Tf 62.00 265.39 Td (self.vida = vida        # o atributo guarda um numero) Tj ET
+BT /F1 10.50 Tf 56.00 238.39 Td (Agora:) Tj ET
+0.95 0.95 0.95 rg 56.00 205.39 483.28 24.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 214.89 Td (self.inventario = Inventario\(\)   # o atributo guarda um OBJETO) Tj ET
+BT /F1 10.50 Tf 56.00 187.89 Td (Só) Tj ET
+BT /F1 10.50 Tf 71.96 187.89 Td (isso.) Tj ET
+BT /F3 10.50 Tf 97.79 187.89 Td (self.inventario) Tj ET
+BT /F1 10.50 Tf 195.44 187.89 Td (é) Tj ET
+BT /F1 10.50 Tf 204.05 187.89 Td (um) Tj ET
+BT /F1 10.50 Tf 222.11 187.89 Td (atributo) Tj ET
+BT /F1 10.50 Tf 262.01 187.89 Td (como) Tj ET
+BT /F1 10.50 Tf 290.99 187.89 Td (qualquer) Tj ET
+BT /F1 10.50 Tf 335.51 187.89 Td (outro.) Tj ET
+BT /F1 10.50 Tf 366.80 187.89 Td (A) Tj ET
+BT /F1 10.50 Tf 377.30 187.89 Td (diferença) Tj ET
+BT /F1 10.50 Tf 424.97 187.89 Td (é) Tj ET
+BT /F1 10.50 Tf 433.58 187.89 Td (que) Tj ET
+BT /F1 10.50 Tf 453.11 187.89 Td (o) Tj ET
+BT /F1 10.50 Tf 461.72 187.89 Td (valor) Tj ET
+BT /F1 10.50 Tf 489.86 187.89 Td (dentro) Tj ET
+BT /F1 10.50 Tf 56.00 173.39 Td (dele) Tj ET
+BT /F1 10.50 Tf 78.68 173.39 Td (não) Tj ET
+BT /F1 10.50 Tf 98.21 173.39 Td (é) Tj ET
+BT /F1 10.50 Tf 106.82 173.39 Td (um) Tj ET
+BT /F1 10.50 Tf 124.88 173.39 Td (número) Tj ET
+BT /F1 10.50 Tf 164.78 173.39 Td (nem) Tj ET
+BT /F1 10.50 Tf 188.30 173.39 Td (um) Tj ET
+BT /F1 10.50 Tf 206.36 173.39 Td (texto:) Tj ET
+BT /F1 10.50 Tf 235.34 173.39 Td (é) Tj ET
+BT /F1 10.50 Tf 243.95 173.39 Td (outro) Tj ET
+BT /F1 10.50 Tf 272.09 173.39 Td (objeto,) Tj ET
+BT /F1 10.50 Tf 306.53 173.39 Td (com) Tj ET
+BT /F1 10.50 Tf 330.05 173.39 Td (os) Tj ET
+BT /F1 10.50 Tf 344.12 173.39 Td (métodos) Tj ET
+BT /F1 10.50 Tf 387.17 173.39 Td (dele.) Tj ET
+BT /F1 10.50 Tf 56.00 154.89 Td (E) Tj ET
+BT /F1 10.50 Tf 66.50 154.89 Td (por) Tj ET
+BT /F1 10.50 Tf 86.03 154.89 Td (isso) Tj ET
+BT /F1 10.50 Tf 108.71 154.89 Td (você) Tj ET
+BT /F1 10.50 Tf 133.70 154.89 Td (pode) Tj ET
+BT /F1 10.50 Tf 158.69 154.89 Td (escrever:) Tj ET
+0.95 0.95 0.95 rg 56.00 121.89 483.28 24.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 131.39 Td (jogador.inventario.adicionar\(pocao\)) Tj ET
+BT /F1 10.50 Tf 56.00 104.39 Td (Leia) Tj ET
+BT /F1 10.50 Tf 80.57 104.39 Td (da) Tj ET
+BT /F1 10.50 Tf 94.64 104.39 Td (esquerda) Tj ET
+BT /F1 10.50 Tf 141.47 104.39 Td (para) Tj ET
+BT /F1 10.50 Tf 166.46 104.39 Td (a) Tj ET
+BT /F1 10.50 Tf 175.07 104.39 Td (direita:) Tj ET
+BT /F1 10.50 Tf 212.66 104.39 Td (pegue) Tj ET
+BT /F1 10.50 Tf 243.11 104.39 Td (o) Tj ET
+BT /F1 10.50 Tf 251.72 104.39 Td (jogador,) Tj ET
+BT /F1 10.50 Tf 293.93 104.39 Td (pegue) Tj ET
+BT /F1 10.50 Tf 324.38 104.39 Td (a) Tj ET
+BT /F1 10.50 Tf 332.99 104.39 Td (mochila) Tj ET
+BT /F1 10.50 Tf 373.73 104.39 Td (dele,) Tj ET
+BT /F1 10.50 Tf 399.56 104.39 Td (mande) Tj ET
+BT /F1 10.50 Tf 434.00 104.39 Td (a) Tj ET
+BT /F1 10.50 Tf 442.61 104.39 Td (mochila) Tj ET
+BT /F1 10.50 Tf 483.35 104.39 Td (guardar) Tj ET
+BT /F1 10.50 Tf 524.72 104.39 Td (a) Tj ET
+BT /F1 10.50 Tf 56.00 89.89 Td (poção.) Tj ET
+BT /F2 10.50 Tf 56.00 71.39 Td (Perguntas) Tj ET
+
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 15018 >>
+stream
+BT /F1 10.50 Tf 56.00 775.39 Td (1.) Tj ET
+BT /F1 10.50 Tf 76.00 775.39 Td (O) Tj ET
+BT /F1 10.50 Tf 86.50 775.39 Td (que) Tj ET
+BT /F1 10.50 Tf 106.03 775.39 Td (fica) Tj ET
+BT /F1 10.50 Tf 126.40 775.39 Td (guardado) Tj ET
+BT /F1 10.50 Tf 173.23 775.39 Td (dentro) Tj ET
+BT /F1 10.50 Tf 206.83 775.39 Td (de) Tj ET
+BT /F3 10.50 Tf 220.90 775.39 Td (self.inventario) Tj ET
+BT /F1 10.50 Tf 318.55 775.39 Td (depois) Tj ET
+BT /F1 10.50 Tf 352.15 775.39 Td (de) Tj ET
+BT /F3 10.50 Tf 366.22 775.39 Td (self.inventario) Tj ET
+BT /F3 10.50 Tf 463.87 775.39 Td (=) Tj ET
+BT /F3 10.50 Tf 76.00 760.89 Td (Inventario\(\)) Tj ET
+BT /F1 10.50 Tf 154.75 760.89 Td (?) Tj ET
+BT /F1 10.50 Tf 163.36 760.89 Td (Compare) Tj ET
+BT /F1 10.50 Tf 210.61 760.89 Td (com) Tj ET
+BT /F1 10.50 Tf 234.13 760.89 Td (o) Tj ET
+BT /F1 10.50 Tf 242.74 760.89 Td (que) Tj ET
+BT /F1 10.50 Tf 262.27 760.89 Td (fica) Tj ET
+BT /F1 10.50 Tf 282.64 760.89 Td (guardado) Tj ET
+BT /F1 10.50 Tf 329.47 760.89 Td (em) Tj ET
+BT /F3 10.50 Tf 347.53 760.89 Td (self.nome) Tj ET
+BT /F1 10.50 Tf 407.38 760.89 Td (.) Tj ET
+BT /F1 10.50 Tf 56.00 743.39 Td (2.) Tj ET
+BT /F1 10.50 Tf 76.00 743.39 Td (Leia) Tj ET
+BT /F3 10.50 Tf 100.57 743.39 Td (jogador.inventario.adicionar\(pocao\)) Tj ET
+BT /F1 10.50 Tf 324.22 743.39 Td (da) Tj ET
+BT /F1 10.50 Tf 338.29 743.39 Td (esquerda) Tj ET
+BT /F1 10.50 Tf 385.12 743.39 Td (para) Tj ET
+BT /F1 10.50 Tf 410.11 743.39 Td (a) Tj ET
+BT /F1 10.50 Tf 418.72 743.39 Td (direita) Tj ET
+BT /F1 10.50 Tf 453.16 743.39 Td (e) Tj ET
+BT /F1 10.50 Tf 461.77 743.39 Td (descreva) Tj ET
+BT /F1 10.50 Tf 508.60 743.39 Td (em) Tj ET
+BT /F1 10.50 Tf 76.00 728.89 Td (português) Tj ET
+BT /F1 10.50 Tf 125.98 728.89 Td (o) Tj ET
+BT /F1 10.50 Tf 134.59 728.89 Td (que) Tj ET
+BT /F1 10.50 Tf 154.12 728.89 Td (cada) Tj ET
+BT /F1 10.50 Tf 179.11 728.89 Td (ponto) Tj ET
+BT /F1 10.50 Tf 207.25 728.89 Td (faz.) Tj ET
+BT /F1 10.50 Tf 56.00 711.39 Td (3.) Tj ET
+BT /F1 10.50 Tf 76.00 711.39 Td (O) Tj ET
+BT /F1 10.50 Tf 86.50 711.39 Td (que) Tj ET
+BT /F1 10.50 Tf 106.03 711.39 Td (acontece) Tj ET
+BT /F1 10.50 Tf 150.55 711.39 Td (se) Tj ET
+BT /F1 10.50 Tf 164.62 711.39 Td (você) Tj ET
+BT /F1 10.50 Tf 189.61 711.39 Td (escrever) Tj ET
+BT /F3 10.50 Tf 236.44 711.39 Td (Inventario) Tj ET
+BT /F1 10.50 Tf 302.59 711.39 Td (sem) Tj ET
+BT /F1 10.50 Tf 326.11 711.39 Td (os) Tj ET
+BT /F1 10.50 Tf 340.18 711.39 Td (parênteses?) Tj ET
+BT /F1 10.50 Tf 401.08 711.39 Td (Em) Tj ET
+BT /F1 10.50 Tf 421.03 711.39 Td (que) Tj ET
+BT /F1 10.50 Tf 440.56 711.39 Td (momento) Tj ET
+BT /F1 10.50 Tf 487.60 711.39 Td (o) Tj ET
+BT /F1 10.50 Tf 496.21 711.39 Td (erro) Tj ET
+BT /F1 10.50 Tf 76.00 696.89 Td (aparece,) Tj ET
+BT /F1 10.50 Tf 120.52 696.89 Td (e) Tj ET
+BT /F1 10.50 Tf 129.13 696.89 Td (qual) Tj ET
+BT /F1 10.50 Tf 151.81 696.89 Td (é) Tj ET
+BT /F1 10.50 Tf 160.42 696.89 Td (a) Tj ET
+BT /F1 10.50 Tf 169.03 696.89 Td (mensagem?) Tj ET
+BT /F1 10.50 Tf 56.00 679.39 Td (4.) Tj ET
+BT /F1 10.50 Tf 76.00 679.39 Td (Composição) Tj ET
+BT /F1 10.50 Tf 137.32 679.39 Td (precisa) Tj ET
+BT /F1 10.50 Tf 176.38 679.39 Td (de) Tj ET
+BT /F1 10.50 Tf 190.45 679.39 Td (sintaxe) Tj ET
+BT /F1 10.50 Tf 227.20 679.39 Td (nova?) Tj ET
+BT /F1 10.50 Tf 257.65 679.39 Td (Justifique) Tj ET
+BT /F1 10.50 Tf 308.05 679.39 Td (com) Tj ET
+BT /F1 10.50 Tf 331.57 679.39 Td (o) Tj ET
+BT /F1 10.50 Tf 340.18 679.39 Td (que) Tj ET
+BT /F1 10.50 Tf 359.71 679.39 Td (você) Tj ET
+BT /F1 10.50 Tf 384.70 679.39 Td (viu) Tj ET
+BT /F1 10.50 Tf 401.92 679.39 Td (nesta) Tj ET
+BT /F1 10.50 Tf 430.06 679.39 Td (seção.) Tj ET
+0.70 0.70 0.70 RG 0.6 w 56.00 666.39 m 539.28 666.39 l S 0 0 0 RG
+BT /F2 13.50 Tf 56.00 628.89 Td (4.) Tj ET
+BT /F2 13.50 Tf 73.05 628.89 Td (Delegação:) Tj ET
+BT /F2 13.50 Tf 151.80 628.89 Td (cada) Tj ET
+BT /F2 13.50 Tf 187.30 628.89 Td (um) Tj ET
+BT /F2 13.50 Tf 212.82 628.89 Td (cuida) Tj ET
+BT /F2 13.50 Tf 252.85 628.89 Td (do) Tj ET
+BT /F2 13.50 Tf 272.63 628.89 Td (que) Tj ET
+BT /F2 13.50 Tf 300.26 628.89 Td (é) Tj ET
+BT /F2 13.50 Tf 312.18 628.89 Td (seu) Tj ET
+BT /F1 10.50 Tf 56.00 609.89 Td (Quando) Tj ET
+BT /F1 10.50 Tf 93.80 609.89 Td (um) Tj ET
+BT /F1 10.50 Tf 111.86 609.89 Td (objeto) Tj ET
+BT /F1 10.50 Tf 143.15 609.89 Td (tem) Tj ET
+BT /F1 10.50 Tf 164.36 609.89 Td (outro) Tj ET
+BT /F1 10.50 Tf 192.50 609.89 Td (dentro,) Tj ET
+BT /F1 10.50 Tf 229.25 609.89 Td (aparece) Tj ET
+BT /F1 10.50 Tf 270.62 609.89 Td (uma) Tj ET
+BT /F1 10.50 Tf 294.14 609.89 Td (pergunta) Tj ET
+BT /F1 10.50 Tf 338.66 609.89 Td (nova:) Tj ET
+BT /F2 10.50 Tf 366.80 609.89 Td (quem) Tj ET
+BT /F2 10.50 Tf 398.88 609.89 Td (responde) Tj ET
+BT /F2 10.50 Tf 450.95 609.89 Td (o) Tj ET
+BT /F2 10.50 Tf 460.22 609.89 Td (quê?) Tj ET
+BT /F1 10.50 Tf 56.00 591.39 Td (A) Tj ET
+BT /F1 10.50 Tf 66.50 591.39 Td (resposta) Tj ET
+BT /F1 10.50 Tf 111.02 591.39 Td (é) Tj ET
+BT /F1 10.50 Tf 119.63 591.39 Td (a) Tj ET
+BT /F1 10.50 Tf 128.24 591.39 Td (mesma) Tj ET
+BT /F1 10.50 Tf 166.67 591.39 Td (da) Tj ET
+BT /F1 10.50 Tf 180.74 591.39 Td (Parte) Tj ET
+BT /F1 10.50 Tf 210.77 591.39 Td (A:) Tj ET
+BT /F1 10.50 Tf 224.42 591.39 Td (cada) Tj ET
+BT /F1 10.50 Tf 249.41 591.39 Td (objeto) Tj ET
+BT /F1 10.50 Tf 280.70 591.39 Td (cuida) Tj ET
+BT /F1 10.50 Tf 308.84 591.39 Td (do) Tj ET
+BT /F1 10.50 Tf 322.91 591.39 Td (próprio) Tj ET
+BT /F1 10.50 Tf 361.97 591.39 Td (estado.) Tj ET
+BT /F1 10.50 Tf 398.72 591.39 Td (O) Tj ET
+BT /F1 10.50 Tf 409.22 591.39 Td (personagem) Tj ET
+BT /F1 10.50 Tf 470.96 591.39 Td (não) Tj ET
+BT /F1 10.50 Tf 490.49 591.39 Td (sabe) Tj ET
+BT /F1 10.50 Tf 56.00 576.89 Td (como) Tj ET
+BT /F1 10.50 Tf 84.98 576.89 Td (uma) Tj ET
+BT /F1 10.50 Tf 108.50 576.89 Td (lista) Tj ET
+BT /F1 10.50 Tf 132.02 576.89 Td (de) Tj ET
+BT /F1 10.50 Tf 146.09 576.89 Td (itens) Tj ET
+BT /F1 10.50 Tf 171.92 576.89 Td (funciona.) Tj ET
+BT /F1 10.50 Tf 217.28 576.89 Td (Ele) Tj ET
+BT /F1 10.50 Tf 236.39 576.89 Td (só) Tj ET
+BT /F1 10.50 Tf 250.46 576.89 Td (sabe) Tj ET
+BT /F1 10.50 Tf 275.45 576.89 Td (pedir.) Tj ET
+0.95 0.95 0.95 rg 56.00 507.89 483.28 60.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 553.39 Td (class Personagem:) Tj ET
+BT /F3 8.50 Tf 62.00 541.39 Td (    def __init__\(self, nome, vida, ataque, defesa, pocoes\):) Tj ET
+BT /F3 8.50 Tf 62.00 529.39 Td (        ...) Tj ET
+BT /F3 8.50 Tf 62.00 517.39 Td (        self.inventario = Inventario\(\)) Tj ET
+BT /F1 10.50 Tf 56.00 490.39 Td (O) Tj ET
+BT /F1 10.50 Tf 66.50 490.39 Td (personagem) Tj ET
+BT /F2 10.50 Tf 128.24 490.39 Td (não) Tj ET
+BT /F1 10.50 Tf 149.74 490.39 Td (faz) Tj ET
+BT /F1 10.50 Tf 166.96 490.39 Td (isto:) Tj ET
+0.95 0.95 0.95 rg 56.00 457.39 483.28 24.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 466.89 Td (self.inventario._itens.append\(pocao\)     # mexendo na lista dos outros) Tj ET
+BT /F1 10.50 Tf 56.00 439.89 Td (Ele) Tj ET
+BT /F1 10.50 Tf 75.11 439.89 Td (faz) Tj ET
+BT /F1 10.50 Tf 92.33 439.89 Td (isto:) Tj ET
+0.95 0.95 0.95 rg 56.00 406.89 483.28 24.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 416.39 Td (self.inventario.adicionar\(pocao\)         # pedindo) Tj ET
+BT /F1 10.50 Tf 56.00 389.39 Td (Chamar) Tj ET
+BT /F1 10.50 Tf 97.79 389.39 Td (um) Tj ET
+BT /F1 10.50 Tf 115.85 389.39 Td (método) Tj ET
+BT /F1 10.50 Tf 153.44 389.39 Td (do) Tj ET
+BT /F1 10.50 Tf 167.51 389.39 Td (objeto) Tj ET
+BT /F1 10.50 Tf 198.80 389.39 Td (que) Tj ET
+BT /F1 10.50 Tf 218.33 389.39 Td (você) Tj ET
+BT /F1 10.50 Tf 243.32 389.39 Td (guarda,) Tj ET
+BT /F1 10.50 Tf 282.38 389.39 Td (em) Tj ET
+BT /F1 10.50 Tf 300.44 389.39 Td (vez) Tj ET
+BT /F1 10.50 Tf 319.97 389.39 Td (de) Tj ET
+BT /F1 10.50 Tf 334.04 389.39 Td (mexer) Tj ET
+BT /F1 10.50 Tf 368.48 389.39 Td (nos) Tj ET
+BT /F1 10.50 Tf 388.01 389.39 Td (dados) Tj ET
+BT /F1 10.50 Tf 418.46 389.39 Td (dele,) Tj ET
+BT /F1 10.50 Tf 444.29 389.39 Td (tem) Tj ET
+BT /F1 10.50 Tf 465.50 389.39 Td (nome:) Tj ET
+BT /F2 10.50 Tf 56.00 374.89 Td (delegação) Tj ET
+BT /F1 10.50 Tf 111.60 374.89 Td (.) Tj ET
+BT /F1 10.50 Tf 117.90 374.89 Td (Você) Tj ET
+BT /F1 10.50 Tf 144.78 374.89 Td (delega) Tj ET
+BT /F1 10.50 Tf 178.38 374.89 Td (o) Tj ET
+BT /F1 10.50 Tf 186.99 374.89 Td (trabalho) Tj ET
+BT /F1 10.50 Tf 229.20 374.89 Td (para) Tj ET
+BT /F1 10.50 Tf 254.19 374.89 Td (quem) Tj ET
+BT /F1 10.50 Tf 283.17 374.89 Td (é) Tj ET
+BT /F1 10.50 Tf 291.78 374.89 Td (dono) Tj ET
+BT /F1 10.50 Tf 316.77 374.89 Td (dele.) Tj ET
+BT /F1 10.50 Tf 56.00 356.39 Td (O) Tj ET
+BT /F1 10.50 Tf 66.50 356.39 Td (ganho) Tj ET
+BT /F1 10.50 Tf 96.95 356.39 Td (é) Tj ET
+BT /F1 10.50 Tf 105.56 356.39 Td (o) Tj ET
+BT /F1 10.50 Tf 114.17 356.39 Td (mesmo) Tj ET
+BT /F1 10.50 Tf 152.60 356.39 Td (do) Tj ET
+BT /F1 10.50 Tf 166.67 356.39 Td (encapsulamento) Tj ET
+BT /F1 10.50 Tf 245.63 356.39 Td (da) Tj ET
+BT /F1 10.50 Tf 259.70 356.39 Td (Parte) Tj ET
+BT /F1 10.50 Tf 289.73 356.39 Td (2.) Tj ET
+BT /F1 10.50 Tf 301.91 356.39 Td (Se) Tj ET
+BT /F1 10.50 Tf 317.87 356.39 Td (amanhã) Tj ET
+BT /F1 10.50 Tf 357.77 356.39 Td (a) Tj ET
+BT /F1 10.50 Tf 366.38 356.39 Td (mochila) Tj ET
+BT /F1 10.50 Tf 407.12 356.39 Td (passar) Tj ET
+BT /F1 10.50 Tf 443.03 356.39 Td (a) Tj ET
+BT /F1 10.50 Tf 451.64 356.39 Td (ter) Tj ET
+BT /F1 10.50 Tf 468.86 356.39 Td (peso) Tj ET
+BT /F1 10.50 Tf 56.00 341.89 Td (máximo,) Tj ET
+BT /F1 10.50 Tf 100.73 341.89 Td (essa) Tj ET
+BT /F1 10.50 Tf 125.72 341.89 Td (regra) Tj ET
+BT /F1 10.50 Tf 156.17 341.89 Td (entra) Tj ET
+BT /F1 10.50 Tf 184.31 341.89 Td (dentro) Tj ET
+BT /F1 10.50 Tf 217.91 341.89 Td (do) Tj ET
+BT /F3 10.50 Tf 231.98 341.89 Td (adicionar) Tj ET
+BT /F1 10.50 Tf 291.83 341.89 Td (,) Tj ET
+BT /F1 10.50 Tf 298.13 341.89 Td (e) Tj ET
+BT /F1 10.50 Tf 306.74 341.89 Td (nenhum) Tj ET
+BT /F1 10.50 Tf 346.64 341.89 Td (personagem) Tj ET
+BT /F1 10.50 Tf 408.38 341.89 Td (precisa) Tj ET
+BT /F1 10.50 Tf 447.44 341.89 Td (saber) Tj ET
+BT /F1 10.50 Tf 477.89 341.89 Td (que) Tj ET
+BT /F1 10.50 Tf 497.42 341.89 Td (a) Tj ET
+BT /F1 10.50 Tf 506.03 341.89 Td (regra) Tj ET
+BT /F1 10.50 Tf 56.00 327.39 Td (existe.) Tj ET
+BT /F2 10.50 Tf 56.00 308.89 Td (Perguntas) Tj ET
+BT /F1 10.50 Tf 56.00 291.39 Td (1.) Tj ET
+BT /F1 10.50 Tf 76.00 291.39 Td (Qual) Tj ET
+BT /F1 10.50 Tf 100.57 291.39 Td (das) Tj ET
+BT /F1 10.50 Tf 120.10 291.39 Td (duas) Tj ET
+BT /F1 10.50 Tf 145.09 291.39 Td (linhas) Tj ET
+BT /F1 10.50 Tf 176.38 291.39 Td (respeita) Tj ET
+BT /F1 10.50 Tf 218.59 291.39 Td (a) Tj ET
+BT /F1 10.50 Tf 227.20 291.39 Td (delegação,) Tj ET
+BT /F1 10.50 Tf 280.33 291.39 Td (e) Tj ET
+BT /F1 10.50 Tf 288.94 291.39 Td (por) Tj ET
+BT /F1 10.50 Tf 308.47 291.39 Td (quê:) Tj ET
+BT /F3 10.50 Tf 331.15 291.39 Td (self.inventario._itens.append\(x\)) Tj ET
+BT /F1 10.50 Tf 76.00 276.89 Td (ou) Tj ET
+BT /F3 10.50 Tf 90.07 276.89 Td (self.inventario.adicionar\(x\)) Tj ET
+BT /F1 10.50 Tf 269.62 276.89 Td (?) Tj ET
+BT /F1 10.50 Tf 56.00 259.39 Td (2.) Tj ET
+BT /F1 10.50 Tf 76.00 259.39 Td (A) Tj ET
+BT /F1 10.50 Tf 86.50 259.39 Td (mochila) Tj ET
+BT /F1 10.50 Tf 127.24 259.39 Td (passa) Tj ET
+BT /F1 10.50 Tf 157.69 259.39 Td (a) Tj ET
+BT /F1 10.50 Tf 166.30 259.39 Td (ter) Tj ET
+BT /F1 10.50 Tf 183.52 259.39 Td (peso) Tj ET
+BT /F1 10.50 Tf 208.51 259.39 Td (máximo.) Tj ET
+BT /F1 10.50 Tf 253.24 259.39 Td (Em) Tj ET
+BT /F1 10.50 Tf 273.19 259.39 Td (qual) Tj ET
+BT /F1 10.50 Tf 295.87 259.39 Td (classe) Tj ET
+BT /F1 10.50 Tf 329.47 259.39 Td (e) Tj ET
+BT /F1 10.50 Tf 338.08 259.39 Td (em) Tj ET
+BT /F1 10.50 Tf 356.14 259.39 Td (qual) Tj ET
+BT /F1 10.50 Tf 378.82 259.39 Td (método) Tj ET
+BT /F1 10.50 Tf 416.41 259.39 Td (entra) Tj ET
+BT /F1 10.50 Tf 444.55 259.39 Td (essa) Tj ET
+BT /F1 10.50 Tf 469.54 259.39 Td (regra?) Tj ET
+BT /F1 10.50 Tf 76.00 244.89 Td (Quantas) Tj ET
+BT /F1 10.50 Tf 116.95 244.89 Td (outras) Tj ET
+BT /F1 10.50 Tf 150.55 244.89 Td (classes) Tj ET
+BT /F1 10.50 Tf 189.61 244.89 Td (precisam) Tj ET
+BT /F1 10.50 Tf 238.12 244.89 Td (mudar?) Tj ET
+BT /F1 10.50 Tf 56.00 227.39 Td (3.) Tj ET
+BT /F1 10.50 Tf 76.00 227.39 Td (Explique) Tj ET
+BT /F1 10.50 Tf 120.10 227.39 Td (por) Tj ET
+BT /F1 10.50 Tf 139.63 227.39 Td (que) Tj ET
+BT /F1 10.50 Tf 159.16 227.39 Td (o) Tj ET
+BT /F3 10.50 Tf 167.77 227.39 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 233.92 227.39 Td (não) Tj ET
+BT /F1 10.50 Tf 253.45 227.39 Td (precisa) Tj ET
+BT /F1 10.50 Tf 292.51 227.39 Td (saber) Tj ET
+BT /F1 10.50 Tf 322.96 227.39 Td (que) Tj ET
+BT /F1 10.50 Tf 342.49 227.39 Td (a) Tj ET
+BT /F1 10.50 Tf 351.10 227.39 Td (mochila) Tj ET
+BT /F1 10.50 Tf 391.84 227.39 Td (guarda) Tj ET
+BT /F1 10.50 Tf 427.75 227.39 Td (os) Tj ET
+BT /F1 10.50 Tf 441.82 227.39 Td (itens) Tj ET
+BT /F1 10.50 Tf 467.65 227.39 Td (dentro) Tj ET
+BT /F1 10.50 Tf 501.25 227.39 Td (de) Tj ET
+BT /F1 10.50 Tf 76.00 212.89 Td (uma) Tj ET
+BT /F1 10.50 Tf 99.52 212.89 Td (lista.) Tj ET
+BT /F1 10.50 Tf 56.00 195.39 Td (4.) Tj ET
+BT /F1 10.50 Tf 76.00 195.39 Td (Cenário) Tj ET
+BT /F1 10.50 Tf 116.95 195.39 Td (novo.) Tj ET
+BT /F1 10.50 Tf 145.09 195.39 Td (Amanhã) Tj ET
+BT /F1 10.50 Tf 186.88 195.39 Td (a) Tj ET
+BT /F1 10.50 Tf 195.49 195.39 Td (mochila) Tj ET
+BT /F1 10.50 Tf 236.23 195.39 Td (passa) Tj ET
+BT /F1 10.50 Tf 266.68 195.39 Td (a) Tj ET
+BT /F1 10.50 Tf 275.29 195.39 Td (guardar) Tj ET
+BT /F1 10.50 Tf 316.66 195.39 Td (os) Tj ET
+BT /F1 10.50 Tf 330.73 195.39 Td (itens) Tj ET
+BT /F1 10.50 Tf 356.56 195.39 Td (num) Tj ET
+BT /F1 10.50 Tf 380.08 195.39 Td (dicionário) Tj ET
+BT /F1 10.50 Tf 430.90 195.39 Td (em) Tj ET
+BT /F1 10.50 Tf 448.96 195.39 Td (vez) Tj ET
+BT /F1 10.50 Tf 468.49 195.39 Td (de) Tj ET
+BT /F1 10.50 Tf 482.56 195.39 Td (lista.) Tj ET
+BT /F1 10.50 Tf 76.00 180.89 Td (Quem) Tj ET
+BT /F1 10.50 Tf 106.87 180.89 Td (quebra,) Tj ET
+BT /F1 10.50 Tf 145.93 180.89 Td (se) Tj ET
+BT /F1 10.50 Tf 160.00 180.89 Td (todo) Tj ET
+BT /F1 10.50 Tf 182.68 180.89 Td (mundo) Tj ET
+BT /F1 10.50 Tf 217.12 180.89 Td (usou) Tj ET
+BT /F1 10.50 Tf 242.11 180.89 Td (os) Tj ET
+BT /F1 10.50 Tf 256.18 180.89 Td (métodos?) Tj ET
+0.70 0.70 0.70 RG 0.6 w 56.00 167.89 m 539.28 167.89 l S 0 0 0 RG
+BT /F2 13.50 Tf 56.00 130.39 Td (5.) Tj ET
+BT /F2 13.50 Tf 73.05 130.39 Td (Uma) Tj ET
+BT /F2 13.50 Tf 109.16 130.39 Td (coleção) Tj ET
+BT /F2 13.50 Tf 164.92 130.39 Td (com) Tj ET
+BT /F2 13.50 Tf 198.30 130.39 Td (dono) Tj ET
+BT /F1 10.50 Tf 56.00 111.39 Td (A) Tj ET
+BT /F1 10.50 Tf 66.50 111.39 Td (mochila) Tj ET
+BT /F1 10.50 Tf 107.24 111.39 Td (é) Tj ET
+BT /F1 10.50 Tf 115.85 111.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 139.37 111.39 Td (classe) Tj ET
+BT /F1 10.50 Tf 172.97 111.39 Td (que) Tj ET
+BT /F1 10.50 Tf 192.50 111.39 Td (existe) Tj ET
+BT /F1 10.50 Tf 223.79 111.39 Td (para) Tj ET
+BT /F1 10.50 Tf 248.78 111.39 Td (cuidar) Tj ET
+BT /F1 10.50 Tf 282.38 111.39 Td (de) Tj ET
+BT /F1 10.50 Tf 296.45 111.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 319.97 111.39 Td (lista.) Tj ET
+BT /F1 10.50 Tf 346.64 111.39 Td (Isso) Tj ET
+BT /F1 10.50 Tf 369.32 111.39 Td (parece) Tj ET
+BT /F1 10.50 Tf 405.23 111.39 Td (pouco,) Tj ET
+BT /F1 10.50 Tf 438.83 111.39 Td (e) Tj ET
+BT /F1 10.50 Tf 447.44 111.39 Td (é) Tj ET
+BT /F1 10.50 Tf 456.05 111.39 Td (justamente) Tj ET
+BT /F1 10.50 Tf 510.86 111.39 Td (o) Tj ET
+BT /F1 10.50 Tf 56.00 96.89 Td (ponto.) Tj ET
+
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 12929 >>
+stream
+0.95 0.95 0.95 rg 56.00 593.89 483.28 192.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 771.39 Td (class Inventario:) Tj ET
+BT /F3 8.50 Tf 62.00 759.39 Td (    def __init__\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 747.39 Td (        self._itens = []) Tj ET
+BT /F3 8.50 Tf 62.00 735.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 723.39 Td (    def adicionar\(self, item\):) Tj ET
+BT /F3 8.50 Tf 62.00 711.39 Td (        self._itens.append\(item\)) Tj ET
+BT /F3 8.50 Tf 62.00 699.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 687.39 Td (    def quantidade\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 675.39 Td (        return len\(self._itens\)) Tj ET
+BT /F3 8.50 Tf 62.00 663.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 651.39 Td (    def tirar\(self, numero\):) Tj ET
+BT /F3 8.50 Tf 62.00 639.39 Td (        indice = numero - 1) Tj ET
+BT /F3 8.50 Tf 62.00 627.39 Td (        if indice < 0 or indice >= len\(self._itens\):) Tj ET
+BT /F3 8.50 Tf 62.00 615.39 Td (            return None) Tj ET
+BT /F3 8.50 Tf 62.00 603.39 Td (        return self._itens.pop\(indice\)) Tj ET
+BT /F1 10.50 Tf 56.00 576.39 Td (Compare) Tj ET
+BT /F1 10.50 Tf 103.25 576.39 Td (com) Tj ET
+BT /F1 10.50 Tf 126.77 576.39 Td (a) Tj ET
+BT /F1 10.50 Tf 135.38 576.39 Td (alternativa,) Tj ET
+BT /F1 10.50 Tf 192.50 576.39 Td (que) Tj ET
+BT /F1 10.50 Tf 212.03 576.39 Td (é) Tj ET
+BT /F1 10.50 Tf 220.64 576.39 Td (guardar) Tj ET
+BT /F1 10.50 Tf 262.01 576.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 285.53 576.39 Td (lista) Tj ET
+BT /F1 10.50 Tf 309.05 576.39 Td (solta) Tj ET
+BT /F1 10.50 Tf 334.88 576.39 Td (no) Tj ET
+BT /F1 10.50 Tf 348.95 576.39 Td (personagem:) Tj ET
+0.95 0.95 0.95 rg 56.00 543.39 483.28 24.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 552.89 Td (self.itens = []            # lista crua, aberta para qualquer um) Tj ET
+BT /F1 10.50 Tf 56.00 525.89 Td (Com) Tj ET
+BT /F1 10.50 Tf 81.41 525.89 Td (a) Tj ET
+BT /F1 10.50 Tf 90.02 525.89 Td (lista) Tj ET
+BT /F1 10.50 Tf 113.54 525.89 Td (crua,) Tj ET
+BT /F1 10.50 Tf 141.68 525.89 Td (todo) Tj ET
+BT /F1 10.50 Tf 164.36 525.89 Td (mundo) Tj ET
+BT /F1 10.50 Tf 198.80 525.89 Td (que) Tj ET
+BT /F1 10.50 Tf 218.33 525.89 Td (quiser) Tj ET
+BT /F1 10.50 Tf 251.93 525.89 Td (usar) Tj ET
+BT /F1 10.50 Tf 276.92 525.89 Td (um) Tj ET
+BT /F1 10.50 Tf 294.98 525.89 Td (item) Tj ET
+BT /F1 10.50 Tf 319.34 525.89 Td (precisa) Tj ET
+BT /F1 10.50 Tf 358.40 525.89 Td (saber) Tj ET
+BT /F1 10.50 Tf 388.85 525.89 Td (que) Tj ET
+BT /F1 10.50 Tf 408.38 525.89 Td (ela) Tj ET
+BT /F1 10.50 Tf 425.60 525.89 Td (começa) Tj ET
+BT /F1 10.50 Tf 465.50 525.89 Td (no) Tj ET
+BT /F1 10.50 Tf 479.57 525.89 Td (índice) Tj ET
+BT /F1 10.50 Tf 56.00 511.39 Td (zero,) Tj ET
+BT /F1 10.50 Tf 84.14 511.39 Td (precisa) Tj ET
+BT /F1 10.50 Tf 123.20 511.39 Td (lembrar) Tj ET
+BT /F1 10.50 Tf 166.25 511.39 Td (de) Tj ET
+BT /F1 10.50 Tf 180.32 511.39 Td (checar) Tj ET
+BT /F1 10.50 Tf 216.23 511.39 Td (se) Tj ET
+BT /F1 10.50 Tf 230.30 511.39 Td (o) Tj ET
+BT /F1 10.50 Tf 238.91 511.39 Td (número) Tj ET
+BT /F1 10.50 Tf 278.81 511.39 Td (existe,) Tj ET
+BT /F1 10.50 Tf 313.25 511.39 Td (e) Tj ET
+BT /F1 10.50 Tf 321.86 511.39 Td (precisa) Tj ET
+BT /F1 10.50 Tf 360.92 511.39 Td (lembrar) Tj ET
+BT /F1 10.50 Tf 403.97 511.39 Td (de) Tj ET
+BT /F1 10.50 Tf 418.04 511.39 Td (remover) Tj ET
+BT /F1 10.50 Tf 463.40 511.39 Td (o) Tj ET
+BT /F1 10.50 Tf 472.01 511.39 Td (item) Tj ET
+BT /F1 10.50 Tf 496.37 511.39 Td (depois) Tj ET
+BT /F1 10.50 Tf 56.00 496.89 Td (de) Tj ET
+BT /F1 10.50 Tf 70.07 496.89 Td (usar.) Tj ET
+BT /F1 10.50 Tf 98.21 496.89 Td (Essa) Tj ET
+BT /F1 10.50 Tf 125.09 496.89 Td (regra) Tj ET
+BT /F1 10.50 Tf 155.54 496.89 Td (fica) Tj ET
+BT /F2 10.50 Tf 175.91 496.89 Td (espalhada) Tj ET
+BT /F1 10.50 Tf 231.51 496.89 Td (por) Tj ET
+BT /F1 10.50 Tf 251.04 496.89 Td (todo) Tj ET
+BT /F1 10.50 Tf 273.72 496.89 Td (lugar) Tj ET
+BT /F1 10.50 Tf 301.86 496.89 Td (que) Tj ET
+BT /F1 10.50 Tf 321.39 496.89 Td (toca) Tj ET
+BT /F1 10.50 Tf 344.07 496.89 Td (na) Tj ET
+BT /F1 10.50 Tf 358.14 496.89 Td (lista.) Tj ET
+BT /F1 10.50 Tf 56.00 478.39 Td (Com) Tj ET
+BT /F1 10.50 Tf 81.41 478.39 Td (a) Tj ET
+BT /F1 10.50 Tf 90.02 478.39 Td (classe) Tj ET
+BT /F3 10.50 Tf 123.62 478.39 Td (Inventario) Tj ET
+BT /F1 10.50 Tf 189.77 478.39 Td (,) Tj ET
+BT /F1 10.50 Tf 196.07 478.39 Td (a) Tj ET
+BT /F1 10.50 Tf 204.68 478.39 Td (regra) Tj ET
+BT /F1 10.50 Tf 235.13 478.39 Td (fica) Tj ET
+BT /F1 10.50 Tf 255.50 478.39 Td (em) Tj ET
+BT /F1 10.50 Tf 273.56 478.39 Td (um) Tj ET
+BT /F1 10.50 Tf 291.62 478.39 Td (lugar) Tj ET
+BT /F1 10.50 Tf 319.76 478.39 Td (só.) Tj ET
+BT /F1 10.50 Tf 336.98 478.39 Td (O) Tj ET
+BT /F3 10.50 Tf 347.48 478.39 Td (tirar) Tj ET
+BT /F1 10.50 Tf 382.13 478.39 Td (devolve) Tj ET
+BT /F3 10.50 Tf 421.19 478.39 Td (None) Tj ET
+BT /F1 10.50 Tf 449.54 478.39 Td (quando) Tj ET
+BT /F1 10.50 Tf 485.45 478.39 Td (o) Tj ET
+BT /F1 10.50 Tf 494.06 478.39 Td (número) Tj ET
+BT /F1 10.50 Tf 56.00 463.89 Td (não) Tj ET
+BT /F1 10.50 Tf 75.53 463.89 Td (existe,) Tj ET
+BT /F1 10.50 Tf 109.97 463.89 Td (e) Tj ET
+BT /F1 10.50 Tf 118.58 463.89 Td (ninguém) Tj ET
+BT /F1 10.50 Tf 161.63 463.89 Td (mais) Tj ET
+BT /F1 10.50 Tf 188.30 463.89 Td (precisa) Tj ET
+BT /F1 10.50 Tf 227.36 463.89 Td (se) Tj ET
+BT /F1 10.50 Tf 241.43 463.89 Td (preocupar) Tj ET
+BT /F1 10.50 Tf 293.72 463.89 Td (com) Tj ET
+BT /F1 10.50 Tf 317.24 463.89 Td (isso.) Tj ET
+0.35 0.35 0.35 rg BT /F2 10.00 Tf 72.00 444.89 Td (Sinal) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F2 10.00 Tf 101.21 444.89 Td (de) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F2 10.00 Tf 115.86 444.89 Td (que) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F2 10.00 Tf 136.33 444.89 Td (a) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F2 10.00 Tf 145.15 444.89 Td (classe) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F2 10.00 Tf 180.63 444.89 Td (vale) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F2 10.00 Tf 204.46 444.89 Td (a) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F2 10.00 Tf 213.29 444.89 Td (pena:) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 242.94 444.89 Td (ela) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 259.34 444.89 Td (protege) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 296.54 444.89 Td (pelo) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 318.14 444.89 Td (menos) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 350.94 444.89 Td (uma) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 373.34 444.89 Td (regra.) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 405.34 444.89 Td (Se) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 420.54 444.89 Td (a) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 428.74 444.89 Td (sua) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 447.34 444.89 Td (classe) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 479.34 444.89 Td (só) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 72.00 430.89 Td (repassa) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 111.40 430.89 Td (chamadas) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 159.80 430.89 Td (sem) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 182.20 430.89 Td (proteger) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 224.60 430.89 Td (nada,) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 251.40 430.89 Td (você) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 275.20 430.89 Td (provavelmente) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 345.20 430.89 Td (não) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 363.80 430.89 Td (precisava) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 411.40 430.89 Td (dela.) Tj ET 0 0 0 rg
+0.60 0.60 0.60 rg 58.00 430.89 2.20 24.00 re f 0 0 0 rg
+BT /F2 10.50 Tf 56.00 409.39 Td (Perguntas) Tj ET
+BT /F1 10.50 Tf 56.00 391.89 Td (1.) Tj ET
+BT /F1 10.50 Tf 76.00 391.89 Td (Cite) Tj ET
+BT /F1 10.50 Tf 98.26 391.89 Td (uma) Tj ET
+BT /F1 10.50 Tf 121.78 391.89 Td (regra) Tj ET
+BT /F1 10.50 Tf 152.23 391.89 Td (concreta) Tj ET
+BT /F1 10.50 Tf 196.75 391.89 Td (que) Tj ET
+BT /F1 10.50 Tf 216.28 391.89 Td (a) Tj ET
+BT /F1 10.50 Tf 224.89 391.89 Td (classe) Tj ET
+BT /F3 10.50 Tf 258.49 391.89 Td (Inventario) Tj ET
+BT /F1 10.50 Tf 324.64 391.89 Td (protege) Tj ET
+BT /F1 10.50 Tf 363.70 391.89 Td (e) Tj ET
+BT /F1 10.50 Tf 372.31 391.89 Td (que) Tj ET
+BT /F1 10.50 Tf 391.84 391.89 Td (uma) Tj ET
+BT /F1 10.50 Tf 415.36 391.89 Td (lista) Tj ET
+BT /F1 10.50 Tf 438.88 391.89 Td (solta) Tj ET
+BT /F1 10.50 Tf 464.71 391.89 Td (não) Tj ET
+BT /F1 10.50 Tf 76.00 377.39 Td (protegeria.) Tj ET
+BT /F1 10.50 Tf 56.00 359.89 Td (2.) Tj ET
+BT /F1 10.50 Tf 76.00 359.89 Td (Por) Tj ET
+BT /F1 10.50 Tf 97.42 359.89 Td (que) Tj ET
+BT /F3 10.50 Tf 116.95 359.89 Td (tirar) Tj ET
+BT /F1 10.50 Tf 151.60 359.89 Td (devolve) Tj ET
+BT /F3 10.50 Tf 190.66 359.89 Td (None) Tj ET
+BT /F1 10.50 Tf 219.01 359.89 Td (em) Tj ET
+BT /F1 10.50 Tf 237.07 359.89 Td (vez) Tj ET
+BT /F1 10.50 Tf 256.60 359.89 Td (de) Tj ET
+BT /F1 10.50 Tf 270.67 359.89 Td (deixar) Tj ET
+BT /F1 10.50 Tf 304.27 359.89 Td (o) Tj ET
+BT /F1 10.50 Tf 312.88 359.89 Td (programa) Tj ET
+BT /F1 10.50 Tf 363.70 359.89 Td (quebrar?) Tj ET
+BT /F1 10.50 Tf 410.53 359.89 Td (Quem) Tj ET
+BT /F1 10.50 Tf 441.40 359.89 Td (chama) Tj ET
+BT /F1 10.50 Tf 475.84 359.89 Td (esse) Tj ET
+BT /F1 10.50 Tf 76.00 345.39 Td (método?) Tj ET
+BT /F1 10.50 Tf 56.00 327.89 Td (3.) Tj ET
+BT /F1 10.50 Tf 76.00 327.89 Td (O) Tj ET
+BT /F3 10.50 Tf 86.50 327.89 Td (listar) Tj ET
+BT /F1 10.50 Tf 127.45 327.89 Td (numera) Tj ET
+BT /F1 10.50 Tf 167.35 327.89 Td (a) Tj ET
+BT /F1 10.50 Tf 175.96 327.89 Td (partir) Tj ET
+BT /F1 10.50 Tf 207.25 327.89 Td (de) Tj ET
+BT /F1 10.50 Tf 221.32 327.89 Td (1,) Tj ET
+BT /F1 10.50 Tf 233.50 327.89 Td (mas) Tj ET
+BT /F1 10.50 Tf 257.02 327.89 Td (a) Tj ET
+BT /F1 10.50 Tf 265.63 327.89 Td (lista) Tj ET
+BT /F1 10.50 Tf 289.15 327.89 Td (começa) Tj ET
+BT /F1 10.50 Tf 329.05 327.89 Td (no) Tj ET
+BT /F1 10.50 Tf 343.12 327.89 Td (índice) Tj ET
+BT /F1 10.50 Tf 376.72 327.89 Td (0.) Tj ET
+BT /F1 10.50 Tf 388.90 327.89 Td (Onde) Tj ET
+BT /F1 10.50 Tf 415.78 327.89 Td (essa) Tj ET
+BT /F1 10.50 Tf 440.77 327.89 Td (conversão) Tj ET
+BT /F1 10.50 Tf 76.00 313.39 Td (acontece,) Tj ET
+BT /F1 10.50 Tf 123.67 313.39 Td (e) Tj ET
+BT /F1 10.50 Tf 132.28 313.39 Td (por) Tj ET
+BT /F1 10.50 Tf 151.81 313.39 Td (que) Tj ET
+BT /F1 10.50 Tf 171.34 313.39 Td (é) Tj ET
+BT /F1 10.50 Tf 179.95 313.39 Td (bom) Tj ET
+BT /F1 10.50 Tf 203.47 313.39 Td (que) Tj ET
+BT /F1 10.50 Tf 223.00 313.39 Td (ela) Tj ET
+BT /F1 10.50 Tf 240.22 313.39 Td (aconteça) Tj ET
+BT /F1 10.50 Tf 284.74 313.39 Td (em) Tj ET
+BT /F1 10.50 Tf 302.80 313.39 Td (um) Tj ET
+BT /F1 10.50 Tf 320.86 313.39 Td (lugar) Tj ET
+BT /F1 10.50 Tf 349.00 313.39 Td (só?) Tj ET
+BT /F1 10.50 Tf 56.00 295.89 Td (4.) Tj ET
+BT /F1 10.50 Tf 76.00 295.89 Td (Quando) Tj ET
+BT /F1 10.50 Tf 113.80 295.89 Td (uma) Tj ET
+BT /F1 10.50 Tf 137.32 295.89 Td (classe) Tj ET
+BT /F2 10.50 Tf 170.92 295.89 Td (não) Tj ET
+BT /F1 10.50 Tf 192.42 295.89 Td (vale) Tj ET
+BT /F1 10.50 Tf 215.10 295.89 Td (a) Tj ET
+BT /F1 10.50 Tf 223.71 295.89 Td (pena?) Tj ET
+BT /F1 10.50 Tf 254.16 295.89 Td (Use) Tj ET
+BT /F1 10.50 Tf 275.58 295.89 Td (o) Tj ET
+BT /F1 10.50 Tf 284.19 295.89 Td (sinal) Tj ET
+BT /F1 10.50 Tf 310.02 295.89 Td (descrito) Tj ET
+BT /F1 10.50 Tf 352.23 295.89 Td (no) Tj ET
+BT /F1 10.50 Tf 366.30 295.89 Td (fim) Tj ET
+BT /F1 10.50 Tf 385.20 295.89 Td (da) Tj ET
+BT /F1 10.50 Tf 399.27 295.89 Td (seção.) Tj ET
+0.70 0.70 0.70 RG 0.6 w 56.00 282.89 m 539.28 282.89 l S 0 0 0 RG
+BT /F2 13.50 Tf 56.00 245.39 Td (6.) Tj ET
+BT /F2 13.50 Tf 73.05 245.39 Td (Polimorfismo) Tj ET
+BT /F2 13.50 Tf 172.36 245.39 Td (outra) Tj ET
+BT /F2 13.50 Tf 212.39 245.39 Td (vez,) Tj ET
+BT /F2 13.50 Tf 244.57 245.39 Td (agora) Tj ET
+BT /F2 13.50 Tf 287.93 245.39 Td (fora) Tj ET
+BT /F2 13.50 Tf 320.10 245.39 Td (do) Tj ET
+BT /F2 13.50 Tf 339.88 245.39 Td (combate) Tj ET
+BT /F1 10.50 Tf 56.00 226.39 Td (Na) Tj ET
+BT /F1 10.50 Tf 71.96 226.39 Td (Parte) Tj ET
+BT /F1 10.50 Tf 101.99 226.39 Td (B) Tj ET
+BT /F1 10.50 Tf 112.49 226.39 Td (o) Tj ET
+BT /F1 10.50 Tf 121.10 226.39 Td (polimorfismo) Tj ET
+BT /F1 10.50 Tf 188.51 226.39 Td (apareceu) Tj ET
+BT /F1 10.50 Tf 235.34 226.39 Td (no) Tj ET
+BT /F1 10.50 Tf 249.41 226.39 Td (combate:) Tj ET
+BT /F3 10.50 Tf 295.61 226.39 Td (inimigo.atacar\(jogador\)) Tj ET
+BT /F1 10.50 Tf 443.66 226.39 Td (fazia) Tj ET
+BT /F1 10.50 Tf 469.49 226.39 Td (coisas) Tj ET
+BT /F1 10.50 Tf 56.00 211.89 Td (diferentes) Tj ET
+BT /F1 10.50 Tf 106.82 211.89 Td (conforme) Tj ET
+BT /F1 10.50 Tf 155.33 211.89 Td (o) Tj ET
+BT /F1 10.50 Tf 163.94 211.89 Td (inimigo.) Tj ET
+BT /F1 10.50 Tf 56.00 193.39 Td (Agora) Tj ET
+BT /F1 10.50 Tf 88.34 193.39 Td (ele) Tj ET
+BT /F1 10.50 Tf 105.56 193.39 Td (volta,) Tj ET
+BT /F1 10.50 Tf 134.54 193.39 Td (e) Tj ET
+BT /F1 10.50 Tf 143.15 193.39 Td (é) Tj ET
+BT /F1 10.50 Tf 151.76 193.39 Td (a) Tj ET
+BT /F1 10.50 Tf 160.37 193.39 Td (mesma) Tj ET
+BT /F1 10.50 Tf 198.80 193.39 Td (ideia) Tj ET
+BT /F1 10.50 Tf 224.63 193.39 Td (com) Tj ET
+BT /F1 10.50 Tf 248.15 193.39 Td (outras) Tj ET
+BT /F1 10.50 Tf 281.75 193.39 Td (classes.) Tj ET
+
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 11865 >>
+stream
+0.95 0.95 0.95 rg 56.00 485.89 483.28 300.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 771.39 Td (class Item:) Tj ET
+BT /F3 8.50 Tf 62.00 759.39 Td (    def __init__\(self, nome\):) Tj ET
+BT /F3 8.50 Tf 62.00 747.39 Td (        self.nome = nome) Tj ET
+BT /F3 8.50 Tf 62.00 735.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 723.39 Td (    def usar\(self, dono, inimigo\):) Tj ET
+BT /F3 8.50 Tf 62.00 711.39 Td (        print\(self.nome, "nao faz nada"\)) Tj ET
+BT /F3 8.50 Tf 62.00 699.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 687.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 675.39 Td (class PocaoDeVida\(Item\):) Tj ET
+BT /F3 8.50 Tf 62.00 663.39 Td (    def __init__\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 651.39 Td (        super\(\).__init__\("Poção de vida"\)) Tj ET
+BT /F3 8.50 Tf 62.00 639.39 Td (        self.cura = 25) Tj ET
+BT /F3 8.50 Tf 62.00 627.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 615.39 Td (    def usar\(self, dono, inimigo\):) Tj ET
+BT /F3 8.50 Tf 62.00 603.39 Td (        dono.curar\(self.cura\)) Tj ET
+BT /F3 8.50 Tf 62.00 591.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 579.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 567.39 Td (class Bomba\(Item\):) Tj ET
+BT /F3 8.50 Tf 62.00 555.39 Td (    def __init__\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 543.39 Td (        super\(\).__init__\("Bomba"\)) Tj ET
+BT /F3 8.50 Tf 62.00 531.39 Td (        self.dano = 30) Tj ET
+BT /F3 8.50 Tf 62.00 519.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 507.39 Td (    def usar\(self, dono, inimigo\):) Tj ET
+BT /F3 8.50 Tf 62.00 495.39 Td (        inimigo.receber_dano\(self.dano\)) Tj ET
+BT /F1 10.50 Tf 56.00 468.39 Td (Repare) Tj ET
+BT /F1 10.50 Tf 93.80 468.39 Td (que) Tj ET
+BT /F1 10.50 Tf 113.33 468.39 Td (os) Tj ET
+BT /F1 10.50 Tf 127.40 468.39 Td (dois) Tj ET
+BT /F3 10.50 Tf 150.08 468.39 Td (usar) Tj ET
+BT /F1 10.50 Tf 178.43 468.39 Td (recebem) Tj ET
+BT /F2 10.50 Tf 223.79 468.39 Td (exatamente) Tj ET
+BT /F2 10.50 Tf 287.39 468.39 Td (os) Tj ET
+BT /F2 10.50 Tf 302.77 468.39 Td (mesmos) Tj ET
+BT /F2 10.50 Tf 351.55 468.39 Td (parâmetros) Tj ET
+BT /F1 10.50 Tf 417.73 468.39 Td (,) Tj ET
+BT /F1 10.50 Tf 424.03 468.39 Td (e) Tj ET
+BT /F1 10.50 Tf 432.64 468.39 Td (fazem) Tj ET
+BT /F1 10.50 Tf 464.77 468.39 Td (coisas) Tj ET
+BT /F1 10.50 Tf 56.00 453.89 Td (opostas.) Tj ET
+BT /F1 10.50 Tf 98.21 453.89 Td (A) Tj ET
+BT /F1 10.50 Tf 108.71 453.89 Td (poção) Tj ET
+BT /F1 10.50 Tf 139.16 453.89 Td (cura) Tj ET
+BT /F1 10.50 Tf 164.15 453.89 Td (quem) Tj ET
+BT /F1 10.50 Tf 193.13 453.89 Td (usou.) Tj ET
+BT /F1 10.50 Tf 221.27 453.89 Td (A) Tj ET
+BT /F1 10.50 Tf 231.77 453.89 Td (bomba) Tj ET
+BT /F1 10.50 Tf 266.21 453.89 Td (fere) Tj ET
+BT /F1 10.50 Tf 288.89 453.89 Td (o) Tj ET
+BT /F1 10.50 Tf 297.50 453.89 Td (outro.) Tj ET
+BT /F1 10.50 Tf 328.79 453.89 Td (Cada) Tj ET
+BT /F1 10.50 Tf 355.67 453.89 Td (item) Tj ET
+BT /F1 10.50 Tf 380.03 453.89 Td (decide) Tj ET
+BT /F1 10.50 Tf 413.63 453.89 Td (sozinho) Tj ET
+BT /F1 10.50 Tf 452.69 453.89 Td (quem) Tj ET
+BT /F1 10.50 Tf 481.67 453.89 Td (ele) Tj ET
+BT /F1 10.50 Tf 498.89 453.89 Td (afeta.) Tj ET
+BT /F1 10.50 Tf 56.00 435.39 Td (E) Tj ET
+BT /F1 10.50 Tf 66.50 435.39 Td (no) Tj ET
+BT /F1 10.50 Tf 80.57 435.39 Td (jogo:) Tj ET
+0.95 0.95 0.95 rg 56.00 390.39 483.28 36.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 411.89 Td (item = jogador.inventario.tirar\(numero\)) Tj ET
+BT /F3 8.50 Tf 62.00 399.89 Td (item.usar\(jogador, inimigo\)) Tj ET
+BT /F1 10.50 Tf 56.00 372.89 Td (Essas) Tj ET
+BT /F1 10.50 Tf 88.34 372.89 Td (duas) Tj ET
+BT /F1 10.50 Tf 113.33 372.89 Td (linhas) Tj ET
+BT /F1 10.50 Tf 144.62 372.89 Td (não) Tj ET
+BT /F1 10.50 Tf 164.15 372.89 Td (perguntam) Tj ET
+BT /F1 10.50 Tf 218.12 372.89 Td (que) Tj ET
+BT /F1 10.50 Tf 237.65 372.89 Td (item) Tj ET
+BT /F1 10.50 Tf 262.01 372.89 Td (é.) Tj ET
+BT /F1 10.50 Tf 273.77 372.89 Td (Não) Tj ET
+BT /F1 10.50 Tf 295.19 372.89 Td (têm) Tj ET
+BT /F3 10.50 Tf 316.40 372.89 Td (if) Tj ET
+BT /F1 10.50 Tf 332.15 372.89 Td (.) Tj ET
+BT /F1 10.50 Tf 338.45 372.89 Td (Funcionam) Tj ET
+BT /F1 10.50 Tf 394.31 372.89 Td (com) Tj ET
+BT /F1 10.50 Tf 417.83 372.89 Td (poção,) Tj ET
+BT /F1 10.50 Tf 451.43 372.89 Td (com) Tj ET
+BT /F1 10.50 Tf 474.95 372.89 Td (bomba,) Tj ET
+BT /F1 10.50 Tf 512.54 372.89 Td (e) Tj ET
+BT /F1 10.50 Tf 56.00 358.39 Td (com) Tj ET
+BT /F1 10.50 Tf 79.52 358.39 Td (qualquer) Tj ET
+BT /F1 10.50 Tf 124.04 358.39 Td (item) Tj ET
+BT /F1 10.50 Tf 148.40 358.39 Td (que) Tj ET
+BT /F1 10.50 Tf 167.93 358.39 Td (você) Tj ET
+BT /F1 10.50 Tf 192.92 358.39 Td (inventar) Tj ET
+BT /F1 10.50 Tf 235.13 358.39 Td (amanhã.) Tj ET
+BT /F1 10.50 Tf 56.00 339.89 Td (Note) Tj ET
+BT /F1 10.50 Tf 80.57 339.89 Td (também) Tj ET
+BT /F1 10.50 Tf 122.15 339.89 Td (que) Tj ET
+BT /F3 10.50 Tf 141.68 339.89 Td (Item) Tj ET
+BT /F1 10.50 Tf 170.03 339.89 Td (usa) Tj ET
+BT /F2 10.50 Tf 189.56 339.89 Td (herança) Tj ET
+BT /F1 10.50 Tf 235.52 339.89 Td (,) Tj ET
+BT /F1 10.50 Tf 241.82 339.89 Td (e) Tj ET
+BT /F3 10.50 Tf 250.43 339.89 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 316.58 339.89 Td (usa) Tj ET
+BT /F2 10.50 Tf 336.11 339.89 Td (composição) Tj ET
+BT /F1 10.50 Tf 402.29 339.89 Td (para) Tj ET
+BT /F1 10.50 Tf 427.28 339.89 Td (guardar) Tj ET
+BT /F1 10.50 Tf 468.65 339.89 Td (o) Tj ET
+BT /F1 10.50 Tf 477.26 339.89 Td (inventário.) Tj ET
+BT /F1 10.50 Tf 56.00 325.39 Td (As) Tj ET
+BT /F1 10.50 Tf 71.96 325.39 Td (duas) Tj ET
+BT /F1 10.50 Tf 96.95 325.39 Td (ferramentas) Tj ET
+BT /F1 10.50 Tf 159.53 325.39 Td (convivem) Tj ET
+BT /F1 10.50 Tf 208.04 325.39 Td (no) Tj ET
+BT /F1 10.50 Tf 222.11 325.39 Td (mesmo) Tj ET
+BT /F1 10.50 Tf 260.54 325.39 Td (programa.) Tj ET
+BT /F1 10.50 Tf 314.51 325.39 Td (Elas) Tj ET
+BT /F1 10.50 Tf 339.08 325.39 Td (não) Tj ET
+BT /F1 10.50 Tf 358.61 325.39 Td (competem:) Tj ET
+BT /F1 10.50 Tf 414.26 325.39 Td (cada) Tj ET
+BT /F1 10.50 Tf 439.25 325.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 462.77 325.39 Td (responde) Tj ET
+BT /F1 10.50 Tf 509.60 325.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 56.00 310.89 Td (pergunta) Tj ET
+BT /F1 10.50 Tf 100.52 310.89 Td (diferente.) Tj ET
+BT /F2 10.50 Tf 56.00 292.39 Td (Perguntas) Tj ET
+BT /F1 10.50 Tf 56.00 274.89 Td (1.) Tj ET
+BT /F1 10.50 Tf 76.00 274.89 Td (Os) Tj ET
+BT /F1 10.50 Tf 91.96 274.89 Td (dois) Tj ET
+BT /F3 10.50 Tf 114.64 274.89 Td (usar) Tj ET
+BT /F1 10.50 Tf 142.99 274.89 Td (têm) Tj ET
+BT /F1 10.50 Tf 164.20 274.89 Td (exatamente) Tj ET
+BT /F1 10.50 Tf 221.32 274.89 Td (os) Tj ET
+BT /F1 10.50 Tf 235.39 274.89 Td (mesmos) Tj ET
+BT /F1 10.50 Tf 279.28 274.89 Td (parâmetros.) Tj ET
+BT /F1 10.50 Tf 341.86 274.89 Td (Por) Tj ET
+BT /F1 10.50 Tf 363.28 274.89 Td (que) Tj ET
+BT /F1 10.50 Tf 382.81 274.89 Td (isso) Tj ET
+BT /F1 10.50 Tf 405.49 274.89 Td (é) Tj ET
+BT /F1 10.50 Tf 414.10 274.89 Td (obrigatório) Tj ET
+BT /F1 10.50 Tf 470.38 274.89 Td (para) Tj ET
+BT /F1 10.50 Tf 495.37 274.89 Td (o) Tj ET
+BT /F1 10.50 Tf 76.00 260.39 Td (polimorfismo) Tj ET
+BT /F1 10.50 Tf 143.41 260.39 Td (funcionar?) Tj ET
+BT /F1 10.50 Tf 56.00 242.89 Td (2.) Tj ET
+BT /F1 10.50 Tf 76.00 242.89 Td (Você) Tj ET
+BT /F1 10.50 Tf 102.88 242.89 Td (cria) Tj ET
+BT /F1 10.50 Tf 125.56 242.89 Td (um) Tj ET
+BT /F3 10.50 Tf 143.62 242.89 Td (Elixir) Tj ET
+BT /F1 10.50 Tf 184.57 242.89 Td (,) Tj ET
+BT /F1 10.50 Tf 190.87 242.89 Td (que) Tj ET
+BT /F1 10.50 Tf 210.40 242.89 Td (cura) Tj ET
+BT /F1 10.50 Tf 235.39 242.89 Td (o) Tj ET
+BT /F1 10.50 Tf 244.00 242.89 Td (dono) Tj ET
+BT /F1 10.50 Tf 268.99 242.89 Td (e) Tj ET
+BT /F1 10.50 Tf 277.60 242.89 Td (fere) Tj ET
+BT /F1 10.50 Tf 300.28 242.89 Td (o) Tj ET
+BT /F1 10.50 Tf 308.89 242.89 Td (inimigo) Tj ET
+BT /F1 10.50 Tf 347.32 242.89 Td (na) Tj ET
+BT /F1 10.50 Tf 361.39 242.89 Td (mesma) Tj ET
+BT /F1 10.50 Tf 399.82 242.89 Td (chamada.) Tj ET
+BT /F1 10.50 Tf 448.33 242.89 Td (Quantas) Tj ET
+BT /F1 10.50 Tf 489.28 242.89 Td (linhas) Tj ET
+BT /F1 10.50 Tf 520.57 242.89 Td (do) Tj ET
+BT /F1 10.50 Tf 76.00 228.39 Td (menu) Tj ET
+BT /F1 10.50 Tf 104.98 228.39 Td (precisam) Tj ET
+BT /F1 10.50 Tf 153.49 228.39 Td (mudar?) Tj ET
+BT /F1 10.50 Tf 193.39 228.39 Td (Justifique.) Tj ET
+BT /F1 10.50 Tf 56.00 210.89 Td (3.) Tj ET
+BT /F1 10.50 Tf 76.00 210.89 Td (Nesta) Tj ET
+BT /F1 10.50 Tf 106.03 210.89 Td (seção,) Tj ET
+BT /F3 10.50 Tf 139.63 210.89 Td (Item) Tj ET
+BT /F1 10.50 Tf 167.98 210.89 Td (usa) Tj ET
+BT /F1 10.50 Tf 187.51 210.89 Td (herança) Tj ET
+BT /F1 10.50 Tf 228.88 210.89 Td (e) Tj ET
+BT /F3 10.50 Tf 237.49 210.89 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 303.64 210.89 Td (usa) Tj ET
+BT /F1 10.50 Tf 323.17 210.89 Td (composição.) Tj ET
+BT /F1 10.50 Tf 385.75 210.89 Td (Explique) Tj ET
+BT /F1 10.50 Tf 429.85 210.89 Td (por) Tj ET
+BT /F1 10.50 Tf 449.38 210.89 Td (que) Tj ET
+BT /F1 10.50 Tf 468.91 210.89 Td (as) Tj ET
+BT /F1 10.50 Tf 482.98 210.89 Td (duas) Tj ET
+BT /F1 10.50 Tf 76.00 196.39 Td (aparecem) Tj ET
+BT /F1 10.50 Tf 126.82 196.39 Td (no) Tj ET
+BT /F1 10.50 Tf 140.89 196.39 Td (mesmo) Tj ET
+BT /F1 10.50 Tf 179.32 196.39 Td (programa) Tj ET
+BT /F1 10.50 Tf 230.14 196.39 Td (sem) Tj ET
+BT /F1 10.50 Tf 253.66 196.39 Td (competir.) Tj ET
+BT /F1 10.50 Tf 56.00 178.89 Td (4.) Tj ET
+BT /F1 10.50 Tf 76.00 178.89 Td (Ligue) Tj ET
+BT /F1 10.50 Tf 106.03 178.89 Td (o) Tj ET
+BT /F1 10.50 Tf 114.64 178.89 Td (conceito) Tj ET
+BT /F1 10.50 Tf 156.85 178.89 Td (ao) Tj ET
+BT /F1 10.50 Tf 170.92 178.89 Td (nome.) Tj ET
+BT /F1 10.50 Tf 203.05 178.89 Td (Diga) Tj ET
+BT /F1 10.50 Tf 227.62 178.89 Td (qual) Tj ET
+BT /F1 10.50 Tf 250.30 178.89 Td (pilar) Tj ET
+BT /F1 10.50 Tf 276.13 178.89 Td (cada) Tj ET
+BT /F1 10.50 Tf 301.12 178.89 Td (trecho) Tj ET
+BT /F1 10.50 Tf 334.72 178.89 Td (representa,) Tj ET
+BT /F1 10.50 Tf 393.31 178.89 Td (herança,) Tj ET
+BT /F1 10.50 Tf 437.83 178.89 Td (composição,) Tj ET
+BT /F1 10.50 Tf 76.00 164.39 Td (polimorfismo) Tj ET
+BT /F1 10.50 Tf 143.41 164.39 Td (ou) Tj ET
+BT /F1 10.50 Tf 157.48 164.39 Td (encapsulamento:) Tj ET
+BT /F1 10.50 Tf 239.59 164.39 Td (-) Tj ET
+BT /F3 10.50 Tf 248.20 164.39 Td (class) Tj ET
+BT /F3 10.50 Tf 282.85 164.39 Td (Bomba\(Item\):) Tj ET
+BT /F1 10.50 Tf 361.60 164.39 Td (-) Tj ET
+BT /F3 10.50 Tf 370.21 164.39 Td (self.inventario) Tj ET
+BT /F3 10.50 Tf 467.86 164.39 Td (=) Tj ET
+BT /F3 10.50 Tf 76.00 149.89 Td (Inventario\(\)) Tj ET
+BT /F1 10.50 Tf 154.75 149.89 Td (-) Tj ET
+BT /F3 10.50 Tf 163.36 149.89 Td (item.usar\(jogador,) Tj ET
+BT /F3 10.50 Tf 279.91 149.89 Td (inimigo\)) Tj ET
+BT /F1 10.50 Tf 333.46 149.89 Td (fazendo) Tj ET
+BT /F1 10.50 Tf 372.52 149.89 Td (coisas) Tj ET
+BT /F1 10.50 Tf 406.12 149.89 Td (diferentes) Tj ET
+BT /F1 10.50 Tf 456.94 149.89 Td (por) Tj ET
+BT /F1 10.50 Tf 476.47 149.89 Td (item) Tj ET
+BT /F1 10.50 Tf 500.83 149.89 Td (-) Tj ET
+BT /F3 10.50 Tf 76.00 135.39 Td (self._itens) Tj ET
+BT /F1 10.50 Tf 148.45 135.39 Td (com) Tj ET
+BT /F1 10.50 Tf 171.97 135.39 Td (underscore) Tj ET
+0.70 0.70 0.70 RG 0.6 w 56.00 122.39 m 539.28 122.39 l S 0 0 0 RG
+BT /F2 13.50 Tf 56.00 84.89 Td (7.) Tj ET
+BT /F2 13.50 Tf 73.05 84.89 Td (Como) Tj ET
+BT /F2 13.50 Tf 117.02 84.89 Td (o) Tj ET
+BT /F2 13.50 Tf 128.93 84.89 Td (objeto) Tj ET
+BT /F2 13.50 Tf 173.50 84.89 Td (se) Tj ET
+BT /F2 13.50 Tf 193.28 84.89 Td (apresenta:) Tj ET
+BT /F3 13.50 Tf 269.30 84.89 Td (__str__) Tj ET
+BT /F1 10.50 Tf 56.00 65.89 Td (Para) Tj ET
+BT /F1 10.50 Tf 82.88 65.89 Td (listar) Tj ET
+BT /F1 10.50 Tf 111.86 65.89 Td (a) Tj ET
+BT /F1 10.50 Tf 120.47 65.89 Td (mochila) Tj ET
+BT /F1 10.50 Tf 161.21 65.89 Td (na) Tj ET
+BT /F1 10.50 Tf 175.28 65.89 Td (tela,) Tj ET
+BT /F1 10.50 Tf 198.80 65.89 Td (você) Tj ET
+BT /F1 10.50 Tf 223.79 65.89 Td (precisa) Tj ET
+BT /F1 10.50 Tf 262.85 65.89 Td (transformar) Tj ET
+BT /F1 10.50 Tf 325.43 65.89 Td (um) Tj ET
+BT /F1 10.50 Tf 343.49 65.89 Td (item) Tj ET
+BT /F1 10.50 Tf 367.85 65.89 Td (em) Tj ET
+BT /F1 10.50 Tf 385.91 65.89 Td (texto.) Tj ET
+BT /F1 10.50 Tf 414.89 65.89 Td (A) Tj ET
+BT /F1 10.50 Tf 425.39 65.89 Td (tentação) Tj ET
+BT /F1 10.50 Tf 467.60 65.89 Td (é) Tj ET
+BT /F1 10.50 Tf 476.21 65.89 Td (guardar) Tj ET
+
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 13077 >>
+stream
+BT /F1 10.50 Tf 56.00 775.39 Td (isso) Tj ET
+BT /F1 10.50 Tf 78.68 775.39 Td (de) Tj ET
+BT /F1 10.50 Tf 92.75 775.39 Td (fora:) Tj ET
+0.95 0.95 0.95 rg 56.00 742.39 483.28 24.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 751.89 Td (print\(numero, "-", item.nome\)) Tj ET
+BT /F1 10.50 Tf 56.00 724.89 Td (Funciona,) Tj ET
+BT /F1 10.50 Tf 105.56 724.89 Td (mas) Tj ET
+BT /F1 10.50 Tf 129.08 724.89 Td (espalha) Tj ET
+BT /F1 10.50 Tf 168.14 724.89 Td (de) Tj ET
+BT /F1 10.50 Tf 182.21 724.89 Td (novo:) Tj ET
+BT /F1 10.50 Tf 210.35 724.89 Td (todo) Tj ET
+BT /F1 10.50 Tf 233.03 724.89 Td (lugar) Tj ET
+BT /F1 10.50 Tf 261.17 724.89 Td (que) Tj ET
+BT /F1 10.50 Tf 280.70 724.89 Td (mostra) Tj ET
+BT /F1 10.50 Tf 318.29 724.89 Td (um) Tj ET
+BT /F1 10.50 Tf 336.35 724.89 Td (item) Tj ET
+BT /F1 10.50 Tf 360.71 724.89 Td (precisa) Tj ET
+BT /F1 10.50 Tf 399.77 724.89 Td (lembrar) Tj ET
+BT /F1 10.50 Tf 442.82 724.89 Td (de) Tj ET
+BT /F1 10.50 Tf 456.89 724.89 Td (usar) Tj ET
+BT /F3 10.50 Tf 481.88 724.89 Td (.nome) Tj ET
+BT /F1 10.50 Tf 516.53 724.89 Td (.) Tj ET
+BT /F1 10.50 Tf 56.00 706.39 Td (Python) Tj ET
+BT /F1 10.50 Tf 91.49 706.39 Td (tem) Tj ET
+BT /F1 10.50 Tf 112.70 706.39 Td (um) Tj ET
+BT /F1 10.50 Tf 130.76 706.39 Td (método) Tj ET
+BT /F1 10.50 Tf 168.35 706.39 Td (especial) Tj ET
+BT /F1 10.50 Tf 210.56 706.39 Td (para) Tj ET
+BT /F1 10.50 Tf 235.55 706.39 Td (isso,) Tj ET
+BT /F1 10.50 Tf 261.38 706.39 Td (e) Tj ET
+BT /F1 10.50 Tf 269.99 706.39 Td (ele) Tj ET
+BT /F1 10.50 Tf 287.21 706.39 Td (se) Tj ET
+BT /F1 10.50 Tf 301.28 706.39 Td (chama) Tj ET
+BT /F3 10.50 Tf 335.72 706.39 Td (__str__) Tj ET
+BT /F1 10.50 Tf 382.97 706.39 Td (.) Tj ET
+BT /F1 10.50 Tf 389.27 706.39 Td (Ele) Tj ET
+BT /F1 10.50 Tf 408.38 706.39 Td (responde) Tj ET
+BT /F1 10.50 Tf 455.21 706.39 Td (a) Tj ET
+BT /F1 10.50 Tf 463.82 706.39 Td (pergunta) Tj ET
+BT /F1 10.50 Tf 56.00 691.89 Td ("como) Tj ET
+BT /F1 10.50 Tf 90.44 691.89 Td (você) Tj ET
+BT /F1 10.50 Tf 115.43 691.89 Td (vira) Tj ET
+BT /F1 10.50 Tf 138.11 691.89 Td (texto?".) Tj ET
+0.95 0.95 0.95 rg 56.00 634.89 483.28 48.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 668.39 Td (class Item:) Tj ET
+BT /F3 8.50 Tf 62.00 656.39 Td (    def __str__\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 644.39 Td (        return self.nome) Tj ET
+BT /F1 10.50 Tf 56.00 617.39 Td (Com) Tj ET
+BT /F1 10.50 Tf 81.41 617.39 Td (ele) Tj ET
+BT /F1 10.50 Tf 98.63 617.39 Td (escrito,) Tj ET
+BT /F1 10.50 Tf 138.53 617.39 Td (o) Tj ET
+BT /F3 10.50 Tf 147.14 617.39 Td (print) Tj ET
+BT /F1 10.50 Tf 181.79 617.39 Td (passa) Tj ET
+BT /F1 10.50 Tf 212.24 617.39 Td (a) Tj ET
+BT /F1 10.50 Tf 220.85 617.39 Td (funcionar) Tj ET
+BT /F1 10.50 Tf 268.52 617.39 Td (direto) Tj ET
+BT /F1 10.50 Tf 299.81 617.39 Td (no) Tj ET
+BT /F1 10.50 Tf 313.88 617.39 Td (objeto:) Tj ET
+0.95 0.95 0.95 rg 56.00 572.39 483.28 36.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 593.89 Td (print\(pocao\)          # Poção de vida) Tj ET
+BT /F3 8.50 Tf 62.00 581.89 Td (print\(numero, "-", pocao\)) Tj ET
+BT /F3 10.50 Tf 56.00 554.89 Td (__str__) Tj ET
+BT /F1 10.50 Tf 103.25 554.89 Td (é) Tj ET
+BT /F1 10.50 Tf 111.86 554.89 Td (da) Tj ET
+BT /F1 10.50 Tf 125.93 554.89 Td (mesma) Tj ET
+BT /F1 10.50 Tf 164.36 554.89 Td (família) Tj ET
+BT /F1 10.50 Tf 202.79 554.89 Td (do) Tj ET
+BT /F3 10.50 Tf 216.86 554.89 Td (__init__) Tj ET
+BT /F1 10.50 Tf 270.41 554.89 Td (:) Tj ET
+BT /F1 10.50 Tf 276.71 554.89 Td (um) Tj ET
+BT /F1 10.50 Tf 294.77 554.89 Td (método) Tj ET
+BT /F1 10.50 Tf 332.36 554.89 Td (com) Tj ET
+BT /F1 10.50 Tf 355.88 554.89 Td (dois) Tj ET
+BT /F1 10.50 Tf 378.56 554.89 Td (underscores) Tj ET
+BT /F1 10.50 Tf 441.77 554.89 Td (de) Tj ET
+BT /F1 10.50 Tf 455.84 554.89 Td (cada) Tj ET
+BT /F1 10.50 Tf 480.83 554.89 Td (lado,) Tj ET
+BT /F1 10.50 Tf 506.66 554.89 Td (que) Tj ET
+BT /F1 10.50 Tf 526.19 554.89 Td (o) Tj ET
+BT /F1 10.50 Tf 56.00 540.39 Td (Python) Tj ET
+BT /F1 10.50 Tf 91.49 540.39 Td (chama) Tj ET
+BT /F1 10.50 Tf 125.93 540.39 Td (sozinho) Tj ET
+BT /F1 10.50 Tf 164.99 540.39 Td (na) Tj ET
+BT /F1 10.50 Tf 179.06 540.39 Td (hora) Tj ET
+BT /F1 10.50 Tf 204.05 540.39 Td (certa.) Tj ET
+BT /F1 10.50 Tf 235.34 540.39 Td (Você) Tj ET
+BT /F1 10.50 Tf 262.22 540.39 Td (nunca) Tj ET
+BT /F1 10.50 Tf 292.67 540.39 Td (escreve) Tj ET
+BT /F3 10.50 Tf 334.04 540.39 Td (item.__str__\(\)) Tj ET
+BT /F1 10.50 Tf 425.39 540.39 Td (.) Tj ET
+BT /F1 10.50 Tf 431.69 540.39 Td (Você) Tj ET
+BT /F1 10.50 Tf 458.57 540.39 Td (escreve) Tj ET
+BT /F3 10.50 Tf 56.00 525.89 Td (print\(item\)) Tj ET
+BT /F1 10.50 Tf 128.45 525.89 Td (,) Tj ET
+BT /F1 10.50 Tf 134.75 525.89 Td (e) Tj ET
+BT /F1 10.50 Tf 143.36 525.89 Td (o) Tj ET
+BT /F1 10.50 Tf 151.97 525.89 Td (Python) Tj ET
+BT /F1 10.50 Tf 187.46 525.89 Td (chama) Tj ET
+BT /F1 10.50 Tf 221.90 525.89 Td (por) Tj ET
+BT /F1 10.50 Tf 241.43 525.89 Td (você.) Tj ET
+BT /F1 10.50 Tf 56.00 507.39 Td (No) Tj ET
+BT /F3 10.50 Tf 71.96 507.39 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 138.11 507.39 Td (ele) Tj ET
+BT /F1 10.50 Tf 155.33 507.39 Td (também) Tj ET
+BT /F1 10.50 Tf 196.91 507.39 Td (cabe:) Tj ET
+0.95 0.95 0.95 rg 56.00 462.39 483.28 36.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 483.89 Td (    def __str__\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 471.89 Td (        return f"{self.nome} \({self._vida}/{self._vida_maxima}\)") Tj ET
+BT /F1 10.50 Tf 56.00 444.89 Td (E) Tj ET
+BT /F1 10.50 Tf 66.50 444.89 Td (aí) Tj ET
+BT /F3 10.50 Tf 80.57 444.89 Td (print\(jogador\)) Tj ET
+BT /F1 10.50 Tf 171.92 444.89 Td (mostra) Tj ET
+BT /F3 10.50 Tf 209.51 444.89 Td (Thoric) Tj ET
+BT /F3 10.50 Tf 250.46 444.89 Td (\(120/120\)) Tj ET
+BT /F1 10.50 Tf 310.31 444.89 Td (.) Tj ET
+BT /F2 10.50 Tf 56.00 426.39 Td (Perguntas) Tj ET
+BT /F1 10.50 Tf 56.00 408.89 Td (1.) Tj ET
+BT /F1 10.50 Tf 76.00 408.89 Td (Por) Tj ET
+BT /F1 10.50 Tf 97.42 408.89 Td (que) Tj ET
+BT /F1 10.50 Tf 116.95 408.89 Td (o) Tj ET
+BT /F3 10.50 Tf 125.56 408.89 Td (__str__) Tj ET
+BT /F1 10.50 Tf 172.81 408.89 Td (usa) Tj ET
+BT /F3 10.50 Tf 192.34 408.89 Td (return) Tj ET
+BT /F1 10.50 Tf 233.29 408.89 Td (e) Tj ET
+BT /F1 10.50 Tf 241.90 408.89 Td (não) Tj ET
+BT /F3 10.50 Tf 261.43 408.89 Td (print) Tj ET
+BT /F1 10.50 Tf 296.08 408.89 Td (?) Tj ET
+BT /F1 10.50 Tf 304.69 408.89 Td (O) Tj ET
+BT /F1 10.50 Tf 315.19 408.89 Td (que) Tj ET
+BT /F1 10.50 Tf 334.72 408.89 Td (acontece) Tj ET
+BT /F1 10.50 Tf 379.24 408.89 Td (se) Tj ET
+BT /F1 10.50 Tf 393.31 408.89 Td (você) Tj ET
+BT /F1 10.50 Tf 418.30 408.89 Td (trocar) Tj ET
+BT /F1 10.50 Tf 451.90 408.89 Td (um) Tj ET
+BT /F1 10.50 Tf 469.96 408.89 Td (pelo) Tj ET
+BT /F1 10.50 Tf 492.64 408.89 Td (outro?) Tj ET
+BT /F1 10.50 Tf 56.00 391.39 Td (2.) Tj ET
+BT /F1 10.50 Tf 76.00 391.39 Td (Quem) Tj ET
+BT /F1 10.50 Tf 106.87 391.39 Td (chama) Tj ET
+BT /F1 10.50 Tf 141.31 391.39 Td (o) Tj ET
+BT /F3 10.50 Tf 149.92 391.39 Td (__str__) Tj ET
+BT /F1 10.50 Tf 197.17 391.39 Td (?) Tj ET
+BT /F1 10.50 Tf 205.78 391.39 Td (Cite) Tj ET
+BT /F1 10.50 Tf 228.04 391.39 Td (outro) Tj ET
+BT /F1 10.50 Tf 256.18 391.39 Td (método) Tj ET
+BT /F1 10.50 Tf 293.77 391.39 Td (que) Tj ET
+BT /F1 10.50 Tf 313.30 391.39 Td (também) Tj ET
+BT /F1 10.50 Tf 354.88 391.39 Td (roda) Tj ET
+BT /F1 10.50 Tf 379.87 391.39 Td (sozinho,) Tj ET
+BT /F1 10.50 Tf 422.08 391.39 Td (sem) Tj ET
+BT /F1 10.50 Tf 445.60 391.39 Td (você) Tj ET
+BT /F1 10.50 Tf 470.59 391.39 Td (escrever) Tj ET
+BT /F1 10.50 Tf 517.42 391.39 Td (a) Tj ET
+BT /F1 10.50 Tf 76.00 376.89 Td (chamada.) Tj ET
+BT /F1 10.50 Tf 56.00 359.39 Td (3.) Tj ET
+BT /F1 10.50 Tf 76.00 359.39 Td (Sem) Tj ET
+BT /F1 10.50 Tf 101.41 359.39 Td (o) Tj ET
+BT /F3 10.50 Tf 110.02 359.39 Td (__str__) Tj ET
+BT /F1 10.50 Tf 157.27 359.39 Td (,) Tj ET
+BT /F1 10.50 Tf 163.57 359.39 Td (o) Tj ET
+BT /F1 10.50 Tf 172.18 359.39 Td (que) Tj ET
+BT /F1 10.50 Tf 191.71 359.39 Td (aparece) Tj ET
+BT /F1 10.50 Tf 233.08 359.39 Td (na) Tj ET
+BT /F1 10.50 Tf 247.15 359.39 Td (tela) Tj ET
+BT /F1 10.50 Tf 267.52 359.39 Td (quando) Tj ET
+BT /F1 10.50 Tf 303.43 359.39 Td (você) Tj ET
+BT /F1 10.50 Tf 328.42 359.39 Td (imprime) Tj ET
+BT /F1 10.50 Tf 373.15 359.39 Td (um) Tj ET
+BT /F1 10.50 Tf 391.21 359.39 Td (item?) Tj ET
+BT /F1 10.50 Tf 421.03 359.39 Td (O) Tj ET
+BT /F1 10.50 Tf 431.53 359.39 Td (que) Tj ET
+BT /F1 10.50 Tf 451.06 359.39 Td (essa) Tj ET
+BT /F1 10.50 Tf 476.05 359.39 Td (saída) Tj ET
+BT /F1 10.50 Tf 506.50 359.39 Td (está) Tj ET
+BT /F1 10.50 Tf 76.00 344.89 Td (te) Tj ET
+BT /F1 10.50 Tf 87.76 344.89 Td (dizendo?) Tj ET
+BT /F1 10.50 Tf 56.00 327.39 Td (4.) Tj ET
+BT /F1 10.50 Tf 76.00 327.39 Td (Depois) Tj ET
+BT /F1 10.50 Tf 111.49 327.39 Td (de) Tj ET
+BT /F1 10.50 Tf 125.56 327.39 Td (escrever) Tj ET
+BT /F1 10.50 Tf 172.39 327.39 Td (o) Tj ET
+BT /F3 10.50 Tf 181.00 327.39 Td (__str__) Tj ET
+BT /F1 10.50 Tf 228.25 327.39 Td (do) Tj ET
+BT /F3 10.50 Tf 242.32 327.39 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 308.47 327.39 Td (,) Tj ET
+BT /F1 10.50 Tf 314.77 327.39 Td (em) Tj ET
+BT /F1 10.50 Tf 332.83 327.39 Td (quantos) Tj ET
+BT /F1 10.50 Tf 371.89 327.39 Td (lugares) Tj ET
+BT /F1 10.50 Tf 410.95 327.39 Td (do) Tj ET
+BT /F1 10.50 Tf 425.02 327.39 Td (jogo) Tj ET
+BT /F1 10.50 Tf 447.70 327.39 Td (o) Tj ET
+BT /F1 10.50 Tf 456.31 327.39 Td (texto) Tj ET
+BT /F3 10.50 Tf 482.14 327.39 Td (Thoric) Tj ET
+BT /F3 10.50 Tf 76.00 312.89 Td (\(120/120\)) Tj ET
+BT /F1 10.50 Tf 135.85 312.89 Td (passa) Tj ET
+BT /F1 10.50 Tf 166.30 312.89 Td (a) Tj ET
+BT /F1 10.50 Tf 174.91 312.89 Td (funcionar) Tj ET
+BT /F1 10.50 Tf 222.58 312.89 Td (de) Tj ET
+BT /F1 10.50 Tf 236.65 312.89 Td (graça?) Tj ET
+0.70 0.70 0.70 RG 0.6 w 56.00 299.89 m 539.28 299.89 l S 0 0 0 RG
+BT /F2 13.50 Tf 56.00 262.39 Td (8.) Tj ET
+BT /F2 13.50 Tf 73.05 262.39 Td (A) Tj ET
+BT /F2 13.50 Tf 87.69 262.39 Td (porta) Tj ET
+BT /F2 13.50 Tf 127.72 262.39 Td (de) Tj ET
+BT /F2 13.50 Tf 147.50 262.39 Td (leitura:) Tj ET
+BT /F3 13.50 Tf 201.14 262.39 Td (@property) Tj ET
+BT /F1 10.50 Tf 56.00 243.39 Td (Na) Tj ET
+BT /F1 10.50 Tf 71.96 243.39 Td (Parte) Tj ET
+BT /F1 10.50 Tf 101.99 243.39 Td (2) Tj ET
+BT /F1 10.50 Tf 111.02 243.39 Td (você) Tj ET
+BT /F1 10.50 Tf 136.01 243.39 Td (trocou) Tj ET
+BT /F3 10.50 Tf 169.61 243.39 Td (self.vida) Tj ET
+BT /F1 10.50 Tf 229.46 243.39 Td (por) Tj ET
+BT /F3 10.50 Tf 248.99 243.39 Td (self._vida) Tj ET
+BT /F1 10.50 Tf 315.14 243.39 Td (e) Tj ET
+BT /F1 10.50 Tf 323.75 243.39 Td (fechou) Tj ET
+BT /F1 10.50 Tf 357.35 243.39 Td (a) Tj ET
+BT /F1 10.50 Tf 365.96 243.39 Td (porta.) Tj ET
+BT /F1 10.50 Tf 397.25 243.39 Td (Isso) Tj ET
+BT /F1 10.50 Tf 419.93 243.39 Td (resolveu) Tj ET
+BT /F1 10.50 Tf 464.45 243.39 Td (o) Tj ET
+BT /F1 10.50 Tf 473.06 243.39 Td (problema) Tj ET
+BT /F1 10.50 Tf 521.57 243.39 Td (do) Tj ET
+BT /F3 10.50 Tf 56.00 228.89 Td (inimigo.vida) Tj ET
+BT /F3 10.50 Tf 134.75 228.89 Td (=) Tj ET
+BT /F3 10.50 Tf 144.20 228.89 Td (-999) Tj ET
+BT /F1 10.50 Tf 172.55 228.89 Td (,) Tj ET
+BT /F1 10.50 Tf 178.85 228.89 Td (mas) Tj ET
+BT /F1 10.50 Tf 202.37 228.89 Td (cobrou) Tj ET
+BT /F1 10.50 Tf 238.28 228.89 Td (um) Tj ET
+BT /F1 10.50 Tf 256.34 228.89 Td (preço:) Tj ET
+BT /F1 10.50 Tf 289.94 228.89 Td (agora) Tj ET
+BT /F1 10.50 Tf 320.39 228.89 Td (nem) Tj ET
+BT /F2 10.50 Tf 343.91 228.89 Td (ler) Tj ET
+BT /F1 10.50 Tf 362.82 228.89 Td (a) Tj ET
+BT /F1 10.50 Tf 371.43 228.89 Td (vida) Tj ET
+BT /F1 10.50 Tf 394.11 228.89 Td (dá) Tj ET
+BT /F1 10.50 Tf 408.18 228.89 Td (mais.) Tj ET
+0.95 0.95 0.95 rg 56.00 195.89 483.28 24.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 205.39 Td (print\(goblin.vida\)     # AttributeError) Tj ET
+BT /F1 10.50 Tf 56.00 178.39 Td (Ler) Tj ET
+BT /F1 10.50 Tf 77.42 178.39 Td (nunca) Tj ET
+BT /F1 10.50 Tf 107.87 178.39 Td (foi) Tj ET
+BT /F1 10.50 Tf 122.78 178.39 Td (o) Tj ET
+BT /F1 10.50 Tf 131.39 178.39 Td (problema.) Tj ET
+BT /F1 10.50 Tf 183.05 178.39 Td (O) Tj ET
+BT /F1 10.50 Tf 193.55 178.39 Td (problema) Tj ET
+BT /F1 10.50 Tf 242.06 178.39 Td (era) Tj ET
+BT /F1 10.50 Tf 261.59 178.39 Td (escrever.) Tj ET
+BT /F1 10.50 Tf 311.57 178.39 Td (Python) Tj ET
+BT /F1 10.50 Tf 347.06 178.39 Td (tem) Tj ET
+BT /F1 10.50 Tf 368.27 178.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 391.79 178.39 Td (forma) Tj ET
+BT /F1 10.50 Tf 423.92 178.39 Td (de) Tj ET
+BT /F1 10.50 Tf 437.99 178.39 Td (liberar) Tj ET
+BT /F1 10.50 Tf 474.74 178.39 Td (um) Tj ET
+BT /F1 10.50 Tf 492.80 178.39 Td (sem) Tj ET
+BT /F1 10.50 Tf 56.00 163.89 Td (liberar) Tj ET
+BT /F1 10.50 Tf 92.75 163.89 Td (o) Tj ET
+BT /F1 10.50 Tf 101.36 163.89 Td (outro:) Tj ET
+0.95 0.95 0.95 rg 56.00 94.89 483.28 60.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 140.39 Td (class Personagem:) Tj ET
+BT /F3 8.50 Tf 62.00 128.39 Td (    @property) Tj ET
+BT /F3 8.50 Tf 62.00 116.39 Td (    def vida\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 104.39 Td (        return self._vida) Tj ET
+BT /F1 10.50 Tf 56.00 77.39 Td (O) Tj ET
+BT /F3 10.50 Tf 66.50 77.39 Td (@property) Tj ET
+BT /F1 10.50 Tf 126.35 77.39 Td (faz) Tj ET
+BT /F1 10.50 Tf 143.57 77.39 Td (um) Tj ET
+BT /F1 10.50 Tf 161.63 77.39 Td (método) Tj ET
+BT /F1 10.50 Tf 199.22 77.39 Td (parecer) Tj ET
+BT /F1 10.50 Tf 240.59 77.39 Td (um) Tj ET
+BT /F1 10.50 Tf 258.65 77.39 Td (atributo.) Tj ET
+BT /F1 10.50 Tf 301.70 77.39 Td (Com) Tj ET
+BT /F1 10.50 Tf 327.11 77.39 Td (ele:) Tj ET
+
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 20554 >>
+stream
+0.95 0.95 0.95 rg 56.00 749.89 483.28 36.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 771.39 Td (print\(goblin.vida\)     # 40, funciona) Tj ET
+BT /F3 8.50 Tf 62.00 759.39 Td (goblin.vida = -999     # AttributeError: property has no setter) Tj ET
+BT /F1 10.50 Tf 56.00 732.39 Td (Leitura) Tj ET
+BT /F1 10.50 Tf 94.64 732.39 Td (liberada,) Tj ET
+BT /F1 10.50 Tf 140.00 732.39 Td (escrita) Tj ET
+BT /F1 10.50 Tf 176.75 732.39 Td (continua) Tj ET
+BT /F1 10.50 Tf 218.96 732.39 Td (proibida.) Tj ET
+BT /F1 10.50 Tf 264.32 732.39 Td (E) Tj ET
+BT /F1 10.50 Tf 274.82 732.39 Td (repare) Tj ET
+BT /F1 10.50 Tf 310.73 732.39 Td (no) Tj ET
+BT /F1 10.50 Tf 324.80 732.39 Td (detalhe) Tj ET
+BT /F1 10.50 Tf 361.55 732.39 Td (importante:) Tj ET
+BT /F2 10.50 Tf 419.51 732.39 Td (quem) Tj ET
+BT /F2 10.50 Tf 451.59 732.39 Td (usa) Tj ET
+BT /F2 10.50 Tf 473.09 732.39 Td (não) Tj ET
+BT /F2 10.50 Tf 494.58 732.39 Td (muda) Tj ET
+BT /F2 10.50 Tf 56.00 717.89 Td (nada) Tj ET
+BT /F1 10.50 Tf 83.61 717.89 Td (.) Tj ET
+BT /F1 10.50 Tf 89.91 717.89 Td (Continua) Tj ET
+BT /F1 10.50 Tf 134.01 717.89 Td (escrevendo) Tj ET
+BT /F3 10.50 Tf 191.76 717.89 Td (goblin.vida) Tj ET
+BT /F1 10.50 Tf 264.21 717.89 Td (,) Tj ET
+BT /F1 10.50 Tf 270.51 717.89 Td (sem) Tj ET
+BT /F1 10.50 Tf 294.03 717.89 Td (parênteses,) Tj ET
+BT /F1 10.50 Tf 352.62 717.89 Td (como) Tj ET
+BT /F1 10.50 Tf 381.60 717.89 Td (se) Tj ET
+BT /F1 10.50 Tf 395.67 717.89 Td (fosse) Tj ET
+BT /F1 10.50 Tf 423.81 717.89 Td (um) Tj ET
+BT /F1 10.50 Tf 441.87 717.89 Td (atributo) Tj ET
+BT /F1 10.50 Tf 481.77 717.89 Td (comum.) Tj ET
+BT /F1 10.50 Tf 523.35 717.89 Td (O) Tj ET
+BT /F1 10.50 Tf 56.00 703.39 Td (objeto) Tj ET
+BT /F1 10.50 Tf 87.29 703.39 Td (trocou) Tj ET
+BT /F1 10.50 Tf 120.89 703.39 Td (o) Tj ET
+BT /F1 10.50 Tf 129.50 703.39 Td (interior) Tj ET
+BT /F1 10.50 Tf 169.40 703.39 Td (sem) Tj ET
+BT /F1 10.50 Tf 192.92 703.39 Td (quebrar) Tj ET
+BT /F1 10.50 Tf 234.29 703.39 Td (ninguém) Tj ET
+BT /F1 10.50 Tf 277.34 703.39 Td (de) Tj ET
+BT /F1 10.50 Tf 291.41 703.39 Td (fora,) Tj ET
+BT /F1 10.50 Tf 317.24 703.39 Td (que) Tj ET
+BT /F1 10.50 Tf 336.77 703.39 Td (é) Tj ET
+BT /F1 10.50 Tf 345.38 703.39 Td (a) Tj ET
+BT /F1 10.50 Tf 353.99 703.39 Td (mesma) Tj ET
+BT /F1 10.50 Tf 392.42 703.39 Td (promessa) Tj ET
+BT /F1 10.50 Tf 443.24 703.39 Td (da) Tj ET
+BT /F1 10.50 Tf 457.31 703.39 Td (Parte) Tj ET
+BT /F1 10.50 Tf 487.34 703.39 Td (2.) Tj ET
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 72.00 684.39 Td (É) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 82.00 684.39 Td (por) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 100.60 684.39 Td (isso) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 122.20 684.39 Td (que) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 140.80 684.39 Td (Python) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 174.60 684.39 Td (não) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 193.20 684.39 Td (tem) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F3 10.00 Tf 213.40 684.39 Td (getVida\(\)) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 270.40 684.39 Td (e) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F3 10.00 Tf 278.60 684.39 Td (setVida\(\)) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 335.60 684.39 Td (espalhados) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 388.40 684.39 Td (como) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 416.00 684.39 Td (outras) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 448.00 684.39 Td (linguagens.) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 501.60 684.39 Td (Você) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 72.00 670.39 Td (começa) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 110.00 670.39 Td (com) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 132.40 670.39 Td (um) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 149.60 670.39 Td (atributo) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 187.60 670.39 Td (simples) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 226.40 670.39 Td (e,) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 237.60 670.39 Td (no) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 251.00 670.39 Td (dia) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 267.40 670.39 Td (em) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 284.60 670.39 Td (que) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 303.20 670.39 Td (precisar) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 345.60 670.39 Td (de) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 359.00 670.39 Td (uma) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 381.40 670.39 Td (regra,) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 413.40 670.39 Td (transforma) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 467.80 670.39 Td (em) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F3 10.00 Tf 72.00 656.39 Td (@property) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 129.00 656.39 Td (sem) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 151.40 656.39 Td (mexer) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 184.20 656.39 Td (em) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 201.40 656.39 Td (quem) Tj ET 0 0 0 rg
+0.35 0.35 0.35 rg BT /F4 10.00 Tf 229.00 656.39 Td (usa.) Tj ET 0 0 0 rg
+0.60 0.60 0.60 rg 58.00 656.39 2.20 38.00 re f 0 0 0 rg
+BT /F2 10.50 Tf 56.00 634.89 Td (Perguntas) Tj ET
+BT /F1 10.50 Tf 56.00 617.39 Td (1.) Tj ET
+BT /F1 10.50 Tf 76.00 617.39 Td (Depois) Tj ET
+BT /F1 10.50 Tf 111.49 617.39 Td (do) Tj ET
+BT /F3 10.50 Tf 125.56 617.39 Td (@property) Tj ET
+BT /F1 10.50 Tf 185.41 617.39 Td (,) Tj ET
+BT /F1 10.50 Tf 191.71 617.39 Td (qual) Tj ET
+BT /F1 10.50 Tf 214.39 617.39 Td (das) Tj ET
+BT /F1 10.50 Tf 233.92 617.39 Td (duas) Tj ET
+BT /F1 10.50 Tf 258.91 617.39 Td (linhas) Tj ET
+BT /F1 10.50 Tf 290.20 617.39 Td (funciona) Tj ET
+BT /F1 10.50 Tf 332.41 617.39 Td (e) Tj ET
+BT /F1 10.50 Tf 341.02 617.39 Td (qual) Tj ET
+BT /F1 10.50 Tf 363.70 617.39 Td (quebra:) Tj ET
+BT /F3 10.50 Tf 402.76 617.39 Td (print\(g.vida\)) Tj ET
+BT /F1 10.50 Tf 487.81 617.39 Td (ou) Tj ET
+BT /F3 10.50 Tf 76.00 602.89 Td (g.vida) Tj ET
+BT /F3 10.50 Tf 116.95 602.89 Td (=) Tj ET
+BT /F3 10.50 Tf 126.40 602.89 Td (50) Tj ET
+BT /F1 10.50 Tf 142.15 602.89 Td (?) Tj ET
+BT /F1 10.50 Tf 56.00 585.39 Td (2.) Tj ET
+BT /F1 10.50 Tf 76.00 585.39 Td (A) Tj ET
+BT /F1 10.50 Tf 86.50 585.39 Td (Parte) Tj ET
+BT /F1 10.50 Tf 116.53 585.39 Td (2) Tj ET
+BT /F1 10.50 Tf 125.56 585.39 Td (fechou) Tj ET
+BT /F1 10.50 Tf 159.16 585.39 Td (a) Tj ET
+BT /F1 10.50 Tf 167.77 585.39 Td (leitura) Tj ET
+BT /F1 10.50 Tf 202.21 585.39 Td (junto) Tj ET
+BT /F1 10.50 Tf 228.04 585.39 Td (com) Tj ET
+BT /F1 10.50 Tf 251.56 585.39 Td (a) Tj ET
+BT /F1 10.50 Tf 260.17 585.39 Td (escrita.) Tj ET
+BT /F1 10.50 Tf 300.07 585.39 Td (Explique) Tj ET
+BT /F1 10.50 Tf 344.17 585.39 Td (por) Tj ET
+BT /F1 10.50 Tf 363.70 585.39 Td (que) Tj ET
+BT /F1 10.50 Tf 383.23 585.39 Td (isso) Tj ET
+BT /F1 10.50 Tf 405.91 585.39 Td (foi) Tj ET
+BT /F1 10.50 Tf 420.82 585.39 Td (um) Tj ET
+BT /F1 10.50 Tf 438.88 585.39 Td (exagero.) Tj ET
+BT /F1 10.50 Tf 56.00 567.89 Td (3.) Tj ET
+BT /F1 10.50 Tf 76.00 567.89 Td (Quem) Tj ET
+BT /F1 10.50 Tf 106.87 567.89 Td (usa) Tj ET
+BT /F1 10.50 Tf 126.40 567.89 Td (a) Tj ET
+BT /F1 10.50 Tf 135.01 567.89 Td (classe) Tj ET
+BT /F1 10.50 Tf 168.61 567.89 Td (precisa) Tj ET
+BT /F1 10.50 Tf 207.67 567.89 Td (mudar) Tj ET
+BT /F1 10.50 Tf 242.11 567.89 Td (alguma) Tj ET
+BT /F1 10.50 Tf 279.70 567.89 Td (coisa) Tj ET
+BT /F1 10.50 Tf 307.84 567.89 Td (quando) Tj ET
+BT /F3 10.50 Tf 343.75 567.89 Td (vida) Tj ET
+BT /F1 10.50 Tf 372.10 567.89 Td (vira) Tj ET
+BT /F1 10.50 Tf 394.78 567.89 Td (uma) Tj ET
+BT /F1 10.50 Tf 418.30 567.89 Td (property?) Tj ET
+BT /F1 10.50 Tf 468.28 567.89 Td (Justifique.) Tj ET
+BT /F1 10.50 Tf 56.00 550.39 Td (4.) Tj ET
+BT /F1 10.50 Tf 76.00 550.39 Td (Por) Tj ET
+BT /F1 10.50 Tf 97.42 550.39 Td (que) Tj ET
+BT /F1 10.50 Tf 116.95 550.39 Td (em) Tj ET
+BT /F1 10.50 Tf 135.01 550.39 Td (Python) Tj ET
+BT /F1 10.50 Tf 170.50 550.39 Td (você) Tj ET
+BT /F1 10.50 Tf 195.49 550.39 Td (não) Tj ET
+BT /F1 10.50 Tf 215.02 550.39 Td (precisa) Tj ET
+BT /F1 10.50 Tf 254.08 550.39 Td (escrever) Tj ET
+BT /F3 10.50 Tf 300.91 550.39 Td (getVida\(\)) Tj ET
+BT /F1 10.50 Tf 360.76 550.39 Td (e) Tj ET
+BT /F3 10.50 Tf 369.37 550.39 Td (setVida\(\)) Tj ET
+BT /F1 10.50 Tf 429.22 550.39 Td (desde) Tj ET
+BT /F1 10.50 Tf 459.67 550.39 Td (o) Tj ET
+BT /F1 10.50 Tf 468.28 550.39 Td (começo,) Tj ET
+BT /F1 10.50 Tf 76.00 535.89 Td (como) Tj ET
+BT /F1 10.50 Tf 104.98 535.89 Td (em) Tj ET
+BT /F1 10.50 Tf 123.04 535.89 Td (outras) Tj ET
+BT /F1 10.50 Tf 156.64 535.89 Td (linguagens?) Tj ET
+0.70 0.70 0.70 RG 0.6 w 56.00 522.89 m 539.28 522.89 l S 0 0 0 RG
+BT /F2 13.50 Tf 56.00 485.39 Td (9.) Tj ET
+BT /F2 13.50 Tf 73.05 485.39 Td (Erros) Tj ET
+BT /F2 13.50 Tf 119.14 485.39 Td (comuns) Tj ET
+BT /F2 13.50 Tf 176.11 485.39 Td (ao) Tj ET
+BT /F2 13.50 Tf 195.88 485.39 Td (compor) Tj ET
+BT /F2 10.50 Tf 56.00 466.39 Td (1.) Tj ET
+BT /F2 10.50 Tf 69.26 466.39 Td (Herdar) Tj ET
+BT /F2 10.50 Tf 111.22 466.39 Td (o) Tj ET
+BT /F2 10.50 Tf 120.49 466.39 Td (que) Tj ET
+BT /F2 10.50 Tf 141.98 466.39 Td (devia) Tj ET
+BT /F2 10.50 Tf 173.12 466.39 Td (ser) Tj ET
+BT /F2 10.50 Tf 194.62 466.39 Td (guardado.) Tj ET
+BT /F3 10.50 Tf 250.22 466.39 Td (class) Tj ET
+BT /F3 10.50 Tf 284.87 466.39 Td (Inventario\(Personagem\)) Tj ET
+BT /F1 10.50 Tf 426.62 466.39 Td (.) Tj ET
+BT /F1 10.50 Tf 432.92 466.39 Td (A) Tj ET
+BT /F1 10.50 Tf 443.42 466.39 Td (mochila) Tj ET
+BT /F1 10.50 Tf 484.16 466.39 Td (ganha) Tj ET
+BT /F1 10.50 Tf 56.00 451.89 Td (vida,) Tj ET
+BT /F1 10.50 Tf 81.83 451.89 Td (ataque) Tj ET
+BT /F1 10.50 Tf 115.43 451.89 Td (e) Tj ET
+BT /F1 10.50 Tf 124.04 451.89 Td (defesa.) Tj ET
+BT /F1 10.50 Tf 160.79 451.89 Td (Diga) Tj ET
+BT /F1 10.50 Tf 185.36 451.89 Td (a) Tj ET
+BT /F1 10.50 Tf 193.97 451.89 Td (frase:) Tj ET
+BT /F1 10.50 Tf 225.26 451.89 Td ("mochila) Tj ET
+BT /F1 10.50 Tf 271.46 451.89 Td (é) Tj ET
+BT /F1 10.50 Tf 280.07 451.89 Td (um) Tj ET
+BT /F1 10.50 Tf 298.13 451.89 Td (personagem".) Tj ET
+BT /F1 10.50 Tf 368.48 451.89 Td (Não) Tj ET
+BT /F1 10.50 Tf 389.90 451.89 Td (é.) Tj ET
+BT /F2 10.50 Tf 56.00 433.39 Td (2.) Tj ET
+BT /F2 10.50 Tf 69.26 433.39 Td (Mexer) Tj ET
+BT /F2 10.50 Tf 107.46 433.39 Td (na) Tj ET
+BT /F2 10.50 Tf 122.84 433.39 Td (lista) Tj ET
+BT /F2 10.50 Tf 148.80 433.39 Td (do) Tj ET
+BT /F2 10.50 Tf 164.18 433.39 Td (outro.) Tj ET
+BT /F3 10.50 Tf 198.85 433.39 Td (jogador.inventario._itens.append\(x\)) Tj ET
+BT /F1 10.50 Tf 422.50 433.39 Td (.) Tj ET
+BT /F1 10.50 Tf 428.80 433.39 Td (Se) Tj ET
+BT /F1 10.50 Tf 444.76 433.39 Td (você) Tj ET
+BT /F1 10.50 Tf 469.75 433.39 Td (escreveu) Tj ET
+BT /F1 10.50 Tf 516.58 433.39 Td (o) Tj ET
+BT /F1 10.50 Tf 56.00 418.89 Td (underscore) Tj ET
+BT /F1 10.50 Tf 113.75 418.89 Td (de) Tj ET
+BT /F1 10.50 Tf 127.82 418.89 Td (fora) Tj ET
+BT /F1 10.50 Tf 150.50 418.89 Td (da) Tj ET
+BT /F1 10.50 Tf 164.57 418.89 Td (classe,) Tj ET
+BT /F1 10.50 Tf 201.32 418.89 Td (você) Tj ET
+BT /F1 10.50 Tf 226.31 418.89 Td (furou) Tj ET
+BT /F1 10.50 Tf 254.45 418.89 Td (o) Tj ET
+BT /F1 10.50 Tf 263.06 418.89 Td (encapsulamento.) Tj ET
+BT /F1 10.50 Tf 345.17 418.89 Td (Use) Tj ET
+BT /F1 10.50 Tf 366.59 418.89 Td (o) Tj ET
+BT /F1 10.50 Tf 375.20 418.89 Td (método.) Tj ET
+BT /F2 10.50 Tf 56.00 400.39 Td (3.) Tj ET
+BT /F2 10.50 Tf 69.26 400.39 Td (Criar) Tj ET
+BT /F2 10.50 Tf 102.52 400.39 Td (classe) Tj ET
+BT /F2 10.50 Tf 139.77 400.39 Td (que) Tj ET
+BT /F2 10.50 Tf 161.27 400.39 Td (não) Tj ET
+BT /F2 10.50 Tf 182.76 400.39 Td (protege) Tj ET
+BT /F2 10.50 Tf 226.13 400.39 Td (nada.) Tj ET
+BT /F1 10.50 Tf 257.27 400.39 Td (Uma) Tj ET
+BT /F1 10.50 Tf 282.68 400.39 Td (classe) Tj ET
+BT /F3 10.50 Tf 316.28 400.39 Td (Item) Tj ET
+BT /F1 10.50 Tf 344.63 400.39 Td (que) Tj ET
+BT /F1 10.50 Tf 364.16 400.39 Td (só) Tj ET
+BT /F1 10.50 Tf 378.23 400.39 Td (tem) Tj ET
+BT /F3 10.50 Tf 399.44 400.39 Td (nome) Tj ET
+BT /F1 10.50 Tf 427.79 400.39 Td (e) Tj ET
+BT /F1 10.50 Tf 436.40 400.39 Td (nada) Tj ET
+BT /F1 10.50 Tf 461.39 400.39 Td (mais) Tj ET
+BT /F1 10.50 Tf 488.06 400.39 Td (poderia) Tj ET
+BT /F1 10.50 Tf 56.00 385.89 Td (ser) Tj ET
+BT /F1 10.50 Tf 75.53 385.89 Td (um) Tj ET
+BT /F1 10.50 Tf 93.59 385.89 Td (texto.) Tj ET
+BT /F1 10.50 Tf 122.57 385.89 Td (Ela) Tj ET
+BT /F1 10.50 Tf 141.68 385.89 Td (passa) Tj ET
+BT /F1 10.50 Tf 172.13 385.89 Td (a) Tj ET
+BT /F1 10.50 Tf 180.74 385.89 Td (valer) Tj ET
+BT /F1 10.50 Tf 208.88 385.89 Td (a) Tj ET
+BT /F1 10.50 Tf 217.49 385.89 Td (pena) Tj ET
+BT /F1 10.50 Tf 242.48 385.89 Td (quando) Tj ET
+BT /F1 10.50 Tf 278.39 385.89 Td (ganha) Tj ET
+BT /F1 10.50 Tf 308.84 385.89 Td (o) Tj ET
+BT /F3 10.50 Tf 317.45 385.89 Td (usar) Tj ET
+BT /F1 10.50 Tf 345.80 385.89 Td (,) Tj ET
+BT /F1 10.50 Tf 352.10 385.89 Td (que) Tj ET
+BT /F1 10.50 Tf 371.63 385.89 Td (é) Tj ET
+BT /F1 10.50 Tf 380.24 385.89 Td (diferente) Tj ET
+BT /F1 10.50 Tf 425.60 385.89 Td (em) Tj ET
+BT /F1 10.50 Tf 443.66 385.89 Td (cada) Tj ET
+BT /F1 10.50 Tf 468.65 385.89 Td (tipo.) Tj ET
+BT /F2 10.50 Tf 56.00 367.39 Td (4.) Tj ET
+BT /F2 10.50 Tf 69.26 367.39 Td (Esquecer) Tj ET
+BT /F2 10.50 Tf 123.45 367.39 Td (que) Tj ET
+BT /F2 10.50 Tf 144.95 367.39 Td (o) Tj ET
+BT /F2 10.50 Tf 154.21 367.39 Td (objeto) Tj ET
+BT /F2 10.50 Tf 188.88 367.39 Td (guardado) Tj ET
+BT /F2 10.50 Tf 240.95 367.39 Td (precisa) Tj ET
+BT /F2 10.50 Tf 284.32 367.39 Td (nascer.) Tj ET
+BT /F1 10.50 Tf 327.69 367.39 Td (Se) Tj ET
+BT /F1 10.50 Tf 343.65 367.39 Td (você) Tj ET
+BT /F1 10.50 Tf 368.64 367.39 Td (declara) Tj ET
+BT /F3 10.50 Tf 407.70 367.39 Td (self.inventario) Tj ET
+BT /F1 10.50 Tf 505.35 367.39 Td (mas) Tj ET
+BT /F1 10.50 Tf 56.00 352.89 Td (nunca) Tj ET
+BT /F1 10.50 Tf 86.45 352.89 Td (escreve) Tj ET
+BT /F3 10.50 Tf 127.82 352.89 Td (Inventario\(\)) Tj ET
+BT /F1 10.50 Tf 206.57 352.89 Td (,) Tj ET
+BT /F1 10.50 Tf 212.87 352.89 Td (o) Tj ET
+BT /F1 10.50 Tf 221.48 352.89 Td (atributo) Tj ET
+BT /F1 10.50 Tf 261.38 352.89 Td (fica) Tj ET
+BT /F1 10.50 Tf 281.75 352.89 Td (valendo) Tj ET
+BT /F3 10.50 Tf 320.81 352.89 Td (None) Tj ET
+BT /F1 10.50 Tf 349.16 352.89 Td (e) Tj ET
+BT /F1 10.50 Tf 357.77 352.89 Td (a) Tj ET
+BT /F1 10.50 Tf 366.38 352.89 Td (primeira) Tj ET
+BT /F1 10.50 Tf 412.58 352.89 Td (chamada) Tj ET
+BT /F1 10.50 Tf 457.94 352.89 Td (quebra) Tj ET
+BT /F1 10.50 Tf 493.85 352.89 Td (com) Tj ET
+BT /F3 10.50 Tf 56.00 338.39 Td (AttributeError:) Tj ET
+BT /F3 10.50 Tf 153.65 338.39 Td ('NoneType') Tj ET
+BT /F3 10.50 Tf 219.80 338.39 Td (object) Tj ET
+BT /F3 10.50 Tf 260.75 338.39 Td (has) Tj ET
+BT /F3 10.50 Tf 282.80 338.39 Td (no) Tj ET
+BT /F3 10.50 Tf 298.55 338.39 Td (attribute) Tj ET
+BT /F3 10.50 Tf 358.40 338.39 Td ('adicionar') Tj ET
+BT /F1 10.50 Tf 430.85 338.39 Td (.) Tj ET
+BT /F2 10.50 Tf 56.00 319.89 Td (5.) Tj ET
+BT /F2 10.50 Tf 69.26 319.89 Td (Empilhar) Tj ET
+BT /F2 10.50 Tf 122.75 319.89 Td (delegação.) Tj ET
+BT /F3 10.50 Tf 181.87 319.89 Td (jogo.jogador.inventario.itens.primeiro.nome) Tj ET
+BT /F1 10.50 Tf 455.92 319.89 Td (é) Tj ET
+BT /F1 10.50 Tf 464.53 319.89 Td (sinal) Tj ET
+BT /F1 10.50 Tf 490.36 319.89 Td (de) Tj ET
+BT /F1 10.50 Tf 504.43 319.89 Td (que) Tj ET
+BT /F1 10.50 Tf 56.00 305.39 Td (alguém) Tj ET
+BT /F1 10.50 Tf 93.59 305.39 Td (está) Tj ET
+BT /F1 10.50 Tf 116.27 305.39 Td (alcançando) Tj ET
+BT /F1 10.50 Tf 171.71 305.39 Td (longe) Tj ET
+BT /F1 10.50 Tf 199.85 305.39 Td (demais.) Tj ET
+BT /F1 10.50 Tf 240.59 305.39 Td (Quanto) Tj ET
+BT /F1 10.50 Tf 276.08 305.39 Td (mais) Tj ET
+BT /F1 10.50 Tf 302.75 305.39 Td (pontos) Tj ET
+BT /F1 10.50 Tf 336.35 305.39 Td (seguidos,) Tj ET
+BT /F1 10.50 Tf 384.02 305.39 Td (mais) Tj ET
+BT /F1 10.50 Tf 410.69 305.39 Td (frágil.) Tj ET
+BT /F2 10.50 Tf 56.00 286.89 Td (Perguntas) Tj ET
+BT /F1 10.50 Tf 56.00 269.39 Td (1.) Tj ET
+BT /F1 10.50 Tf 76.00 269.39 Td (Dos) Tj ET
+BT /F1 10.50 Tf 97.42 269.39 Td (cinco) Tj ET
+BT /F1 10.50 Tf 125.56 269.39 Td (erros) Tj ET
+BT /F1 10.50 Tf 156.01 269.39 Td (da) Tj ET
+BT /F1 10.50 Tf 170.08 269.39 Td (seção,) Tj ET
+BT /F1 10.50 Tf 203.68 269.39 Td (qual) Tj ET
+BT /F1 10.50 Tf 226.36 269.39 Td (deles) Tj ET
+BT /F1 10.50 Tf 254.50 269.39 Td (não) Tj ET
+BT /F1 10.50 Tf 274.03 269.39 Td (dá) Tj ET
+BT /F1 10.50 Tf 288.10 269.39 Td (mensagem) Tj ET
+BT /F1 10.50 Tf 342.91 269.39 Td (nenhuma) Tj ET
+BT /F1 10.50 Tf 388.27 269.39 Td (na) Tj ET
+BT /F1 10.50 Tf 402.34 269.39 Td (tela?) Tj ET
+BT /F1 10.50 Tf 428.17 269.39 Td (Por) Tj ET
+BT /F1 10.50 Tf 449.59 269.39 Td (que) Tj ET
+BT /F1 10.50 Tf 469.12 269.39 Td (ele) Tj ET
+BT /F1 10.50 Tf 486.34 269.39 Td (é) Tj ET
+BT /F1 10.50 Tf 494.95 269.39 Td (o) Tj ET
+BT /F1 10.50 Tf 503.56 269.39 Td (mais) Tj ET
+BT /F1 10.50 Tf 76.00 254.89 Td (perigoso?) Tj ET
+BT /F1 10.50 Tf 56.00 237.39 Td (2.) Tj ET
+BT /F1 10.50 Tf 76.00 237.39 Td (Olhe) Tj ET
+BT /F1 10.50 Tf 100.57 237.39 Td (a) Tj ET
+BT /F1 10.50 Tf 109.18 237.39 Td (linha) Tj ET
+BT /F3 10.50 Tf 135.01 237.39 Td (jogo.jogador.inventario.itens.primeiro.nome) Tj ET
+BT /F1 10.50 Tf 409.06 237.39 Td (.) Tj ET
+BT /F1 10.50 Tf 415.36 237.39 Td (Explique) Tj ET
+BT /F1 10.50 Tf 459.46 237.39 Td (o) Tj ET
+BT /F1 10.50 Tf 468.07 237.39 Td (que) Tj ET
+BT /F1 10.50 Tf 487.60 237.39 Td (há) Tj ET
+BT /F1 10.50 Tf 501.67 237.39 Td (de) Tj ET
+BT /F1 10.50 Tf 76.00 222.89 Td (errado) Tj ET
+BT /F1 10.50 Tf 111.91 222.89 Td (nela) Tj ET
+BT /F1 10.50 Tf 134.59 222.89 Td (sem) Tj ET
+BT /F1 10.50 Tf 158.11 222.89 Td (falar) Tj ET
+BT /F1 10.50 Tf 183.94 222.89 Td (de) Tj ET
+BT /F1 10.50 Tf 198.01 222.89 Td (sintaxe.) Tj ET
+BT /F1 10.50 Tf 56.00 205.39 Td (3.) Tj ET
+BT /F1 10.50 Tf 76.00 205.39 Td (Você) Tj ET
+BT /F1 10.50 Tf 102.88 205.39 Td (declara) Tj ET
+BT /F3 10.50 Tf 141.94 205.39 Td (self.inventario) Tj ET
+BT /F1 10.50 Tf 239.59 205.39 Td (mas) Tj ET
+BT /F1 10.50 Tf 263.11 205.39 Td (esquece) Tj ET
+BT /F1 10.50 Tf 304.48 205.39 Td (o) Tj ET
+BT /F3 10.50 Tf 313.09 205.39 Td (Inventario\(\)) Tj ET
+BT /F1 10.50 Tf 391.84 205.39 Td (.) Tj ET
+BT /F1 10.50 Tf 398.14 205.39 Td (Qual) Tj ET
+BT /F1 10.50 Tf 422.71 205.39 Td (é) Tj ET
+BT /F1 10.50 Tf 431.32 205.39 Td (a) Tj ET
+BT /F1 10.50 Tf 439.93 205.39 Td (mensagem,) Tj ET
+BT /F1 10.50 Tf 497.89 205.39 Td (e) Tj ET
+BT /F1 10.50 Tf 506.50 205.39 Td (em) Tj ET
+BT /F1 10.50 Tf 76.00 190.89 Td (que) Tj ET
+BT /F1 10.50 Tf 95.53 190.89 Td (momento) Tj ET
+BT /F1 10.50 Tf 142.57 190.89 Td (ela) Tj ET
+BT /F1 10.50 Tf 159.79 190.89 Td (aparece?) Tj ET
+BT /F1 10.50 Tf 56.00 173.39 Td (4.) Tj ET
+BT /F1 10.50 Tf 76.00 173.39 Td (A) Tj ET
+BT /F1 10.50 Tf 86.50 173.39 Td (partir) Tj ET
+BT /F1 10.50 Tf 117.79 173.39 Td (de) Tj ET
+BT /F1 10.50 Tf 131.86 173.39 Td (que) Tj ET
+BT /F1 10.50 Tf 151.39 173.39 Td (ponto) Tj ET
+BT /F1 10.50 Tf 179.53 173.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 203.05 173.39 Td (classe) Tj ET
+BT /F3 10.50 Tf 236.65 173.39 Td (Item) Tj ET
+BT /F1 10.50 Tf 265.00 173.39 Td (,) Tj ET
+BT /F1 10.50 Tf 271.30 173.39 Td (que) Tj ET
+BT /F1 10.50 Tf 290.83 173.39 Td (no) Tj ET
+BT /F1 10.50 Tf 304.90 173.39 Td (começo) Tj ET
+BT /F1 10.50 Tf 344.80 173.39 Td (só) Tj ET
+BT /F1 10.50 Tf 358.87 173.39 Td (guardava) Tj ET
+BT /F1 10.50 Tf 405.70 173.39 Td (um) Tj ET
+BT /F1 10.50 Tf 423.76 173.39 Td (nome,) Tj ET
+BT /F1 10.50 Tf 455.89 173.39 Td (passa) Tj ET
+BT /F1 10.50 Tf 486.34 173.39 Td (a) Tj ET
+BT /F1 10.50 Tf 494.95 173.39 Td (valer) Tj ET
+BT /F1 10.50 Tf 523.09 173.39 Td (a) Tj ET
+BT /F1 10.50 Tf 76.00 158.89 Td (pena?) Tj ET
+0.70 0.70 0.70 RG 0.6 w 56.00 145.89 m 539.28 145.89 l S 0 0 0 RG
+BT /F2 13.50 Tf 56.00 108.39 Td (10.) Tj ET
+BT /F2 13.50 Tf 81.52 108.39 Td (Herança) Tj ET
+BT /F2 13.50 Tf 143.33 108.39 Td (ou) Tj ET
+BT /F2 13.50 Tf 163.10 108.39 Td (composição:) Tj ET
+BT /F2 13.50 Tf 252.73 108.39 Td (como) Tj ET
+BT /F2 13.50 Tf 293.98 108.39 Td (decidir) Tj ET
+BT /F1 10.50 Tf 56.00 89.39 Td (Faça) Tj ET
+BT /F1 10.50 Tf 82.88 89.39 Td (as) Tj ET
+BT /F1 10.50 Tf 96.95 89.39 Td (perguntas) Tj ET
+BT /F1 10.50 Tf 146.93 89.39 Td (nesta) Tj ET
+BT /F1 10.50 Tf 175.07 89.39 Td (ordem.) Tj ET
+BT /F2 10.50 Tf 56.00 70.89 Td (1.) Tj ET
+BT /F2 10.50 Tf 69.26 70.89 Td (A) Tj ET
+BT /F2 10.50 Tf 80.65 70.89 Td (frase) Tj ET
+BT /F2 10.50 Tf 111.78 70.89 Td ("X) Tj ET
+BT /F2 10.50 Tf 129.28 70.89 Td (é) Tj ET
+BT /F2 10.50 Tf 138.55 70.89 Td (um) Tj ET
+BT /F2 10.50 Tf 158.40 70.89 Td (Y") Tj ET
+BT /F2 10.50 Tf 175.89 70.89 Td (é) Tj ET
+BT /F2 10.50 Tf 185.16 70.89 Td (verdadeira?) Tj ET
+BT /F1 10.50 Tf 252.99 70.89 Td (Se) Tj ET
+BT /F1 10.50 Tf 268.95 70.89 Td (não) Tj ET
+BT /F1 10.50 Tf 288.48 70.89 Td (for,) Tj ET
+BT /F1 10.50 Tf 308.85 70.89 Td (pare.) Tj ET
+BT /F1 10.50 Tf 336.99 70.89 Td (Não) Tj ET
+BT /F1 10.50 Tf 358.41 70.89 Td (é) Tj ET
+BT /F1 10.50 Tf 367.02 70.89 Td (herança.) Tj ET
+
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 22 0 R >>
+endobj
+22 0 obj
+<< /Length 8960 >>
+stream
+BT /F2 10.50 Tf 56.00 775.39 Td (2.) Tj ET
+BT /F2 10.50 Tf 69.26 775.39 Td (X) Tj ET
+BT /F2 10.50 Tf 80.65 775.39 Td (e) Tj ET
+BT /F2 10.50 Tf 89.91 775.39 Td (Y) Tj ET
+BT /F2 10.50 Tf 101.29 775.39 Td (são) Tj ET
+BT /F2 10.50 Tf 122.79 775.39 Td (a) Tj ET
+BT /F2 10.50 Tf 132.05 775.39 Td (mesma) Tj ET
+BT /F2 10.50 Tf 174.72 775.39 Td (coisa) Tj ET
+BT /F2 10.50 Tf 205.86 775.39 Td (fazendo) Tj ET
+BT /F2 10.50 Tf 249.23 775.39 Td (coisas) Tj ET
+BT /F2 10.50 Tf 286.48 775.39 Td (diferentes?) Tj ET
+BT /F1 10.50 Tf 349.13 775.39 Td (Guerreiro) Tj ET
+BT /F1 10.50 Tf 401.00 775.39 Td (e) Tj ET
+BT /F1 10.50 Tf 409.61 775.39 Td (Mago) Tj ET
+BT /F1 10.50 Tf 438.59 775.39 Td (são) Tj ET
+BT /F1 10.50 Tf 458.12 775.39 Td (personagens) Tj ET
+BT /F1 10.50 Tf 56.00 760.89 Td (agindo) Tj ET
+BT /F1 10.50 Tf 89.60 760.89 Td (diferente:) Tj ET
+BT /F1 10.50 Tf 138.11 760.89 Td (herança.) Tj ET
+BT /F1 10.50 Tf 182.63 760.89 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 246.26 760.89 Td (e) Tj ET
+BT /F1 10.50 Tf 254.87 760.89 Td (mochila) Tj ET
+BT /F1 10.50 Tf 295.61 760.89 Td (são) Tj ET
+BT /F1 10.50 Tf 315.14 760.89 Td (coisas) Tj ET
+BT /F1 10.50 Tf 348.74 760.89 Td (diferentes:) Tj ET
+BT /F1 10.50 Tf 402.71 760.89 Td (composição.) Tj ET
+BT /F2 10.50 Tf 56.00 742.39 Td (3.) Tj ET
+BT /F2 10.50 Tf 69.26 742.39 Td (Você) Tj ET
+BT /F2 10.50 Tf 98.99 742.39 Td (quer) Tj ET
+BT /F2 10.50 Tf 126.60 742.39 Td (herdar) Tj ET
+BT /F2 10.50 Tf 166.44 742.39 Td (só) Tj ET
+BT /F2 10.50 Tf 181.82 742.39 Td (para) Tj ET
+BT /F2 10.50 Tf 209.43 742.39 Td (reaproveitar) Tj ET
+BT /F2 10.50 Tf 280.79 742.39 Td (um) Tj ET
+BT /F2 10.50 Tf 300.64 742.39 Td (método?) Tj ET
+BT /F1 10.50 Tf 348.48 742.39 Td (Isso) Tj ET
+BT /F1 10.50 Tf 371.16 742.39 Td (é) Tj ET
+BT /F1 10.50 Tf 379.77 742.39 Td (armadilha.) Tj ET
+BT /F1 10.50 Tf 434.58 742.39 Td (Reaproveitar) Tj ET
+BT /F1 10.50 Tf 500.52 742.39 Td (código) Tj ET
+BT /F1 10.50 Tf 56.00 727.89 Td (não) Tj ET
+BT /F1 10.50 Tf 75.53 727.89 Td (é) Tj ET
+BT /F1 10.50 Tf 84.14 727.89 Td (motivo) Tj ET
+BT /F1 10.50 Tf 119.42 727.89 Td (suficiente) Tj ET
+BT /F1 10.50 Tf 167.93 727.89 Td (para) Tj ET
+BT /F1 10.50 Tf 192.92 727.89 Td (herdar.) Tj ET
+BT /F1 10.50 Tf 231.98 727.89 Td (Se) Tj ET
+BT /F1 10.50 Tf 247.94 727.89 Td (a) Tj ET
+BT /F1 10.50 Tf 256.55 727.89 Td (frase) Tj ET
+BT /F1 10.50 Tf 284.69 727.89 Td ("é) Tj ET
+BT /F1 10.50 Tf 298.76 727.89 Td (um") Tj ET
+BT /F1 10.50 Tf 322.28 727.89 Td (não) Tj ET
+BT /F1 10.50 Tf 341.81 727.89 Td (for) Tj ET
+BT /F1 10.50 Tf 359.03 727.89 Td (verdadeira,) Tj ET
+BT /F1 10.50 Tf 417.62 727.89 Td (guarde) Tj ET
+BT /F1 10.50 Tf 453.53 727.89 Td (o) Tj ET
+BT /F1 10.50 Tf 462.14 727.89 Td (objeto) Tj ET
+BT /F1 10.50 Tf 493.43 727.89 Td (e) Tj ET
+BT /F1 10.50 Tf 502.04 727.89 Td (chame) Tj ET
+BT /F1 10.50 Tf 56.00 713.39 Td (o) Tj ET
+BT /F1 10.50 Tf 64.61 713.39 Td (método) Tj ET
+BT /F1 10.50 Tf 102.20 713.39 Td (dele.) Tj ET
+BT /F1 10.50 Tf 56.00 694.89 Td (Na) Tj ET
+BT /F1 10.50 Tf 71.96 694.89 Td (dúvida,) Tj ET
+BT /F2 10.50 Tf 108.71 694.89 Td (prefira) Tj ET
+BT /F2 10.50 Tf 149.49 694.89 Td (composição) Tj ET
+BT /F1 10.50 Tf 215.68 694.89 Td (.) Tj ET
+BT /F1 10.50 Tf 221.98 694.89 Td (Ela) Tj ET
+BT /F1 10.50 Tf 241.09 694.89 Td (é) Tj ET
+BT /F1 10.50 Tf 249.70 694.89 Td (mais) Tj ET
+BT /F1 10.50 Tf 276.37 694.89 Td (fácil) Tj ET
+BT /F1 10.50 Tf 299.89 694.89 Td (de) Tj ET
+BT /F1 10.50 Tf 313.96 694.89 Td (desfazer.) Tj ET
+BT /F1 10.50 Tf 361.63 694.89 Td (Trocar) Tj ET
+BT /F1 10.50 Tf 399.43 694.89 Td (um) Tj ET
+BT /F1 10.50 Tf 417.49 694.89 Td (objeto) Tj ET
+BT /F1 10.50 Tf 448.78 694.89 Td (guardado) Tj ET
+BT /F1 10.50 Tf 495.61 694.89 Td (por) Tj ET
+BT /F1 10.50 Tf 56.00 680.39 Td (outro) Tj ET
+BT /F1 10.50 Tf 84.14 680.39 Td (é) Tj ET
+BT /F1 10.50 Tf 92.75 680.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 116.27 680.39 Td (linha;) Tj ET
+BT /F1 10.50 Tf 145.25 680.39 Td (desmontar) Tj ET
+BT /F1 10.50 Tf 199.22 680.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 222.74 680.39 Td (hierarquia) Tj ET
+BT /F1 10.50 Tf 275.87 680.39 Td (de) Tj ET
+BT /F1 10.50 Tf 289.94 680.39 Td (herança) Tj ET
+BT /F1 10.50 Tf 331.31 680.39 Td (que) Tj ET
+BT /F1 10.50 Tf 350.84 680.39 Td (ficou) Tj ET
+BT /F1 10.50 Tf 376.67 680.39 Td (errada) Tj ET
+BT /F1 10.50 Tf 412.58 680.39 Td (é) Tj ET
+BT /F1 10.50 Tf 421.19 680.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 444.71 680.39 Td (tarde.) Tj ET
+BT /F2 10.50 Tf 56.00 661.89 Td (Perguntas) Tj ET
+BT /F1 10.50 Tf 56.00 644.39 Td (1.) Tj ET
+BT /F1 10.50 Tf 76.00 644.39 Td (Aplique) Tj ET
+BT /F1 10.50 Tf 114.64 644.39 Td (as) Tj ET
+BT /F1 10.50 Tf 128.71 644.39 Td (três) Tj ET
+BT /F1 10.50 Tf 151.39 644.39 Td (perguntas) Tj ET
+BT /F1 10.50 Tf 201.37 644.39 Td (da) Tj ET
+BT /F1 10.50 Tf 215.44 644.39 Td (seção) Tj ET
+BT /F1 10.50 Tf 245.89 644.39 Td (a) Tj ET
+BT /F1 10.50 Tf 254.50 644.39 Td (este) Tj ET
+BT /F1 10.50 Tf 277.18 644.39 Td (caso:) Tj ET
+BT /F1 10.50 Tf 305.32 644.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 328.84 644.39 Td (classe) Tj ET
+BT /F3 10.50 Tf 362.44 644.39 Td (Arma) Tj ET
+BT /F1 10.50 Tf 390.79 644.39 Td (e) Tj ET
+BT /F1 10.50 Tf 399.40 644.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 422.92 644.39 Td (classe) Tj ET
+BT /F3 10.50 Tf 456.52 644.39 Td (Espada) Tj ET
+BT /F1 10.50 Tf 497.47 644.39 Td (.) Tj ET
+BT /F1 10.50 Tf 503.77 644.39 Td (Qual) Tj ET
+BT /F1 10.50 Tf 528.34 644.39 Td (é) Tj ET
+BT /F1 10.50 Tf 76.00 629.89 Td (a) Tj ET
+BT /F1 10.50 Tf 84.61 629.89 Td (relação?) Tj ET
+BT /F1 10.50 Tf 56.00 612.39 Td (2.) Tj ET
+BT /F1 10.50 Tf 76.00 612.39 Td (Agora) Tj ET
+BT /F1 10.50 Tf 108.34 612.39 Td (a) Tj ET
+BT /F1 10.50 Tf 116.95 612.39 Td (este:) Tj ET
+BT /F1 10.50 Tf 142.78 612.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 166.30 612.39 Td (classe) Tj ET
+BT /F3 10.50 Tf 199.90 612.39 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 266.05 612.39 Td (e) Tj ET
+BT /F1 10.50 Tf 274.66 612.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 298.18 612.39 Td (classe) Tj ET
+BT /F3 10.50 Tf 331.78 612.39 Td (Arma) Tj ET
+BT /F1 10.50 Tf 360.13 612.39 Td (.) Tj ET
+BT /F1 10.50 Tf 366.43 612.39 Td (Qual) Tj ET
+BT /F1 10.50 Tf 391.00 612.39 Td (é) Tj ET
+BT /F1 10.50 Tf 399.61 612.39 Td (a) Tj ET
+BT /F1 10.50 Tf 408.22 612.39 Td (relação?) Tj ET
+BT /F1 10.50 Tf 56.00 594.89 Td (3.) Tj ET
+BT /F1 10.50 Tf 76.00 594.89 Td (A) Tj ET
+BT /F1 10.50 Tf 86.50 594.89 Td (seção) Tj ET
+BT /F1 10.50 Tf 116.95 594.89 Td (manda) Tj ET
+BT /F1 10.50 Tf 151.39 594.89 Td (preferir) Tj ET
+BT /F1 10.50 Tf 193.60 594.89 Td (composição) Tj ET
+BT /F1 10.50 Tf 253.03 594.89 Td (na) Tj ET
+BT /F1 10.50 Tf 267.10 594.89 Td (dúvida.) Tj ET
+BT /F1 10.50 Tf 303.85 594.89 Td (Responda) Tj ET
+BT /F1 10.50 Tf 352.57 594.89 Td (por) Tj ET
+BT /F1 10.50 Tf 372.10 594.89 Td (quê,) Tj ET
+BT /F1 10.50 Tf 394.78 594.89 Td (falando) Tj ET
+BT /F1 10.50 Tf 431.53 594.89 Td (do) Tj ET
+BT /F1 10.50 Tf 445.60 594.89 Td (custo) Tj ET
+BT /F1 10.50 Tf 473.74 594.89 Td (de) Tj ET
+BT /F1 10.50 Tf 487.81 594.89 Td (desfazer) Tj ET
+BT /F1 10.50 Tf 76.00 580.39 Td (cada) Tj ET
+BT /F1 10.50 Tf 100.99 580.39 Td (uma.) Tj ET
+BT /F1 10.50 Tf 56.00 562.89 Td (4.) Tj ET
+BT /F1 10.50 Tf 76.00 562.89 Td (Um) Tj ET
+BT /F1 10.50 Tf 95.95 562.89 Td (colega) Tj ET
+BT /F1 10.50 Tf 129.55 562.89 Td (quer) Tj ET
+BT /F1 10.50 Tf 154.54 562.89 Td (que) Tj ET
+BT /F3 10.50 Tf 174.07 562.89 Td (Inventario) Tj ET
+BT /F1 10.50 Tf 240.22 562.89 Td (herde) Tj ET
+BT /F1 10.50 Tf 270.67 562.89 Td (de) Tj ET
+BT /F3 10.50 Tf 284.74 562.89 Td (list) Tj ET
+BT /F1 10.50 Tf 313.09 562.89 Td (,) Tj ET
+BT /F1 10.50 Tf 319.39 562.89 Td (para) Tj ET
+BT /F1 10.50 Tf 344.38 562.89 Td (ganhar) Tj ET
+BT /F1 10.50 Tf 380.29 562.89 Td (o) Tj ET
+BT /F3 10.50 Tf 388.90 562.89 Td (append) Tj ET
+BT /F1 10.50 Tf 429.85 562.89 Td (de) Tj ET
+BT /F1 10.50 Tf 443.92 562.89 Td (graça.) Tj ET
+BT /F1 10.50 Tf 477.52 562.89 Td (Responda) Tj ET
+BT /F1 10.50 Tf 526.24 562.89 Td (a) Tj ET
+BT /F1 10.50 Tf 76.00 548.39 Td (ele) Tj ET
+BT /F1 10.50 Tf 93.22 548.39 Td (usando) Tj ET
+BT /F1 10.50 Tf 129.13 548.39 Td (a) Tj ET
+BT /F1 10.50 Tf 137.74 548.39 Td (regra) Tj ET
+BT /F1 10.50 Tf 168.19 548.39 Td (do) Tj ET
+BT /F1 10.50 Tf 182.26 548.39 Td ("é) Tj ET
+BT /F1 10.50 Tf 196.33 548.39 Td (um".) Tj ET
+0.70 0.70 0.70 RG 0.6 w 56.00 535.39 m 539.28 535.39 l S 0 0 0 RG
+BT /F2 13.50 Tf 56.00 497.89 Td (11.) Tj ET
+BT /F2 13.50 Tf 81.52 497.89 Td (Estudo) Tj ET
+BT /F2 13.50 Tf 132.14 497.89 Td (de) Tj ET
+BT /F2 13.50 Tf 151.91 497.89 Td (caso:) Tj ET
+BT /F2 13.50 Tf 191.95 497.89 Td (o) Tj ET
+BT /F2 13.50 Tf 203.86 497.89 Td (inventário) Tj ET
+BT /F2 13.50 Tf 276.56 497.89 Td (completo) Tj ET
+BT /F1 10.50 Tf 56.00 478.89 Td (Juntando) Tj ET
+BT /F1 10.50 Tf 102.41 478.89 Td (tudo,) Tj ET
+BT /F1 10.50 Tf 128.24 478.89 Td (com) Tj ET
+BT /F1 10.50 Tf 151.76 478.89 Td (o) Tj ET
+BT /F1 10.50 Tf 160.37 478.89 Td (RPG) Tj ET
+BT /F1 10.50 Tf 185.57 478.89 Td (da) Tj ET
+BT /F1 10.50 Tf 199.64 478.89 Td (Parte) Tj ET
+BT /F1 10.50 Tf 229.67 478.89 Td (2) Tj ET
+BT /F1 10.50 Tf 238.70 478.89 Td (como) Tj ET
+BT /F1 10.50 Tf 267.68 478.89 Td (base.) Tj ET
+
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 24 0 R >>
+endobj
+24 0 obj
+<< /Length 4130 >>
+stream
+0.95 0.95 0.95 rg 56.00 137.89 483.28 648.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 771.39 Td (class Item:) Tj ET
+BT /F3 8.50 Tf 62.00 759.39 Td (    def __init__\(self, nome\):) Tj ET
+BT /F3 8.50 Tf 62.00 747.39 Td (        self.nome = nome) Tj ET
+BT /F3 8.50 Tf 62.00 735.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 723.39 Td (    def usar\(self, dono, inimigo\):) Tj ET
+BT /F3 8.50 Tf 62.00 711.39 Td (        print\(self.nome, "nao faz nada"\)) Tj ET
+BT /F3 8.50 Tf 62.00 699.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 687.39 Td (    def __str__\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 675.39 Td (        return self.nome) Tj ET
+BT /F3 8.50 Tf 62.00 663.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 651.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 639.39 Td (class PocaoDeVida\(Item\):) Tj ET
+BT /F3 8.50 Tf 62.00 627.39 Td (    def __init__\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 615.39 Td (        super\(\).__init__\("Poção de vida"\)) Tj ET
+BT /F3 8.50 Tf 62.00 603.39 Td (        self.cura = 25) Tj ET
+BT /F3 8.50 Tf 62.00 591.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 579.39 Td (    def usar\(self, dono, inimigo\):) Tj ET
+BT /F3 8.50 Tf 62.00 567.39 Td (        dono.curar\(self.cura\)) Tj ET
+BT /F3 8.50 Tf 62.00 555.39 Td (        print\(dono.nome, "bebeu a poção e recuperou", self.cura, "de vida"\)) Tj ET
+BT /F3 8.50 Tf 62.00 543.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 531.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 519.39 Td (class Bomba\(Item\):) Tj ET
+BT /F3 8.50 Tf 62.00 507.39 Td (    def __init__\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 495.39 Td (        super\(\).__init__\("Bomba"\)) Tj ET
+BT /F3 8.50 Tf 62.00 483.39 Td (        self.dano = 30) Tj ET
+BT /F3 8.50 Tf 62.00 471.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 459.39 Td (    def usar\(self, dono, inimigo\):) Tj ET
+BT /F3 8.50 Tf 62.00 447.39 Td (        inimigo.receber_dano\(self.dano\)) Tj ET
+BT /F3 8.50 Tf 62.00 435.39 Td (        print\("A bomba explodiu em", inimigo.nome\)) Tj ET
+BT /F3 8.50 Tf 62.00 423.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 411.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 399.39 Td (class Inventario:) Tj ET
+BT /F3 8.50 Tf 62.00 387.39 Td (    def __init__\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 375.39 Td (        self._itens = []) Tj ET
+BT /F3 8.50 Tf 62.00 363.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 351.39 Td (    def adicionar\(self, item\):) Tj ET
+BT /F3 8.50 Tf 62.00 339.39 Td (        self._itens.append\(item\)) Tj ET
+BT /F3 8.50 Tf 62.00 327.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 315.39 Td (    def esta_vazio\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 303.39 Td (        return len\(self._itens\) == 0) Tj ET
+BT /F3 8.50 Tf 62.00 291.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 279.39 Td (    def quantidade\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 267.39 Td (        return len\(self._itens\)) Tj ET
+BT /F3 8.50 Tf 62.00 255.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 243.39 Td (    def listar\(self\):) Tj ET
+BT /F3 8.50 Tf 62.00 231.39 Td (        for numero, item in enumerate\(self._itens, 1\):) Tj ET
+BT /F3 8.50 Tf 62.00 219.39 Td (            print\(numero, "-", item\)) Tj ET
+BT /F3 8.50 Tf 62.00 207.39 Td () Tj ET
+BT /F3 8.50 Tf 62.00 195.39 Td (    def tirar\(self, numero\):) Tj ET
+BT /F3 8.50 Tf 62.00 183.39 Td (        indice = numero - 1) Tj ET
+BT /F3 8.50 Tf 62.00 171.39 Td (        if indice < 0 or indice >= len\(self._itens\):) Tj ET
+BT /F3 8.50 Tf 62.00 159.39 Td (            return None) Tj ET
+BT /F3 8.50 Tf 62.00 147.39 Td (        return self._itens.pop\(indice\)) Tj ET
+BT /F1 10.50 Tf 56.00 120.39 Td (E) Tj ET
+BT /F1 10.50 Tf 66.50 120.39 Td (no) Tj ET
+BT /F3 10.50 Tf 80.57 120.39 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 146.72 120.39 Td (,) Tj ET
+BT /F1 10.50 Tf 153.02 120.39 Td (a) Tj ET
+BT /F1 10.50 Tf 161.63 120.39 Td (composição) Tj ET
+BT /F1 10.50 Tf 221.06 120.39 Td (em) Tj ET
+BT /F1 10.50 Tf 239.12 120.39 Td (duas) Tj ET
+BT /F1 10.50 Tf 264.11 120.39 Td (linhas:) Tj ET
+0.95 0.95 0.95 rg 56.00 63.39 483.28 48.00 re f 0 0 0 rg
+BT /F3 8.50 Tf 62.00 96.89 Td (        self.inventario = Inventario\(\)) Tj ET
+BT /F3 8.50 Tf 62.00 84.89 Td (        for _ in range\(pocoes\):) Tj ET
+BT /F3 8.50 Tf 62.00 72.89 Td (            self.inventario.adicionar\(PocaoDeVida\(\)\)) Tj ET
+
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 26 0 R >>
+endobj
+26 0 obj
+<< /Length 18939 >>
+stream
+BT /F1 10.50 Tf 56.00 775.39 Td (Repare) Tj ET
+BT /F1 10.50 Tf 93.80 775.39 Td (no) Tj ET
+BT /F1 10.50 Tf 107.87 775.39 Td (que) Tj ET
+BT /F2 10.50 Tf 127.40 775.39 Td (não) Tj ET
+BT /F1 10.50 Tf 148.90 775.39 Td (aconteceu:) Tj ET
+BT /F1 10.50 Tf 202.03 775.39 Td (nenhuma) Tj ET
+BT /F1 10.50 Tf 247.39 775.39 Td (das) Tj ET
+BT /F1 10.50 Tf 266.92 775.39 Td (suas) Tj ET
+BT /F1 10.50 Tf 291.91 775.39 Td (classes) Tj ET
+BT /F1 10.50 Tf 330.97 775.39 Td (filhas) Tj ET
+BT /F1 10.50 Tf 359.95 775.39 Td (mudou.) Tj ET
+BT /F1 10.50 Tf 397.54 775.39 Td (Nem) Tj ET
+BT /F1 10.50 Tf 422.95 775.39 Td (Guerreiro,) Tj ET
+BT /F1 10.50 Tf 477.97 775.39 Td (nem) Tj ET
+BT /F1 10.50 Tf 501.49 775.39 Td (Mago,) Tj ET
+BT /F1 10.50 Tf 56.00 760.89 Td (nem) Tj ET
+BT /F1 10.50 Tf 79.52 760.89 Td (Goblin,) Tj ET
+BT /F1 10.50 Tf 115.85 760.89 Td (nem) Tj ET
+BT /F1 10.50 Tf 139.37 760.89 Td (o) Tj ET
+BT /F1 10.50 Tf 147.98 760.89 Td (Dragão.) Tj ET
+BT /F1 10.50 Tf 188.93 760.89 Td (Todas) Tj ET
+BT /F1 10.50 Tf 221.27 760.89 Td (continuam) Tj ET
+BT /F1 10.50 Tf 272.93 760.89 Td (chamando) Tj ET
+BT /F3 10.50 Tf 323.75 760.89 Td (super\(\).__init__\(nome,) Tj ET
+BT /F3 10.50 Tf 465.50 760.89 Td (vida,) Tj ET
+BT /F3 10.50 Tf 56.00 746.39 Td (ataque,) Tj ET
+BT /F3 10.50 Tf 103.25 746.39 Td (defesa,) Tj ET
+BT /F3 10.50 Tf 150.50 746.39 Td (pocoes\)) Tj ET
+BT /F1 10.50 Tf 197.75 746.39 Td (do) Tj ET
+BT /F1 10.50 Tf 211.82 746.39 Td (mesmo) Tj ET
+BT /F1 10.50 Tf 250.25 746.39 Td (jeito.) Tj ET
+BT /F1 10.50 Tf 276.92 746.39 Td (O) Tj ET
+BT /F1 10.50 Tf 287.42 746.39 Td (número) Tj ET
+BT /F1 10.50 Tf 327.32 746.39 Td (de) Tj ET
+BT /F1 10.50 Tf 341.39 746.39 Td (poções,) Tj ET
+BT /F1 10.50 Tf 380.45 746.39 Td (que) Tj ET
+BT /F1 10.50 Tf 399.98 746.39 Td (antes) Tj ET
+BT /F1 10.50 Tf 428.12 746.39 Td (virava) Tj ET
+BT /F1 10.50 Tf 461.72 746.39 Td (um) Tj ET
+BT /F1 10.50 Tf 479.78 746.39 Td (contador,) Tj ET
+BT /F1 10.50 Tf 56.00 731.89 Td (agora) Tj ET
+BT /F1 10.50 Tf 86.45 731.89 Td (vira) Tj ET
+BT /F1 10.50 Tf 109.13 731.89 Td (itens) Tj ET
+BT /F1 10.50 Tf 134.96 731.89 Td (na) Tj ET
+BT /F1 10.50 Tf 149.03 731.89 Td (mochila,) Tj ET
+BT /F1 10.50 Tf 192.92 731.89 Td (e) Tj ET
+BT /F1 10.50 Tf 201.53 731.89 Td (isso) Tj ET
+BT /F1 10.50 Tf 224.21 731.89 Td (é) Tj ET
+BT /F1 10.50 Tf 232.82 731.89 Td (assunto) Tj ET
+BT /F1 10.50 Tf 271.88 731.89 Td (interno) Tj ET
+BT /F1 10.50 Tf 308.63 731.89 Td (do) Tj ET
+BT /F3 10.50 Tf 322.70 731.89 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 388.85 731.89 Td (.) Tj ET
+BT /F1 10.50 Tf 56.00 713.39 Td (Esse) Tj ET
+BT /F1 10.50 Tf 82.88 713.39 Td (é) Tj ET
+BT /F1 10.50 Tf 91.49 713.39 Td (o) Tj ET
+BT /F1 10.50 Tf 100.10 713.39 Td (mesmo) Tj ET
+BT /F1 10.50 Tf 138.53 713.39 Td (resultado) Tj ET
+BT /F1 10.50 Tf 186.20 713.39 Td (da) Tj ET
+BT /F1 10.50 Tf 200.27 713.39 Td (Parte) Tj ET
+BT /F1 10.50 Tf 230.30 713.39 Td (1,) Tj ET
+BT /F1 10.50 Tf 242.48 713.39 Td (agora) Tj ET
+BT /F1 10.50 Tf 272.93 713.39 Td (do) Tj ET
+BT /F1 10.50 Tf 287.00 713.39 Td (outro) Tj ET
+BT /F1 10.50 Tf 315.14 713.39 Td (lado:) Tj ET
+BT /F1 10.50 Tf 340.97 713.39 Td (você) Tj ET
+BT /F1 10.50 Tf 365.96 713.39 Td (trocou) Tj ET
+BT /F1 10.50 Tf 399.56 713.39 Td (o) Tj ET
+BT /F1 10.50 Tf 408.17 713.39 Td (interior) Tj ET
+BT /F1 10.50 Tf 448.07 713.39 Td (de) Tj ET
+BT /F1 10.50 Tf 462.14 713.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 485.66 713.39 Td (classe) Tj ET
+BT /F1 10.50 Tf 519.26 713.39 Td (e) Tj ET
+BT /F1 10.50 Tf 56.00 698.89 Td (as) Tj ET
+BT /F1 10.50 Tf 70.07 698.89 Td (filhas) Tj ET
+BT /F1 10.50 Tf 99.05 698.89 Td (não) Tj ET
+BT /F1 10.50 Tf 118.58 698.89 Td (ficaram) Tj ET
+BT /F1 10.50 Tf 159.32 698.89 Td (sabendo.) Tj ET
+BT /F2 10.50 Tf 56.00 680.39 Td (Perguntas) Tj ET
+BT /F1 10.50 Tf 56.00 662.89 Td (1.) Tj ET
+BT /F3 10.50 Tf 76.00 662.89 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 142.15 662.89 Td (guarda) Tj ET
+BT /F1 10.50 Tf 178.06 662.89 Td (um) Tj ET
+BT /F3 10.50 Tf 196.12 662.89 Td (Inventario) Tj ET
+BT /F1 10.50 Tf 262.27 662.89 Td (,) Tj ET
+BT /F1 10.50 Tf 268.57 662.89 Td (e) Tj ET
+BT /F3 10.50 Tf 277.18 662.89 Td (Inventario) Tj ET
+BT /F1 10.50 Tf 343.33 662.89 Td (guarda) Tj ET
+BT /F3 10.50 Tf 379.24 662.89 Td (Item) Tj ET
+BT /F1 10.50 Tf 407.59 662.89 Td (.) Tj ET
+BT /F1 10.50 Tf 413.89 662.89 Td (Escreva) Tj ET
+BT /F1 10.50 Tf 457.15 662.89 Td (as) Tj ET
+BT /F1 10.50 Tf 471.22 662.89 Td (duas) Tj ET
+BT /F1 10.50 Tf 496.21 662.89 Td (frases) Tj ET
+BT /F1 10.50 Tf 76.00 648.39 Td ("tem) Tj ET
+BT /F1 10.50 Tf 102.67 648.39 Td (um") Tj ET
+BT /F1 10.50 Tf 126.19 648.39 Td (que) Tj ET
+BT /F1 10.50 Tf 145.72 648.39 Td (descrevem) Tj ET
+BT /F1 10.50 Tf 202.00 648.39 Td (isso.) Tj ET
+BT /F1 10.50 Tf 56.00 630.89 Td (2.) Tj ET
+BT /F3 10.50 Tf 76.00 630.89 Td (PocaoDeVida) Tj ET
+BT /F1 10.50 Tf 148.45 630.89 Td (herda) Tj ET
+BT /F1 10.50 Tf 178.90 630.89 Td (de) Tj ET
+BT /F3 10.50 Tf 192.97 630.89 Td (Item) Tj ET
+BT /F1 10.50 Tf 221.32 630.89 Td (.) Tj ET
+BT /F1 10.50 Tf 227.62 630.89 Td (Escreva) Tj ET
+BT /F1 10.50 Tf 270.88 630.89 Td (a) Tj ET
+BT /F1 10.50 Tf 279.49 630.89 Td (frase) Tj ET
+BT /F1 10.50 Tf 307.63 630.89 Td ("é) Tj ET
+BT /F1 10.50 Tf 321.70 630.89 Td (um") Tj ET
+BT /F1 10.50 Tf 345.22 630.89 Td (que) Tj ET
+BT /F1 10.50 Tf 364.75 630.89 Td (justifica.) Tj ET
+BT /F1 10.50 Tf 56.00 613.39 Td (3.) Tj ET
+BT /F1 10.50 Tf 76.00 613.39 Td (O) Tj ET
+BT /F3 10.50 Tf 86.50 613.39 Td (usar) Tj ET
+BT /F1 10.50 Tf 114.85 613.39 Td (da) Tj ET
+BT /F1 10.50 Tf 128.92 613.39 Td (poção) Tj ET
+BT /F1 10.50 Tf 159.37 613.39 Td (chama) Tj ET
+BT /F3 10.50 Tf 193.81 613.39 Td (dono.curar\(\)) Tj ET
+BT /F1 10.50 Tf 272.56 613.39 Td (em) Tj ET
+BT /F1 10.50 Tf 290.62 613.39 Td (vez) Tj ET
+BT /F1 10.50 Tf 310.15 613.39 Td (de) Tj ET
+BT /F1 10.50 Tf 324.22 613.39 Td (mexer) Tj ET
+BT /F1 10.50 Tf 358.66 613.39 Td (em) Tj ET
+BT /F3 10.50 Tf 376.72 613.39 Td (dono._vida) Tj ET
+BT /F1 10.50 Tf 442.87 613.39 Td (.) Tj ET
+BT /F1 10.50 Tf 449.17 613.39 Td (Qual) Tj ET
+BT /F1 10.50 Tf 473.74 613.39 Td (conceito) Tj ET
+BT /F1 10.50 Tf 515.95 613.39 Td (da) Tj ET
+BT /F1 10.50 Tf 76.00 598.89 Td (Parte) Tj ET
+BT /F1 10.50 Tf 106.03 598.89 Td (2) Tj ET
+BT /F1 10.50 Tf 115.06 598.89 Td (isso) Tj ET
+BT /F1 10.50 Tf 137.74 598.89 Td (respeita?) Tj ET
+BT /F1 10.50 Tf 56.00 581.39 Td (4.) Tj ET
+BT /F1 10.50 Tf 76.00 581.39 Td (Se) Tj ET
+BT /F1 10.50 Tf 91.96 581.39 Td (a) Tj ET
+BT /F1 10.50 Tf 100.57 581.39 Td (mochila) Tj ET
+BT /F1 10.50 Tf 141.31 581.39 Td (passasse) Tj ET
+BT /F1 10.50 Tf 188.14 581.39 Td (a) Tj ET
+BT /F1 10.50 Tf 196.75 581.39 Td (ter) Tj ET
+BT /F1 10.50 Tf 213.97 581.39 Td (limite) Tj ET
+BT /F1 10.50 Tf 244.63 581.39 Td (de) Tj ET
+BT /F1 10.50 Tf 258.70 581.39 Td (5) Tj ET
+BT /F1 10.50 Tf 267.73 581.39 Td (itens,) Tj ET
+BT /F1 10.50 Tf 296.71 581.39 Td (em) Tj ET
+BT /F1 10.50 Tf 314.77 581.39 Td (qual) Tj ET
+BT /F1 10.50 Tf 337.45 581.39 Td (arquivo) Tj ET
+BT /F1 10.50 Tf 376.51 581.39 Td (e) Tj ET
+BT /F1 10.50 Tf 385.12 581.39 Td (em) Tj ET
+BT /F1 10.50 Tf 403.18 581.39 Td (qual) Tj ET
+BT /F1 10.50 Tf 425.86 581.39 Td (método) Tj ET
+BT /F1 10.50 Tf 463.45 581.39 Td (entraria) Tj ET
+BT /F1 10.50 Tf 505.66 581.39 Td (essa) Tj ET
+BT /F1 10.50 Tf 76.00 566.89 Td (regra?) Tj ET
+BT /F1 10.50 Tf 111.91 566.89 Td (Quantas) Tj ET
+BT /F1 10.50 Tf 152.86 566.89 Td (outras) Tj ET
+BT /F1 10.50 Tf 186.46 566.89 Td (classes) Tj ET
+BT /F1 10.50 Tf 225.52 566.89 Td (precisariam) Tj ET
+BT /F1 10.50 Tf 288.10 566.89 Td (mudar?) Tj ET
+0.70 0.70 0.70 RG 0.6 w 56.00 553.89 m 539.28 553.89 l S 0 0 0 RG
+BT /F2 13.50 Tf 56.00 516.39 Td (Perguntas) Tj ET
+BT /F2 13.50 Tf 130.21 516.39 Td (finais) Tj ET
+BT /F1 10.50 Tf 56.00 498.39 Td (1.) Tj ET
+BT /F1 10.50 Tf 76.00 498.39 Td (Em) Tj ET
+BT /F1 10.50 Tf 95.95 498.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 119.47 498.39 Td (frase) Tj ET
+BT /F1 10.50 Tf 147.61 498.39 Td (cada,) Tj ET
+BT /F1 10.50 Tf 175.75 498.39 Td (qual) Tj ET
+BT /F1 10.50 Tf 198.43 498.39 Td (é) Tj ET
+BT /F1 10.50 Tf 207.04 498.39 Td (a) Tj ET
+BT /F1 10.50 Tf 215.65 498.39 Td (diferença) Tj ET
+BT /F1 10.50 Tf 263.32 498.39 Td (entre) Tj ET
+BT /F1 10.50 Tf 291.46 498.39 Td (herança) Tj ET
+BT /F1 10.50 Tf 332.83 498.39 Td (e) Tj ET
+BT /F1 10.50 Tf 341.44 498.39 Td (composição?) Tj ET
+BT /F1 10.50 Tf 56.00 480.89 Td (2.) Tj ET
+BT /F1 10.50 Tf 76.00 480.89 Td (Um) Tj ET
+BT /F3 10.50 Tf 95.95 480.89 Td (Escudo) Tj ET
+BT /F1 10.50 Tf 136.90 480.89 Td (deve) Tj ET
+BT /F1 10.50 Tf 161.89 480.89 Td (herdar) Tj ET
+BT /F1 10.50 Tf 197.80 480.89 Td (de) Tj ET
+BT /F3 10.50 Tf 211.87 480.89 Td (Item) Tj ET
+BT /F1 10.50 Tf 240.22 480.89 Td (ou) Tj ET
+BT /F1 10.50 Tf 254.29 480.89 Td (ser) Tj ET
+BT /F1 10.50 Tf 273.82 480.89 Td (guardado) Tj ET
+BT /F1 10.50 Tf 320.65 480.89 Td (por) Tj ET
+BT /F1 10.50 Tf 340.18 480.89 Td (ele?) Tj ET
+BT /F1 10.50 Tf 362.86 480.89 Td (Justifique) Tj ET
+BT /F1 10.50 Tf 413.26 480.89 Td (com) Tj ET
+BT /F1 10.50 Tf 436.78 480.89 Td (a) Tj ET
+BT /F1 10.50 Tf 445.39 480.89 Td (regra) Tj ET
+BT /F1 10.50 Tf 475.84 480.89 Td (do) Tj ET
+BT /F1 10.50 Tf 489.91 480.89 Td ("é) Tj ET
+BT /F1 10.50 Tf 503.98 480.89 Td (um".) Tj ET
+BT /F1 10.50 Tf 56.00 463.39 Td (3.) Tj ET
+BT /F1 10.50 Tf 76.00 463.39 Td (O) Tj ET
+BT /F3 10.50 Tf 86.50 463.39 Td (Inventario) Tj ET
+BT /F1 10.50 Tf 152.65 463.39 Td (poderia) Tj ET
+BT /F1 10.50 Tf 191.71 463.39 Td (ser) Tj ET
+BT /F1 10.50 Tf 211.24 463.39 Td (só) Tj ET
+BT /F1 10.50 Tf 225.31 463.39 Td (uma) Tj ET
+BT /F1 10.50 Tf 248.83 463.39 Td (lista) Tj ET
+BT /F1 10.50 Tf 272.35 463.39 Td (dentro) Tj ET
+BT /F1 10.50 Tf 305.95 463.39 Td (do) Tj ET
+BT /F3 10.50 Tf 320.02 463.39 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 386.17 463.39 Td (.) Tj ET
+BT /F1 10.50 Tf 392.47 463.39 Td (Dê) Tj ET
+BT /F1 10.50 Tf 408.43 463.39 Td (um) Tj ET
+BT /F1 10.50 Tf 426.49 463.39 Td (motivo) Tj ET
+BT /F1 10.50 Tf 461.77 463.39 Td (concreto) Tj ET
+BT /F1 10.50 Tf 506.29 463.39 Td (para) Tj ET
+BT /F1 10.50 Tf 76.00 448.89 Td (ele) Tj ET
+BT /F1 10.50 Tf 93.22 448.89 Td (ser) Tj ET
+BT /F1 10.50 Tf 112.75 448.89 Td (uma) Tj ET
+BT /F1 10.50 Tf 136.27 448.89 Td (classe.) Tj ET
+BT /F1 10.50 Tf 56.00 431.39 Td (4.) Tj ET
+BT /F1 10.50 Tf 76.00 431.39 Td (Por) Tj ET
+BT /F1 10.50 Tf 97.42 431.39 Td (que) Tj ET
+BT /F3 10.50 Tf 116.95 431.39 Td (item.usar\(jogador,) Tj ET
+BT /F3 10.50 Tf 233.50 431.39 Td (inimigo\)) Tj ET
+BT /F1 10.50 Tf 287.05 431.39 Td (não) Tj ET
+BT /F1 10.50 Tf 306.58 431.39 Td (precisa) Tj ET
+BT /F1 10.50 Tf 345.64 431.39 Td (de) Tj ET
+BT /F1 10.50 Tf 359.71 431.39 Td (nenhum) Tj ET
+BT /F3 10.50 Tf 399.61 431.39 Td (if) Tj ET
+BT /F1 10.50 Tf 415.36 431.39 Td (perguntando) Tj ET
+BT /F1 10.50 Tf 476.26 431.39 Td (o) Tj ET
+BT /F1 10.50 Tf 484.87 431.39 Td (tipo) Tj ET
+BT /F1 10.50 Tf 505.24 431.39 Td (do) Tj ET
+BT /F1 10.50 Tf 76.00 416.89 Td (item?) Tj ET
+BT /F1 10.50 Tf 56.00 399.39 Td (5.) Tj ET
+BT /F3 10.50 Tf 76.00 399.39 Td (__str__) Tj ET
+BT /F1 10.50 Tf 123.25 399.39 Td (e) Tj ET
+BT /F3 10.50 Tf 131.86 399.39 Td (@property) Tj ET
+BT /F1 10.50 Tf 191.71 399.39 Td (resolvem) Tj ET
+BT /F1 10.50 Tf 240.22 399.39 Td (problemas) Tj ET
+BT /F1 10.50 Tf 294.19 399.39 Td (diferentes.) Tj ET
+BT /F1 10.50 Tf 348.16 399.39 Td (Qual) Tj ET
+BT /F1 10.50 Tf 372.73 399.39 Td (é) Tj ET
+BT /F1 10.50 Tf 381.34 399.39 Td (cada) Tj ET
+BT /F1 10.50 Tf 406.33 399.39 Td (um?) Tj ET
+BT /F1 10.50 Tf 56.00 381.89 Td (6.) Tj ET
+BT /F1 10.50 Tf 76.00 381.89 Td (Releia) Tj ET
+BT /F1 10.50 Tf 109.18 381.89 Td (o) Tj ET
+BT /F1 10.50 Tf 117.79 381.89 Td (erro) Tj ET
+BT /F1 10.50 Tf 142.78 381.89 Td (1) Tj ET
+BT /F1 10.50 Tf 151.81 381.89 Td (da) Tj ET
+BT /F1 10.50 Tf 165.88 381.89 Td (Seção) Tj ET
+BT /F1 10.50 Tf 198.22 381.89 Td (9.) Tj ET
+BT /F1 10.50 Tf 210.40 381.89 Td (Por) Tj ET
+BT /F1 10.50 Tf 231.82 381.89 Td (que) Tj ET
+BT /F1 10.50 Tf 251.35 381.89 Td (ele) Tj ET
+BT /F1 10.50 Tf 268.57 381.89 Td (é) Tj ET
+BT /F1 10.50 Tf 277.18 381.89 Td (perigoso) Tj ET
+BT /F1 10.50 Tf 321.70 381.89 Td (mesmo) Tj ET
+BT /F1 10.50 Tf 360.13 381.89 Td (sem) Tj ET
+BT /F1 10.50 Tf 383.65 381.89 Td (dar) Tj ET
+BT /F1 10.50 Tf 403.18 381.89 Td (erro) Tj ET
+BT /F1 10.50 Tf 428.17 381.89 Td (na) Tj ET
+BT /F1 10.50 Tf 442.24 381.89 Td (tela?) Tj ET
+0.70 0.70 0.70 RG 0.6 w 56.00 368.89 m 539.28 368.89 l S 0 0 0 RG
+BT /F2 13.50 Tf 56.00 331.39 Td (Sequência) Tj ET
+BT /F2 13.50 Tf 130.21 331.39 Td (de) Tj ET
+BT /F2 13.50 Tf 149.98 331.39 Td (estudo) Tj ET
+BT /F1 10.50 Tf 56.00 313.39 Td (1.) Tj ET
+BT /F1 10.50 Tf 76.00 313.39 Td (Leia) Tj ET
+BT /F1 10.50 Tf 100.57 313.39 Td (a) Tj ET
+BT /F1 10.50 Tf 109.18 313.39 Td (Seção) Tj ET
+BT /F1 10.50 Tf 141.52 313.39 Td (1) Tj ET
+BT /F1 10.50 Tf 150.55 313.39 Td (até) Tj ET
+BT /F1 10.50 Tf 167.77 313.39 Td (o) Tj ET
+BT /F1 10.50 Tf 176.38 313.39 Td (fim) Tj ET
+BT /F1 10.50 Tf 195.28 313.39 Td (antes) Tj ET
+BT /F1 10.50 Tf 223.42 313.39 Td (de) Tj ET
+BT /F1 10.50 Tf 237.49 313.39 Td (ver) Tj ET
+BT /F1 10.50 Tf 257.02 313.39 Td (a) Tj ET
+BT /F1 10.50 Tf 265.63 313.39 Td (solução.) Tj ET
+BT /F1 10.50 Tf 307.84 313.39 Td (Sinta) Tj ET
+BT /F1 10.50 Tf 335.56 313.39 Td (o) Tj ET
+BT /F1 10.50 Tf 344.17 313.39 Td (incômodo) Tj ET
+BT /F1 10.50 Tf 392.68 313.39 Td (da) Tj ET
+BT /F1 10.50 Tf 406.75 313.39 Td (poção) Tj ET
+BT /F1 10.50 Tf 437.20 313.39 Td (que) Tj ET
+BT /F1 10.50 Tf 456.73 313.39 Td (ataca.) Tj ET
+BT /F1 10.50 Tf 56.00 295.89 Td (2.) Tj ET
+BT /F1 10.50 Tf 76.00 295.89 Td (Diga) Tj ET
+BT /F1 10.50 Tf 100.57 295.89 Td (em) Tj ET
+BT /F1 10.50 Tf 118.63 295.89 Td (voz) Tj ET
+BT /F1 10.50 Tf 138.16 295.89 Td (alta) Tj ET
+BT /F1 10.50 Tf 158.53 295.89 Td (as) Tj ET
+BT /F1 10.50 Tf 172.60 295.89 Td (frases) Tj ET
+BT /F1 10.50 Tf 206.20 295.89 Td ("é) Tj ET
+BT /F1 10.50 Tf 220.27 295.89 Td (um") Tj ET
+BT /F1 10.50 Tf 243.79 295.89 Td (e) Tj ET
+BT /F1 10.50 Tf 252.40 295.89 Td ("tem) Tj ET
+BT /F1 10.50 Tf 279.07 295.89 Td (um") Tj ET
+BT /F1 10.50 Tf 302.59 295.89 Td (para) Tj ET
+BT /F1 10.50 Tf 327.58 295.89 Td (cada) Tj ET
+BT /F1 10.50 Tf 352.57 295.89 Td (par) Tj ET
+BT /F1 10.50 Tf 372.10 295.89 Td (de) Tj ET
+BT /F1 10.50 Tf 386.17 295.89 Td (classes) Tj ET
+BT /F1 10.50 Tf 425.23 295.89 Td (do) Tj ET
+BT /F1 10.50 Tf 439.30 295.89 Td (seu) Tj ET
+BT /F1 10.50 Tf 458.83 295.89 Td (jogo.) Tj ET
+BT /F1 10.50 Tf 484.66 295.89 Td (Anote) Tj ET
+BT /F1 10.50 Tf 76.00 281.39 Td (quais) Tj ET
+BT /F1 10.50 Tf 104.14 281.39 Td (são) Tj ET
+BT /F1 10.50 Tf 123.67 281.39 Td (verdadeiras.) Tj ET
+BT /F1 10.50 Tf 56.00 263.89 Td (3.) Tj ET
+BT /F1 10.50 Tf 76.00 263.89 Td (Escreva) Tj ET
+BT /F1 10.50 Tf 119.26 263.89 Td (a) Tj ET
+BT /F1 10.50 Tf 127.87 263.89 Td (classe) Tj ET
+BT /F3 10.50 Tf 161.47 263.89 Td (Item) Tj ET
+BT /F1 10.50 Tf 189.82 263.89 Td (com) Tj ET
+BT /F3 10.50 Tf 213.34 263.89 Td (nome) Tj ET
+BT /F1 10.50 Tf 241.69 263.89 Td (,) Tj ET
+BT /F3 10.50 Tf 247.99 263.89 Td (usar) Tj ET
+BT /F1 10.50 Tf 276.34 263.89 Td (e) Tj ET
+BT /F3 10.50 Tf 284.95 263.89 Td (__str__) Tj ET
+BT /F1 10.50 Tf 332.20 263.89 Td (.) Tj ET
+BT /F1 10.50 Tf 338.50 263.89 Td (Teste) Tj ET
+BT /F1 10.50 Tf 368.53 263.89 Td (com) Tj ET
+BT /F3 10.50 Tf 392.05 263.89 Td (print) Tj ET
+BT /F1 10.50 Tf 426.70 263.89 Td (.) Tj ET
+BT /F1 10.50 Tf 56.00 246.39 Td (4.) Tj ET
+BT /F1 10.50 Tf 76.00 246.39 Td (Escreva) Tj ET
+BT /F3 10.50 Tf 119.26 246.39 Td (PocaoDeVida) Tj ET
+BT /F1 10.50 Tf 191.71 246.39 Td (e) Tj ET
+BT /F3 10.50 Tf 200.32 246.39 Td (Bomba) Tj ET
+BT /F1 10.50 Tf 234.97 246.39 Td (.) Tj ET
+BT /F1 10.50 Tf 241.27 246.39 Td (Confirme) Tj ET
+BT /F1 10.50 Tf 289.36 246.39 Td (que) Tj ET
+BT /F1 10.50 Tf 308.89 246.39 Td (o) Tj ET
+BT /F3 10.50 Tf 317.50 246.39 Td (usar) Tj ET
+BT /F1 10.50 Tf 345.85 246.39 Td (das) Tj ET
+BT /F1 10.50 Tf 365.38 246.39 Td (duas) Tj ET
+BT /F1 10.50 Tf 390.37 246.39 Td (tem) Tj ET
+BT /F1 10.50 Tf 411.58 246.39 Td (a) Tj ET
+BT /F1 10.50 Tf 420.19 246.39 Td (mesma) Tj ET
+BT /F1 10.50 Tf 458.62 246.39 Td (assinatura) Tj ET
+BT /F1 10.50 Tf 511.75 246.39 Td (e) Tj ET
+BT /F1 10.50 Tf 76.00 231.89 Td (efeitos) Tj ET
+BT /F1 10.50 Tf 110.44 231.89 Td (opostos.) Tj ET
+BT /F1 10.50 Tf 56.00 214.39 Td (5.) Tj ET
+BT /F1 10.50 Tf 76.00 214.39 Td (Escreva) Tj ET
+BT /F1 10.50 Tf 119.26 214.39 Td (a) Tj ET
+BT /F1 10.50 Tf 127.87 214.39 Td (classe) Tj ET
+BT /F3 10.50 Tf 161.47 214.39 Td (Inventario) Tj ET
+BT /F1 10.50 Tf 227.62 214.39 Td (.) Tj ET
+BT /F1 10.50 Tf 233.92 214.39 Td (Teste) Tj ET
+BT /F3 10.50 Tf 263.95 214.39 Td (adicionar) Tj ET
+BT /F1 10.50 Tf 323.80 214.39 Td (,) Tj ET
+BT /F3 10.50 Tf 330.10 214.39 Td (listar) Tj ET
+BT /F1 10.50 Tf 371.05 214.39 Td (e) Tj ET
+BT /F3 10.50 Tf 379.66 214.39 Td (tirar) Tj ET
+BT /F1 10.50 Tf 414.31 214.39 Td (,) Tj ET
+BT /F1 10.50 Tf 420.61 214.39 Td (inclusive) Tj ET
+BT /F1 10.50 Tf 465.97 214.39 Td (com) Tj ET
+BT /F1 10.50 Tf 489.49 214.39 Td (um) Tj ET
+BT /F1 10.50 Tf 76.00 199.89 Td (número) Tj ET
+BT /F1 10.50 Tf 115.90 199.89 Td (que) Tj ET
+BT /F1 10.50 Tf 135.43 199.89 Td (não) Tj ET
+BT /F1 10.50 Tf 154.96 199.89 Td (existe.) Tj ET
+BT /F1 10.50 Tf 56.00 182.39 Td (6.) Tj ET
+BT /F1 10.50 Tf 76.00 182.39 Td (Ligue) Tj ET
+BT /F1 10.50 Tf 106.03 182.39 Td (o) Tj ET
+BT /F1 10.50 Tf 114.64 182.39 Td (inventário) Tj ET
+BT /F1 10.50 Tf 165.46 182.39 Td (ao) Tj ET
+BT /F3 10.50 Tf 179.53 182.39 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 245.68 182.39 Td (.) Tj ET
+BT /F1 10.50 Tf 251.98 182.39 Td (Confirme) Tj ET
+BT /F1 10.50 Tf 300.07 182.39 Td (que) Tj ET
+BT /F1 10.50 Tf 319.60 182.39 Td (nenhuma) Tj ET
+BT /F1 10.50 Tf 364.96 182.39 Td (classe) Tj ET
+BT /F1 10.50 Tf 398.56 182.39 Td (filha) Tj ET
+BT /F1 10.50 Tf 422.08 182.39 Td (mudou.) Tj ET
+BT /F1 10.50 Tf 56.00 164.89 Td (7.) Tj ET
+BT /F1 10.50 Tf 76.00 164.89 Td (Acrescente) Tj ET
+BT /F3 10.50 Tf 133.33 164.89 Td (__str__) Tj ET
+BT /F1 10.50 Tf 180.58 164.89 Td (ao) Tj ET
+BT /F3 10.50 Tf 194.65 164.89 Td (Personagem) Tj ET
+BT /F1 10.50 Tf 260.80 164.89 Td (e) Tj ET
+BT /F3 10.50 Tf 269.41 164.89 Td (@property) Tj ET
+BT /F1 10.50 Tf 329.26 164.89 Td (na) Tj ET
+BT /F1 10.50 Tf 343.33 164.89 Td (vida.) Tj ET
+BT /F1 10.50 Tf 369.16 164.89 Td (Confirme) Tj ET
+BT /F1 10.50 Tf 417.25 164.89 Td (que) Tj ET
+BT /F1 10.50 Tf 436.78 164.89 Td (ler) Tj ET
+BT /F1 10.50 Tf 454.00 164.89 Td (voltou) Tj ET
+BT /F1 10.50 Tf 485.29 164.89 Td (a) Tj ET
+BT /F1 10.50 Tf 76.00 150.39 Td (funcionar) Tj ET
+BT /F1 10.50 Tf 123.67 150.39 Td (e) Tj ET
+BT /F1 10.50 Tf 132.28 150.39 Td (escrever) Tj ET
+BT /F1 10.50 Tf 179.11 150.39 Td (continua) Tj ET
+BT /F1 10.50 Tf 221.32 150.39 Td (bloqueado.) Tj ET
+BT /F1 10.50 Tf 56.00 132.89 Td (8.) Tj ET
+BT /F1 10.50 Tf 76.00 132.89 Td (Só) Tj ET
+BT /F1 10.50 Tf 91.96 132.89 Td (depois) Tj ET
+BT /F1 10.50 Tf 125.56 132.89 Td (disso,) Tj ET
+BT /F1 10.50 Tf 156.85 132.89 Td (apague) Tj ET
+BT /F1 10.50 Tf 192.76 132.89 Td (o) Tj ET
+BT /F3 10.50 Tf 201.37 132.89 Td (usar_pocao) Tj ET
+BT /F1 10.50 Tf 267.52 132.89 Td (.) Tj ET
+BT /F1 10.50 Tf 273.82 132.89 Td (Ele) Tj ET
+BT /F1 10.50 Tf 292.93 132.89 Td (não) Tj ET
+BT /F1 10.50 Tf 312.46 132.89 Td (tem) Tj ET
+BT /F1 10.50 Tf 333.67 132.89 Td (mais) Tj ET
+BT /F1 10.50 Tf 360.34 132.89 Td (função.) Tj ET
+
+endstream
+endobj
+xref
+0 27
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000184 00000 n 
+0000000281 00000 n 
+0000000383 00000 n 
+0000000478 00000 n 
+0000000583 00000 n 
+0000000745 00000 n 
+0000018109 00000 n 
+0000018272 00000 n 
+0000033381 00000 n 
+0000033545 00000 n 
+0000048617 00000 n 
+0000048781 00000 n 
+0000061764 00000 n 
+0000061928 00000 n 
+0000073847 00000 n 
+0000074011 00000 n 
+0000087142 00000 n 
+0000087306 00000 n 
+0000107914 00000 n 
+0000108078 00000 n 
+0000117091 00000 n 
+0000117255 00000 n 
+0000121438 00000 n 
+0000121602 00000 n 
+trailer
+<< /Size 27 /Root 1 0 R >>
+startxref
+140595
+%%EOF

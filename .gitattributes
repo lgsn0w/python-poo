@@ -1,3 +1,3 @@
-# Os .html de pratica-poo sao fonte de material didatico, nao codigo do projeto.
+# Os .html do material sao fonte de documento didatico, nao codigo do projeto.
 # Sem isto, o GitHub classifica o repositorio como HTML por causa do tamanho deles.
-pratica-poo/**/*.html linguist-documentation
+*.html linguist-documentation

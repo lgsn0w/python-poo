@@ -7,14 +7,26 @@ Material de apoio para a transição do Portugol para o Python, com foco em **Pr
 ## Estrutura do repositório
 
 ```
-dia-01-fundamentos-python/   Portugol -> Python: entrada, condições, laços, funções
-dia-02-classes-e-objetos/    classes, __init__, atributos, métodos
-dia-03-rpg-fase-1/           projeto RPG, fase 1
-dia-04-rpg-fase-2/           projeto RPG, fase 2 (input, random, laço)
-dia-05-rpg-completo/         RPG completo (personagem.py + main.py)
-recapitulacao/               retomada após a pausa (parte 1 e parte 2)
-teoria-poo/                  teoria de POO (Parte A e Parte B)
-pratica-poo/                 prática de POO (Parte 1 e Parte 2), do RPG ao jogo completo
+Hoje/                        o material da aula de hoje
+Aulas Passadas/              todo o material anterior
+```
+
+Comece pela pasta `Hoje/`. Ela tem a teoria, os exercícios e um README dizendo
+em que ordem usar cada um.
+
+Tudo que já foi dado fica em `Aulas Passadas/`, com a mesma organização de
+sempre:
+
+```
+Aulas Passadas/
+  dia-01-fundamentos-python/   Portugol -> Python: entrada, condições, laços, funções
+  dia-02-classes-e-objetos/    classes, __init__, atributos, métodos
+  dia-03-rpg-fase-1/           projeto RPG, fase 1
+  dia-04-rpg-fase-2/           projeto RPG, fase 2 (input, random, laço)
+  dia-05-rpg-completo/         RPG completo (personagem.py + main.py)
+  recapitulacao/               retomada após a pausa (parte 1 e parte 2)
+  teoria-poo/                  teoria de POO (Parte A e Parte B)
+  pratica-poo/                 prática de POO (Parte 1 e Parte 2)
 ```
 
 A segunda metade de POO fica em duas pastas que se completam: `teoria-poo/`
