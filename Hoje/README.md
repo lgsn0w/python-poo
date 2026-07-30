@@ -8,13 +8,11 @@ próprio.
 
 ## Em que ordem
 
-1. **`teoria-composicao.pdf`** — leia primeiro. Explica a ideia e mostra por que
+1. **`teoria-composicao.pdf`**, leia primeiro. Explica a ideia e mostra por que
    fazer uma poção herdar de `Personagem` dá errado sem dar erro. Cada seção
    termina com perguntas.
-2. **`exercicios-composicao.pdf`** — depois. Onze exercícios e seis checkpoints.
+2. **`exercicios-composicao.pdf`**, depois. Onze exercícios e seis checkpoints.
    Cada um diz o que fazer, em qual arquivo, e como saber se deu certo.
-3. **`ajuda-composicao.md`** — só quando travar. Repete os pontos difíceis com
-   palavras mais simples.
 
 ## O que você precisa antes de começar
 
@@ -27,8 +25,22 @@ rpg/
   main.py           o menu de personagem e o combate
 ```
 
+Se o seu não estiver funcionando, pegue os três em
+[`Ajuda Extra/Codigo Base/`](Ajuda%20Extra/Codigo%20Base/) e comece de lá.
+
 Hoje entra **um** arquivo novo, o `itens.py`, e passam a ser quatro. Nenhum
-outro. Se o seu jogo quebrou, peça o arquivo ao professor antes de começar.
+outro.
+
+## A pasta Ajuda Extra
+
+Você não precisa dela para fazer a aula. Ela tem:
+
+- **`Codigo Base/`**, os três arquivos prontos do ponto onde a aula de hoje
+  começa. Use se o seu jogo quebrou.
+- **`ajuda-composicao.md`**, os pontos difíceis explicados outra vez, com
+  palavras mais simples. Leia quando travar em alguma parte da teoria.
+- **`teoria-composicao.md`**, o mesmo texto do PDF da teoria, em formato de
+  texto, para quem preferir ler assim ou quiser editar.
 
 ## Aulas anteriores
 
