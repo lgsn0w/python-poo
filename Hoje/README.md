@@ -1,48 +1,41 @@
-# Hoje: composição
+# Hoje: fases e progressão
 
-O assunto de hoje é **composição**: um objeto guardar outro objeto dentro de si.
+O assunto de hoje é uma continuação direta da composição: o jogo ganha uma
+sequência de **fases**, cada uma guardando o seu inimigo e o seu prêmio.
 
-Até agora você usou herança, que é a relação "é um". Hoje entra a outra metade,
-a relação "tem um". O seu RPG ganha uma mochila, e os itens ganham comportamento
-próprio.
+Até agora o prêmio de cada luta era decidido num `if` dentro do laço principal.
+Hoje essa decisão sai do `if` e passa a morar dentro da fase — a mesma ideia de
+"tem um" que já apareceu na mochila do personagem, aplicada num lugar novo.
 
 ## Em que ordem
 
-1. **`teoria-composicao.pdf`**, leia primeiro. Explica a ideia e mostra por que
-   fazer uma poção herdar de `Personagem` dá errado sem dar erro. Cada seção
-   termina com perguntas.
-2. **`exercicios-composicao.pdf`**, depois. Onze exercícios e seis checkpoints.
-   Cada um diz o que fazer, em qual arquivo, e como saber se deu certo.
+1. **`fases-e-progressao.pdf`**, o único documento de hoje. Tem cinco
+   capítulos curtos, cada um com um checkpoint. Leia, escreva o código, rode, e
+   siga para o próximo capítulo quando o resultado bater com o que está na
+   página.
 
 ## O que você precisa antes de começar
 
-O jogo da aula passada rodando, com três arquivos:
+O jogo da aula passada rodando, com quatro arquivos:
 
 ```
 rpg/
-  personagem.py     com _vida, curar e iniciar_turno
-  classes.py        Guerreiro, Mago, Goblin, Orc, Troll, Dragao
-  main.py           o menu de personagem e o combate
+  personagem.py     com Personagem, _vida, curar e o inventario
+  itens.py           com Item, PocaoDeVida, Bomba e Inventario
+  classes.py         Guerreiro, Mago, Goblin, Orc, Troll, Dragao
+  main.py            o menu, o combate e a mochila
 ```
 
-Se o seu não estiver funcionando, pegue os três em
-[`Ajuda Extra/Codigo Base/`](Ajuda%20Extra/Codigo%20Base/) e comece de lá.
+Nenhum arquivo novo entra hoje. A classe de hoje, `Fase`, mora dentro do
+`main.py`.
 
-Hoje entra **um** arquivo novo, o `itens.py`, e passam a ser quatro. Nenhum
-outro.
-
-## A pasta Ajuda Extra
-
-Você não precisa dela para fazer a aula. Ela tem:
-
-- **`Codigo Base/`**, os três arquivos prontos do ponto onde a aula de hoje
-  começa. Use se o seu jogo quebrou.
-- **`ajuda-composicao.md`**, os pontos difíceis explicados outra vez, com
-  palavras mais simples. Leia quando travar em alguma parte da teoria.
-- **`teoria-composicao.md`**, o mesmo texto do PDF da teoria, em formato de
-  texto, para quem preferir ler assim ou quiser editar.
+Se o seu jogo não estiver funcionando, a teoria de composição está em
+[`../Aulas Passadas/teoria-poo/parte-c-composicao/`](../Aulas%20Passadas/teoria-poo/parte-c-composicao/),
+e os exercícios que constroem o `itens.py` estão em
+[`../Aulas Passadas/pratica-poo/parte-3-composicao-e-inventario/`](../Aulas%20Passadas/pratica-poo/parte-3-composicao-e-inventario/).
 
 ## Aulas anteriores
 
 Todo o material das aulas passadas está em
-[`../Aulas Passadas/`](../Aulas%20Passadas/), com a mesma organização de sempre.
+[`../Aulas Passadas/`](../Aulas%20Passadas/), com a mesma organização de
+sempre.

@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>POO parte 2: encapsulamento e o jogo</title>
+<style>
+:root{
+  --papel:#ffffff; --creme:#faf8f4;
+  --tinta:#1c1b19; --tinta-media:#4a4741; --tinta-fraca:#6f6a61;
+  --linha:#e2ddd3; --linha-forte:#c9c2b4;
+  --destaque:#2f5d62; --destaque-claro:#eaf1f1;
+  --ruim:#a24858; --ruim-claro:#faeced;
+  --bom:#3f6f4a; --bom-claro:#ecf3ed;
+  --extra:#7a5a2e; --extra-claro:#f7f0e4;
+  --e1:4px; --e2:8px; --e3:16px; --e4:24px; --e5:40px; --e6:64px;
+}
+
+@page{
+  size:A4; margin:20mm 18mm 18mm 18mm;
+  @top-left{
+    content:string(capitulo);
+    font-family:"DejaVu Sans",sans-serif; font-size:7.5pt;
+    letter-spacing:.10em; text-transform:uppercase; color:#9b968c;
+    padding-bottom:4mm;
+  }
+  @bottom-right{
+    content:counter(page);
+    font-family:"DejaVu Sans",sans-serif; font-size:8.5pt;
+    color:#9b968c; padding-top:5mm;
+  }
+}
+@page capa{ margin:0; @top-left{content:none} @bottom-right{content:none} }
+
+html{ font-size:10.5pt; }
+body{
+  margin:0; font-family:"DejaVu Sans",sans-serif; color:var(--tinta);
+  line-height:1.62; background:var(--papel); hyphens:auto;
+}
+
+h1,h2,h3,h4{ font-family:"DejaVu Serif",serif; font-weight:normal; line-height:1.2; }
+
+.cap{
+  break-before:page; break-after:avoid;
+  margin:0 0 var(--e5) 0; padding-bottom:var(--e3);
+  border-bottom:1px solid var(--linha);
+}
+.cap .num{
+  font-family:"DejaVu Sans",sans-serif; font-size:8pt;
+  letter-spacing:.18em; text-transform:uppercase; color:var(--destaque);
+  margin:0 0 var(--e2) 0; max-width:none;
+}
+.cap h2{ string-set:capitulo content(); font-size:24pt; margin:0; }
+
+h3{ font-size:14pt; margin:var(--e5) 0 var(--e3) 0; break-after:avoid; }
+h4{
+  font-family:"DejaVu Sans",sans-serif; font-size:9.5pt; font-weight:bold;
+  letter-spacing:.06em; text-transform:uppercase; color:var(--tinta-media);
+  margin:var(--e4) 0 var(--e2) 0; break-after:avoid;
+}
+p{ margin:0 0 var(--e3) 0; max-width:72ch; }
+ul,ol{ margin:0 0 var(--e3) 0; padding-left:var(--e4); max-width:70ch; }
+li{ margin-bottom:var(--e1); }
+li::marker{ color:var(--tinta-fraca); }
+a{ color:var(--destaque); text-decoration:none; }
+
+code, pre, .rot, th, .cp-num, .teste-rot, .docs-rot, h4{ hyphens:none; }
+
+code, pre{
+  font-variant-ligatures:none;   /* codigo precisa mostrar <= e == separados */
+}
+
+code{
+  font-family:"JetBrainsMono NFM","DejaVu Sans Mono",monospace;
+  font-size:.86em; background:var(--creme); border:1px solid var(--linha);
+  border-radius:3px; padding:1px 4px; color:var(--tinta-media);
+}
+
+pre{
+  font-family:"JetBrainsMono NFM","DejaVu Sans Mono",monospace;
+  font-size:7.8pt; line-height:1.55;
+  background:#f7f5f1; border:1px solid var(--linha);
+  border-left:3px solid var(--linha-forte); border-radius:0 4px 4px 0;
+  padding:var(--e3) var(--e4); margin:0 0 var(--e3) 0;
+  white-space:pre-wrap; overflow-wrap:break-word;
+  color:#3a3831; break-inside:avoid;
+}
+pre code{ background:none; border:none; padding:0; font-size:1em; color:inherit; }
+pre.ruim{ border-left-color:var(--ruim); background:#fbf6f6; }
+pre.bom{ border-left-color:var(--bom); background:#f5f8f5; }
+pre.saida{ border-left-color:var(--destaque); background:#f4f8f8; }
+pre .c{ color:#9b968c; }
+
+.rot-bloco{
+  font-family:"DejaVu Sans",sans-serif; font-size:7pt; font-weight:bold;
+  letter-spacing:.12em; text-transform:uppercase;
+  margin:0 0 var(--e1) 0; max-width:none;
+}
+.rot-bloco.r{ color:var(--ruim); }
+.rot-bloco.b{ color:var(--bom); }
+.rot-bloco.s{ color:var(--destaque); }
+
+/* ---- checkpoint ---- */
+.cp{
+  break-inside:avoid; margin:var(--e5) 0 var(--e4) 0;
+  border:2px solid var(--destaque); border-radius:5px;
+  background:var(--destaque-claro);
+}
+.cp-num{
+  background:var(--destaque); color:#fff; margin:0;
+  font-family:"DejaVu Sans",sans-serif; font-size:8pt; font-weight:bold;
+  letter-spacing:.16em; text-transform:uppercase;
+  padding:5px var(--e4); max-width:none;
+}
+.cp-corpo{ padding:var(--e3) var(--e4); }
+.cp-corpo p{ margin-bottom:var(--e2); max-width:none; }
+.cp-corpo p:last-child{ margin-bottom:0; }
+
+/* ---- teste ---- */
+.teste{
+  break-inside:avoid; margin:var(--e4) 0;
+  border:1px solid var(--bom); border-left:3px solid var(--bom);
+  border-radius:0 4px 4px 0; background:var(--bom-claro);
+  padding:var(--e3) var(--e4);
+}
+.teste-rot{
+  font-family:"DejaVu Sans",sans-serif; font-size:7.5pt; font-weight:bold;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--bom);
+  margin:0 0 var(--e2) 0; max-width:none;
+}
+.teste p{ max-width:none; margin-bottom:var(--e2); }
+.teste p:last-child{ margin-bottom:0; }
+.teste pre{ margin-bottom:var(--e2); background:#fff; }
+
+/* ---- documentacao ---- */
+.docs{
+  break-inside:avoid; margin:var(--e4) 0;
+  border:1px dashed var(--linha-forte); border-radius:4px;
+  padding:var(--e3) var(--e4); background:var(--creme);
+}
+.docs-rot{
+  font-family:"DejaVu Sans",sans-serif; font-size:7.5pt; font-weight:bold;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--tinta-media);
+  margin:0 0 var(--e2) 0; max-width:none;
+}
+.docs p{ max-width:none; margin-bottom:var(--e2); font-size:9.5pt; }
+.docs p:last-child{ margin-bottom:0; }
+.docs .url{
+  font-family:"JetBrainsMono NFM",monospace; font-size:8pt;
+  color:var(--destaque); word-break:break-all;
+}
+.linha-resp{
+  display:inline-block; border-bottom:1px solid var(--linha-forte);
+  min-width:150px;
+}
+
+/* ---- ponteiro de extra ---- */
+.extra-ptr{
+  break-inside:avoid; margin:var(--e3) 0 var(--e5) 0; max-width:none;
+  border-left:3px solid var(--extra); background:var(--extra-claro);
+  padding:var(--e2) var(--e3); font-size:9pt; color:#5f4620;
+}
+.extra-ptr b{ color:var(--extra); }
+
+/* ---- regra / nota ---- */
+.regra{
+  break-inside:avoid; background:var(--destaque-claro);
+  border-left:3px solid var(--destaque);
+  padding:var(--e3) var(--e4); margin:var(--e4) 0;
+}
+.regra p{ margin:0; max-width:none; }
+.regra .rot{
+  display:block; font-size:7.5pt; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--destaque); margin-bottom:var(--e1); font-weight:bold;
+}
+.nota{
+  break-inside:avoid; border:1px solid var(--linha); border-radius:4px;
+  padding:var(--e3) var(--e4); margin:var(--e4) 0;
+  background:var(--creme); font-size:9.5pt;
+}
+.nota p{ max-width:none; }
+.nota p:last-child{ margin-bottom:0; }
+
+/* ---- tabelas ---- */
+table{
+  width:100%; border-collapse:collapse; font-size:9pt;
+  margin:var(--e3) 0 var(--e4) 0; break-inside:avoid;
+}
+th{
+  text-align:left; font-size:7.5pt; letter-spacing:.10em;
+  text-transform:uppercase; color:var(--tinta-fraca);
+  border-bottom:1px solid var(--linha-forte);
+  padding:0 var(--e3) var(--e2) 0; font-weight:bold;
+}
+td{
+  border-bottom:1px solid var(--linha);
+  padding:var(--e2) var(--e3) var(--e2) 0; vertical-align:top;
+}
+td:first-child{ white-space:nowrap; }
+
+/* ---- capa ---- */
+.capa{
+  page:capa; height:297mm; padding:38mm 24mm 24mm 24mm;
+  background:var(--creme); border-top:10mm solid var(--destaque);
+  box-sizing:border-box;
+}
+.capa .selo{
+  font-size:8pt; letter-spacing:.24em; text-transform:uppercase;
+  color:var(--destaque); margin-bottom:var(--e6);
+}
+.capa h1{ font-size:38pt; line-height:1.08; margin:0 0 var(--e4) 0; max-width:16ch; }
+.capa .sub{
+  font-size:13pt; color:var(--tinta-media); max-width:44ch;
+  line-height:1.5; margin:0 0 var(--e6) 0; font-family:"DejaVu Serif",serif;
+}
+.capa .risco{ width:60mm; height:2px; background:var(--linha-forte); margin-bottom:var(--e5); }
+.capa .rodape{ font-size:9pt; color:var(--tinta-fraca); line-height:1.9; }
+.capa .rodape b{ color:var(--tinta-media); }
+
+/* ---- sumario ---- */
+.sumario ol{ list-style:none; padding:0; max-width:none; counter-reset:s; }
+.sumario li{ margin:0; border-bottom:1px dotted var(--linha); }
+.sumario a{ display:block; padding:7px 0; color:var(--tinta); font-size:10pt; }
+.sumario a::before{
+  counter-increment:s; content:counter(s,decimal-leading-zero);
+  color:var(--destaque); font-size:8pt; font-weight:bold; margin-right:var(--e3);
+}
+.sumario a::after{
+  content:target-counter(attr(href),page);
+  float:right; color:var(--tinta-fraca); font-size:9pt;
+}
+.sumario .anx a::before{ content:"AN"; letter-spacing:.05em; }
+
+/* ---- mapa ---- */
+.mapa{ margin:var(--e4) 0; break-inside:avoid; }
+.mapa-item{
+  display:flex; gap:var(--e3); padding:var(--e2) 0;
+  border-bottom:1px solid var(--linha); align-items:baseline;
+}
+.mapa-n{
+  font-family:"JetBrainsMono NFM",monospace; font-size:8pt;
+  color:var(--destaque); font-weight:bold; flex:none; width:34px;
+}
+.mapa-t{ flex:1; font-size:9.5pt; }
+.mapa-t b{ display:block; }
+.mapa-t span{ color:var(--tinta-fraca); font-size:8.5pt; }
+.mapa-item.dois{ opacity:.55; }
+
+/* ---- extras (anexo B) ---- */
+.extra-item{ break-inside:avoid; margin-bottom:var(--e5); }
+.extra-item h4{ margin-top:0; color:var(--extra); }
+.extra-item h4 .n{
+  display:inline-block; background:var(--extra-claro); color:var(--extra);
+  border-radius:3px; padding:1px 6px; margin-right:8px;
+  font-family:"JetBrainsMono NFM",monospace; font-size:8pt;
+}
+.dep{
+  font-size:8.5pt; color:var(--tinta-fraca); font-style:italic;
+  margin:calc(var(--e2)*-1) 0 var(--e2) 0; max-width:none;
+}
+
+/* ---- checklist ---- */
+.check{ list-style:none; padding:0; max-width:none; }
+.check li{
+  padding:6px 0 6px 24px; border-bottom:1px solid var(--linha);
+  position:relative; font-size:9.5pt; margin:0;
+}
+.check li::before{
+  content:"\2610"; position:absolute; left:0; top:5px;
+  color:var(--linha-forte); font-size:12pt;
+}
+
+/* ---- erros (anexo A) ---- */
+.erro-item{ break-inside:avoid; margin-bottom:var(--e5); }
+.erro-item h4{ margin-top:0; }
+.erro-item pre.tb{
+  border-left-color:var(--ruim); background:#fbf6f6; font-size:7.4pt;
+}
+</style>
+</head>
+<body>
+<!-- ══════════════ CAPA ══════════════ -->
+<section class="capa">
+  <div class="selo">POO em Python &middot; Parte 3 de 3 &middot; 2026</div>
+  <h1>Composição e o inventário</h1>
+  <p class="sub">O personagem ganha uma mochila, os itens ganham comportamento próprio, e você descobre a outra metade da orientação a objetos: a que não é herança.</p>
+  <div class="risco"></div>
+  <div class="rodape">
+    <b>Continuação direta da parte 2.</b><br>
+    Você precisa do jogo fechado, com <code>_vida</code>, <code>curar</code><br>
+    e o Dragão funcionando antes de começar.
+  </div>
+</section>
+
+<!-- ══════════════ ANTES DE COMECAR ══════════════ -->
+<div class="cap" id="c0"><p class="num">Antes de começar</p><h2>Onde você está</h2></div>
+
+<p>Na parte 1 você aprendeu herança: uma classe <b>é um</b> tipo de outra. Na parte 2 você aprendeu encapsulamento: cada objeto cuida do próprio estado.</p>
+
+<p>Agora vem a última peça, e ela é a que falta para o seu RPG virar um jogo de verdade: <b>composição</b>. Um objeto guarda outro objeto dentro de si.</p>
+
+<p>A teoria desta parte está em <code>teoria-poo/parte-c-composicao/</code>. Se um exercício não fizer sentido, leia a seção com o mesmo nome lá.</p>
+
+<h3>A sua pasta</h3>
+
+<p>Até aqui você tinha três arquivos. Nesta parte entra <b>um só</b>, e ele se chama <code>itens.py</code>. Nenhum outro.</p>
+
+<pre><code>rpg/
+  personagem.py     a classe Personagem
+  classes.py        Guerreiro, Mago, Goblin, Orc, Troll, Dragao
+  itens.py          NOVO: Item, PocaoDeVida, Bomba, Inventario
+  main.py           o menu e o combate</code></pre>
+
+<div class="regra">
+  <span class="rot">A regra continua valendo</span>
+  <p>Quatro arquivos. Não existe <code>itens2.py</code>, não existe <code>item.py</code> no singular, não existe <code>inventario.py</code> separado. Se você já tem arquivo sobrando na pasta, apague antes de começar. O código pronto de cada parte está em <code>gabarito/</code>.</p>
+</div>
+
+<h3>O caminho</h3>
+
+<div class="mapa">
+  <div class="mapa-item">
+    <div class="mapa-n">1</div>
+    <div class="mapa-t"><b>O problema</b><span>Você faz a poção herdar de Personagem e vê o resultado absurdo.</span></div>
+  </div>
+  <div class="mapa-item">
+    <div class="mapa-n">2</div>
+    <div class="mapa-t"><b>A classe Item</b><span>Um item guarda nome e sabe ser usado.</span></div>
+  </div>
+  <div class="mapa-item">
+    <div class="mapa-n">3</div>
+    <div class="mapa-t"><b>Dois itens, um comando</b><span>Poção e bomba, mesma chamada, efeitos opostos.</span></div>
+  </div>
+  <div class="mapa-item">
+    <div class="mapa-n">4</div>
+    <div class="mapa-t"><b>A mochila</b><span>Uma classe que é dona de uma lista.</span></div>
+  </div>
+  <div class="mapa-item">
+    <div class="mapa-n">5</div>
+    <div class="mapa-t"><b>Ligar ao personagem</b><span>Composição de verdade, e o <code>usar_pocao</code> morre.</span></div>
+  </div>
+  <div class="mapa-item">
+    <div class="mapa-n">6</div>
+    <div class="mapa-t"><b>Duas ferramentas do Python</b><span><code>__str__</code> e <code>@property</code>.</span></div>
+  </div>
+  <div class="mapa-item">
+    <div class="mapa-n">7</div>
+    <div class="mapa-t"><b>Fechar o jogo</b><span>Inimigo derrotado deixa um item para trás.</span></div>
+  </div>
+</div>
+
+<p class="extra-ptr"><b>Lembrete:</b> os extras do anexo B continuam opcionais. Pular todos não te atrapalha em nada.</p>
+
+<!-- ══════════════ SUMARIO ══════════════ -->
+<div class="cap"><h2>Sumário</h2></div>
+<section class="sumario">
+  <ol>
+    <li><a href="#c1">O problema: a poção que ataca</a></li>
+    <li><a href="#c2">A classe Item</a></li>
+    <li><a href="#c3">Dois itens, um comando</a></li>
+    <li><a href="#c4">A mochila</a></li>
+    <li><a href="#c5">Ligar ao personagem</a></li>
+    <li><a href="#c6">Duas ferramentas do Python</a></li>
+    <li><a href="#c7">Fechar o jogo</a></li>
+    <li class="anx"><a href="#ax">Anexo A: erros que você vai ver</a></li>
+    <li class="anx"><a href="#bx">Anexo B: extras</a></li>
+    <li class="anx"><a href="#cx">Anexo C: checklist de entrega</a></li>
+  </ol>
+</section>
+
+<!-- ══════════════ CAP 1 ══════════════ -->
+<div class="cap" id="c1"><p class="num">Capítulo 1</p><h2>O problema: a poção que ataca</h2></div>
+
+<p>Antes de aprender a forma certa, faça a errada. Este capítulo existe para você sentir o incômodo.</p>
+
+<p>Você acabou de passar duas partes aprendendo herança. Então, para criar uma poção, a primeira ideia é herdar de <code>Personagem</code>.</p>
+
+<h3>Exercício 1: a poção que herda</h3>
+
+<p class="rot-bloco s">Arquivo: classes.py &middot; temporário</p>
+
+<pre><code>rpg/
+  personagem.py     nao mexa
+  classes.py        &lt;-- voce esta aqui
+  main.py</code></pre>
+
+<p>Faça:</p>
+
+<ol>
+  <li>No fim do <code>classes.py</code>, crie a classe <code>Pocao</code>, herdando de <code>Personagem</code>.</li>
+  <li>No <code>__init__</code> dela, chame a mãe com: <code>"Poção de vida"</code>, <code>1</code>, <code>0</code>, <code>0</code>, <code>0</code>.</li>
+  <li>Crie uma poção e um Goblin.</li>
+  <li>Mande a poção atacar o Goblin. Depois mande a poção se defender. Depois pergunte se a poção está viva.</li>
+</ol>
+
+<div class="teste">
+  <p class="teste-rot">O que você deve ver</p>
+  <p>Tudo funciona. Nenhum erro na tela. A poção ataca, se defende e está viva.</p>
+  <p><b>Esse é o problema.</b> O Python não te avisa de nada. O programa está errado por dentro e continua rodando.</p>
+  <p>Responda antes de seguir: uma poção precisa de <code>ataque</code>? Precisa de <code>defesa</code>? Precisa de uma mochila dentro dela?</p>
+</div>
+
+<div class="regra">
+  <span class="rot">A pergunta que resolve</span>
+  <p>Diga em voz alta: <b>"Poção é um Personagem?"</b> Se a frase soar estranha, herança está errada. A frase certa aqui é outra: <b>"Personagem tem poções."</b></p>
+</div>
+
+<p><b>Apague a classe <code>Pocao</code> agora.</b> Ela não vai ser usada. A partir do capítulo 2 você escreve a versão certa, e ela não herda de <code>Personagem</code>.</p>
+
+<p class="extra-ptr"><b>Terminou o capítulo 1?</b> Ele não tem extras. Os extras começam no checkpoint 1.</p>
+
+<!-- ══════════════ CAP 2 ══════════════ -->
+<div class="cap" id="c2"><p class="num">Capítulo 2</p><h2>A classe Item</h2></div>
+
+<p>Um item não é um personagem. Um item é uma coisa que tem nome e que sabe ser usada. Isso é uma classe nova, do zero, sem mãe nenhuma.</p>
+
+<h3>Exercício 2: criar o arquivo e a classe base</h3>
+
+<p class="rot-bloco s">Arquivo: itens.py &middot; crie agora</p>
+
+<pre><code>rpg/
+  personagem.py     nao mexa
+  classes.py
+  itens.py          &lt;-- CRIE este arquivo
+  main.py</code></pre>
+
+<p>Faça:</p>
+
+<ol>
+  <li>Crie o arquivo <code>itens.py</code>, na mesma pasta dos outros três.</li>
+  <li>Dentro dele, crie a classe <code>Item</code>. Ela <b>não herda de nada</b>. A linha é só <code>class Item:</code>.</li>
+  <li>Dê a ela um <code>__init__</code> que recebe <code>self</code> e <code>nome</code>, e guarda o nome.</li>
+  <li>Dê a ela um método <code>usar</code> que recebe <code>self</code>, <code>dono</code> e <code>inimigo</code>. Por enquanto ele só imprime que o item não faz nada.</li>
+</ol>
+
+<div class="nota">
+  <p><b>Por que <code>usar</code> recebe os dois?</b> Alguns itens afetam quem usou (a poção). Outros afetam o adversário (a bomba). Se todos recebem os dois, cada item escolhe sozinho quem ele mexe, e quem chama não precisa saber a diferença. Você vai ver isso funcionar no capítulo 3.</p>
+</div>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 1</p>
+  <div class="cp-corpo">
+    <p>Existe o arquivo <code>itens.py</code>, e ele tem a classe <code>Item</code>.</p>
+    <p><code>Item</code> não herda de <code>Personagem</code> nem de nada.</p>
+    <p>A classe <code>Pocao</code> do capítulo 1 foi apagada do <code>classes.py</code>.</p>
+    <p>A sua pasta tem exatamente quatro arquivos.</p>
+  </div>
+</div>
+
+<div class="teste">
+  <p class="teste-rot">Teste do checkpoint 1</p>
+  <pre><code>from itens import Item
+
+i = Item("Pedra")
+print(i.nome)
+print(i.atacar)</code></pre>
+  <p><b>Resultado esperado:</b> aparece <code>Pedra</code>, e depois um erro.</p>
+  <pre class="tb"><code>AttributeError: 'Item' object has no attribute 'atacar'</code></pre>
+  <p><b>O erro é o sucesso.</b> Um item não ataca. Compare com o capítulo 1, onde a poção atacava sem reclamar.</p>
+</div>
+
+<p class="extra-ptr"><b>Terminou o checkpoint 1?</b> Extras: anexo B, item E1.1.</p>
+
+<!-- ══════════════ CAP 3 ══════════════ -->
+<div class="cap" id="c3"><p class="num">Capítulo 3</p><h2>Dois itens, um comando</h2></div>
+
+<p>Agora os itens de verdade. Os dois herdam de <code>Item</code>, e desta vez a frase "é um" é verdadeira: poção <b>é um</b> item, bomba <b>é um</b> item.</p>
+
+<h3>Exercício 3: a poção</h3>
+
+<p class="rot-bloco s">Arquivo: itens.py</p>
+
+<pre><code>rpg/
+  personagem.py     nao mexa
+  classes.py
+  itens.py          &lt;-- voce esta aqui
+  main.py</code></pre>
+
+<p>Faça:</p>
+
+<ol>
+  <li>Crie a classe <code>PocaoDeVida</code>, herdando de <code>Item</code>.</li>
+  <li>No <code>__init__</code> dela, sem parâmetro nenhum além do <code>self</code>, chame a mãe com o nome <code>"Poção de vida"</code>.</li>
+  <li>Depois disso, guarde <code>self.cura</code> valendo <code>25</code>.</li>
+  <li>Sobrescreva o <code>usar</code>. Ele deve mandar o <b>dono</b> se curar, usando o método <code>curar</code> que você escreveu na parte 2.</li>
+  <li>Imprima o que aconteceu.</li>
+</ol>
+
+<div class="regra">
+  <span class="rot">Não faça a conta aqui</span>
+  <p>O item <b>não</b> mexe em <code>dono._vida</code>. Ele chama <code>dono.curar(...)</code> e deixa o personagem aplicar as regras dele. É o encapsulamento da parte 2 valendo entre objetos diferentes.</p>
+</div>
+
+<h3>Exercício 4: a bomba</h3>
+
+<p class="rot-bloco s">Arquivo: itens.py</p>
+
+<p>Faça:</p>
+
+<ol>
+  <li>Crie a classe <code>Bomba</code>, herdando de <code>Item</code>, com o nome <code>"Bomba"</code> e <code>self.dano</code> valendo <code>30</code>.</li>
+  <li>Sobrescreva o <code>usar</code>. Ele deve mandar o <b>inimigo</b> receber dano, usando <code>receber_dano</code>.</li>
+  <li>Repare: o <code>usar</code> da bomba tem <b>exatamente os mesmos parâmetros</b> do <code>usar</code> da poção. Só o corpo muda.</li>
+</ol>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 2</p>
+  <div class="cp-corpo">
+    <p><code>PocaoDeVida</code> e <code>Bomba</code> herdam de <code>Item</code>.</p>
+    <p>Os dois <code>usar</code> recebem <code>self</code>, <code>dono</code> e <code>inimigo</code>.</p>
+    <p>A poção mexe só no dono. A bomba mexe só no inimigo.</p>
+    <p>Nenhum dos dois toca em <code>_vida</code> diretamente.</p>
+  </div>
+</div>
+
+<div class="teste">
+  <p class="teste-rot">Teste do checkpoint 2</p>
+  <pre><code>from classes import Guerreiro, Goblin
+from itens import PocaoDeVida, Bomba
+
+heroi = Guerreiro("Thoric")
+heroi._vida = 50
+bicho = Goblin()
+
+for item in [PocaoDeVida(), Bomba()]:
+    item.usar(heroi, bicho)
+
+print("heroi:", heroi.vida, "| goblin:", bicho.vida)</code></pre>
+  <p><b>Resultado esperado:</b> o herói sobe para 75 e o Goblin cai para 12.</p>
+  <p><b>Olhe o laço.</b> Ele chama <code>item.usar(heroi, bicho)</code> sem perguntar que item é. Não tem <code>if</code>. É o mesmo polimorfismo da parte 1, agora em objetos que não são personagens.</p>
+  <p><b>Se o herói não subiu para 75:</b> a sua poção provavelmente está mexendo na vida direto em vez de chamar <code>curar</code>.</p>
+</div>
+
+<div class="docs">
+  <p class="docs-rot">Leia a fonte</p>
+  <p>Documentação oficial do Python, em português, seção <b>9.5 Herança</b>:</p>
+  <p class="url">docs.python.org/pt-br/3/tutorial/classes.html</p>
+  <p>Você usou herança em <code>Item</code> e composição no <code>Personagem</code>. A documentação fala das duas. Escreva com suas palavras por que <code>PocaoDeVida</code> herda de <code>Item</code>, mas <code>Inventario</code> não vai herdar de <code>Personagem</code>:</p>
+  <p><span class="linha-resp">&nbsp;</span></p>
+  <p><span class="linha-resp">&nbsp;</span></p>
+</div>
+
+<p class="extra-ptr"><b>Terminou o checkpoint 2?</b> Extras: anexo B, itens E2.1 e E2.2.</p>
+
+<!-- ══════════════ CAP 4 ══════════════ -->
+<div class="cap" id="c4"><p class="num">Capítulo 4</p><h2>A mochila</h2></div>
+
+<p>Você poderia guardar os itens numa lista solta dentro do personagem. Vai funcionar. Mas aí a regra de "qual índice é o item 1" e "o que acontece se o número não existe" fica espalhada por todo lugar que abre a mochila.</p>
+
+<p>Uma classe resolve isso: a lista ganha dono.</p>
+
+<h3>Exercício 5: a classe Inventario</h3>
+
+<p class="rot-bloco s">Arquivo: itens.py</p>
+
+<pre><code>rpg/
+  personagem.py     nao mexa
+  classes.py
+  itens.py          &lt;-- voce esta aqui
+  main.py</code></pre>
+
+<p>Faça:</p>
+
+<ol>
+  <li>No mesmo <code>itens.py</code>, crie a classe <code>Inventario</code>. Ela <b>não herda de nada</b>.</li>
+  <li>No <code>__init__</code>, crie <code>self._itens</code> como uma lista vazia. Com underscore: a lista é assunto interno.</li>
+  <li>Crie <code>adicionar(self, item)</code>, que põe o item na lista.</li>
+  <li>Crie <code>quantidade(self)</code>, que devolve quantos itens tem.</li>
+  <li>Crie <code>esta_vazio(self)</code>, que devolve verdadeiro ou falso.</li>
+  <li>Crie <code>listar(self)</code>, que imprime cada item numerado a partir de <b>1</b>, não de zero.</li>
+  <li>Crie <code>tirar(self, numero)</code>. Ele converte o número para índice, devolve <code>None</code> se o número não existir, e senão <b>remove e devolve</b> o item.</li>
+</ol>
+
+<div class="nota">
+  <p><b>Por que <code>tirar</code> devolve <code>None</code> em vez de quebrar?</b> Porque quem chama é o menu, e o jogador vai digitar 9 numa mochila de 2 itens. Tratar isso aqui, uma vez, é melhor do que lembrar de tratar em todo lugar.</p>
+</div>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 3</p>
+  <div class="cp-corpo">
+    <p>Existe a classe <code>Inventario</code>, e ela não herda de nada.</p>
+    <p>A lista se chama <code>_itens</code>, com underscore.</p>
+    <p><code>tirar</code> remove o item e devolve ele.</p>
+    <p><code>tirar</code> com número inválido devolve <code>None</code> e não quebra.</p>
+  </div>
+</div>
+
+<div class="teste">
+  <p class="teste-rot">Teste do checkpoint 3</p>
+  <pre><code>from itens import Inventario, PocaoDeVida, Bomba
+
+mochila = Inventario()
+print(mochila.esta_vazio())
+
+mochila.adicionar(PocaoDeVida())
+mochila.adicionar(Bomba())
+mochila.listar()
+
+print(mochila.tirar(99))
+print(mochila.quantidade())</code></pre>
+  <p><b>Resultado esperado:</b></p>
+  <pre class="saida"><code>True
+1 - &lt;itens.PocaoDeVida object at 0x...&gt;
+2 - &lt;itens.Bomba object at 0x...&gt;
+None
+2</code></pre>
+  <p>Sim, a listagem está feia. Aquele <code>&lt;itens.PocaoDeVida object at 0x...&gt;</code> é o Python dizendo "não sei como transformar isto em texto". <b>O capítulo 6 conserta.</b> Por enquanto, o que importa é que o <code>tirar(99)</code> devolveu <code>None</code> e a quantidade continuou 2.</p>
+</div>
+
+<p class="extra-ptr"><b>Terminou o checkpoint 3?</b> Extras: anexo B, item E3.1.</p>
+
+<!-- ══════════════ CAP 5 ══════════════ -->
+<div class="cap" id="c5"><p class="num">Capítulo 5</p><h2>Ligar ao personagem</h2></div>
+
+<p>Agora a composição de verdade. O personagem vai <b>ter uma</b> mochila.</p>
+
+<h3>Exercício 6: o personagem ganha a mochila</h3>
+
+<p class="rot-bloco s">Arquivo: personagem.py &middot; agora você mexe nele</p>
+
+<pre><code>rpg/
+  personagem.py     &lt;-- voce esta aqui
+  classes.py
+  itens.py
+  main.py</code></pre>
+
+<p>Faça:</p>
+
+<ol>
+  <li>No topo do <code>personagem.py</code>, importe <code>Inventario</code> e <code>PocaoDeVida</code> do arquivo <code>itens</code>.</li>
+  <li>No <code>__init__</code>, <b>apague</b> a linha <code>self.pocoes = pocoes</code>.</li>
+  <li>No lugar dela, crie <code>self.inventario</code> valendo um <code>Inventario()</code> novo.</li>
+  <li>Logo abaixo, use um <code>for</code> que repete <code>pocoes</code> vezes e adiciona uma <code>PocaoDeVida()</code> na mochila a cada volta.</li>
+  <li>No <code>mostrar_status</code>, troque a linha das poções por uma que mostre <code>self.inventario.quantidade()</code>.</li>
+</ol>
+
+<div class="regra">
+  <span class="rot">Repare no que você NÃO precisou fazer</span>
+  <p>O parâmetro <code>pocoes</code> continua existindo no <code>__init__</code>. Por isso <b>nenhuma</b> classe filha mudou: Guerreiro, Mago, Goblin, Orc, Troll e Dragão continuam chamando <code>super().__init__(...)</code> exatamente igual. Você trocou o interior do <code>Personagem</code> e as seis filhas não ficaram sabendo.</p>
+</div>
+
+<h3>Exercício 7: o menu da mochila</h3>
+
+<p class="rot-bloco s">Arquivo: main.py</p>
+
+<pre><code>rpg/
+  personagem.py
+  classes.py
+  itens.py
+  main.py           &lt;-- voce esta aqui</code></pre>
+
+<p>Faça:</p>
+
+<ol>
+  <li>No <code>turno_do_jogador</code>, troque o texto da opção 3 para <code>"3 - Abrir a mochila"</code>.</li>
+  <li>Faça a opção 3 chamar uma função nova, <code>abrir_mochila(jogador, inimigo)</code>.</li>
+  <li>Escreva essa função. Se a mochila estiver vazia, avise e saia.</li>
+  <li>Senão, liste os itens e peça um número, avisando que <code>0</code> volta.</li>
+  <li>Tire o item escolhido da mochila. Se vier <code>None</code>, avise que o item não existe e saia.</li>
+  <li>Se vier um item, mande ele ser usado, passando o jogador e o inimigo.</li>
+</ol>
+
+<h3>Exercício 8: apagar o usar_pocao</h3>
+
+<p class="rot-bloco s">Arquivo: personagem.py</p>
+
+<p>O <code>usar_pocao</code> não tem mais função. A mochila faz o trabalho dele, e faz melhor: agora serve para qualquer item, não só poção.</p>
+
+<p>Faça:</p>
+
+<ol>
+  <li>Apague o método <code>usar_pocao</code> inteiro do <code>personagem.py</code>.</li>
+  <li>Rode o jogo e confirme que nada quebrou.</li>
+</ol>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 4</p>
+  <div class="cp-corpo">
+    <p>O <code>Personagem</code> tem um <code>self.inventario</code>.</p>
+    <p>Nenhuma classe do <code>classes.py</code> precisou mudar.</p>
+    <p>A opção 3 do menu abre a mochila e usa um item.</p>
+    <p>O método <code>usar_pocao</code> não existe mais.</p>
+    <p>O <code>main.py</code> nunca escreve <code>_itens</code>.</p>
+  </div>
+</div>
+
+<div class="teste">
+  <p class="teste-rot">Teste do checkpoint 4</p>
+  <pre><code>from classes import Guerreiro, Mago, Goblin
+
+print(Guerreiro("Thoric").inventario.quantidade())
+print(Mago("Elric").inventario.quantidade())
+print(Goblin().inventario.quantidade())</code></pre>
+  <p><b>Resultado esperado:</b> <code>2</code>, <code>4</code> e <code>0</code>. São exatamente os números que já estavam no <code>super().__init__(...)</code> de cada classe.</p>
+  <p><b>Se der <code>TypeError</code> sobre argumentos:</b> você tirou o parâmetro <code>pocoes</code> do <code>__init__</code>. Ele tem que continuar lá. Quem mudou foi o que você faz com ele.</p>
+  <p><b>Se der <code>AttributeError: 'NoneType'</code>:</b> você declarou <code>self.inventario</code> mas esqueceu de escrever <code>Inventario()</code> com os parênteses.</p>
+</div>
+
+<p class="extra-ptr"><b>Terminou o checkpoint 4?</b> Extras: anexo B, itens E4.1 e E4.2.</p>
+
+<!-- ══════════════ CAP 6 ══════════════ -->
+<div class="cap" id="c6"><p class="num">Capítulo 6</p><h2>Duas ferramentas do Python</h2></div>
+
+<p>Este capítulo não muda a estrutura do jogo. Ele arruma duas coisas feias que sobraram, e as duas são ferramentas que você vai usar para sempre.</p>
+
+<h3>Exercício 9: __str__, ou como o objeto vira texto</h3>
+
+<p class="rot-bloco s">Arquivo: itens.py, depois personagem.py</p>
+
+<p>Lembra do <code>&lt;itens.PocaoDeVida object at 0x...&gt;</code> do capítulo 4? Aquilo é o Python dizendo que não sabe como mostrar o seu objeto.</p>
+
+<p>Existe um método especial para responder isso. Ele se chama <code>__str__</code>, com dois underscores de cada lado, igual ao <code>__init__</code>. Você nunca chama ele na mão: o <code>print</code> chama por você.</p>
+
+<p>Faça:</p>
+
+<ol>
+  <li>Na classe <code>Item</code>, crie o método <code>__str__</code>, que recebe só <code>self</code> e <b>devolve</b> o nome do item. Use <code>return</code>, não <code>print</code>.</li>
+  <li>Rode o teste do checkpoint 3 de novo e veja a listagem ficar legível.</li>
+  <li>Na classe <code>Personagem</code>, crie um <code>__str__</code> que devolve o nome com a vida atual e a máxima, no formato <code>Thoric (120/120)</code>.</li>
+</ol>
+
+<div class="nota">
+  <p><b>Por que <code>return</code> e não <code>print</code>?</b> Porque <code>__str__</code> responde "qual é o seu texto", e quem decide o que fazer com esse texto é quem perguntou. Se você usar <code>print</code> dentro dele, a função devolve <code>None</code> e o Python reclama.</p>
+</div>
+
+<h3>Exercício 10: @property, a porta de leitura</h3>
+
+<p class="rot-bloco s">Arquivo: personagem.py</p>
+
+<p>Na parte 2 você fechou a porta trocando <code>self.vida</code> por <code>self._vida</code>. Isso resolveu o <code>inimigo.vida = -999</code>, mas cobrou um preço: hoje nem <b>ler</b> a vida funciona de fora.</p>
+
+<p>Ler nunca foi o problema. O problema era escrever.</p>
+
+<p>Faça:</p>
+
+<ol>
+  <li>Na classe <code>Personagem</code>, escreva a linha <code>@property</code> sozinha.</li>
+  <li>Logo abaixo dela, crie um método chamado <code>vida</code>, que recebe só <code>self</code> e devolve <code>self._vida</code>.</li>
+  <li>Faça o mesmo para <code>vida_maxima</code>.</li>
+</ol>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 5</p>
+  <div class="cp-corpo">
+    <p><code>Item</code> tem <code>__str__</code>, e a mochila lista nomes legíveis.</p>
+    <p><code>Personagem</code> tem <code>__str__</code>.</p>
+    <p><code>personagem.vida</code> pode ser lido de fora.</p>
+    <p><code>personagem.vida = 999</code> continua proibido.</p>
+  </div>
+</div>
+
+<div class="teste">
+  <p class="teste-rot">Teste do checkpoint 5</p>
+  <pre><code>from classes import Guerreiro
+from itens import PocaoDeVida
+
+heroi = Guerreiro("Thoric")
+print(heroi)
+print(PocaoDeVida())
+print(heroi.vida)
+heroi.vida = 999</code></pre>
+  <p><b>Resultado esperado:</b></p>
+  <pre class="saida"><code>Thoric (120/120)
+Poção de vida
+120
+AttributeError: property 'vida' of 'Guerreiro' object has no setter</code></pre>
+  <p><b>Os três primeiros mostram, o quarto quebra.</b> É exatamente isso que você queria: ler liberado, escrever bloqueado.</p>
+  <p><b>Se o print mostrar <code>&lt;classes.Guerreiro object at ...&gt;</code>:</b> o seu <code>__str__</code> está com nome errado, ou ficou fora da classe. Confira a indentação e os dois underscores de cada lado.</p>
+</div>
+
+<div class="docs">
+  <p class="docs-rot">Leia a fonte</p>
+  <p>Documentação oficial, na entrada da função <b>property</b>:</p>
+  <p class="url">docs.python.org/pt-br/3/library/functions.html#property</p>
+  <p>A página mostra que uma property pode ter mais que leitura. Qual é o nome do que se escreve para permitir a <b>escrita</b> controlada?</p>
+  <p><span class="linha-resp">&nbsp;</span></p>
+  <p>E responda com suas palavras: por que a vida do personagem <b>não</b> deveria ganhar isso?</p>
+  <p><span class="linha-resp">&nbsp;</span></p>
+</div>
+
+<p class="extra-ptr"><b>Terminou o checkpoint 5?</b> Extras: anexo B, item E5.1.</p>
+
+<!-- ══════════════ CAP 7 ══════════════ -->
+<div class="cap" id="c7"><p class="num">Capítulo 7</p><h2>Fechar o jogo</h2></div>
+
+<p>Falta uma coisa para a mochila fazer sentido: um jeito de ganhar itens durante o jogo. Senão você começa com duas poções e acabou.</p>
+
+<h3>Exercício 11: o inimigo derrotado deixa um item</h3>
+
+<p class="rot-bloco s">Arquivo: main.py</p>
+
+<pre><code>rpg/
+  personagem.py
+  classes.py
+  itens.py
+  main.py           &lt;-- voce esta aqui</code></pre>
+
+<p>Faça:</p>
+
+<ol>
+  <li>Importe <code>Bomba</code> e <code>PocaoDeVida</code> do <code>itens</code>.</li>
+  <li>No laço dos inimigos, logo depois do descanso de 50 de vida, escolha um prêmio: uma <code>Bomba()</code> se o inimigo derrotado foi o Troll, e uma <code>PocaoDeVida()</code> nos outros casos.</li>
+  <li>Adicione o prêmio à mochila do jogador.</li>
+  <li>Avise na tela o que caiu. Como o item tem <code>__str__</code>, você pode imprimir o objeto direto.</li>
+</ol>
+
+<div class="cp">
+  <p class="cp-num">Checkpoint 6, o último</p>
+  <div class="cp-corpo">
+    <p>O jogo roda do início ao fim: escolhe personagem, enfrenta os quatro inimigos, e termina com vitória ou derrota.</p>
+    <p>Dá para abrir a mochila no meio do combate e usar um item.</p>
+    <p>Cada inimigo derrotado deixa um item para trás.</p>
+    <p>Nenhum arquivo fora do <code>personagem.py</code> escreve <code>_vida</code>.</p>
+    <p>Nenhum arquivo fora do <code>itens.py</code> escreve <code>_itens</code>.</p>
+  </div>
+</div>
+
+<div class="teste">
+  <p class="teste-rot">Teste final</p>
+  <p>Abra <code>main.py</code>, <code>classes.py</code> e <code>itens.py</code> e procure por <code>_vida</code> com Ctrl+F. Depois procure por <code>_itens</code> no <code>main.py</code> e no <code>personagem.py</code>.</p>
+  <p><b>Resultado esperado:</b> nenhuma ocorrência em nenhum dos casos.</p>
+  <p>Se aparecer alguma, tem código de fora mexendo no que não é dele. Troque por uma chamada de método.</p>
+</div>
+
+<h3>O que você construiu</h3>
+
+<table>
+  <tr><th style="width:34%">Conceito</th><th>Onde está no seu jogo</th></tr>
+  <tr><td>Classe e objeto</td><td><code>Personagem</code>, <code>Item</code>, <code>Inventario</code>.</td></tr>
+  <tr><td>Herança</td><td>Guerreiro, Mago, Dragão, e também <code>PocaoDeVida</code>, <code>Bomba</code>.</td></tr>
+  <tr><td>Polimorfismo</td><td><code>inimigo.atacar()</code> no combate, <code>item.usar()</code> na mochila.</td></tr>
+  <tr><td>Encapsulamento</td><td><code>_vida</code> e <code>curar</code>; <code>_itens</code> e <code>adicionar</code>.</td></tr>
+  <tr><td>Composição</td><td><code>Personagem</code> tem um <code>Inventario</code>, que tem <code>Item</code>.</td></tr>
+</table>
+
+<p>São os cinco conceitos da matéria, todos rodando ao mesmo tempo, num programa que você joga do começo ao fim.</p>
+
+<!-- ══════════════ ANEXO A ══════════════ -->
+<div class="cap" id="ax"><p class="num">Anexo A</p><h2>Erros que você vai ver</h2></div>
+
+<div class="erro-item">
+  <h4>1. NoneType object has no attribute</h4>
+  <pre class="tb"><code>AttributeError: 'NoneType' object has no attribute 'adicionar'</code></pre>
+  <p>Você escreveu <code>self.inventario = Inventario</code> sem os parênteses, ou declarou o atributo e nunca criou o objeto. Sem os parênteses você guardou a <b>classe</b>, não uma mochila.</p>
+  <p class="rot-bloco r">Errado</p>
+  <pre class="ruim"><code>self.inventario = Inventario</code></pre>
+  <p class="rot-bloco b">Certo</p>
+  <pre class="bom"><code>self.inventario = Inventario()</code></pre>
+</div>
+
+<div class="erro-item">
+  <h4>2. ImportError ou circular import</h4>
+  <pre class="tb"><code>ImportError: cannot import name 'Inventario' from partially initialized module</code></pre>
+  <p>O <code>personagem.py</code> importa do <code>itens.py</code>. Se você fizer o <code>itens.py</code> importar do <code>personagem.py</code>, os dois ficam se esperando.</p>
+  <p>Não precisa. O item recebe o personagem <b>como parâmetro</b> do <code>usar</code>, e nunca precisa importar a classe.</p>
+</div>
+
+<div class="erro-item">
+  <h4>3. A listagem mostra endereços de memória</h4>
+  <pre class="tb"><code>1 - &lt;itens.PocaoDeVida object at 0x7f3c...&gt;</code></pre>
+  <p>Falta o <code>__str__</code>, ou ele está escrito errado. Confira: dois underscores de cada lado, e <code>return</code> em vez de <code>print</code>.</p>
+</div>
+
+<div class="erro-item">
+  <h4>4. property has no setter</h4>
+  <pre class="tb"><code>AttributeError: property 'vida' of 'Guerreiro' object has no setter</code></pre>
+  <p>Depois do capítulo 6, isso pode ser certo ou errado.</p>
+  <p><b>É certo</b> se você escreveu <code>personagem.vida = ...</code> de propósito, para testar.</p>
+  <p><b>É erro</b> se aconteceu jogando. Nesse caso sobrou algum <code>self.vida = ...</code> dentro do <code>Personagem</code> que deveria ser <code>self._vida = ...</code>.</p>
+</div>
+
+<div class="erro-item">
+  <h4>5. O item some sem ser usado</h4>
+  <p>Sem erro na tela: você abre a mochila, escolhe um item, e ele desaparece sem efeito nenhum.</p>
+  <p>O <code>tirar</code> já removeu o item da lista, mas você esqueceu de chamar o <code>usar</code> depois. Tirar e usar são duas ações.</p>
+</div>
+
+<!-- ══════════════ ANEXO B ══════════════ -->
+<div class="cap" id="bx"><p class="num">Anexo B</p><h2>Extras</h2></div>
+
+<p>Tudo aqui é opcional. Nenhum capítulo depende destes itens.</p>
+
+<div class="extra-item">
+  <h4><span class="n">E1.1</span>O item que não faz nada</h4>
+  <p class="dep">Depende de: checkpoint 1.</p>
+  <p>Crie um <code>Item("Pedra")</code> puro e use ele no combate. Ele vai imprimir que não faz nada.</p>
+  <p>Responda: por que faz sentido a classe base ter um <code>usar</code> que não faz nada, em vez de não ter <code>usar</code> nenhum?</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E2.1</span>O elixir</h4>
+  <p class="dep">Depende de: checkpoint 2.</p>
+  <p>Crie um item que cura o dono <b>e</b> fere o inimigo, no mesmo <code>usar</code>. Confirme que o menu não precisou de nenhuma linha nova.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E2.2</span>A pedra de afiar</h4>
+  <p class="dep">Depende de: checkpoint 2.</p>
+  <p>Crie um item que aumenta o <code>ataque</code> do dono em 3, para sempre.</p>
+  <p>Pense antes: isso deveria passar por um método do personagem, como a cura passa pelo <code>curar</code>? Justifique a sua escolha.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E3.1</span>Mochila com limite</h4>
+  <p class="dep">Depende de: checkpoint 3.</p>
+  <p>Faça a mochila aceitar no máximo 5 itens. O <code>adicionar</code> deve recusar o sexto e avisar.</p>
+  <p>Repare em quantas outras classes precisaram mudar para isso. Esse número é o ponto do exercício.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E4.1</span>O inimigo também usa itens</h4>
+  <p class="dep">Depende de: checkpoint 4.</p>
+  <p>Dê poções a um inimigo e faça ele beber uma quando estiver abaixo de 30% da vida, em vez de atacar.</p>
+  <p>Onde essa decisão deve morar: no <code>main.py</code> ou na classe do inimigo? Justifique.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E4.2</span>Mochila cheia de bombas</h4>
+  <p class="dep">Depende de: checkpoint 4.</p>
+  <p>Comece o jogo com três bombas além das poções. Jogue e decida se o jogo ficou fácil demais. Ajuste o dano ou a quantidade e explique a sua escolha.</p>
+</div>
+
+<div class="extra-item">
+  <h4><span class="n">E5.1</span>Leitura difícil</h4>
+  <p class="dep">Depende de: checkpoint 5.</p>
+  <p>Este extra é de leitura. Abra a documentação dos métodos especiais:</p>
+  <p class="url">docs.python.org/pt-br/3/reference/datamodel.html#object.__repr__</p>
+  <p>Existe <code>__str__</code> e existe <code>__repr__</code>. Responda: qual é a diferença de propósito entre os dois, e qual deles o Python usa quando você imprime uma <b>lista</b> de objetos?</p>
+</div>
+
+<!-- ══════════════ ANEXO C ══════════════ -->
+<div class="cap" id="cx"><p class="num">Anexo C</p><h2>Checklist de entrega</h2></div>
+
+<h4>Funciona</h4>
+<ul class="check">
+  <li>O jogo roda do início ao fim sem erro na tela.</li>
+  <li>Dá para abrir a mochila durante o combate.</li>
+  <li>Número inválido na mochila não quebra o jogo.</li>
+  <li>Escolher <code>0</code> volta ao menu sem gastar o turno.</li>
+  <li>Cada inimigo derrotado deixa um item.</li>
+</ul>
+
+<h4>Composição</h4>
+<ul class="check">
+  <li><code>Personagem</code> tem um <code>Inventario</code>.</li>
+  <li><code>Inventario</code> não herda de <code>Personagem</code>.</li>
+  <li><code>Item</code> não herda de <code>Personagem</code>.</li>
+  <li><code>PocaoDeVida</code> e <code>Bomba</code> herdam de <code>Item</code>.</li>
+  <li>Nenhuma classe do <code>classes.py</code> precisou mudar no capítulo 5.</li>
+</ul>
+
+<h4>Encapsulamento</h4>
+<ul class="check">
+  <li>A lista da mochila se chama <code>_itens</code>.</li>
+  <li><code>main.py</code> e <code>personagem.py</code> não contêm <code>_itens</code>.</li>
+  <li>O item de cura chama <code>curar</code>, e não mexe em <code>_vida</code>.</li>
+  <li>O item de dano chama <code>receber_dano</code>.</li>
+  <li>A vida é lida por <code>@property</code> e não pode ser escrita de fora.</li>
+</ul>
+
+<h4>Organização</h4>
+<ul class="check">
+  <li>Exatamente quatro arquivos na pasta.</li>
+  <li>Nenhum arquivo com nome contendo espaço ou acento.</li>
+  <li>O <code>usar_pocao</code> foi apagado.</li>
+  <li>O código roda com <code>python3 main.py</code>, sem editar nada antes.</li>
+</ul>
+
+<div class="regra">
+  <span class="rot">O último teste</span>
+  <p>Acrescente um item novo, de qualquer tipo, ao seu jogo. Conte quantos arquivos você precisou abrir e quantos <code>if</code> precisou escrever fora do <code>itens.py</code>. Se a resposta for "um arquivo e nenhum <code>if</code>", você entendeu a matéria inteira.</p>
+</div>
+
+</body>
+</html>
