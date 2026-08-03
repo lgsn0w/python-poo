@@ -29,7 +29,10 @@ rpg/
 Nenhum arquivo novo entra hoje. A classe de hoje, `Fase`, mora dentro do
 `main.py`.
 
-Se o seu jogo não estiver funcionando, a teoria de composição está em
+Se o seu não estiver funcionando, pegue os quatro prontos em
+[`Codigo Base/`](Codigo%20Base/) e comece de lá.
+
+Se o que travou foi a teoria, ela está em
 [`../Aulas Passadas/teoria-poo/parte-c-composicao/`](../Aulas%20Passadas/teoria-poo/parte-c-composicao/),
 e os exercícios que constroem o `itens.py` estão em
 [`../Aulas Passadas/pratica-poo/parte-3-composicao-e-inventario/`](../Aulas%20Passadas/pratica-poo/parte-3-composicao-e-inventario/).
