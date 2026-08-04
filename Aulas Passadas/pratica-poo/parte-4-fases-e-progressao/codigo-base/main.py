@@ -7,14 +7,6 @@ CLASSES = {
 }
 
 
-class Fase:
-    def __init__(self, nome, descricao, inimigo, premio):
-        self.nome = nome
-        self.descricao = descricao
-        self.inimigo = inimigo
-        self.premio = premio
-
-
 def escolher_personagem():
     print("Escolha o seu personagem:")
     for tecla, classe in CLASSES.items():
@@ -87,26 +79,19 @@ def combate(jogador, inimigo):
 def main():
     jogador = escolher_personagem()
 
-    fases = [
-        Fase("Floresta Sombria", "Um Goblin salta na sua frente.", Goblin(), PocaoDeVida()),
-        Fase("Trilha da Montanha", "Um Orc bloqueia o caminho.", Orc(), PocaoDeVida()),
-        Fase("Ponte Quebrada", "Um Troll ronca embaixo da ponte.", Troll(), Bomba()),
-        Fase("Covil do Dragão", "O Dragão Ancião desperta.", Dragao(), PocaoDeVida()),
-    ]
+    inimigos = [Goblin(), Orc(), Troll(), Dragao()]
 
-    for fase in fases:
-        print("\n==", fase.nome, "==")
-        print(fase.descricao)
-
-        venceu = combate(jogador, fase.inimigo)
+    for inimigo in inimigos:
+        venceu = combate(jogador, inimigo)
         if not venceu:
             print("Fim de jogo.")
             return
         jogador.curar(50)
         print(jogador.nome, "descansa e recupera 50 de vida")
 
-        jogador.inventario.adicionar(fase.premio)
-        print(fase.inimigo.nome, "deixou cair:", fase.premio)
+        premio = Bomba() if inimigo.nome == "Troll" else PocaoDeVida()
+        jogador.inventario.adicionar(premio)
+        print(inimigo.nome, "deixou cair:", premio)
 
     print("\nVocê derrotou todos os inimigos. Fim.")
 
