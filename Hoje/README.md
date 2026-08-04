@@ -6,10 +6,17 @@ seguindo o mesmo molde da Poção de vida e da Bomba que vocês já têm.
 
 ## Em que ordem
 
-1. **`mais-itens.pdf`**, o único documento de hoje. Tem dez páginas curtas:
-   uma recapitulação, e depois cada item novo em três partes — o contexto, o
-   código comparado lado a lado com um item que já existe, e o porquê daquilo
-   funcionar. Termina mostrando os dois itens virando prêmio de fase.
+1. **`mais-itens.pdf`**, a explicação, para acompanhar no telão. Tem dez
+   páginas curtas: uma recapitulação, e depois cada item novo em três
+   partes — o contexto, o código comparado lado a lado com um item que já
+   existe, e o porquê daquilo funcionar. Termina mostrando os dois itens
+   virando prêmio de fase. Este documento já mostra o código pronto — ele
+   não é para ser seguido sozinho, é para ser explicado.
+2. **`mais-itens-exercicios.pdf`**, depois. Três exercícios curtos: escrever
+   a Poção de força, escrever o Anel de proteção, e encaixar os dois nas
+   fases. Ao contrário do primeiro documento, este não dá o código pronto —
+   só diz o que a classe precisa ter, e traz um teste no fim de cada
+   exercício para você conferir sozinho se bateu.
 
 ## Por que "mais itens" e não outra coisa
 
