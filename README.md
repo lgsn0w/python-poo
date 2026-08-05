@@ -26,7 +26,7 @@ Aulas Passadas/
   dia-05-rpg-completo/         RPG completo (personagem.py + main.py)
   recapitulacao/               retomada após a pausa (parte 1 e parte 2)
   teoria-poo/                  teoria de POO (Parte A, B e C)
-  pratica-poo/                 prática de POO (Parte 1, 2, 3 e 4)
+  pratica-poo/                 prática de POO (Parte 1, 2, 3, 4 e 5)
 ```
 
 A segunda metade de POO fica em duas pastas que se completam: `teoria-poo/`

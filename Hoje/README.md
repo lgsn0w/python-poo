@@ -1,66 +1,65 @@
-# Hoje: mais itens
+# Hoje: progressão
 
-O assunto de hoje é uma continuação direta de fases e progressão: o jogo ganha
-dois itens novos, uma **Poção de força** e um **Anel de proteção**, os dois
-seguindo o mesmo molde da Poção de vida e da Bomba que vocês já têm.
+O assunto de hoje é uma continuação direta de mais itens: o personagem passa
+a melhorar sozinho, ganhando ataque, defesa e vida máxima a cada fase
+vencida.
+
+Até agora vencer uma fase só rendia descanso e um prêmio guardado na
+mochila. Hoje a vitória também deixa o personagem mais forte na hora — sem o
+jogador precisar usar nada.
 
 ## Em que ordem
 
-1. **`mais-itens.pdf`**, a explicação, para acompanhar no telão. Tem dez
-   páginas curtas: uma recapitulação, e depois cada item novo em três
-   partes — o contexto, o código comparado lado a lado com um item que já
-   existe, e o porquê daquilo funcionar. Termina mostrando os dois itens
-   virando prêmio de fase. Este documento já mostra o código pronto — ele
-   não é para ser seguido sozinho, é para ser explicado.
-2. **`mais-itens-exercicios.pdf`**, depois. Três exercícios curtos: escrever
-   a Poção de força, escrever o Anel de proteção, e encaixar os dois nas
-   fases. Ao contrário do primeiro documento, este não dá o código pronto —
-   só diz o que a classe precisa ter, e traz um teste no fim de cada
-   exercício para você conferir sozinho se bateu.
+1. **`progressao.pdf`**, o único documento de hoje. Primeiro a explicação —
+   três métodos de melhora (`melhorar_ataque`, `melhorar_defesa`,
+   `melhorar_vida_maxima`), o método que os junta (`subir_nivel`), e onde ele
+   é chamado no jogo. Depois, nas últimas páginas do mesmo PDF, seis
+   exercícios curtos, cada um com um checkpoint e um teste, para você fazer
+   sozinho.
 
-## Por que "mais itens" e não outra coisa
+## Por que "progressão" e não outra coisa
 
-Vocês já aprenderam o padrão inteiro: toda classe de item tem um
-`usar(self, dono, inimigo)`, e é só isso que o resto do jogo (a mochila, o
-menu, a fase) precisa saber para usar qualquer item, sem `if` nenhum
-perguntando qual é. Hoje não entra nenhuma ideia nova de orientação a
-objetos — entra a prática de aplicar esse padrão duas vezes, sozinhos, até
-ele virar automático. É o mesmo motivo de terem existido a Poção de vida
-*e* a Bomba na aula passada: um exemplo só nunca prova que o padrão
-generaliza.
+No fim da aula de mais itens, ficou uma promessa: `melhorar_ataque`. Hoje ela
+vira realidade, junto de mais dois métodos do mesmo formato e um quarto que
+junta os três. Não entra nenhuma ideia nova de orientação a objetos — entra
+a prática de escrever métodos que mudam o estado do próprio objeto, e de
+decidir quando chamá-los durante o jogo.
 
 ## O que você precisa antes de começar
 
-O jogo com fases já funcionando, com quatro arquivos:
+O jogo com fases e itens já funcionando, com quatro arquivos:
 
 ```
 rpg/
   personagem.py     com Personagem, _vida, curar, ataque e defesa
-  itens.py           com Item, PocaoDeVida, Bomba e Inventario
+  itens.py           com Item, PocaoDeVida, Bomba, PocaoDeForca, AnelDeProtecao e Inventario
   classes.py         Guerreiro, Mago, Goblin, Orc, Troll, Dragao
   main.py            a classe Fase, a lista fases, o menu e o combate
 ```
 
-Nenhum arquivo novo entra hoje — os dois itens vão dentro do `itens.py` que
-já existe, do lado da `PocaoDeVida` e da `Bomba`.
+Nenhum arquivo novo entra hoje — os métodos de hoje moram dentro do
+`personagem.py` que já existe, e a chamada nova é uma linha dentro do laço
+que já existe no `main.py`.
 
 ## A pasta Codigo Base
 
-Se o seu jogo de fases não estiver funcionando, ou se você não terminou a
-aula passada a tempo, pegue os quatro arquivos prontos em
-[`Codigo Base/`](Codigo%20Base/) e comece de lá. Esse código já tem a classe
-`Fase` funcionando, com as quatro fases de exemplo — é exatamente o ponto
-onde a aula de ontem devia ter terminado. Usar ele não é cola: a aula de
-hoje é sobre os itens, não sobre fases, então não faz sentido perder tempo
-hoje consertando um problema de ontem.
+Se o seu jogo não estiver funcionando, ou se você não terminou a aula
+passada a tempo, pegue os quatro arquivos prontos em
+[`Codigo Base/`](Codigo%20Base/) e comece de lá. Esse código já tem a Poção
+de força e o Anel de proteção prontos, e os dois já são prêmio de fase — é
+exatamente o ponto onde a aula de ontem devia ter terminado. Usar ele não é
+cola: a aula de hoje é sobre progressão, não sobre itens, então não faz
+sentido perder tempo hoje consertando um problema de ontem.
 
 ## Se travar na teoria de mais atrás
 
-- Composição (por que um item não herda de `Personagem`) está em
+- `@property`, e por que `self.vida_maxima = x` de fora da classe não
+  funciona, está em
   [`../Aulas Passadas/teoria-poo/parte-c-composicao/`](../Aulas%20Passadas/teoria-poo/parte-c-composicao/).
-- Os exercícios que construíram o `itens.py` pela primeira vez estão em
-  [`../Aulas Passadas/pratica-poo/parte-3-composicao-e-inventario/`](../Aulas%20Passadas/pratica-poo/parte-3-composicao-e-inventario/).
-- A aula de fases de ontem, completa, está em
+- Os exercícios que construíram a Poção de força e o Anel de proteção estão
+  em
+  [`../Aulas Passadas/pratica-poo/parte-5-mais-itens/`](../Aulas%20Passadas/pratica-poo/parte-5-mais-itens/).
+- A aula de fases, completa, está em
   [`../Aulas Passadas/pratica-poo/parte-4-fases-e-progressao/`](../Aulas%20Passadas/pratica-poo/parte-4-fases-e-progressao/).
 
 ## Aulas anteriores
