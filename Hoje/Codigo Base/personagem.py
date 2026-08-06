@@ -11,6 +11,7 @@ class Personagem:
         self.ataque = ataque
         self.defesa = defesa
         self.defendendo = False
+        self.nivel = 1
 
         self.inventario = Inventario()
         for _ in range(pocoes):
@@ -28,7 +29,7 @@ class Personagem:
         return f"{self.nome} ({self._vida}/{self._vida_maxima})"
 
     def mostrar_status(self):
-        print("\n", self.nome)
+        print("\n", self.nome, "- Nível", self.nivel)
         print("Vida:", self._vida, "/", self._vida_maxima)
         print("Mochila:", self.inventario.quantidade(), "item(ns)")
 
@@ -66,3 +67,20 @@ class Personagem:
     def defender(self):
         self.defendendo = True
         print(self.nome, "preparou a defesa")
+
+    def melhorar_ataque(self, quantidade):
+        self.ataque += quantidade
+
+    def melhorar_defesa(self, quantidade):
+        self.defesa += quantidade
+
+    def melhorar_vida_maxima(self, quantidade):
+        self._vida_maxima += quantidade
+        self._vida += quantidade
+
+    def subir_nivel(self):
+        self.nivel += 1
+        self.melhorar_ataque(4)
+        self.melhorar_defesa(2)
+        self.melhorar_vida_maxima(20)
+        print(self.nome, "subiu para o nível", self.nivel)

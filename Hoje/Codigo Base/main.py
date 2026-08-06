@@ -102,6 +102,9 @@ def main():
         if not venceu:
             print("Fim de jogo.")
             return
+
+        jogador.subir_nivel()
+
         jogador.curar(50)
         print(jogador.nome, "descansa e recupera 50 de vida")
 
