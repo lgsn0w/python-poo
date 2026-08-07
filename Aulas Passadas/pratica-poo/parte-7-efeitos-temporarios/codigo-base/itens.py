@@ -51,28 +51,6 @@ class AnelDeProtecao(Item):
         print(dono.nome, "ganhou defesa")
 
 
-class ElixirDeFuria(Item):
-    def __init__(self):
-        super().__init__("Elixir de fúria")
-        self.forca = 6
-        self.duracao = 3
-
-    def usar(self, dono, inimigo):
-        dono.aplicar_bonus_ataque_temporario(self.forca, self.duracao)
-        print(dono.nome, "bebeu o elixir de fúria")
-
-
-class TonicoDePedra(Item):
-    def __init__(self):
-        super().__init__("Tônico de pedra")
-        self.protecao = 4
-        self.duracao = 3
-
-    def usar(self, dono, inimigo):
-        dono.aplicar_bonus_defesa_temporario(self.protecao, self.duracao)
-        print(dono.nome, "bebeu o tônico de pedra")
-
-
 class Inventario:
     """Dono da colecao. Ninguem mexe na lista de fora."""
 

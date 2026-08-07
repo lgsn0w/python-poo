@@ -1,5 +1,5 @@
 from classes import Dragao, Goblin, Guerreiro, Mago, Orc, Troll
-from itens import ElixirDeFuria, PocaoDeVida, TonicoDePedra
+from itens import AnelDeProtecao, PocaoDeForca, PocaoDeVida
 
 CLASSES = {
     "1": Guerreiro,
@@ -89,8 +89,8 @@ def main():
 
     fases = [
         Fase("Floresta Sombria", "Um Goblin salta na sua frente.", Goblin(), PocaoDeVida()),
-        Fase("Trilha da Montanha", "Um Orc bloqueia o caminho.", Orc(), ElixirDeFuria()),
-        Fase("Ponte Quebrada", "Um Troll ronca embaixo da ponte.", Troll(), TonicoDePedra()),
+        Fase("Trilha da Montanha", "Um Orc bloqueia o caminho.", Orc(), PocaoDeForca()),
+        Fase("Ponte Quebrada", "Um Troll ronca embaixo da ponte.", Troll(), AnelDeProtecao()),
         Fase("Covil do Dragão", "O Dragão Ancião desperta.", Dragao(), PocaoDeVida()),
     ]
 

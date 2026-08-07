@@ -12,10 +12,6 @@ class Personagem:
         self.defesa = defesa
         self.defendendo = False
         self.nivel = 1
-        self._bonus_ataque = 0
-        self._turnos_bonus_ataque = 0
-        self._bonus_defesa = 0
-        self._turnos_bonus_defesa = 0
 
         self.inventario = Inventario()
         for _ in range(pocoes):
@@ -42,20 +38,6 @@ class Personagem:
 
     def iniciar_turno(self):
         self.defendendo = False
-
-        if self._turnos_bonus_ataque > 0:
-            self._turnos_bonus_ataque -= 1
-            if self._turnos_bonus_ataque == 0:
-                self.ataque -= self._bonus_ataque
-                self._bonus_ataque = 0
-                print(self.nome, "sente o ataque voltar ao normal")
-
-        if self._turnos_bonus_defesa > 0:
-            self._turnos_bonus_defesa -= 1
-            if self._turnos_bonus_defesa == 0:
-                self.defesa -= self._bonus_defesa
-                self._bonus_defesa = 0
-                print(self.nome, "sente a defesa voltar ao normal")
 
     def curar(self, quantidade):
         if quantidade <= 0:
@@ -95,24 +77,6 @@ class Personagem:
     def melhorar_vida_maxima(self, quantidade):
         self._vida_maxima += quantidade
         self._vida += quantidade
-
-    def aplicar_bonus_ataque_temporario(self, quantidade, turnos):
-        if self._turnos_bonus_ataque > 0:
-            self.ataque -= self._bonus_ataque
-
-        self.ataque += quantidade
-        self._bonus_ataque = quantidade
-        self._turnos_bonus_ataque = turnos
-        print(self.nome, "sente o ataque aumentar por um tempo")
-
-    def aplicar_bonus_defesa_temporario(self, quantidade, turnos):
-        if self._turnos_bonus_defesa > 0:
-            self.defesa -= self._bonus_defesa
-
-        self.defesa += quantidade
-        self._bonus_defesa = quantidade
-        self._turnos_bonus_defesa = turnos
-        print(self.nome, "sente a defesa aumentar por um tempo")
 
     def subir_nivel(self):
         self.nivel += 1
