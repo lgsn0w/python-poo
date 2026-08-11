@@ -16,7 +16,6 @@ class Personagem:
         self._turnos_bonus_ataque = 0
         self._bonus_defesa = 0
         self._turnos_bonus_defesa = 0
-        self._recarga_habilidade = 0
 
         self.inventario = Inventario()
         for _ in range(pocoes):
@@ -38,11 +37,6 @@ class Personagem:
         print("Vida:", self._vida, "/", self._vida_maxima)
         print("Mochila:", self.inventario.quantidade(), "item(ns)")
 
-        if self.habilidade_disponivel():
-            print("Habilidade: disponível")
-        else:
-            print("Habilidade: faltam", self._recarga_habilidade, "turno(s)")
-
     def esta_vivo(self):
         return self._vida > 0
 
@@ -62,9 +56,6 @@ class Personagem:
                 self.defesa -= self._bonus_defesa
                 self._bonus_defesa = 0
                 print(self.nome, "sente a defesa voltar ao normal")
-
-        if self._recarga_habilidade > 0:
-            self._recarga_habilidade -= 1
 
     def curar(self, quantidade):
         if quantidade <= 0:
@@ -94,18 +85,6 @@ class Personagem:
     def defender(self):
         self.defendendo = True
         print(self.nome, "preparou a defesa")
-
-    def agir(self, alvo):
-        self.atacar(alvo)
-
-    def habilidade_disponivel(self):
-        return self._recarga_habilidade == 0
-
-    def iniciar_recarga(self, turnos):
-        self._recarga_habilidade = turnos
-
-    def habilidade_especial(self, alvo):
-        print(self.nome, "não possui habilidade especial")
 
     def melhorar_ataque(self, quantidade):
         self.ataque += quantidade

@@ -1,5 +1,5 @@
-from classes import Dragao, Esqueleto, Goblin, Guerreiro, Harpia, Mago, Orc, Troll
-from itens import AnelDeProtecao, Bomba, ElixirDeFuria, PocaoDeVida, TonicoDePedra
+from classes import Dragao, Goblin, Guerreiro, Mago, Orc, Troll
+from itens import ElixirDeFuria, PocaoDeVida, TonicoDePedra
 
 CLASSES = {
     "1": Guerreiro,
@@ -33,7 +33,6 @@ def turno_do_jogador(jogador, inimigo):
     print("\n1 - Atacar")
     print("2 - Defender")
     print("3 - Abrir a mochila")
-    print("4 - Usar habilidade especial")
     escolha = input("Escolha: ")
 
     if escolha == "1":
@@ -42,8 +41,6 @@ def turno_do_jogador(jogador, inimigo):
         jogador.defender()
     elif escolha == "3":
         abrir_mochila(jogador, inimigo)
-    elif escolha == "4":
-        jogador.habilidade_especial(inimigo)
     else:
         print("Opção inválida")
 
@@ -77,7 +74,7 @@ def combate(jogador, inimigo):
 
         if inimigo.esta_vivo():
             inimigo.iniciar_turno()
-            inimigo.agir(jogador)
+            inimigo.atacar(jogador)
 
     if jogador.esta_vivo():
         print("Vitória contra", inimigo.nome)
@@ -94,8 +91,6 @@ def main():
         Fase("Floresta Sombria", "Um Goblin salta na sua frente.", Goblin(), PocaoDeVida()),
         Fase("Trilha da Montanha", "Um Orc bloqueia o caminho.", Orc(), ElixirDeFuria()),
         Fase("Ponte Quebrada", "Um Troll ronca embaixo da ponte.", Troll(), TonicoDePedra()),
-        Fase("Cripta Antiga", "Um Esqueleto se levanta do chão.", Esqueleto(), Bomba()),
-        Fase("Penhasco dos Ventos", "Uma Harpia mergulha do alto.", Harpia(), AnelDeProtecao()),
         Fase("Covil do Dragão", "O Dragão Ancião desperta.", Dragao(), PocaoDeVida()),
     ]
 

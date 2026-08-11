@@ -95,9 +95,6 @@ class Personagem:
         self.defendendo = True
         print(self.nome, "preparou a defesa")
 
-    def agir(self, alvo):
-        self.atacar(alvo)
-
     def habilidade_disponivel(self):
         return self._recarga_habilidade == 0
 
