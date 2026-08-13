@@ -36,8 +36,8 @@ A pasta [`codigo-base/`](codigo-base/) contém os quatro arquivos que estavam em
 decidem, e nada foi refatorado ainda. É o ponto de partida da parte 10.
 
 **O resultado** da refatoração — os mesmos quatro arquivos com os cinco
-capítulos aplicados — está em `Hoje/Codigo Base` enquanto testes for a aula
-atual, e serve de gabarito desta aula.
+capítulos aplicados — está em [`../Aula Testes Automatizados/codigo-base/`](../Aula%20Testes%20Automatizados/codigo-base/)
+e também em `Hoje/Codigo Base`. Serve de gabarito desta aula.
 
 ## Uma errata do PDF
 
@@ -72,5 +72,6 @@ A palavra `habilidade_especial` não existe mais em nenhum arquivo.
 
 ## Aula seguinte
 
-Testes automatizados, em [`../../Hoje/`](../../Hoje/) — que começa exatamente do
-resultado desta aula, e prova com código o que aqui foi conferido no olho.
+Testes automatizados, em [`../Aula Testes Automatizados/`](../Aula%20Testes%20Automatizados/)
+— que começa exatamente do resultado desta aula, e prova com código o que aqui
+foi conferido no olho.

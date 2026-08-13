@@ -11,8 +11,9 @@ Hoje/                        o material da aula de hoje
 Aulas Passadas/              todo o material anterior
 ```
 
-Comece pela pasta `Hoje/`. Ela tem a teoria, os exercícios e um README dizendo
-em que ordem usar cada um.
+A UC terminou. A pasta `Hoje/` guarda o fechamento: a **revisão geral**, com
+sessenta e seis questões sobre todo o conteúdo e espaço para responder a caneta.
+Cada pasta tem um README dizendo em que ordem usar o material.
 
 Tudo que já foi dado fica em `Aulas Passadas/`, com a mesma organização de
 sempre:
@@ -28,6 +29,7 @@ Aulas Passadas/
   teoria-poo/                  teoria de POO (Parte A, B e C)
   pratica-poo/                 prática de POO (Parte 1 até a Parte 9)
   Aula Refatoração/            refatorar o jogo sem mudar o comportamento
+  Aula Testes Automatizados/   assert, unittest, e o que fazer com sorteio e print
 ```
 
 A segunda metade de POO fica em duas pastas que se completam: `teoria-poo/`

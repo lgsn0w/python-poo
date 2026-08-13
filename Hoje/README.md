@@ -1,100 +1,63 @@
-# Hoje: testes automatizados
+# Hoje: a revisão geral
 
-Ontem o jogo mudou de forma sem mudar de comportamento, e a conferência foi
-toda no olho: jogar, chegar na fase certa, provocar a situação certa e olhar a
-tela. Cinco vezes, uma por capítulo.
+A UC terminou. Não entra conteúdo novo: entra a conta de tudo que passou, do
+primeiro `print` do dia 1 ao último teste automatizado.
 
-Hoje o computador passa a fazer essa conferência. Uma vez escrita, ela custa
-meio segundo e não esquece de nada.
+Use **`revisao-geral.pdf`** do começo ao fim. Ele já vem com espaço de resposta
+em cada questão — é para imprimir e responder a caneta, não para abrir no
+computador.
 
-## Em que ordem
+## Os dez blocos
 
-Use **`testes-automatizados.pdf`** do começo ao fim. Cada capítulo segue sempre
-o mesmo ritmo:
+São sessenta e seis questões, na ordem em que o conteúdo foi dado:
 
-```
-problema  ->  explicação  ->  exemplo  ->  exemplo  ->  exercício
-```
+| Bloco | Assunto | Questões |
+|---|---|---|
+| 1 | Python antes da POO | 1–7 |
+| 2 | Classes e objetos | 8–15 |
+| 3 | Herança e polimorfismo | 16–24 |
+| 4 | Encapsulamento | 25–31 |
+| 5 | Composição | 32–37 |
+| 6 | O jogo por dentro (fases, bônus, habilidades, IA) | 38–45 |
+| 7 | Refatoração | 46–51 |
+| 8 | Testes automatizados | 52–59 |
+| 9 | Leitura de código | 60–62 |
+| 10 | Escreva você | 63–66 |
 
-Os capítulos são cinco, em ordem de dificuldade:
-
-1. **A primeira afirmação** — a palavra `assert`, e a ideia de que silêncio é
-   aprovação.
-2. **Um arquivo só de testes** — com doze afirmações soltas, a primeira que
-   falha esconde as outras onze. Entra o `unittest`, com `setUp` e placar.
-3. **Testar o que sorteia** — o dano muda toda vez. Afirmar a propriedade,
-   fixar a semente, ou injetar o sorteio: três saídas, em ordem de preferência.
-4. **Testar o que imprime** — quase tudo no jogo termina em `print`, e `print`
-   não se afirma. Testar pelo efeito no estado.
-5. **O teste que pega a regra** — as três regras que quase morreram ontem
-   (erros 5, 6 e 7 do anexo A da refatoração), e o teste que você precisa ver
-   falhar antes de aceitar.
-
-Os exemplos completos tratam de cofrinho, conversor de temperatura, placar de
-vôlei, máquina de salgadinhos, dado de tabuleiro, rifa, agenda de consultas,
-validação de senha, estoque de padaria e pedido de lanchonete.
-
-O PDF tem ainda três anexos: nove erros que você vai ver, oito extras opcionais
-e o checklist de entrega.
+Os tipos de questão são quatro: **escrita** (duas ou três frases suas),
+**marque** (alternativa ou verdadeiro/falso), **na tela** (dizer exatamente o
+que o Python imprime) e **código** (escrever à mão, com indentação).
 
 ## A regra do dia
 
-**O jogo não sabe que os testes existem.** Nenhum `import testes` aparece nos
-outros quatro arquivos. A seta aponta num sentido só: `testes.py` conhece o
-jogo, o jogo não conhece os testes.
+**Primeira volta sem consulta.** Responda tudo sem abrir o editor, sem abrir os
+PDFs e sem rodar nada. Se não souber, escreva "não sei" e siga — um "não sei"
+honesto é informação, um chute copiado do material não é.
 
-## Nada de arquivo novo — menos um
+Na segunda volta, com o código aberto, confira e corrija a caneta de outra cor,
+sem apagar o que estava escrito. O que caiu na primeira volta e subiu na segunda
+é a sua lista de estudo.
 
-Ontem a regra era que nenhum arquivo novo entrava. Hoje entra exatamente um,
-`testes.py`, e ele não tem regra de jogo nenhuma dentro.
+## De onde saíram as questões
 
-```
-rpg/
-  personagem.py     Personagem e BonusTemporario
-  classes.py        Guerreiro, Mago e os seis inimigos
-  itens.py          poções, elixires e o inventário
-  main.py           fases, inventário, combate e progressão
-  testes.py         NOVO
-```
+Quase todas as questões de código são trechos reais do jogo, no estado em que
+ele ficou depois da refatoração — os quatro arquivos de
+[`Codigo Base/`](Codigo%20Base/), que continuam aqui justamente para a segunda
+volta.
 
-No fim do dia o arquivo tem 24 testes ou mais, e `python testes.py` termina em
-`OK`.
+As questões de fora do RPG (cofrinho, turma, conta bancária) existem para
+separar quem entendeu o conceito de quem decorou o exemplo.
 
-## O que você precisa antes de começar
+## Como se corrigir
 
-O jogo **já refatorado**. Os testes do material chamam `calcular_dano`,
-`usar_habilidade` e `bonus_ataque.ativo()` — três coisas que só existem depois
-da parte 10.
-
-## A pasta Codigo Base
-
-Se o seu jogo não chegou ao fim da refatoração, pegue os quatro arquivos em
-[`Codigo Base/`](Codigo%20Base/). Eles são o jogo de ontem com os cinco
-capítulos aplicados, e servem também de **gabarito da parte 10**: se você quiser
-comparar a sua refatoração com uma solução possível, é ali.
-
-É uma solução possível, não a única. O que importa é que a saída na tela seja a
-mesma — e essa parte foi conferida: três partidas completas, com a mesma
-semente e as mesmas teclas, produzem saída idêntica byte a byte à do código
-anterior à refatoração.
-
-Usar o código-base não entrega a atividade de hoje. Ele apenas evita perder a
-aula consertando conteúdos anteriores.
-
-## Conceitos retomados
-
-- **Encapsulamento:** o capítulo 5 mostra que testar a implementação
-  (`bonus_ataque.turnos`) prende o teste ao lado de dentro, e testar a regra
-  (o ataque subiu 6) não prende.
-- **Composição:** a `BonusTemporario` é testada sem criar nenhum `Personagem`.
-  A frase que você escreveu ontem — "não sabe a que atributo pertence" — vira
-  uma coisa que dá para provar.
-- **Separar decidir de executar:** o `agir` da parte 9 e o `media()` com
-  `return` da parte 10 voltam no capítulo 4, agora com um motivo novo.
+Não conte quantas você acertou. Conte quantas você não sabia e agora sabe — é a
+única medida honesta de uma revisão. O PDF fecha com um checklist de dezesseis
+habilidades: marque só o que você conseguiria explicar para outra pessoa, sem
+olhar o material.
 
 ## Aula anterior
 
-O material de refatoração foi arquivado em
-[`../Aulas Passadas/Aula Refatoração/`](../Aulas%20Passadas/Aula%20Refatora%C3%A7%C3%A3o/).
+Os testes automatizados foram arquivados em
+[`../Aulas Passadas/Aula Testes Automatizados/`](../Aulas%20Passadas/Aula%20Testes%20Automatizados/).
 
 Todo o restante está em [`../Aulas Passadas/`](../Aulas%20Passadas/).
