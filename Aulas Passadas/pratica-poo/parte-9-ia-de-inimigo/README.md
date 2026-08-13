@@ -27,8 +27,8 @@ A pasta [`codigo-base/`](codigo-base/) contém os quatro arquivos que estavam em
 habilidades especiais e recarga, mas nenhum inimigo decide nada — exatamente o
 ponto do qual os alunos partiram naquele dia.
 
-O código-base da aula seguinte, com os seis inimigos decidindo, está na pasta
-`Hoje/Codigo Base` enquanto refatoração for a aula atual.
+O código-base da aula seguinte, com os seis inimigos decidindo, está em
+[`../../Aula Refatoração/codigo-base/`](../../Aula%20Refatora%C3%A7%C3%A3o/codigo-base/).
 
 ## A regra que valeu
 

@@ -1,78 +1,100 @@
-# Hoje: a inteligência do inimigo
+# Hoje: testes automatizados
 
-O assunto de hoje começa com uma coisa que dá para perceber jogando: o jogador
-tem quatro opções por turno e o inimigo tem uma. O combate manda o inimigo
-atacar, sempre, aconteça o que acontecer.
+Ontem o jogo mudou de forma sem mudar de comportamento, e a conferência foi
+toda no olho: jogar, chegar na fase certa, provocar a situação certa e olhar a
+tela. Cinco vezes, uma por capítulo.
 
-Hoje o inimigo passa a escolher. E o caminho para isso é separar duas coisas que
-estavam grudadas no mesmo lugar: **decidir** uma ação e **executar** uma ação.
-Nasce o método `agir`, que só escolhe, e as ações que já existem continuam
-fazendo o trabalho delas.
+Hoje o computador passa a fazer essa conferência. Uma vez escrita, ela custa
+meio segundo e não esquece de nada.
 
 ## Em que ordem
 
-Use **`ia-de-inimigo.pdf`** do começo ao fim. Cada capítulo segue sempre o mesmo
-ritmo:
+Use **`testes-automatizados.pdf`** do começo ao fim. Cada capítulo segue sempre
+o mesmo ritmo:
 
 ```
 problema  ->  explicação  ->  exemplo  ->  exemplo  ->  exercício
 ```
 
-Os capítulos são cinco:
+Os capítulos são cinco, em ordem de dificuldade:
 
-1. **Decidir não é agir** — nasce o `agir`, e nada no jogo muda ainda.
-2. **Ler o próprio estado** — o Goblin se defende quando está perdendo.
-3. **Decidir sem inventar estado** — Orc e Troll usam os bônus temporários que
-   já existem.
-4. **O contrato de ontem, do outro lado** — o inimigo ganha habilidade especial
-   e recarga sem uma linha nova de infraestrutura.
-5. **A prova do desenho** — um inimigo novo entra sem que o combate saiba.
+1. **A primeira afirmação** — a palavra `assert`, e a ideia de que silêncio é
+   aprovação.
+2. **Um arquivo só de testes** — com doze afirmações soltas, a primeira que
+   falha esconde as outras onze. Entra o `unittest`, com `setUp` e placar.
+3. **Testar o que sorteia** — o dano muda toda vez. Afirmar a propriedade,
+   fixar a semente, ou injetar o sorteio: três saídas, em ordem de preferência.
+4. **Testar o que imprime** — quase tudo no jogo termina em `print`, e `print`
+   não se afirma. Testar pelo efeito no estado.
+5. **O teste que pega a regra** — as três regras que quase morreram ontem
+   (erros 5, 6 e 7 do anexo A da refatoração), e o teste que você precisa ver
+   falhar antes de aceitar.
 
-Os exemplos completos tratam de termostato, loja, celular, carro, banco,
-veículos, cafeteira e pagamentos. As decisões do RPG não aparecem prontas.
+Os exemplos completos tratam de cofrinho, conversor de temperatura, placar de
+vôlei, máquina de salgadinhos, dado de tabuleiro, rifa, agenda de consultas,
+validação de senha, estoque de padaria e pedido de lanchonete.
 
-O PDF tem ainda três anexos: erros que você vai ver, extras opcionais e o
-checklist de entrega.
+O PDF tem ainda três anexos: nove erros que você vai ver, oito extras opcionais
+e o checklist de entrega.
 
 ## A regra do dia
 
-**A IA decide, mas não inventa estado.** Nenhuma classe de inimigo ganha
-atributo novo hoje. Vida, vida máxima e recarga já estão todas lá — toda decisão
-interessante sai de combinar o que existe.
+**O jogo não sabe que os testes existem.** Nenhum `import testes` aparece nos
+outros quatro arquivos. A seta aponta num sentido só: `testes.py` conhece o
+jogo, o jogo não conhece os testes.
 
-## O que você precisa antes de começar
+## Nada de arquivo novo — menos um
 
-O jogo de sexta, com habilidades especiais funcionando:
+Ontem a regra era que nenhum arquivo novo entrava. Hoje entra exatamente um,
+`testes.py`, e ele não tem regra de jogo nenhuma dentro.
 
 ```
 rpg/
-  personagem.py     habilidade_especial e _recarga_habilidade
+  personagem.py     Personagem e BonusTemporario
+  classes.py        Guerreiro, Mago e os seis inimigos
   itens.py          poções, elixires e o inventário
-  classes.py        Guerreiro, Mago, Goblin, Orc, Troll, Esqueleto e Dragao
   main.py           fases, inventário, combate e progressão
+  testes.py         NOVO
 ```
+
+No fim do dia o arquivo tem 24 testes ou mais, e `python testes.py` termina em
+`OK`.
+
+## O que você precisa antes de começar
+
+O jogo **já refatorado**. Os testes do material chamam `calcular_dano`,
+`usar_habilidade` e `bonus_ataque.ativo()` — três coisas que só existem depois
+da parte 10.
 
 ## A pasta Codigo Base
 
-Se o seu jogo não estiver funcionando ou se você não terminou a aula de sexta,
-pegue os quatro arquivos em [`Codigo Base/`](Codigo%20Base/). Eles representam
-exatamente o ponto inicial de hoje: progressão, efeitos temporários, habilidades
-especiais e recarga já estão prontos, mas nenhum inimigo decide nada.
+Se o seu jogo não chegou ao fim da refatoração, pegue os quatro arquivos em
+[`Codigo Base/`](Codigo%20Base/). Eles são o jogo de ontem com os cinco
+capítulos aplicados, e servem também de **gabarito da parte 10**: se você quiser
+comparar a sua refatoração com uma solução possível, é ali.
+
+É uma solução possível, não a única. O que importa é que a saída na tela seja a
+mesma — e essa parte foi conferida: três partidas completas, com a mesma
+semente e as mesmas teclas, produzem saída idêntica byte a byte à do código
+anterior à refatoração.
 
 Usar o código-base não entrega a atividade de hoje. Ele apenas evita perder a
 aula consertando conteúdos anteriores.
 
 ## Conceitos retomados
 
-- **Herança:** todo inimigo é um `Personagem` e já nasce com o contrato.
-- **Sobrescrita:** cada inimigo redefine `agir` com o critério dele.
-- **Polimorfismo:** o combate sempre chama `inimigo.agir(jogador)`.
-- **Encapsulamento:** a decisão consulta a recarga, mas só o dono a altera.
-- **Reúso:** a fúria do Orc usa o mesmo método que o Elixir de Fúria.
+- **Encapsulamento:** o capítulo 5 mostra que testar a implementação
+  (`bonus_ataque.turnos`) prende o teste ao lado de dentro, e testar a regra
+  (o ataque subiu 6) não prende.
+- **Composição:** a `BonusTemporario` é testada sem criar nenhum `Personagem`.
+  A frase que você escreveu ontem — "não sabe a que atributo pertence" — vira
+  uma coisa que dá para provar.
+- **Separar decidir de executar:** o `agir` da parte 9 e o `media()` com
+  `return` da parte 10 voltam no capítulo 4, agora com um motivo novo.
 
 ## Aula anterior
 
-O material de habilidades especiais foi arquivado em
-[`../Aulas Passadas/pratica-poo/parte-8-habilidades-especiais/`](../Aulas%20Passadas/pratica-poo/parte-8-habilidades-especiais/).
+O material de refatoração foi arquivado em
+[`../Aulas Passadas/Aula Refatoração/`](../Aulas%20Passadas/Aula%20Refatora%C3%A7%C3%A3o/).
 
 Todo o restante está em [`../Aulas Passadas/`](../Aulas%20Passadas/).

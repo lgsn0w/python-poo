@@ -6,8 +6,6 @@ CLASSES = {
     "2": Mago,
 }
 
-DESCANSO_ENTRE_FASES = 50
-
 
 class Fase:
     def __init__(self, nome, descricao, inimigo, premio):
@@ -32,37 +30,22 @@ def escolher_personagem():
 
 
 def turno_do_jogador(jogador, inimigo):
-    def atacar(jogador, inimigo):
-        jogador.atacar(inimigo)
-
-    def defender(jogador, inimigo):
-        jogador.defender()
-
-    def mochila(jogador, inimigo):
-        abrir_mochila(jogador, inimigo)
-
-    def habilidade(jogador, inimigo):
-        jogador.usar_habilidade(inimigo)
-
-    ACOES = {
-        "1": ("Atacar", atacar),
-        "2": ("Defender", defender),
-        "3": ("Abrir a mochila", mochila),
-        "4": ("Usar habilidade especial", habilidade),
-    }
-
-    print()
-    for tecla, (rotulo, _) in ACOES.items():
-        print(tecla, "-", rotulo)
-
+    print("\n1 - Atacar")
+    print("2 - Defender")
+    print("3 - Abrir a mochila")
+    print("4 - Usar habilidade especial")
     escolha = input("Escolha: ")
 
-    if escolha not in ACOES:
+    if escolha == "1":
+        jogador.atacar(inimigo)
+    elif escolha == "2":
+        jogador.defender()
+    elif escolha == "3":
+        abrir_mochila(jogador, inimigo)
+    elif escolha == "4":
+        jogador.habilidade_especial(inimigo)
+    else:
         print("Opção inválida")
-        return
-
-    rotulo, acao = ACOES[escolha]
-    acao(jogador, inimigo)
 
 
 def abrir_mochila(jogador, inimigo):
@@ -104,16 +87,6 @@ def combate(jogador, inimigo):
     return False
 
 
-def recompensar(jogador, fase):
-    jogador.subir_nivel()
-
-    jogador.curar(DESCANSO_ENTRE_FASES)
-    print(jogador.nome, "descansa e recupera", DESCANSO_ENTRE_FASES, "de vida")
-
-    jogador.inventario.adicionar(fase.premio)
-    print(fase.inimigo.nome, "deixou cair:", fase.premio)
-
-
 def main():
     jogador = escolher_personagem()
 
@@ -135,7 +108,13 @@ def main():
             print("Fim de jogo.")
             return
 
-        recompensar(jogador, fase)
+        jogador.subir_nivel()
+
+        jogador.curar(50)
+        print(jogador.nome, "descansa e recupera 50 de vida")
+
+        jogador.inventario.adicionar(fase.premio)
+        print(fase.inimigo.nome, "deixou cair:", fase.premio)
 
     print("\nVocê derrotou todos os inimigos. Fim.")
 

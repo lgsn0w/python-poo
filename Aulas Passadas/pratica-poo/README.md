@@ -9,14 +9,27 @@ verdade: com escolha de personagem, inimigos diferentes e um chefe final.
 A teoria destes conceitos está em [`teoria-poo/`](../teoria-poo/). Aqui você
 escreve o código.
 
-## As duas partes
+## As partes
 
-| Parte | Assunto | Páginas |
-|---|---|---|
-| [Parte 1](parte-1-heranca-e-polimorfismo/) | Herança e polimorfismo | 23 |
-| [Parte 2](parte-2-encapsulamento-e-o-jogo/) | Encapsulamento e o jogo | 21 |
+| Parte | Assunto |
+|---|---|
+| [Parte 1](parte-1-heranca-e-polimorfismo/) | Herança e polimorfismo |
+| [Parte 2](parte-2-encapsulamento-e-o-jogo/) | Encapsulamento e o jogo |
+| [Parte 3](parte-3-composicao-e-inventario/) | Composição e o inventário |
+| [Parte 4](parte-4-fases-e-progressao/) | Fases e progressão |
+| [Parte 5](parte-5-mais-itens/) | Mais itens |
+| [Parte 6](parte-6-progressao/) | Progressão |
+| [Parte 7](parte-7-efeitos-temporarios/) | Efeitos temporários |
+| [Parte 8](parte-8-habilidades-especiais/) | Habilidades especiais |
+| [Parte 9](parte-9-ia-de-inimigo/) | IA de inimigo |
+| Parte 10 | Refatoração — fica em [`../Aula Refatoração/`](../Aula%20Refatora%C3%A7%C3%A3o/) |
 
-Termine a Parte 1 inteira antes de abrir a Parte 2.
+Termine cada parte inteira antes de abrir a seguinte. A parte atual fica em
+`Hoje/`, não aqui.
+
+A partir da parte 4, cada pasta tem um `codigo-base/` com os arquivos do começo
+daquela aula. Se você perdeu o fio em algum ponto, é de lá que dá para retomar
+sem refazer tudo.
 
 ## Antes de começar
 
